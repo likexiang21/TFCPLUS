@@ -133,22 +133,9 @@ public final class AgricultureItems {
     public static final DeferredHolder<Item, Item> SUGAR_PIECE =
         ITEMS.registerSimpleItem("food/sugar_piece", foodProps());
 
-    /** 干燥架试点产物。 */
-    public static final DeferredHolder<Item, Item> DRIED_GINGER =
-        ITEMS.registerSimpleItem("food/dried_ginger", foodProps());
-    public static final DeferredHolder<Item, Item> DRIED_TURMERIC =
-        ITEMS.registerSimpleItem("food/dried_turmeric", foodProps());
-    public static final DeferredHolder<Item, Item> DRIED_NAPA_CABBAGE =
-        ITEMS.registerSimpleItem("food/dried_napa_cabbage", foodProps());
-    /** 第 14 步草莓下游用途：鲜草莓经干燥架保存。 */
-    public static final DeferredHolder<Item, Item> DRIED_STRAWBERRY =
-        ITEMS.registerSimpleItem("food/dried_strawberry", foodProps());
-
-    /** 第 9～13 步可可闭环：树上可可荚 → 可可豆 → 晒干 → 密封桶发酵 → 烘焙 → 可可碎/粉/巧克力。 */
+    /** 第 9～13 步可可闭环：树上可可荚 → 可可豆 → 密封桶发酵 → 烘焙 → 可可碎/粉/巧克力。 */
     public static final DeferredHolder<Item, Item> COCOA_BEANS =
         ITEMS.registerSimpleItem("food/cocoa_beans", foodProps());
-    public static final DeferredHolder<Item, Item> DRIED_COCOA_BEANS =
-        ITEMS.registerSimpleItem("food/dried_cocoa_beans", foodProps());
     /** 密封桶发酵后的中间物；保留食品数据以便烘焙阶段复制新鲜度。 */
     public static final DeferredHolder<Item, Item> FERMENTED_COCOA_BEANS =
         ITEMS.registerSimpleItem("food/fermented_cocoa_beans", foodProps());
@@ -215,12 +202,6 @@ public final class AgricultureItems {
 
     public static java.util.List<DeferredHolder<Item, Item>> allBoardPreparations() {
         return java.util.List.of(GINGER_SLICES, TURMERIC_SLICES, NAPA_CABBAGE_SHREDS);
-    }
-
-    public static java.util.List<DeferredHolder<Item, Item>> allDriedFoods() {
-        // Drying is owned by Firmalife. These old registrations remain only so
-        // legacy stacks can be read; they are not new gameplay entries.
-        return java.util.List.of();
     }
 
     public static java.util.List<DeferredHolder<Item, Item>> allCocoaPreparations() {

@@ -125,10 +125,6 @@ public final class AgricultureCreativeTab {
                 output.accept(AgricultureItems.JELLY_SLICE.get());
                 output.accept(AgricultureBlocks.SUGAR_BLOCK.get());
                 output.accept(AgricultureItems.SUGAR_PIECE.get());
-                // ⑨ 干燥架试点产物
-                for (final var dried : AgricultureItems.allDriedFoods()) {
-                    output.accept(dried.get());
-                }
                 for (final var cocoa : AgricultureItems.allCocoaPreparations()) {
                     output.accept(cocoa.get());
                 }

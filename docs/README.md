@@ -12,6 +12,8 @@
 | [277-plan-implementation-and-license-compliance-20261028.md](277-plan-implementation-and-license-compliance-20261028.md) | 计划实现与开源协议履行专项审查（本地报告，待修改后随修改一起推送） |
 | [278-cleanup-inventory-20261028.md](278-cleanup-inventory-20261028.md) | 工作区无用内容归类与清理清单（已执行第一批；结果见 §9） |
 | [279-protocol-code-fixes-20261028.md](279-protocol-code-fixes-20261028.md) | 本轮协议/代码修复记录与新产物哈希 |
+| [280-b-implementation-gap-vs-tech-docs-20261028.md](280-b-implementation-gap-vs-tech-docs-20261028.md) | B 模组实现与现有技术文档的差距分析 |
+| [281-remove-legacy-dried-items-20261028.md](281-remove-legacy-dried-items-20261028.md) | 清理 B 的 5 个遗留 `dried_*` 物品与相关资源 |
 | [THIRD-PARTY-ASSETS.md](THIRD-PARTY-ASSETS.md) | 第三方资源逐项来源登记 |
 | [CODE-PROVENANCE.md](CODE-PROVENANCE.md) | 源码来源/相似度与独立实现说明 |
 | [TEXTURE-REDRAW-PLAN.md](TEXTURE-REDRAW-PLAN.md) | 贴图全面重绘计划与“旧完成声明作废”记录 |
