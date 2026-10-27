@@ -4,7 +4,6 @@ import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.AgricultureRecipeTypes;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.CuttingBoardRecipe;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.MortarRecipe;
-import io.github.likexiang21.tfcplus.agriculture.common.recipe.PanRecipe;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.inworld.InWorldRecipe;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlocks;
 import java.util.ArrayList;
@@ -57,9 +56,6 @@ public final class AgricultureJeiPlugin implements IModPlugin {
     public static final RecipeType<CuttingBoardRecipe> CUTTING_BOARD =
         RecipeType.create(TFCAgriculturePlus.MOD_ID, "cutting_board", CuttingBoardRecipe.class);
 
-    public static final RecipeType<PanRecipe> PAN =
-        RecipeType.create(TFCAgriculturePlus.MOD_ID, "pan", PanRecipe.class);
-
 
     @Override
     public ResourceLocation getPluginUid() {
@@ -80,8 +76,7 @@ public final class AgricultureJeiPlugin implements IModPlugin {
         registration.addRecipeCategories(
             new MortarRecipeCategory(guiHelper),
             new InWorldRecipeCategory(guiHelper, maxOutputs),
-            new CuttingBoardRecipeCategory(guiHelper, maxByproducts),
-            new PanRecipeCategory(guiHelper));
+            new CuttingBoardRecipeCategory(guiHelper, maxByproducts));
     }
 
     @Override
@@ -107,10 +102,8 @@ public final class AgricultureJeiPlugin implements IModPlugin {
             .map(net.minecraft.world.item.crafting.RecipeHolder::value).toList();
         registration.addRecipes(CUTTING_BOARD, cuttingRecipes);
         TFCAgriculturePlus.LOGGER.info("[JEI] Registered {} cutting-board recipes", cuttingRecipes.size());
-        final List<PanRecipe> panRecipes = manager.getAllRecipesFor(AgricultureRecipeTypes.PAN.get()).stream()
-            .map(net.minecraft.world.item.crafting.RecipeHolder::value).toList();
-        registration.addRecipes(PAN, panRecipes);
-        TFCAgriculturePlus.LOGGER.info("[JEI] Registered {} pan recipes", panRecipes.size());
+        // The pan is a dynamic multi-ingredient device; its results cannot be represented
+        // as a fixed recipe list. Ingredient eligibility is shown by the pan tooltip. 
         // Hide compatibility-only entries and the disabled TFC strawberry bush from
         // both the item list and recipe ingredient lookups. The registry entries stay
         // available for old saved stacks, while all new gameplay points to canonical IDs.
@@ -158,8 +151,7 @@ public final class AgricultureJeiPlugin implements IModPlugin {
                     io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlocks.MORTARS.get("mortar/" + rock).get()),
                 MORTAR);
         }
-        registration.addRecipeCatalyst(new net.minecraft.world.item.ItemStack(
-            io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlocks.COOKING_PAN.get()), PAN);
+        // The pan has no fixed recipe category; it is a dynamic composition device.
     }
 
     private static List<InWorldRecipe> getInWorldRecipes() {

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:metal/ingot/bronze"
+    },
+    {
+      "tag": "tfc:lumber"
+    }
+  ],
+  "result": {
+    "id": "tfcagricultureplus:spatula/bronze",
+    "count": 1
+  }
+}

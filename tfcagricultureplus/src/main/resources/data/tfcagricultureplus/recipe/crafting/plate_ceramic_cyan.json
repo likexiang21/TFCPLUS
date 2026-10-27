@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfcagricultureplus:plate/ceramic_white"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "id": "tfcagricultureplus:plate/ceramic_cyan",
+    "count": 1
+  }
+}

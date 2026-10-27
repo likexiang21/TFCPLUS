@@ -1,8 +1,0 @@
-{
-  "type": "tfcagricultureplus:pan",
-  "food": { "tag": "tfcagricultureplus:foods/pan_inputs" },
-  "spice": { "tag": "tfcagricultureplus:foods/ground_spices" },
-  "result": { "id": "tfcagricultureplus:food/pan_seasoned_vegetables", "count": 1 },
-  "cook_ticks": 100,
-  "required_stirs": 3
-}

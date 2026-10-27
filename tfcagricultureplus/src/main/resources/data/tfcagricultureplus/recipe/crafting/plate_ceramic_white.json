@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:ceramic/bowl"
+    }
+  ],
+  "result": {
+    "id": "tfcagricultureplus:plate/ceramic_white",
+    "count": 1
+  }
+}

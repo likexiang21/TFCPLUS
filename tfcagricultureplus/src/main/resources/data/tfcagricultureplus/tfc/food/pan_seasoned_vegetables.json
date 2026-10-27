@@ -1,7 +1,0 @@
-{
-  "decay_modifier": 0.8,
-  "hunger": 5,
-  "saturation": 1.0,
-  "vegetables": 1.2,
-  "ingredient": { "item": "tfcagricultureplus:food/pan_seasoned_vegetables" }
-}

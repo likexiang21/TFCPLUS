@@ -4,10 +4,14 @@ import io.github.likexiang21.tfcplus.agriculture.common.recipe.AgricultureRecipe
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.AgricultureRecipeTypes;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlocks;
+import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBowls;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureCreativeTab;
+import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureDataComponents;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureFoodTraits;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureItems;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureMenuTypes;
+import io.github.likexiang21.tfcplus.agriculture.common.registry.AgriculturePlates;
+import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureSpatulas;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.WoodworkingSounds;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -50,8 +54,12 @@ public final class TFCAgriculturePlus {
         // 注册表：**顺序敏感**（与 A 的既有顺序一致：Blocks -> Items -> BEs -> CreativeTab）
         AgricultureBlocks.register(modBus);
         AgricultureItems.register(modBus);
+        AgriculturePlates.register(modBus);
+        AgricultureBowls.register(modBus);
+        AgricultureSpatulas.register(modBus);
         WoodworkingSounds.register(modBus);
         AgricultureFoodTraits.register(modBus);
+        AgricultureDataComponents.register(modBus);
         AgricultureBlockEntities.register(modBus);
         AgricultureMenuTypes.MENUS.register(modBus);
         AgricultureCreativeTab.register(modBus);
@@ -87,6 +95,8 @@ public final class TFCAgriculturePlus {
             (be, side) -> be.getSidedInventory(side));
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.PLACEABLE_FOOD.get(),
             (be, side) -> be.getInventory());
+        event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, AgricultureBlockEntities.COOKING_PAN.get(),
+            (be, side) -> be.oilTank());
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

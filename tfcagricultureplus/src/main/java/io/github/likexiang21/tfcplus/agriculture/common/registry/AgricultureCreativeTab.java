@@ -96,7 +96,6 @@ public final class AgricultureCreativeTab {
                     output.accept(preparation.get());
                 }
                 output.accept(AgricultureBlocks.COOKING_PAN.get());
-                output.accept(AgricultureItems.PAN_SEASONED_VEGETABLES.get());
                 // K3 面团成型台和通用自定义面团已下线；加工入口统一迁移到案板。
                 output.accept(AgricultureItems.CAKE_DOUGH.get());
                 output.accept(AgricultureItems.RAW_CAKE_BASE.get());
@@ -145,6 +144,10 @@ public final class AgricultureCreativeTab {
                 output.accept(AgricultureItems.ADULT_SILKWORM.get());
                 output.accept(AgricultureItems.COOKED_SILKWORM.get());
                 output.accept(AgricultureItems.SILK_THREAD.get());
+                for (final var item : AgriculturePlates.ITEMS_BY_VARIANT.values()) output.accept(item.get());
+                output.accept(AgricultureBowls.WOOD_BOWL.get());
+                output.accept(AgricultureBowls.CERAMIC_BOWL.get());
+                for (final var item : AgricultureSpatulas.ALL.values()) output.accept(item.get());
             })
             .build());
 

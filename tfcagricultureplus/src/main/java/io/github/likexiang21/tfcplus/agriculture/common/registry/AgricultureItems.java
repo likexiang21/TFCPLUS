@@ -82,10 +82,6 @@ public final class AgricultureItems {
     public static final DeferredHolder<Item, Item> NAPA_CABBAGE_SHREDS =
         ITEMS.registerSimpleItem("food/napa_cabbage_shreds", foodProps());
 
-    /** K2 pan output; the recipe copies the input freshness onto this food. */
-    public static final DeferredHolder<Item, Item> PAN_SEASONED_VEGETABLES =
-        ITEMS.registerSimpleItem("food/pan_seasoned_vegetables", foodProps());
-
     /** K3 cake dough; this is the only new dough item retained by the rework. */
     public static final DeferredHolder<Item, Item> CAKE_DOUGH =
         ITEMS.registerSimpleItem("food/cake_dough", foodProps());

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tfc:lumber"
+    },
+    {
+      "tag": "tfc:lumber"
+    }
+  ],
+  "result": {
+    "id": "tfcagricultureplus:bowl/wood",
+    "count": 1
+  }
+}

@@ -1,7 +1,8 @@
 package io.github.likexiang21.tfcplus.agriculture.common.interaction;
 
-import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.CookingPanBlockEntity;
+import io.github.likexiang21.tfcplus.agriculture.common.item.SpatulaItem;
+import io.github.likexiang21.tfcplus.agriculture.common.pan.PanDishData;
 import net.dries007.tfc.common.component.food.FoodCapability;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
@@ -14,48 +15,78 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.material.Fluid;
+import net.neoforged.neoforge.fluids.FluidStack;
+import net.neoforged.neoforge.fluids.FluidUtil;
 
-/** Direct mouse flow for the K2 pan; every path uses the same BE validation. */
+/** Direct interaction flow for the multi-ingredient pan. */
 public final class PanInteractions {
-    public static final TagKey<net.minecraft.world.item.Item> PAN_FOODS = TagKey.create(
-        Registries.ITEM, ResourceLocation.fromNamespaceAndPath(TFCAgriculturePlus.MOD_ID, "foods/pan_inputs"));
-    public static final TagKey<net.minecraft.world.item.Item> PAN_SPICES = TagKey.create(
-        Registries.ITEM, ResourceLocation.fromNamespaceAndPath(TFCAgriculturePlus.MOD_ID, "foods/ground_spices"));
-    private static final String MESSAGE = "message.tfcagricultureplus.pan.";
-
-    public static boolean isPanFood(ItemStack stack) { return !stack.isEmpty() && stack.is(PAN_FOODS); }
-    public static boolean isPanSpice(ItemStack stack) { return !stack.isEmpty() && stack.is(PAN_SPICES); }
+    private static final TagKey<Fluid> OIL = TagKey.create(Registries.FLUID,
+        ResourceLocation.fromNamespaceAndPath("c", "plantoil"));
+    private static final TagKey<Fluid> FIRMALIFE_OIL = TagKey.create(Registries.FLUID,
+        ResourceLocation.fromNamespaceAndPath("firmalife", "oils"));
 
     public static void interact(Level level, BlockPos pos, Player player, InteractionHand hand) {
         if (level.isClientSide() || !(level.getBlockEntity(pos) instanceof CookingPanBlockEntity pan)) return;
         final ItemStack held = player.getItemInHand(hand);
         if (held.isEmpty()) {
-            final ItemStack output = pan.extractOutput();
-            if (!output.isEmpty()) {
-                if (!player.getInventory().add(output)) player.drop(output, false);
-                level.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.7F, 1.0F);
+            if (pan.ingredientCount() > 0) {
+                player.displayClientMessage(pan.status(), true);
                 return;
             }
-            if (!pan.stir()) message(player, "not_ready");
-            else level.playSound(null, pos, SoundEvents.GENERIC_EAT, SoundSource.BLOCKS, 0.5F, 1.2F);
+            player.displayClientMessage(pan.status(), true);
             return;
         }
-        if (isPanFood(held) && pan.insertFood(held)) {
-            if (!player.isCreative()) held.shrink(1);
-            level.playSound(null, pos, SoundEvents.WOOD_PLACE, SoundSource.BLOCKS, 0.6F, 1.1F);
+        if (held.getItem() instanceof SpatulaItem) {
+            if (pan.stir((SpatulaItem) held.getItem(), held, player)) {
+                level.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.4F, 1.4F);
+            } else {
+                message(player, "no_heat");
+            }
             return;
         }
-        if (isPanSpice(held) && pan.insertSpice(held)) {
-            if (!player.isCreative()) held.shrink(1);
-            level.playSound(null, pos, SoundEvents.BREWING_STAND_BREW, SoundSource.BLOCKS, 0.6F, 1.1F);
+        if (held.getItem() instanceof io.github.likexiang21.tfcplus.agriculture.common.item.ServingPlateItem) {
+            final ItemStack dish = pan.serve(held);
+            if (!dish.isEmpty()) {
+                if (!player.isCreative()) held.shrink(1);
+                if (!player.getInventory().add(dish)) player.drop(dish, false);
+                level.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.7F, 0.9F);
+            } else {
+                message(player, "not_ready");
+            }
             return;
         }
-        if (FoodCapability.isRotten(held)) message(player, "rotten");
-        else message(player, "occupied");
+        if (FluidUtil.getFluidHandler(held).isPresent()) {
+            final FluidStack contained = FluidUtil.getFluidContained(held).orElse(FluidStack.EMPTY);
+            if (!contained.isEmpty() && !isOil(contained)) {
+                message(player, "no_oil");
+                return;
+            }
+            if (FluidUtil.interactWithFluidHandler(player, hand, pan.oilTank())) {
+                level.playSound(null, pos, SoundEvents.BREWING_STAND_BREW, SoundSource.BLOCKS, 0.5F, 1.1F);
+                return;
+            }
+            message(player, "no_oil");
+            return;
+        }
+        if (FoodCapability.has(held)) {
+            if (pan.addIngredient(held)) {
+                if (!player.isCreative()) held.shrink(1);
+                level.playSound(null, pos, SoundEvents.WOOD_PLACE, SoundSource.BLOCKS, 0.5F, 1.2F);
+            } else {
+                message(player, pan.hasHeat() ? (pan.hasOil() ? "full" : "no_oil") : "no_heat");
+            }
+            return;
+        }
+        message(player, "not_ingredient");
+    }
+
+    private static boolean isOil(FluidStack stack) {
+        return stack.is(OIL) || stack.is(FIRMALIFE_OIL);
     }
 
     private static void message(Player player, String key) {
-        player.displayClientMessage(Component.translatable(MESSAGE + key), true);
+        player.displayClientMessage(Component.translatable("message.tfcagricultureplus.pan." + key), true);
     }
 
     private PanInteractions() {}

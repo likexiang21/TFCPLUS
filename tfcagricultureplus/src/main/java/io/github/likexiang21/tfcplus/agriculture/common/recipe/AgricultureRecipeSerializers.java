@@ -19,9 +19,6 @@ public final class AgricultureRecipeSerializers {
     public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<MortarRecipe>> MORTAR =
         SERIALIZERS.register("mortar", MortarSerializer::new);
 
-    public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<PanRecipe>> PAN =
-        SERIALIZERS.register("pan", PanSerializer::new);
-
     public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<CuttingBoardRecipe>> CUTTING_BOARD =
         SERIALIZERS.register("cutting_board", CuttingBoardSerializer::new);
 

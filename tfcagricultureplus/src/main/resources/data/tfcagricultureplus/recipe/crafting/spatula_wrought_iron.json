@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:metal/ingot/wrought_iron"
+    },
+    {
+      "tag": "tfc:lumber"
+    }
+  ],
+  "result": {
+    "id": "tfcagricultureplus:spatula/wrought_iron",
+    "count": 1
+  }
+}

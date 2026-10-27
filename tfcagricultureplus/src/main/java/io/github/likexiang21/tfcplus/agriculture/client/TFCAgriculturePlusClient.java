@@ -6,6 +6,7 @@ import io.github.likexiang21.tfcplus.agriculture.client.renderer.KnifeRackBlockE
 import io.github.likexiang21.tfcplus.agriculture.client.renderer.TimberPileBlockEntityRenderer;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlocks;
+import io.github.likexiang21.tfcplus.agriculture.common.registry.AgriculturePlates;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
@@ -41,6 +42,7 @@ public final class TFCAgriculturePlusClient {
                 ItemBlockRenderTypes.setRenderLayer(holder.get(), RenderType.cutout());
                 cutout++;
             }
+            ItemBlockRenderTypes.setRenderLayer(AgriculturePlates.PLATE.get(), RenderType.cutout());
 
             // ② 渲染层自检
             final int total = AgricultureBlocks.all().size();

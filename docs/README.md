@@ -16,6 +16,7 @@
 | [281-remove-legacy-dried-items-20261028.md](281-remove-legacy-dried-items-20261028.md) | 清理 B 的 5 个遗留 `dried_*` 物品与相关资源 |
 | [282-cleanup-legacy-kitchen-content-20261028.md](282-cleanup-legacy-kitchen-content-20261028.md) | 清理旧面团台/融化锅/旧黄油片/旧整蛋糕/旧可可平行物品 |
 | [283-pan-content-expansion-20261028.md](283-pan-content-expansion-20261028.md) | 炒锅从 1 条占位配方扩展为 14 条真实配方；更正“完成”表述 |
+| [284-dynamic-pan-cuisine-delight-20261028.md](284-dynamic-pan-cuisine-delight-20261028.md) | 按 Cuisine Delight 行为重写动态炒锅、盘子、碗、锅铲与 TFC 营养 |
 | [THIRD-PARTY-ASSETS.md](THIRD-PARTY-ASSETS.md) | 第三方资源逐项来源登记 |
 | [CODE-PROVENANCE.md](CODE-PROVENANCE.md) | 源码来源/相似度与独立实现说明 |
 | [TEXTURE-REDRAW-PLAN.md](TEXTURE-REDRAW-PLAN.md) | 贴图全面重绘计划与“旧完成声明作废”记录 |
