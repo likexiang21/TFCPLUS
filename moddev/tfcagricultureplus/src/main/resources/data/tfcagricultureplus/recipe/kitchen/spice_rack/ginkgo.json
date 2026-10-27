@@ -1,0 +1,16 @@
+{
+  "key": {
+    "P": {
+      "item": "afc:wood/planks/ginkgo"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:spice_rack/ginkgo",
+    "count": 1
+  },
+  "pattern": [
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

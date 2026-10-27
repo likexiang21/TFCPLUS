@@ -1,0 +1,61 @@
+{
+  "PassedForSixReviewedPages": true,
+  "GuidePages": [
+    {
+      "Locale": "zh_cn",
+      "Name": "rhubarb",
+      "TextEqualsSource": true,
+      "SourcePages": 174,
+      "DraftPages": 176,
+      "LegacyDraftExtraAnchor": "strawberry",
+      "ReviewedPageIndexEqualsSource": true
+    },
+    {
+      "Locale": "zh_cn",
+      "Name": "sunflower",
+      "TextEqualsSource": true,
+      "SourcePages": 174,
+      "DraftPages": 176,
+      "LegacyDraftExtraAnchor": "strawberry",
+      "ReviewedPageIndexEqualsSource": true
+    },
+    {
+      "Locale": "zh_cn",
+      "Name": "agave",
+      "TextEqualsSource": true,
+      "SourcePages": 174,
+      "DraftPages": 176,
+      "LegacyDraftExtraAnchor": "strawberry",
+      "ReviewedPageIndexEqualsSource": true
+    },
+    {
+      "Locale": "en_us",
+      "Name": "rhubarb",
+      "TextEqualsSource": true,
+      "SourcePages": 174,
+      "DraftPages": 176,
+      "LegacyDraftExtraAnchor": "strawberry",
+      "ReviewedPageIndexEqualsSource": true
+    },
+    {
+      "Locale": "en_us",
+      "Name": "sunflower",
+      "TextEqualsSource": true,
+      "SourcePages": 174,
+      "DraftPages": 176,
+      "LegacyDraftExtraAnchor": "strawberry",
+      "ReviewedPageIndexEqualsSource": true
+    },
+    {
+      "Locale": "en_us",
+      "Name": "agave",
+      "TextEqualsSource": true,
+      "SourcePages": 174,
+      "DraftPages": 176,
+      "LegacyDraftExtraAnchor": "strawberry",
+      "ReviewedPageIndexEqualsSource": true
+    }
+  ],
+  "FullDraftMatchesSource": false,
+  "PublishedWholeDraft": false
+}

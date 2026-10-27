@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/apricot_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/apricot_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/apricot_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/apricot_fruiting_leaves"}}}

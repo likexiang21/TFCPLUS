@@ -1,0 +1,28 @@
+{
+  "Changed": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/brussels_sprouts.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/chive.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/malabar_spinach.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/water_caltrop.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/water_chestnut.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/water_dropwort.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/water_shield.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/water_spinach.json",
+    "moddev/tfcfarmingplus/tools/reviewed-item-icon-routes.json"
+  ],
+  "Added": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/brussels_sprouts_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/malabar_spinach_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_chestnut_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_dropwort_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_shield_harvest_v2.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_spinach_harvest_v1.png"
+  ],
+  "Removed": [],
+  "Counts": {
+    "tfcfarmingplus/src": 5905,
+    "tfcfarmingplus/tools": 101,
+    "tfcagricultureplus/src": 3107,
+    "tfcagricultureplus/tools": 19
+  }
+}

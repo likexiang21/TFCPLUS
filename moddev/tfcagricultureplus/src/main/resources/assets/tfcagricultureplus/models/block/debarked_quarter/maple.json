@@ -1,0 +1,9 @@
+{
+  "parent": "tfcagricultureplus:block/timber/debarked_quarter",
+  "textures": {
+    "side": "tfc:block/wood/stripped_log/maple",
+    "top": "tfc:block/wood/stripped_log_top/maple",
+    "inner": "tfc:block/wood/stripped_log/maple",
+    "particle": "tfc:block/wood/stripped_log/maple"
+  }
+}

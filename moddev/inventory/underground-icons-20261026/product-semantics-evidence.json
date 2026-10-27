@@ -1,0 +1,450 @@
+[
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/taro.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/taro.json",
+    "Data": {
+      "decay_modifier": 3,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/taro"
+      },
+      "saturation": 1,
+      "grain": 0.5
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/taro.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/taro",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/taro",
+                  "properties": {
+                    "age": "6"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/taro"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/yam.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/tomato"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/yam.json",
+    "Data": {
+      "decay_modifier": 4,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/yam"
+      },
+      "saturation": 1.5,
+      "vegetables": 1.2
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/yam.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/yam",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/yam",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/yam",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/yam"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/yam",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/yam",
+                  "properties": {
+                    "part": "bottom",
+                    "stick": "true"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/lotus.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/lotus.json",
+    "Data": {
+      "decay_modifier": 3,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/lotus"
+      },
+      "saturation": 1,
+      "vegetables": 1.3
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/lotus.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/lotus",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/lotus",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/lotus"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/arrowhead.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/arrowhead.json",
+    "Data": {
+      "decay_modifier": 3.5,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/arrowhead"
+      },
+      "saturation": 1,
+      "vegetables": 0.8,
+      "grain": 0.4
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/arrowhead.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/arrowhead",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/arrowhead",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/arrowhead"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "芋头",
+      "anchor": "taro",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 16°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 45 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 45 $(bold)$(6)磷$(): 35 $(bold)$(d)钾$(): 60$()$(br2)芋头是单格作物。水田里的淀粉块茎，煮熟后绵软。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "莲藕",
+      "anchor": "lotus",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 16°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 70 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 45 $(bold)$(6)磷$(): 35 $(bold)$(d)钾$(): 60$()$(br2)莲藕是单格作物。淤泥里的藕节，切开满是孔洞。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "慈菇",
+      "anchor": "arrowhead",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 14°C - 34°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 60 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 45 $(bold)$(6)磷$(): 35 $(bold)$(d)钾$(): 55$()$(br2)慈菇是单格作物。带尖芽的球茎，微苦回甘。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "山药",
+      "anchor": "yam",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 15°C - 36°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 85 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 50 $(bold)$(6)磷$(): 30 $(bold)$(d)钾$(): 60$()$(br2)山药是$(thing)攀爬性作物$()。地下长条块茎，削皮手会痒。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空，用木棍右键下半株搭架才能继续长高。完全成熟后破坏任意半株收获并返种、返棍，各结算一次；空手右键不采摘。$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Taro",
+      "anchor": "taro",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 16°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 45 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 45 $(bold)$(6)Phosphorous$(): 35 $(bold)$(d)Potassium$(): 60$()$(br2)Taro is a single block crop: a starchy tuber grown in paddies.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Lotus",
+      "anchor": "lotus",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 16°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 70 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 45 $(bold)$(6)Phosphorous$(): 35 $(bold)$(d)Potassium$(): 60$()$(br2)Lotus is a single block crop: a rhizome riddled with air channels.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Arrowhead",
+      "anchor": "arrowhead",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 14°C - 34°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 60 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 45 $(bold)$(6)Phosphorous$(): 35 $(bold)$(d)Potassium$(): 55$()$(br2)Arrowhead is a single block crop: a beaked tuber with a bitter edge.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Yam",
+      "anchor": "yam",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 15°C - 36°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 85 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 50 $(bold)$(6)Phosphorous$(): 30 $(bold)$(d)Potassium$(): 60$()$(br2)Yam is a $(thing)climbing crop$(): a long underground tuber.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above. To grow tall, right-click the lower plant with a wooden stick. Once fully grown, break either half to harvest and return seeds and the stick once. Empty-hand right-click does not harvest.$(br2)"
+    }
+  },
+  {
+    "File": "data/c/tags/item/foods/vegetable.json",
+    "ExactIDs": [
+      "tfcfarmingplus:food/arrowhead",
+      "tfcfarmingplus:food/lotus",
+      "tfcfarmingplus:food/taro",
+      "tfcfarmingplus:food/yam"
+    ]
+  }
+]

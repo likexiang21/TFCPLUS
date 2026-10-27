@@ -1,0 +1,33 @@
+{
+  "Modified": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/blockstates/wild_crop/celery.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celery_age_0.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celery_age_1.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celery_age_2.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celery_age_3.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celery_age_4.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celery_age_5.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/celery.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/celery_young.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/celery.json",
+    "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/celery.json",
+    "moddev/tfcfarmingplus/tools/gen-crops.ps1",
+    "moddev/tfcfarmingplus/tools/verify.ps1"
+  ],
+  "Added": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/celery_young.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celery_age_0_stalks_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celery_age_1_stalks_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celery_age_2_stalks_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celery_age_3_stalks_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celery_age_4_stalks_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celery_age_5_stalks_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/dead_crop/celery_stalks_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/dead_crop/celery_young_stalks_v1.png",
+    "moddev/tfcfarmingplus/tools/audit-celery-display.ps1",
+    "moddev/tfcfarmingplus/tools/celery-display-contract.json",
+    "moddev/tfcfarmingplus/tools/celery-display-files.json"
+  ],
+  "Removed": [],
+  "AllOtherABSourceAndToolsUnchanged": true
+}

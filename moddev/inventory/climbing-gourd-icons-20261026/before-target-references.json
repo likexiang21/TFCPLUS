@@ -1,0 +1,82 @@
+[
+  {
+    "Family": "food",
+    "Name": "bitter_melon",
+    "ChineseName": "苦瓜",
+    "Model": "tfcfarmingplus:item/food/bitter_melon",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\bitter_melon.json",
+    "ModelSha256": "D9382142FAF57743A21BBA95F03967452EAC9E78E5490AB8687FB4D030CC783A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/bitter_melon.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/tomato",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/tomato.png",
+    "CurrentSha256": "B7C9520A5F00DCC17F073813520B364C81FFF581F538F263955C9EAB2124F576",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/bitter_melon.png",
+    "StoredSha256": "F1CEACA3C198AF72623F5AD577B4C1160A7EA78D75FA5625DD6A07529A848FAE",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "chayote",
+    "ChineseName": "佛手瓜",
+    "Model": "tfcfarmingplus:item/food/chayote",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\chayote.json",
+    "ModelSha256": "D9382142FAF57743A21BBA95F03967452EAC9E78E5490AB8687FB4D030CC783A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/chayote.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/tomato",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/tomato.png",
+    "CurrentSha256": "B7C9520A5F00DCC17F073813520B364C81FFF581F538F263955C9EAB2124F576",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/chayote.png",
+    "StoredSha256": "7FAFB93284D0886EB670DCB1A7BF97D6372F321312A6E21BF1BD7E0BBC1FAD1F",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "loofah",
+    "ChineseName": "丝瓜",
+    "Model": "tfcfarmingplus:item/food/loofah",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\loofah.json",
+    "ModelSha256": "D9382142FAF57743A21BBA95F03967452EAC9E78E5490AB8687FB4D030CC783A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/loofah.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/tomato",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/tomato.png",
+    "CurrentSha256": "B7C9520A5F00DCC17F073813520B364C81FFF581F538F263955C9EAB2124F576",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/loofah.png",
+    "StoredSha256": "222E5C4B3C2438A228E68D88EB141418AAFD5FA50AB4401E95F9459023441D81",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "snake_gourd",
+    "ChineseName": "蛇瓜",
+    "Model": "tfcfarmingplus:item/food/snake_gourd",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\snake_gourd.json",
+    "ModelSha256": "D9382142FAF57743A21BBA95F03967452EAC9E78E5490AB8687FB4D030CC783A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/snake_gourd.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/tomato",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/tomato.png",
+    "CurrentSha256": "B7C9520A5F00DCC17F073813520B364C81FFF581F538F263955C9EAB2124F576",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/snake_gourd.png",
+    "StoredSha256": "86CBC19FF58B618278C21E53B2B833E9F4794FA6ADAF1C19382EBDE65FE39D05",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

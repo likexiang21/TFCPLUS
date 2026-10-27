@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/log_cutting_board/hevea"},"facing=east":{"model":"tfcagricultureplus:block/log_cutting_board/hevea","y":90},"facing=south":{"model":"tfcagricultureplus:block/log_cutting_board/hevea","y":180},"facing=west":{"model":"tfcagricultureplus:block/log_cutting_board/hevea","y":270}}}

@@ -1,0 +1,16 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/douglas_fir"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:spice_rack/douglas_fir",
+    "count": 1
+  },
+  "pattern": [
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,360 @@
+{
+  "BasicRequirement": "70号§3.2普通单格表含swiss_chard；§3.3可采摘表不含；117号分类为叶菜，未要求专属割叶退龄。",
+  "Registration": "MyCrops: crop(\"swiss_chard\", 5, ...), not pickable/rosette",
+  "ActualHarvest": "MyCropBlock inherits normal TFC CropBlock; no species harvest/reset override. TFC useItemOn provides fertilization, no partial leaf harvest. Mature block loot is conditional age=5; seeds return on breaking.",
+  "CurrentPages": [
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+      "Index": 20,
+      "Page": {
+        "type": "patchouli:text",
+        "title": "Swiss Chard",
+        "anchor": "swiss_chard",
+        "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -5°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 80 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 60 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 40$()$(br2)Swiss Chard is a single block crop: thick stalks and broad leaves.$(br2)Swiss Chard seeds can be planted on $(l:tfc:food/farmland)farmland$(), and once ripe the harvest gives $(thing)Swiss Chard$() and $(thing)Swiss Chard Seeds$().$(br2)"
+      },
+      "BookPages": 174
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/wild_crops.json",
+      "Index": 10,
+      "Page": {
+        "type": "patchouli:text",
+        "title": "Wild Swiss Chard",
+        "anchor": "swiss_chard",
+        "text": "Can be found in regions with: $(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -5°C - 26°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)Rainfall$(): 160 - 320mm$(br2)Seeds collected here can be sown on $(l:tfc:farming_plus/crops)farmland$(); as a crop it needs temperature -5°C - 26°C and hydration 40 - 80 %."
+      },
+      "BookPages": 87
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+      "Index": 20,
+      "Page": {
+        "type": "patchouli:text",
+        "title": "牛皮菜",
+        "anchor": "swiss_chard",
+        "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -5°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 80 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 60 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 40$()$(br2)牛皮菜是单格作物。叶柄肥厚、叶片宽大，割了还会再长。$(br2)牛皮菜种子可以种植在$(l:tfc:food/farmland)农田$()上，成熟后收割可以得到$(thing)牛皮菜$()和$(thing)牛皮菜种子$()。$(br2)"
+      },
+      "BookPages": 174
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/wild_crops.json",
+      "Index": 10,
+      "Page": {
+        "type": "patchouli:text",
+        "title": "野生牛皮菜",
+        "anchor": "swiss_chard",
+        "text": "可在下列区域找到：$(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -5°C - 26°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)降水$(): 160 - 320mm$(br2)采到的种子播在$(l:tfc:farming_plus/crops)农田$()上即可栽培；栽培条件为温度 -5°C - 26°C、湿度 40 - 80 %。"
+      },
+      "BookPages": 87
+    }
+  ],
+  "GameplayData": {
+    "data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/swiss_chard.json": {
+      "SHA256": "A19957C8822798C071184E7C80E7B91B6943ACBE3364DD0B7A37ED0509D5BC8A",
+      "Value": {
+        "feature": "tfcfarmingplus:plant/wild_crop/swiss_chard",
+        "placement": [
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "tfc:replaceable"
+            }
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "would_survive",
+              "state": {
+                "Name": "tfcfarmingplus:wild_crop/swiss_chard"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/swiss_chard_patch.json": {
+      "SHA256": "713287F5E24AEDD6B67C220C93916C04F522BBBAC0C301A5187D8F71FCFE2CC8",
+      "Value": {
+        "feature": "tfcfarmingplus:plant/wild_crop/swiss_chard_patch",
+        "placement": [
+          {
+            "type": "tfc:climate",
+            "min_temperature": -5,
+            "max_temperature": 26,
+            "min_groundwater": 160,
+            "max_groundwater": 320
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:rarity_filter",
+            "chance": 90
+          }
+        ]
+      }
+    },
+    "data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/swiss_chard.json": {
+      "SHA256": "58190EE847B332C0BD119DD22FB4E3D82482BD1FC8637C9E2E4AF64535B5379A",
+      "Value": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "tfcfarmingplus:wild_crop/swiss_chard"
+            }
+          }
+        }
+      }
+    },
+    "data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/swiss_chard_patch.json": {
+      "SHA256": "81588F717A91FCD3FFDEAB7B43FCF04D56BF34440DAF363B2281D11C9F3D8B98",
+      "Value": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 6,
+          "xz_spread": 5,
+          "y_spread": 1,
+          "feature": "tfcfarmingplus:plant/wild_crop/swiss_chard"
+        }
+      }
+    },
+    "data/tfcfarmingplus/tfc/food/swiss_chard.json": {
+      "SHA256": "D09BB209D6575D922DEF60427E2A674F7F34C8A3A2EBB0D11B5EBC91A53194EE",
+      "Value": {
+        "decay_modifier": 4,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/swiss_chard"
+        },
+        "saturation": 1,
+        "vegetables": 2,
+        "water": 3
+      }
+    },
+    "data/tfcfarmingplus/tfc/climate_range/crop/swiss_chard.json": {
+      "SHA256": "A456CAD5728C98A29F9AFF4AE5AC9524E1673DCE217EEBCA9939DF5010D26CA4",
+      "Value": {
+        "max_hydration": 80,
+        "max_temperature": 26,
+        "min_hydration": 40,
+        "min_temperature": -5
+      }
+    },
+    "data/tfcfarmingplus/loot_table/blocks/crop/swiss_chard.json": {
+      "SHA256": "8B900A9FF514BE043CF380FAD9629252CA2E82B4BC7007011C151060EE87E118",
+      "Value": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfcfarmingplus:food/swiss_chard",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfcfarmingplus:crop/swiss_chard",
+                    "properties": {
+                      "age": "5"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "tfc:crop_yield_uniform",
+                      "min": 0,
+                      "max": {
+                        "type": "minecraft:uniform",
+                        "min": 6,
+                        "max": 10
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfcfarmingplus:seeds/swiss_chard"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "data/tfcfarmingplus/loot_table/blocks/dead_crop/swiss_chard.json": {
+      "SHA256": "BC2364D03CB22C79E287EB5483B1DC5F1AC2047DECA1203CAC40F91FF55D89F5",
+      "Value": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:alternatives",
+                "children": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "tfcfarmingplus:seeds/swiss_chard",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:block_state_property",
+                        "block": "tfcfarmingplus:dead_crop/swiss_chard",
+                        "properties": {
+                          "mature": "true"
+                        }
+                      }
+                    ],
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "min": 1,
+                          "max": 3,
+                          "type": "minecraft:uniform"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "tfcfarmingplus:seeds/swiss_chard",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:block_state_property",
+                        "block": "tfcfarmingplus:dead_crop/swiss_chard",
+                        "properties": {
+                          "mature": "false"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "data/tfcfarmingplus/loot_table/blocks/wild_crop/swiss_chard.json": {
+      "SHA256": "5AE45579DA4476EAC9C6E1B674492B59DEC5E42B9C1BA1DFBB73ED836E41F941",
+      "Value": {
+        "type": "minecraft:block",
+        "pools": [
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfcfarmingplus:food/swiss_chard",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "tfcfarmingplus:wild_crop/swiss_chard",
+                    "properties": {
+                      "mature": "true"
+                    }
+                  }
+                ],
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3,
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          },
+          {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "tfcfarmingplus:seeds/swiss_chard"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "data/firmalife/firmalife/plantable/swiss_chard.json": {
+      "SHA256": "865D0FF1422EDB430C16D6BC95D42F6BCACCA9D45124B06A7712EAE4D2059ACF",
+      "Value": {
+        "crop": {
+          "count": 1,
+          "id": "tfcfarmingplus:food/swiss_chard"
+        },
+        "ingredient": {
+          "item": "tfcfarmingplus:seeds/swiss_chard"
+        },
+        "nutrient": {
+          "nitrogen": 0.6,
+          "phosphorous": 0.2,
+          "potassium": 0.4
+        },
+        "planter": "quad",
+        "seed": {
+          "count": 1,
+          "id": "tfcfarmingplus:seeds/swiss_chard"
+        },
+        "specials": [],
+        "stages": 5,
+        "textures": [
+          "tfc:block/crop/beet_0",
+          "tfc:block/crop/beet_1",
+          "tfc:block/crop/beet_2",
+          "tfc:block/crop/beet_3",
+          "tfc:block/crop/beet_4",
+          "tfc:block/crop/beet_5"
+        ]
+      }
+    }
+  }
+}

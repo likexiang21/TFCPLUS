@@ -1,0 +1,2251 @@
+[
+  {
+    "Name": "agave",
+    "ChineseName": "龙舌兰",
+    "ItemID": "tfcfarmingplus:food/agave",
+    "CurrentModel": {
+      "Path": "assets/tfcfarmingplus/models/item/food/agave.json",
+      "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\agave.json",
+      "SHA256": "835B7C7D0EAF6516E5BB4402FE199AB135AB6D331589F1CB6423A5FE92C68B3A",
+      "JSON": {
+        "parent": "item/generated",
+        "textures": {
+          "layer0": "tfc:item/food/beet"
+        }
+      }
+    },
+    "CurrentTexture": "tfc:item/food/beet",
+    "CurrentTextureSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/beet.png",
+    "CurrentTextureSHA256": "51E6CA1D5D360A1DD8FECB15CC757EE87A3E159AE23248C3785B3D0CB22063E2",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/agave.png",
+    "StoredTextureSHA256": "7B93E1441F6AC3085DCC797BC598F2183403EDC15AF78AA1EAA9285AEB40B9F9",
+    "FoodData": {
+      "Path": "data/tfcfarmingplus/tfc/food/agave.json",
+      "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\data\\tfcfarmingplus\\tfc\\food\\agave.json",
+      "SHA256": "B8C4A8F091647719021BCB579D689D9B4E6D9472B1512A4E39D7141B3FF9EA26",
+      "JSON": {
+        "decay_modifier": 0.3,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/agave"
+        },
+        "saturation": 1.5,
+        "vegetables": 1,
+        "water": 3
+      }
+    },
+    "DeclaredReferences": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/tfc/food/agave.json",
+        "SHA256": "B8C4A8F091647719021BCB579D689D9B4E6D9472B1512A4E39D7141B3FF9EA26",
+        "JSON": {
+          "decay_modifier": 0.3,
+          "hunger": 4,
+          "ingredient": {
+            "item": "tfcfarmingplus:food/agave"
+          },
+          "saturation": 1.5,
+          "vegetables": 1,
+          "water": 3
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/agave.json",
+        "SHA256": "0A04AC84ED9751434AAE6E2C89BA8D1C471334FB2E2C27D47B9F5EE85C3A8807",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/agave",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/agave",
+                      "properties": {
+                        "age": "5",
+                        "fruiting": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "tfc:crop_yield_uniform",
+                        "min": 0,
+                        "max": {
+                          "type": "minecraft:uniform",
+                          "min": 6,
+                          "max": 10
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/agave",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "min": 1,
+                        "max": 2
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/agave.json",
+        "SHA256": "ECEFDA2D831B9938101DBE506CC800961447013034060B352582F6F0633863F1",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/agave",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:wild_crop/agave",
+                      "properties": {
+                        "mature": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 3,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/agave"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/agave.json",
+        "SHA256": "D0ACAA6DE7AA85B2E3BA1D0B0E51812B188C5AF5E9EEA9ABFCB1C5E45E36F076",
+        "JSON": {
+          "crop": {
+            "count": 1,
+            "id": "tfcfarmingplus:food/agave"
+          },
+          "ingredient": {
+            "item": "tfcfarmingplus:seeds/agave"
+          },
+          "nutrient": {
+            "nitrogen": 0.3,
+            "phosphorous": 0.2,
+            "potassium": 0.5
+          },
+          "planter": "quad",
+          "seed": {
+            "count": 1,
+            "id": "tfcfarmingplus:seeds/agave"
+          },
+          "specials": [],
+          "stages": 5,
+          "textures": [
+            "tfc:block/crop/beet_0",
+            "tfc:block/crop/beet_1",
+            "tfc:block/crop/beet_2",
+            "tfc:block/crop/beet_3",
+            "tfc:block/crop/beet_4",
+            "tfc:block/crop/beet_5"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/seeds.json",
+        "SHA256": "8663591E10A5A95CCE4FC495C28E0B85181223E520E3222BA65A868D33B0398C",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:seeds/spinach",
+            "tfcfarmingplus:seeds/lettuce",
+            "tfcfarmingplus:seeds/celery",
+            "tfcfarmingplus:seeds/kale",
+            "tfcfarmingplus:seeds/napa_cabbage",
+            "tfcfarmingplus:seeds/mustard_greens",
+            "tfcfarmingplus:seeds/broccoli",
+            "tfcfarmingplus:seeds/cauliflower",
+            "tfcfarmingplus:seeds/brussels_sprouts",
+            "tfcfarmingplus:seeds/swiss_chard",
+            "tfcfarmingplus:seeds/celtuce",
+            "tfcfarmingplus:seeds/garland_chrysanthemum",
+            "tfcfarmingplus:seeds/perilla",
+            "tfcfarmingplus:seeds/arugula",
+            "tfcfarmingplus:seeds/turnip",
+            "tfcfarmingplus:seeds/parsnip",
+            "tfcfarmingplus:seeds/sunchoke",
+            "tfcfarmingplus:seeds/shallot",
+            "tfcfarmingplus:seeds/celeriac",
+            "tfcfarmingplus:seeds/salsify",
+            "tfcfarmingplus:seeds/ginger",
+            "tfcfarmingplus:seeds/turmeric",
+            "tfcfarmingplus:seeds/yacon",
+            "tfcfarmingplus:seeds/chicory_root",
+            "tfcfarmingplus:seeds/millet",
+            "tfcfarmingplus:seeds/foxtail_millet",
+            "tfcfarmingplus:seeds/buckwheat",
+            "tfcfarmingplus:seeds/fonio",
+            "tfcfarmingplus:seeds/spelt",
+            "tfcfarmingplus:seeds/emmer",
+            "tfcfarmingplus:seeds/einkorn",
+            "tfcfarmingplus:seeds/pearl_millet",
+            "tfcfarmingplus:seeds/amaranth",
+            "tfcfarmingplus:seeds/quinoa",
+            "tfcfarmingplus:seeds/finger_millet",
+            "tfcfarmingplus:seeds/jobs_tears",
+            "tfcfarmingplus:seeds/chickpea",
+            "tfcfarmingplus:seeds/faba_bean",
+            "tfcfarmingplus:seeds/lupin",
+            "tfcfarmingplus:seeds/adzuki",
+            "tfcfarmingplus:seeds/bambara_nut",
+            "tfcfarmingplus:seeds/fenugreek",
+            "tfcfarmingplus:seeds/flax",
+            "tfcfarmingplus:seeds/sesame",
+            "tfcfarmingplus:seeds/safflower",
+            "tfcfarmingplus:seeds/ramie",
+            "tfcfarmingplus:seeds/chili",
+            "tfcfarmingplus:seeds/eggplant",
+            "tfcfarmingplus:seeds/okra",
+            "tfcfarmingplus:seeds/cotton",
+            "tfcfarmingplus:seeds/asparagus",
+            "tfcfarmingplus:seeds/chive",
+            "tfcfarmingplus:seeds/rhubarb",
+            "tfcfarmingplus:seeds/artichoke",
+            "tfcfarmingplus:seeds/taro",
+            "tfcfarmingplus:seeds/water_chestnut",
+            "tfcfarmingplus:seeds/water_caltrop",
+            "tfcfarmingplus:seeds/wild_rice_stem",
+            "tfcfarmingplus:seeds/lotus",
+            "tfcfarmingplus:seeds/water_dropwort",
+            "tfcfarmingplus:seeds/water_spinach",
+            "tfcfarmingplus:seeds/arrowhead",
+            "tfcfarmingplus:seeds/gorgon_nut",
+            "tfcfarmingplus:seeds/winter_melon",
+            "tfcfarmingplus:seeds/hops",
+            "tfcfarmingplus:seeds/loofah",
+            "tfcfarmingplus:seeds/bitter_melon",
+            "tfcfarmingplus:seeds/snake_gourd",
+            "tfcfarmingplus:seeds/yam",
+            "tfcfarmingplus:seeds/malabar_spinach",
+            "tfcfarmingplus:seeds/chayote",
+            "tfcfarmingplus:seeds/bottle_gourd",
+            "tfcfarmingplus:seeds/cantaloupe",
+            "tfcfarmingplus:seeds/water_shield",
+            "tfcfarmingplus:seeds/cardoon",
+            "tfcfarmingplus:seeds/agave",
+            "tfcfarmingplus:seeds/purslane",
+            "tfcfarmingplus:seeds/pea",
+            "tfcfarmingplus:seeds/cowpea",
+            "tfcfarmingplus:seeds/common_bean",
+            "tfcfarmingplus:seeds/winged_bean",
+            "tfcfarmingplus:seeds/pigeon_pea",
+            "tfcfarmingplus:seeds/sunflower",
+            "tfcfarmingplus:seeds/hemp",
+            "tfcfarmingplus:seeds/sorghum",
+            "tfcfarmingplus:seeds/sisal",
+            "tfcfarmingplus:seeds/strawberry"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/foods/vegetable.json",
+        "SHA256": "FAD745D38A761B6695D5D96F1F49DC6E77184F56FAC75F182E8559FE58EBADB9",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:food/spinach",
+            "tfcfarmingplus:food/lettuce",
+            "tfcfarmingplus:food/celery",
+            "tfcfarmingplus:food/kale",
+            "tfcfarmingplus:food/napa_cabbage",
+            "tfcfarmingplus:food/mustard_greens",
+            "tfcfarmingplus:food/broccoli",
+            "tfcfarmingplus:food/cauliflower",
+            "tfcfarmingplus:food/brussels_sprouts",
+            "tfcfarmingplus:food/swiss_chard",
+            "tfcfarmingplus:food/celtuce",
+            "tfcfarmingplus:food/garland_chrysanthemum",
+            "tfcfarmingplus:food/perilla",
+            "tfcfarmingplus:food/arugula",
+            "tfcfarmingplus:food/turnip",
+            "tfcfarmingplus:food/parsnip",
+            "tfcfarmingplus:food/sunchoke",
+            "tfcfarmingplus:food/shallot",
+            "tfcfarmingplus:food/celeriac",
+            "tfcfarmingplus:food/salsify",
+            "tfcfarmingplus:food/ginger",
+            "tfcfarmingplus:food/turmeric",
+            "tfcfarmingplus:food/yacon",
+            "tfcfarmingplus:food/chicory_root",
+            "tfcfarmingplus:food/chickpea",
+            "tfcfarmingplus:food/faba_bean",
+            "tfcfarmingplus:food/lupin",
+            "tfcfarmingplus:food/adzuki",
+            "tfcfarmingplus:food/bambara_nut",
+            "tfcfarmingplus:food/fenugreek",
+            "tfcfarmingplus:food/sesame",
+            "tfcfarmingplus:food/safflower",
+            "tfcfarmingplus:food/chili",
+            "tfcfarmingplus:food/eggplant",
+            "tfcfarmingplus:food/okra",
+            "tfcfarmingplus:food/asparagus",
+            "tfcfarmingplus:food/chive",
+            "tfcfarmingplus:food/rhubarb",
+            "tfcfarmingplus:food/artichoke",
+            "tfcfarmingplus:food/taro",
+            "tfcfarmingplus:food/water_chestnut",
+            "tfcfarmingplus:food/water_caltrop",
+            "tfcfarmingplus:food/wild_rice_stem",
+            "tfcfarmingplus:food/lotus",
+            "tfcfarmingplus:food/water_dropwort",
+            "tfcfarmingplus:food/water_spinach",
+            "tfcfarmingplus:food/arrowhead",
+            "tfcfarmingplus:food/gorgon_nut",
+            "tfcfarmingplus:food/loofah",
+            "tfcfarmingplus:food/bitter_melon",
+            "tfcfarmingplus:food/snake_gourd",
+            "tfcfarmingplus:food/yam",
+            "tfcfarmingplus:food/malabar_spinach",
+            "tfcfarmingplus:food/chayote",
+            "tfcfarmingplus:food/water_shield",
+            "tfcfarmingplus:food/cardoon",
+            "tfcfarmingplus:food/agave",
+            "tfcfarmingplus:food/purslane",
+            "tfcfarmingplus:food/pea",
+            "tfcfarmingplus:food/cowpea",
+            "tfcfarmingplus:food/common_bean",
+            "tfcfarmingplus:food/winged_bean",
+            "tfcfarmingplus:food/pigeon_pea",
+            "tfcfarmingplus:food/sunflower"
+          ]
+        }
+      }
+    ],
+    "Guides": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "龙舌兰",
+            "anchor": "agave",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 12°C - 40°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 5 - 45 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 30 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 50$()$(br2)种子（侧芽）播在$(l:tfc:food/farmland)农田$()上。莲座分六龄生长，完全成熟并显现中心结果态后，破坏整株采收并返还1至2份侧芽；空手右键不采摘。枯死时在原地返还1份对应侧芽，应及时拾取；之后破坏共享死株不再掉落。$(br2)"
+          },
+          {
+            "type": "tfc:multimultiblock",
+            "text": "龙舌兰的六个叶片生长阶段与完全成熟后的中心结果态；最后一帧才可收获产物。",
+            "multiblocks": [
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=0,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=1,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=2,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=3,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=4,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=5,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=5,fruiting=true]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/wild_crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "野生龙舌兰",
+            "anchor": "agave",
+            "text": "可在下列区域找到：$(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 12°C - 40°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)降水$(): 20 - 180mm$(br2)采到的种子播在$(l:tfc:farming_plus/crops)农田$()上即可栽培；栽培条件为温度 12°C - 40°C、湿度 5 - 45 %。"
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Agave",
+            "anchor": "agave",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 12°C - 40°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 5 - 45 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 30 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 50$()$(br2)Sow seeds (sidebuds) on $(l:tfc:food/farmland)farmland$(). This rosette has six leaf stages. Once fully grown with a ripe centre, break the whole plant to harvest and receive one to two sidebuds; an empty-hand right-click does not harvest. When it dies, one species sidebud drops immediately: collect it promptly. Breaking the shared dead plant gives nothing further.$(br2)"
+          },
+          {
+            "type": "tfc:multimultiblock",
+            "text": "The six leaf stages of Agave and its fully mature fruiting centre; only the final frame yields the harvest.",
+            "multiblocks": [
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=0,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=1,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=2,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=3,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=4,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=5,fruiting=false]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/agave[age=5,fruiting=true]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/wild_crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Wild Agave",
+            "anchor": "agave",
+            "text": "Can be found in regions with: $(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 12°C - 40°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)Rainfall$(): 20 - 180mm$(br2)Seeds collected here can be sown on $(l:tfc:farming_plus/crops)farmland$(); as a crop it needs temperature 12°C - 40°C and hydration 5 - 45 %."
+          }
+        ]
+      }
+    ],
+    "PriorTriage": {
+      "Family": "food",
+      "Name": "agave",
+      "ChineseName": "龙舌兰",
+      "Model": "tfcfarmingplus:item/food/agave",
+      "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\agave.json",
+      "ParentChain": [
+        "assets/tfcfarmingplus/models/item/food/agave.json",
+        "assets/minecraft/models/item/generated.json"
+      ],
+      "StoredTexture": "assets/tfcfarmingplus/textures/item/food/agave.png",
+      "StoredSha256": "7B93E1441F6AC3085DCC797BC598F2183403EDC15AF78AA1EAA9285AEB40B9F9",
+      "CurrentEqualsStoredBytes": false,
+      "VisualAccepted": false,
+      "RuntimeVerified": false,
+      "ReviewedPage": "AR4O-food-p01.png",
+      "ReviewedIndex": 2,
+      "ContactSheetViewed": true,
+      "ReviewScope": "模型层图像离线观察，不含游戏交互、外部资源包优先级及物种最终美术验收",
+      "Status": "产物定义与形态需进一步核对",
+      "Observation": "当前及保存图均呈红色根菜形；产物用途另核。",
+      "ChangedInAR4O": false,
+      "LastReview": "AR4-O",
+      "AR4OBaselineTexture": "tfc:item/food/beet",
+      "AR4OBaselineOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/beet.png",
+      "AR4OBaselineTextureSha256": "51E6CA1D5D360A1DD8FECB15CC757EE87A3E159AE23248C3785B3D0CB22063E2",
+      "AR4OBaselineModelSha256": "835B7C7D0EAF6516E5BB4402FE199AB135AB6D331589F1CB6423A5FE92C68B3A",
+      "CurrentSourceTexture": "tfc:item/food/beet",
+      "CurrentSourceModelSha256": "835B7C7D0EAF6516E5BB4402FE199AB135AB6D331589F1CB6423A5FE92C68B3A",
+      "ChangedInAR4P": false,
+      "ChangedInAR4Q": false,
+      "ChangedInAR4R": false,
+      "ChangedInAR4S": false,
+      "ChangedInAR4T": false,
+      "ChangeInThisSlice": false
+    },
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Name": "sunflower",
+    "ChineseName": "向日葵",
+    "ItemID": "tfcfarmingplus:food/sunflower",
+    "CurrentModel": {
+      "Path": "assets/tfcfarmingplus/models/item/food/sunflower.json",
+      "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\sunflower.json",
+      "SHA256": "0F6E4684DE619AF4263543177EED493C0650C72BF9A52D9B99507D253EC84ADA",
+      "JSON": {
+        "parent": "item/generated",
+        "textures": {
+          "layer0": "tfc:item/food/barley"
+        }
+      }
+    },
+    "CurrentTexture": "tfc:item/food/barley",
+    "CurrentTextureSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/barley.png",
+    "CurrentTextureSHA256": "E826A01021ACC5803C9575F5059D1BAE3CC690A0882982972AA88F65CDF4070E",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/sunflower.png",
+    "StoredTextureSHA256": "428A23BF0D04939FE5B5AF336254C8727BA919D6A2E8A3A3E3F3DBC8AA7C20D4",
+    "FoodData": {
+      "Path": "data/tfcfarmingplus/tfc/food/sunflower.json",
+      "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\data\\tfcfarmingplus\\tfc\\food\\sunflower.json",
+      "SHA256": "DD6F9B5ED77A407DEEF0CC8D0AE26F1015B51032BE4B1FDBB41FD9FB93C2B5FF",
+      "JSON": {
+        "decay_modifier": 0.5,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/sunflower"
+        },
+        "saturation": 1
+      }
+    },
+    "DeclaredReferences": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/tfc/food/sunflower.json",
+        "SHA256": "DD6F9B5ED77A407DEEF0CC8D0AE26F1015B51032BE4B1FDBB41FD9FB93C2B5FF",
+        "JSON": {
+          "decay_modifier": 0.5,
+          "hunger": 4,
+          "ingredient": {
+            "item": "tfcfarmingplus:food/sunflower"
+          },
+          "saturation": 1
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/sunflower.json",
+        "SHA256": "11DF8E8D05389317B74982924E5D973184F3472B4858989BB00CBCA2D210C311",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/sunflower",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/sunflower",
+                      "properties": {
+                        "age": "5",
+                        "part": "bottom"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "tfc:crop_yield_uniform",
+                        "min": 0,
+                        "max": {
+                          "type": "minecraft:uniform",
+                          "min": 6,
+                          "max": 10
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/sunflower",
+                  "properties": {
+                    "part": "bottom"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/sunflower",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/sunflower",
+                      "properties": {
+                        "part": "bottom"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/sunflower",
+                  "properties": {
+                    "part": "bottom"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/dead_crop/sunflower.json",
+        "SHA256": "08469B772E07E1CE7C6913D0E86FC322626B7BA19254C2D3E9D55B11BB2AE303",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfcfarmingplus:seeds/sunflower",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:block_state_property",
+                          "block": "tfcfarmingplus:dead_crop/sunflower",
+                          "properties": {
+                            "mature": "true"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_count",
+                          "count": {
+                            "min": 1,
+                            "max": 3,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfcfarmingplus:seeds/sunflower",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:block_state_property",
+                          "block": "tfcfarmingplus:dead_crop/sunflower",
+                          "properties": {
+                            "mature": "false"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:dead_crop/sunflower",
+                  "properties": {
+                    "part": "bottom"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/sunflower.json",
+        "SHA256": "3847DDAABB9D3178BDFFE4055CA79F78BDE2C0FEFEB4406CBAFD628051B563CF",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/sunflower",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:wild_crop/sunflower",
+                      "properties": {
+                        "mature": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 3,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/sunflower"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/sunflower.json",
+        "SHA256": "092E929CBA32B09BE101152216787388C38A14C56A38EC958A0EBA17EA6E0E2D",
+        "JSON": {
+          "crop": {
+            "count": 1,
+            "id": "tfcfarmingplus:food/sunflower"
+          },
+          "ingredient": {
+            "item": "tfcfarmingplus:seeds/sunflower"
+          },
+          "nutrient": {
+            "nitrogen": 0.8,
+            "phosphorous": -0.3,
+            "potassium": -0.4
+          },
+          "planter": "quad",
+          "seed": {
+            "count": 1,
+            "id": "tfcfarmingplus:seeds/sunflower"
+          },
+          "specials": [],
+          "stages": 5,
+          "textures": [
+            "tfc:block/crop/barley_0",
+            "tfc:block/crop/barley_1",
+            "tfc:block/crop/barley_2",
+            "tfc:block/crop/barley_3",
+            "tfc:block/crop/barley_4",
+            "tfc:block/crop/barley_5"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/seeds.json",
+        "SHA256": "8663591E10A5A95CCE4FC495C28E0B85181223E520E3222BA65A868D33B0398C",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:seeds/spinach",
+            "tfcfarmingplus:seeds/lettuce",
+            "tfcfarmingplus:seeds/celery",
+            "tfcfarmingplus:seeds/kale",
+            "tfcfarmingplus:seeds/napa_cabbage",
+            "tfcfarmingplus:seeds/mustard_greens",
+            "tfcfarmingplus:seeds/broccoli",
+            "tfcfarmingplus:seeds/cauliflower",
+            "tfcfarmingplus:seeds/brussels_sprouts",
+            "tfcfarmingplus:seeds/swiss_chard",
+            "tfcfarmingplus:seeds/celtuce",
+            "tfcfarmingplus:seeds/garland_chrysanthemum",
+            "tfcfarmingplus:seeds/perilla",
+            "tfcfarmingplus:seeds/arugula",
+            "tfcfarmingplus:seeds/turnip",
+            "tfcfarmingplus:seeds/parsnip",
+            "tfcfarmingplus:seeds/sunchoke",
+            "tfcfarmingplus:seeds/shallot",
+            "tfcfarmingplus:seeds/celeriac",
+            "tfcfarmingplus:seeds/salsify",
+            "tfcfarmingplus:seeds/ginger",
+            "tfcfarmingplus:seeds/turmeric",
+            "tfcfarmingplus:seeds/yacon",
+            "tfcfarmingplus:seeds/chicory_root",
+            "tfcfarmingplus:seeds/millet",
+            "tfcfarmingplus:seeds/foxtail_millet",
+            "tfcfarmingplus:seeds/buckwheat",
+            "tfcfarmingplus:seeds/fonio",
+            "tfcfarmingplus:seeds/spelt",
+            "tfcfarmingplus:seeds/emmer",
+            "tfcfarmingplus:seeds/einkorn",
+            "tfcfarmingplus:seeds/pearl_millet",
+            "tfcfarmingplus:seeds/amaranth",
+            "tfcfarmingplus:seeds/quinoa",
+            "tfcfarmingplus:seeds/finger_millet",
+            "tfcfarmingplus:seeds/jobs_tears",
+            "tfcfarmingplus:seeds/chickpea",
+            "tfcfarmingplus:seeds/faba_bean",
+            "tfcfarmingplus:seeds/lupin",
+            "tfcfarmingplus:seeds/adzuki",
+            "tfcfarmingplus:seeds/bambara_nut",
+            "tfcfarmingplus:seeds/fenugreek",
+            "tfcfarmingplus:seeds/flax",
+            "tfcfarmingplus:seeds/sesame",
+            "tfcfarmingplus:seeds/safflower",
+            "tfcfarmingplus:seeds/ramie",
+            "tfcfarmingplus:seeds/chili",
+            "tfcfarmingplus:seeds/eggplant",
+            "tfcfarmingplus:seeds/okra",
+            "tfcfarmingplus:seeds/cotton",
+            "tfcfarmingplus:seeds/asparagus",
+            "tfcfarmingplus:seeds/chive",
+            "tfcfarmingplus:seeds/rhubarb",
+            "tfcfarmingplus:seeds/artichoke",
+            "tfcfarmingplus:seeds/taro",
+            "tfcfarmingplus:seeds/water_chestnut",
+            "tfcfarmingplus:seeds/water_caltrop",
+            "tfcfarmingplus:seeds/wild_rice_stem",
+            "tfcfarmingplus:seeds/lotus",
+            "tfcfarmingplus:seeds/water_dropwort",
+            "tfcfarmingplus:seeds/water_spinach",
+            "tfcfarmingplus:seeds/arrowhead",
+            "tfcfarmingplus:seeds/gorgon_nut",
+            "tfcfarmingplus:seeds/winter_melon",
+            "tfcfarmingplus:seeds/hops",
+            "tfcfarmingplus:seeds/loofah",
+            "tfcfarmingplus:seeds/bitter_melon",
+            "tfcfarmingplus:seeds/snake_gourd",
+            "tfcfarmingplus:seeds/yam",
+            "tfcfarmingplus:seeds/malabar_spinach",
+            "tfcfarmingplus:seeds/chayote",
+            "tfcfarmingplus:seeds/bottle_gourd",
+            "tfcfarmingplus:seeds/cantaloupe",
+            "tfcfarmingplus:seeds/water_shield",
+            "tfcfarmingplus:seeds/cardoon",
+            "tfcfarmingplus:seeds/agave",
+            "tfcfarmingplus:seeds/purslane",
+            "tfcfarmingplus:seeds/pea",
+            "tfcfarmingplus:seeds/cowpea",
+            "tfcfarmingplus:seeds/common_bean",
+            "tfcfarmingplus:seeds/winged_bean",
+            "tfcfarmingplus:seeds/pigeon_pea",
+            "tfcfarmingplus:seeds/sunflower",
+            "tfcfarmingplus:seeds/hemp",
+            "tfcfarmingplus:seeds/sorghum",
+            "tfcfarmingplus:seeds/sisal",
+            "tfcfarmingplus:seeds/strawberry"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/foods/vegetable.json",
+        "SHA256": "FAD745D38A761B6695D5D96F1F49DC6E77184F56FAC75F182E8559FE58EBADB9",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:food/spinach",
+            "tfcfarmingplus:food/lettuce",
+            "tfcfarmingplus:food/celery",
+            "tfcfarmingplus:food/kale",
+            "tfcfarmingplus:food/napa_cabbage",
+            "tfcfarmingplus:food/mustard_greens",
+            "tfcfarmingplus:food/broccoli",
+            "tfcfarmingplus:food/cauliflower",
+            "tfcfarmingplus:food/brussels_sprouts",
+            "tfcfarmingplus:food/swiss_chard",
+            "tfcfarmingplus:food/celtuce",
+            "tfcfarmingplus:food/garland_chrysanthemum",
+            "tfcfarmingplus:food/perilla",
+            "tfcfarmingplus:food/arugula",
+            "tfcfarmingplus:food/turnip",
+            "tfcfarmingplus:food/parsnip",
+            "tfcfarmingplus:food/sunchoke",
+            "tfcfarmingplus:food/shallot",
+            "tfcfarmingplus:food/celeriac",
+            "tfcfarmingplus:food/salsify",
+            "tfcfarmingplus:food/ginger",
+            "tfcfarmingplus:food/turmeric",
+            "tfcfarmingplus:food/yacon",
+            "tfcfarmingplus:food/chicory_root",
+            "tfcfarmingplus:food/chickpea",
+            "tfcfarmingplus:food/faba_bean",
+            "tfcfarmingplus:food/lupin",
+            "tfcfarmingplus:food/adzuki",
+            "tfcfarmingplus:food/bambara_nut",
+            "tfcfarmingplus:food/fenugreek",
+            "tfcfarmingplus:food/sesame",
+            "tfcfarmingplus:food/safflower",
+            "tfcfarmingplus:food/chili",
+            "tfcfarmingplus:food/eggplant",
+            "tfcfarmingplus:food/okra",
+            "tfcfarmingplus:food/asparagus",
+            "tfcfarmingplus:food/chive",
+            "tfcfarmingplus:food/rhubarb",
+            "tfcfarmingplus:food/artichoke",
+            "tfcfarmingplus:food/taro",
+            "tfcfarmingplus:food/water_chestnut",
+            "tfcfarmingplus:food/water_caltrop",
+            "tfcfarmingplus:food/wild_rice_stem",
+            "tfcfarmingplus:food/lotus",
+            "tfcfarmingplus:food/water_dropwort",
+            "tfcfarmingplus:food/water_spinach",
+            "tfcfarmingplus:food/arrowhead",
+            "tfcfarmingplus:food/gorgon_nut",
+            "tfcfarmingplus:food/loofah",
+            "tfcfarmingplus:food/bitter_melon",
+            "tfcfarmingplus:food/snake_gourd",
+            "tfcfarmingplus:food/yam",
+            "tfcfarmingplus:food/malabar_spinach",
+            "tfcfarmingplus:food/chayote",
+            "tfcfarmingplus:food/water_shield",
+            "tfcfarmingplus:food/cardoon",
+            "tfcfarmingplus:food/agave",
+            "tfcfarmingplus:food/purslane",
+            "tfcfarmingplus:food/pea",
+            "tfcfarmingplus:food/cowpea",
+            "tfcfarmingplus:food/common_bean",
+            "tfcfarmingplus:food/winged_bean",
+            "tfcfarmingplus:food/pigeon_pea",
+            "tfcfarmingplus:food/sunflower"
+          ]
+        }
+      }
+    ],
+    "Guides": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "向日葵",
+            "anchor": "sunflower",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 5°C - 30°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 20 - 70 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 80 $(bold)$(6)磷$(): +30 $(bold)$(d)钾$(): +40$()$(br2)向日葵是双格作物。高秆大头，花盘随日而转，籽可榨油。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空供植株长高。完全成熟后破坏任意半株收获并返种，只结算一次。$(br2)"
+          },
+          {
+            "type": "tfc:multimultiblock",
+            "text": "向日葵在农田上的 6 个生长阶段。后几个阶段会向上长高，占上下两格。",
+            "multiblocks": [
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=0]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=1]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=2]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Z"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=3,part=top]",
+                  "Z": "tfcfarmingplus:crop/sunflower[age=3,part=bottom]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Z"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=4,part=top]",
+                  "Z": "tfcfarmingplus:crop/sunflower[age=4,part=bottom]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Z"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=5,part=top]",
+                  "Z": "tfcfarmingplus:crop/sunflower[age=5,part=bottom]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/wild_crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "野生向日葵",
+            "anchor": "sunflower",
+            "text": "可在下列区域找到：$(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 5°C - 30°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)降水$(): 80 - 280mm$(br2)采到的种子播在$(l:tfc:farming_plus/crops)农田$()上即可栽培；栽培条件为温度 5°C - 30°C、湿度 20 - 70 %。"
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Sunflower",
+            "anchor": "sunflower",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 5°C - 30°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 20 - 70 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 80 $(bold)$(6)Phosphorous$(): +30 $(bold)$(d)Potassium$(): +40$()$(br2)Sunflower is a two-block crop: a tall stalk crowned by a great disc that follows the sun.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above for the upper plant. Once fully grown, break either half to harvest and return seeds once.$(br2)"
+          },
+          {
+            "type": "tfc:multimultiblock",
+            "text": "The 6 growth stages of Sunflower on farmland. The later stages grow a second block tall.",
+            "multiblocks": [
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=0]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=1]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=2]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Z"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=3,part=top]",
+                  "Z": "tfcfarmingplus:crop/sunflower[age=3,part=bottom]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Z"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=4,part=top]",
+                  "Z": "tfcfarmingplus:crop/sunflower[age=4,part=bottom]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Z"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/sunflower[age=5,part=top]",
+                  "Z": "tfcfarmingplus:crop/sunflower[age=5,part=bottom]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/intro.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "anchor": "beans_oilseeds",
+            "title": "Beans and oilseeds",
+            "text": "Existing beans, sesame, safflower and sunflower harvests retain their food data and vegetable-tag access to native soup, salads and sandwiches. Equipment and food rules still apply.$(br2)Dedicated oil extraction is not connected; these crops do not become canola paste. Project bowl dough rejects rotten ingredients and carries input food history using TFC rules."
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/wild_crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Wild Sunflower",
+            "anchor": "sunflower",
+            "text": "Can be found in regions with: $(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 5°C - 30°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)Rainfall$(): 80 - 280mm$(br2)Seeds collected here can be sown on $(l:tfc:farming_plus/crops)farmland$(); as a crop it needs temperature 5°C - 30°C and hydration 20 - 70 %."
+          }
+        ]
+      }
+    ],
+    "PriorTriage": {
+      "Family": "food",
+      "Name": "sunflower",
+      "ChineseName": "向日葵",
+      "Model": "tfcfarmingplus:item/food/sunflower",
+      "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\sunflower.json",
+      "ParentChain": [
+        "assets/tfcfarmingplus/models/item/food/sunflower.json",
+        "assets/minecraft/models/item/generated.json"
+      ],
+      "StoredTexture": "assets/tfcfarmingplus/textures/item/food/sunflower.png",
+      "StoredSha256": "428A23BF0D04939FE5B5AF336254C8727BA919D6A2E8A3A3E3F3DBC8AA7C20D4",
+      "CurrentEqualsStoredBytes": false,
+      "VisualAccepted": false,
+      "RuntimeVerified": false,
+      "ReviewedPage": "AR4O-food-p14.png",
+      "ReviewedIndex": 122,
+      "ContactSheetViewed": true,
+      "ReviewScope": "模型层图像离线观察，不含游戏交互、外部资源包优先级及物种最终美术验收",
+      "Status": "产物定义与形态需进一步核对",
+      "Observation": "当前为麦穗形，保存图为花盘；先核收获物与籽的表示。",
+      "ChangedInAR4O": false,
+      "LastReview": "AR4-O",
+      "AR4OBaselineTexture": "tfc:item/food/barley",
+      "AR4OBaselineOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/barley.png",
+      "AR4OBaselineTextureSha256": "E826A01021ACC5803C9575F5059D1BAE3CC690A0882982972AA88F65CDF4070E",
+      "AR4OBaselineModelSha256": "0F6E4684DE619AF4263543177EED493C0650C72BF9A52D9B99507D253EC84ADA",
+      "CurrentSourceTexture": "tfc:item/food/barley",
+      "CurrentSourceModelSha256": "0F6E4684DE619AF4263543177EED493C0650C72BF9A52D9B99507D253EC84ADA",
+      "ChangedInAR4P": false,
+      "ChangedInAR4Q": false,
+      "ChangedInAR4R": false,
+      "ChangedInAR4S": false,
+      "ChangedInAR4T": false,
+      "ChangeInThisSlice": false
+    },
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Name": "rhubarb",
+    "ChineseName": "大黄",
+    "ItemID": "tfcfarmingplus:food/rhubarb",
+    "CurrentModel": {
+      "Path": "assets/tfcfarmingplus/models/item/food/rhubarb.json",
+      "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\rhubarb.json",
+      "SHA256": "418B21283F5DAD89AEB384C74ACC5C6BC16DC84E53F00A69289EA55B56D3DE11",
+      "JSON": {
+        "parent": "item/generated",
+        "textures": {
+          "layer0": "tfc:item/food/soybean"
+        }
+      }
+    },
+    "CurrentTexture": "tfc:item/food/soybean",
+    "CurrentTextureSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/soybean.png",
+    "CurrentTextureSHA256": "617CC8DE6D984EC4BAC68EF28F2B4605FB3865507F488AD4F922866CC969FB85",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/rhubarb.png",
+    "StoredTextureSHA256": "D3A8086EE93DB7E70D3DFC3AD64C045DB6E3E0F94D690A600C51501A98B19CE6",
+    "FoodData": {
+      "Path": "data/tfcfarmingplus/tfc/food/rhubarb.json",
+      "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\data\\tfcfarmingplus\\tfc\\food\\rhubarb.json",
+      "SHA256": "B7C6B37AB69AED4B37A49768EE0ED508A8D2CC5CF23D8ED27CDA8B6CC1D7E6C5",
+      "JSON": {
+        "decay_modifier": 4,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/rhubarb"
+        },
+        "saturation": 2,
+        "vegetables": 1
+      }
+    },
+    "DeclaredReferences": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/tfc/food/rhubarb.json",
+        "SHA256": "B7C6B37AB69AED4B37A49768EE0ED508A8D2CC5CF23D8ED27CDA8B6CC1D7E6C5",
+        "JSON": {
+          "decay_modifier": 4,
+          "hunger": 4,
+          "ingredient": {
+            "item": "tfcfarmingplus:food/rhubarb"
+          },
+          "saturation": 2,
+          "vegetables": 1
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/rhubarb.json",
+        "SHA256": "AA21AA3CAC34809CAC52F0D95756BFE473A182213C29170324A6A8CC40A6849B",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/rhubarb",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/rhubarb",
+                      "properties": {
+                        "age": "5"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "tfc:crop_yield_uniform",
+                        "min": 0,
+                        "max": {
+                          "type": "minecraft:uniform",
+                          "min": 6,
+                          "max": 10
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/rhubarb"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/dead_crop/rhubarb.json",
+        "SHA256": "5420A9FA2350F9BC5FC8220E8CE21D4D1B9AC21F083EB2EED19CCCD0CB192883",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:alternatives",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfcfarmingplus:seeds/rhubarb",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:block_state_property",
+                          "block": "tfcfarmingplus:dead_crop/rhubarb",
+                          "properties": {
+                            "mature": "true"
+                          }
+                        }
+                      ],
+                      "functions": [
+                        {
+                          "function": "minecraft:set_count",
+                          "count": {
+                            "min": 1,
+                            "max": 3,
+                            "type": "minecraft:uniform"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "tfcfarmingplus:seeds/rhubarb",
+                      "conditions": [
+                        {
+                          "condition": "minecraft:block_state_property",
+                          "block": "tfcfarmingplus:dead_crop/rhubarb",
+                          "properties": {
+                            "mature": "false"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/rhubarb.json",
+        "SHA256": "0300941C0CCDE14159278503388A13156C887CEE6D0086DBC90F3FC1AFF4F08D",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/rhubarb",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:wild_crop/rhubarb",
+                      "properties": {
+                        "mature": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 3,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/rhubarb"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/rhubarb.json",
+        "SHA256": "C07B419751F6AF887D276A8882F4408AD70E87EF1D36F9BB9A7B832CFBBBAE5D",
+        "JSON": {
+          "crop": {
+            "count": 1,
+            "id": "tfcfarmingplus:food/rhubarb"
+          },
+          "ingredient": {
+            "item": "tfcfarmingplus:seeds/rhubarb"
+          },
+          "nutrient": {
+            "nitrogen": 0.5,
+            "phosphorous": 0.2,
+            "potassium": 0.3
+          },
+          "planter": "quad",
+          "seed": {
+            "count": 1,
+            "id": "tfcfarmingplus:seeds/rhubarb"
+          },
+          "specials": [],
+          "stages": 5,
+          "textures": [
+            "tfc:block/crop/soybean_0",
+            "tfc:block/crop/soybean_1",
+            "tfc:block/crop/soybean_2",
+            "tfc:block/crop/soybean_3",
+            "tfc:block/crop/soybean_4",
+            "tfc:block/crop/soybean_5"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/seeds.json",
+        "SHA256": "8663591E10A5A95CCE4FC495C28E0B85181223E520E3222BA65A868D33B0398C",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:seeds/spinach",
+            "tfcfarmingplus:seeds/lettuce",
+            "tfcfarmingplus:seeds/celery",
+            "tfcfarmingplus:seeds/kale",
+            "tfcfarmingplus:seeds/napa_cabbage",
+            "tfcfarmingplus:seeds/mustard_greens",
+            "tfcfarmingplus:seeds/broccoli",
+            "tfcfarmingplus:seeds/cauliflower",
+            "tfcfarmingplus:seeds/brussels_sprouts",
+            "tfcfarmingplus:seeds/swiss_chard",
+            "tfcfarmingplus:seeds/celtuce",
+            "tfcfarmingplus:seeds/garland_chrysanthemum",
+            "tfcfarmingplus:seeds/perilla",
+            "tfcfarmingplus:seeds/arugula",
+            "tfcfarmingplus:seeds/turnip",
+            "tfcfarmingplus:seeds/parsnip",
+            "tfcfarmingplus:seeds/sunchoke",
+            "tfcfarmingplus:seeds/shallot",
+            "tfcfarmingplus:seeds/celeriac",
+            "tfcfarmingplus:seeds/salsify",
+            "tfcfarmingplus:seeds/ginger",
+            "tfcfarmingplus:seeds/turmeric",
+            "tfcfarmingplus:seeds/yacon",
+            "tfcfarmingplus:seeds/chicory_root",
+            "tfcfarmingplus:seeds/millet",
+            "tfcfarmingplus:seeds/foxtail_millet",
+            "tfcfarmingplus:seeds/buckwheat",
+            "tfcfarmingplus:seeds/fonio",
+            "tfcfarmingplus:seeds/spelt",
+            "tfcfarmingplus:seeds/emmer",
+            "tfcfarmingplus:seeds/einkorn",
+            "tfcfarmingplus:seeds/pearl_millet",
+            "tfcfarmingplus:seeds/amaranth",
+            "tfcfarmingplus:seeds/quinoa",
+            "tfcfarmingplus:seeds/finger_millet",
+            "tfcfarmingplus:seeds/jobs_tears",
+            "tfcfarmingplus:seeds/chickpea",
+            "tfcfarmingplus:seeds/faba_bean",
+            "tfcfarmingplus:seeds/lupin",
+            "tfcfarmingplus:seeds/adzuki",
+            "tfcfarmingplus:seeds/bambara_nut",
+            "tfcfarmingplus:seeds/fenugreek",
+            "tfcfarmingplus:seeds/flax",
+            "tfcfarmingplus:seeds/sesame",
+            "tfcfarmingplus:seeds/safflower",
+            "tfcfarmingplus:seeds/ramie",
+            "tfcfarmingplus:seeds/chili",
+            "tfcfarmingplus:seeds/eggplant",
+            "tfcfarmingplus:seeds/okra",
+            "tfcfarmingplus:seeds/cotton",
+            "tfcfarmingplus:seeds/asparagus",
+            "tfcfarmingplus:seeds/chive",
+            "tfcfarmingplus:seeds/rhubarb",
+            "tfcfarmingplus:seeds/artichoke",
+            "tfcfarmingplus:seeds/taro",
+            "tfcfarmingplus:seeds/water_chestnut",
+            "tfcfarmingplus:seeds/water_caltrop",
+            "tfcfarmingplus:seeds/wild_rice_stem",
+            "tfcfarmingplus:seeds/lotus",
+            "tfcfarmingplus:seeds/water_dropwort",
+            "tfcfarmingplus:seeds/water_spinach",
+            "tfcfarmingplus:seeds/arrowhead",
+            "tfcfarmingplus:seeds/gorgon_nut",
+            "tfcfarmingplus:seeds/winter_melon",
+            "tfcfarmingplus:seeds/hops",
+            "tfcfarmingplus:seeds/loofah",
+            "tfcfarmingplus:seeds/bitter_melon",
+            "tfcfarmingplus:seeds/snake_gourd",
+            "tfcfarmingplus:seeds/yam",
+            "tfcfarmingplus:seeds/malabar_spinach",
+            "tfcfarmingplus:seeds/chayote",
+            "tfcfarmingplus:seeds/bottle_gourd",
+            "tfcfarmingplus:seeds/cantaloupe",
+            "tfcfarmingplus:seeds/water_shield",
+            "tfcfarmingplus:seeds/cardoon",
+            "tfcfarmingplus:seeds/agave",
+            "tfcfarmingplus:seeds/purslane",
+            "tfcfarmingplus:seeds/pea",
+            "tfcfarmingplus:seeds/cowpea",
+            "tfcfarmingplus:seeds/common_bean",
+            "tfcfarmingplus:seeds/winged_bean",
+            "tfcfarmingplus:seeds/pigeon_pea",
+            "tfcfarmingplus:seeds/sunflower",
+            "tfcfarmingplus:seeds/hemp",
+            "tfcfarmingplus:seeds/sorghum",
+            "tfcfarmingplus:seeds/sisal",
+            "tfcfarmingplus:seeds/strawberry"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/foods/vegetable.json",
+        "SHA256": "FAD745D38A761B6695D5D96F1F49DC6E77184F56FAC75F182E8559FE58EBADB9",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:food/spinach",
+            "tfcfarmingplus:food/lettuce",
+            "tfcfarmingplus:food/celery",
+            "tfcfarmingplus:food/kale",
+            "tfcfarmingplus:food/napa_cabbage",
+            "tfcfarmingplus:food/mustard_greens",
+            "tfcfarmingplus:food/broccoli",
+            "tfcfarmingplus:food/cauliflower",
+            "tfcfarmingplus:food/brussels_sprouts",
+            "tfcfarmingplus:food/swiss_chard",
+            "tfcfarmingplus:food/celtuce",
+            "tfcfarmingplus:food/garland_chrysanthemum",
+            "tfcfarmingplus:food/perilla",
+            "tfcfarmingplus:food/arugula",
+            "tfcfarmingplus:food/turnip",
+            "tfcfarmingplus:food/parsnip",
+            "tfcfarmingplus:food/sunchoke",
+            "tfcfarmingplus:food/shallot",
+            "tfcfarmingplus:food/celeriac",
+            "tfcfarmingplus:food/salsify",
+            "tfcfarmingplus:food/ginger",
+            "tfcfarmingplus:food/turmeric",
+            "tfcfarmingplus:food/yacon",
+            "tfcfarmingplus:food/chicory_root",
+            "tfcfarmingplus:food/chickpea",
+            "tfcfarmingplus:food/faba_bean",
+            "tfcfarmingplus:food/lupin",
+            "tfcfarmingplus:food/adzuki",
+            "tfcfarmingplus:food/bambara_nut",
+            "tfcfarmingplus:food/fenugreek",
+            "tfcfarmingplus:food/sesame",
+            "tfcfarmingplus:food/safflower",
+            "tfcfarmingplus:food/chili",
+            "tfcfarmingplus:food/eggplant",
+            "tfcfarmingplus:food/okra",
+            "tfcfarmingplus:food/asparagus",
+            "tfcfarmingplus:food/chive",
+            "tfcfarmingplus:food/rhubarb",
+            "tfcfarmingplus:food/artichoke",
+            "tfcfarmingplus:food/taro",
+            "tfcfarmingplus:food/water_chestnut",
+            "tfcfarmingplus:food/water_caltrop",
+            "tfcfarmingplus:food/wild_rice_stem",
+            "tfcfarmingplus:food/lotus",
+            "tfcfarmingplus:food/water_dropwort",
+            "tfcfarmingplus:food/water_spinach",
+            "tfcfarmingplus:food/arrowhead",
+            "tfcfarmingplus:food/gorgon_nut",
+            "tfcfarmingplus:food/loofah",
+            "tfcfarmingplus:food/bitter_melon",
+            "tfcfarmingplus:food/snake_gourd",
+            "tfcfarmingplus:food/yam",
+            "tfcfarmingplus:food/malabar_spinach",
+            "tfcfarmingplus:food/chayote",
+            "tfcfarmingplus:food/water_shield",
+            "tfcfarmingplus:food/cardoon",
+            "tfcfarmingplus:food/agave",
+            "tfcfarmingplus:food/purslane",
+            "tfcfarmingplus:food/pea",
+            "tfcfarmingplus:food/cowpea",
+            "tfcfarmingplus:food/common_bean",
+            "tfcfarmingplus:food/winged_bean",
+            "tfcfarmingplus:food/pigeon_pea",
+            "tfcfarmingplus:food/sunflower"
+          ]
+        }
+      }
+    ],
+    "Guides": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "大黄",
+            "anchor": "rhubarb",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -12°C - 24°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 45 - 85 %$(br)$(bold)类别$(): 可采摘蔬菜$(br2)$(bold)$(3)氮$(): 50 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 30$()$(br2)大黄是$(thing)可采摘蔬菜$()。叶柄酸得厉害，能吃的只有这一部分。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，生长后期空手右键采摘可保留植株；左键破坏会拔除植株。$(br2)"
+          },
+          {
+            "type": "tfc:multimultiblock",
+            "text": "大黄在农田上的 6 个生长阶段。",
+            "multiblocks": [
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=0]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=1]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=2]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=3]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=4]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=5]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/wild_crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "野生大黄",
+            "anchor": "rhubarb",
+            "text": "可在下列区域找到：$(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -12°C - 24°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)降水$(): 180 - 340mm$(br2)采到的种子播在$(l:tfc:farming_plus/crops)农田$()上即可栽培；栽培条件为温度 -12°C - 24°C、湿度 45 - 85 %。"
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Rhubarb",
+            "anchor": "rhubarb",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -12°C - 24°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 45 - 85 %$(br)$(bold)Category$(): Pickable Vegetable$(br2)$(bold)$(3)Nitrogen$(): 50 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 30$()$(br2)Rhubarb is a $(thing)pickable vegetable$(): the stalks are sharply sour, and only those are eaten.$(br2)Its seeds are sown on $(l:tfc:food/farmland)farmland$(); late in growth, right-click with an empty hand to harvest and regrow; breaking removes it.$(br2)"
+          },
+          {
+            "type": "tfc:multimultiblock",
+            "text": "The 6 growth stages of Rhubarb on farmland.",
+            "multiblocks": [
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=0]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=1]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=2]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=3]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=4]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              },
+              {
+                "pattern": [
+                  [
+                    "X"
+                  ],
+                  [
+                    "Y"
+                  ],
+                  [
+                    "0"
+                  ]
+                ],
+                "mapping": {
+                  "X": "tfcfarmingplus:crop/rhubarb[age=5]",
+                  "Y": "tfc:farmland/entisol"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/wild_crops.json",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Wild Rhubarb",
+            "anchor": "rhubarb",
+            "text": "Can be found in regions with: $(br)$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -12°C - 24°C$(br)$(bold)$(l:tfc:core_mechanics/climate#rainfall)Rainfall$(): 180 - 340mm$(br2)Seeds collected here can be sown on $(l:tfc:farming_plus/crops)farmland$(); as a crop it needs temperature -12°C - 24°C and hydration 45 - 85 %."
+          }
+        ]
+      }
+    ],
+    "PriorTriage": {
+      "Family": "food",
+      "Name": "rhubarb",
+      "ChineseName": "大黄",
+      "Model": "tfcfarmingplus:item/food/rhubarb",
+      "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\rhubarb.json",
+      "ParentChain": [
+        "assets/tfcfarmingplus/models/item/food/rhubarb.json",
+        "assets/minecraft/models/item/generated.json"
+      ],
+      "StoredTexture": "assets/tfcfarmingplus/textures/item/food/rhubarb.png",
+      "StoredSha256": "D3A8086EE93DB7E70D3DFC3AD64C045DB6E3E0F94D690A600C51501A98B19CE6",
+      "CurrentEqualsStoredBytes": false,
+      "VisualAccepted": false,
+      "RuntimeVerified": false,
+      "ReviewedPage": "AR4O-food-p12.png",
+      "ReviewedIndex": 105,
+      "ContactSheetViewed": true,
+      "ReviewScope": "模型层图像离线观察，不含游戏交互、外部资源包优先级及物种最终美术验收",
+      "Status": "产物定义与形态需进一步核对",
+      "Observation": "当前及保存图均为豆荚形。",
+      "ChangedInAR4O": false,
+      "LastReview": "AR4-O",
+      "AR4OBaselineTexture": "tfc:item/food/soybean",
+      "AR4OBaselineOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/soybean.png",
+      "AR4OBaselineTextureSha256": "617CC8DE6D984EC4BAC68EF28F2B4605FB3865507F488AD4F922866CC969FB85",
+      "AR4OBaselineModelSha256": "418B21283F5DAD89AEB384C74ACC5C6BC16DC84E53F00A69289EA55B56D3DE11",
+      "CurrentSourceTexture": "tfc:item/food/soybean",
+      "CurrentSourceModelSha256": "418B21283F5DAD89AEB384C74ACC5C6BC16DC84E53F00A69289EA55B56D3DE11",
+      "ChangedInAR4P": false,
+      "ChangedInAR4Q": false,
+      "ChangedInAR4R": false,
+      "ChangedInAR4S": false,
+      "ChangedInAR4T": false,
+      "ChangeInThisSlice": false
+    },
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

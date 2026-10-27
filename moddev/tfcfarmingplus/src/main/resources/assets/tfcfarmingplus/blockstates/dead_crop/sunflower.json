@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "mature=false": {
+      "model": "tfcfarmingplus:block/dead_crop/sunflower_young"
+    },
+    "mature=true,part=bottom": {
+      "model": "tfcfarmingplus:block/dead_crop/sunflower"
+    },
+    "mature=true,part=top": {
+      "model": "tfcfarmingplus:block/dead_crop/sunflower_top"
+    }
+  }
+}

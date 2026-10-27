@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/longan_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/longan_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/longan_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/longan_fruiting_leaves"}}}

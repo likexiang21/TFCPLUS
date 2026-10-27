@@ -1,0 +1,15 @@
+{
+  "ModelFiles": 229,
+  "FoodModels": 142,
+  "SeedModels": 87,
+  "StoredPNGAvailable": 227,
+  "CurrentNamespace": {
+    "tfc": 160,
+    "tfcfarmingplus": 69
+  },
+  "SourceCollisions": [],
+  "ReviewPages": 26,
+  "Scope": "A food/seeds model conventions, not proof of every Java registration or external resource-pack order",
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

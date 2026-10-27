@@ -1,0 +1,1 @@
+{"type":"tfcagricultureplus:in_world","input_state":{"block":"tfc:rock/bricks/granite"},"tool":"axe","result_state":{"Name":"tfc:rock/cobble/granite"},"result_items":[{"item":{"id":"tfc:rock/loose/granite","count":1},"action":"drop_center"}]}

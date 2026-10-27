@@ -1,0 +1,98 @@
+[
+  {
+    "Case": "valid",
+    "ExitCode": 0,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-taro",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-yam",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-lotus",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-arrowhead",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-taro",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-yam",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-lotus",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-arrowhead",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-taro",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-yam",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-lotus",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-arrowhead",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-food-id",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "b-shadows-art",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "prior-snake-gourd-regression",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "taro-nutrition-regression",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "unprotected-32",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "safe-copy-twentyseven-json-only",
+    "Files": 27,
+    "ByteIdentical": true,
+    "Passed": true
+  }
+]

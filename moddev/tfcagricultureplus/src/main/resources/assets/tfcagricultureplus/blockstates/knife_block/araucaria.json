@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/knife_block/araucaria"},"facing=east":{"model":"tfcagricultureplus:block/knife_block/araucaria","y":90},"facing=south":{"model":"tfcagricultureplus:block/knife_block/araucaria","y":180},"facing=west":{"model":"tfcagricultureplus:block/knife_block/araucaria","y":270}}}

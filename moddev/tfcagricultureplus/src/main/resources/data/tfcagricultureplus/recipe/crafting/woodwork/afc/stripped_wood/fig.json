@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/stripped_log/fig"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bast/fig"
+    }
+  },
+  "result": {
+    "id": "afc:wood/stripped_wood/fig",
+    "count": 1
+  }
+}

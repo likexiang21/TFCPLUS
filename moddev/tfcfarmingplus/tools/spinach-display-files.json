@@ -1,0 +1,19 @@
+[
+  "assets/tfcfarmingplus/blockstates/crop/spinach.json",
+  "assets/tfcfarmingplus/blockstates/dead_crop/spinach.json",
+  "assets/tfcfarmingplus/blockstates/wild_crop/spinach.json",
+  "assets/tfcfarmingplus/models/block/crop/spinach_age_0.json",
+  "assets/tfcfarmingplus/models/block/crop/spinach_age_1.json",
+  "assets/tfcfarmingplus/models/block/crop/spinach_age_2.json",
+  "assets/tfcfarmingplus/models/block/crop/spinach_age_3.json",
+  "assets/tfcfarmingplus/models/block/crop/spinach_age_4.json",
+  "assets/tfcfarmingplus/models/block/crop/spinach_age_5.json",
+  "assets/tfcfarmingplus/models/block/dead_crop/spinach.json",
+  "assets/tfcfarmingplus/models/block/dead_crop/spinach_young.json",
+  "assets/tfcfarmingplus/models/block/wild_crop/spinach.json",
+  "assets/tfcfarmingplus/models/block/wild_crop/spinach_young.json",
+  "assets/tfcfarmingplus/models/item/food/spinach.json",
+  "assets/tfcfarmingplus/models/item/seeds/spinach.json",
+  "assets/tfcfarmingplus/models/item/wild_crop/spinach.json",
+  "data/firmalife/firmalife/plantable/spinach.json"
+]

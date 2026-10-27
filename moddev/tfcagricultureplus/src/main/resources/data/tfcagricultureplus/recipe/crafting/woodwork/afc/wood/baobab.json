@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/log/baobab"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bark/baobab"
+    }
+  },
+  "result": {
+    "id": "afc:wood/wood/baobab",
+    "count": 1
+  }
+}

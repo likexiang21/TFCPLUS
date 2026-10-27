@@ -1,0 +1,42 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-L display-only chili source contract; no gameplay or final visual acceptance",
+  "ProtectedTextureSha256": {
+    "assets/tfcfarmingplus/textures/block/crop/chili_age_0.png": "38FB6E68021D2A8D3857C67CF82CE6774BC2D736176F4A3EA2975C25513F124E",
+    "assets/tfcfarmingplus/textures/block/crop/chili_age_1.png": "421D7578DBFB16CCB9D580E89E5D35024DDA740DEAC3B6E50D032405279BF7C5",
+    "assets/tfcfarmingplus/textures/block/crop/chili_age_2.png": "1C7C50613B376898799ACC2AA27A9E60A95FDD8CFFAC2A85C162C33BDD24B7D6",
+    "assets/tfcfarmingplus/textures/block/crop/chili_age_3.png": "C4CD6A63D9743B2973E695AE79880E9F2AD1C5E450705F670EB09A9261A68433",
+    "assets/tfcfarmingplus/textures/block/crop/chili_age_4.png": "1C71EE2FAD0D17C1AF05E6683643B747C7A06AD3FF74844A0BBFEBAAED6F9DDA",
+    "assets/tfcfarmingplus/textures/block/crop/chili_age_5.png": "9F461C948D6898B39CBC571FE7DCD53BC2324B7F3F12E2FCE81EE12BC767D554",
+    "assets/tfcfarmingplus/textures/block/wild_crop/chili.png": "9F461C948D6898B39CBC571FE7DCD53BC2324B7F3F12E2FCE81EE12BC767D554",
+    "assets/tfcfarmingplus/textures/block/dead_crop/chili.png": "3B7F4E829E6455B5B4625037698BC5E80176A3536DAA509ECF3AF882783482C3",
+    "assets/tfcfarmingplus/textures/block/dead_crop/chili_young.png": "7C50CB35AF0301FF1B5F30E944A8164743A8DAC71A366AD5C9AB3DBBBC348820",
+    "assets/tfcfarmingplus/textures/item/seeds/chili.png": "70E1F93874CE957B0FEA9746D022AA9724FDC9371EABEEFDF4BC0D53840A2613",
+    "assets/tfcfarmingplus/textures/item/food/chili.png": "08C9464181D601CBE1BA25689AE376A8160739E1FA3FC359EF88A40BD01CCA9C"
+  },
+  "PlanterFieldsExceptTextures": {
+    "crop": {
+      "count": 1,
+      "id": "tfcfarmingplus:food/chili"
+    },
+    "ingredient": {
+      "item": "tfcfarmingplus:seeds/chili"
+    },
+    "nutrient": {
+      "nitrogen": 0.3,
+      "phosphorous": 0.4,
+      "potassium": 0.5
+    },
+    "planter": "quad",
+    "seed": {
+      "count": 1,
+      "id": "tfcfarmingplus:seeds/chili"
+    },
+    "specials": [],
+    "stages": 5
+  },
+  "NativeCropGeometry": "minecraft:block/crop",
+  "ReviewedOffline": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

@@ -1,0 +1,23 @@
+{
+  "Changed": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/lettuce.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/purslane.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/spinach.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/swiss_chard.json",
+    "moddev/tfcfarmingplus/tools/reviewed-item-icon-routes.json",
+    "moddev/tfcfarmingplus/tools/spinach-display-contract.json"
+  ],
+  "Added": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lettuce_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/purslane_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/spinach_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/swiss_chard_harvest_v1.png"
+  ],
+  "Removed": [],
+  "Counts": {
+    "tfcfarmingplus/src": 5921,
+    "tfcfarmingplus/tools": 101,
+    "tfcagricultureplus/src": 3107,
+    "tfcagricultureplus/tools": 19
+  }
+}

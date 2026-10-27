@@ -1,0 +1,15 @@
+{
+  "Modified": [
+    "assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+    "assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+    "assets/tfcfarmingplus/models/item/food/agave.json",
+    "assets/tfcfarmingplus/models/item/food/rhubarb.json",
+    "assets/tfcfarmingplus/models/item/food/sunflower.json"
+  ],
+  "Added": [
+    "assets/tfcfarmingplus/textures/item/food/agave_harvest_v1.png",
+    "assets/tfcfarmingplus/textures/item/food/rhubarb_harvest_v2.png",
+    "assets/tfcfarmingplus/textures/item/food/sunflower_harvest_v2.png"
+  ],
+  "Removed": []
+}

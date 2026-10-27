@@ -1,0 +1,37 @@
+{
+  "Before": [
+    "tfcfarmingplus:block/crop/spinach_age_0",
+    "tfcfarmingplus:block/crop/spinach_age_1",
+    "tfcfarmingplus:block/crop/spinach_age_2",
+    "tfcfarmingplus:block/crop/spinach_age_3",
+    "tfcfarmingplus:block/crop/spinach_age_4",
+    "tfcfarmingplus:block/crop/spinach_age_4"
+  ],
+  "After": [
+    "tfcfarmingplus:block/crop/spinach_age_0",
+    "tfcfarmingplus:block/crop/spinach_age_1",
+    "tfcfarmingplus:block/crop/spinach_age_2",
+    "tfcfarmingplus:block/crop/spinach_age_3",
+    "tfcfarmingplus:block/crop/spinach_age_4",
+    "tfcfarmingplus:block/crop/spinach_planter_mature_v1"
+  ],
+  "Stages": 5,
+  "UV": [
+    2,
+    0,
+    14,
+    16
+  ],
+  "CellBounds": [
+    2,
+    5,
+    2,
+    7,
+    11.6656,
+    7
+  ],
+  "BaseOmitted": true,
+  "NewSpriteSha256": "B452EE65CB79BC62E895E13C3A53586103F5BDB518C8E9B6E977803815E0446D",
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

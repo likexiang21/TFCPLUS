@@ -1,0 +1,62 @@
+[
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_0.png",
+    "SHA256": "EAF394710B9F274B63054914AA1EBD8B0BF73B69F2B160F4A00581F5727D56AA"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_1.png",
+    "SHA256": "539314C990C72C644501683AD1FED92DA0C76E70F5974CEC86451CDE34020EBF"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_2.png",
+    "SHA256": "A7F9AB7FDDB5F1AF18A4396286FBA812752EAE82FE87330C4D80E0CB739859D1"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_3.png",
+    "SHA256": "910628B885996B98961BBDEC815D446491B5A73E8F8A0D8BEC797B6B8B6CF0E4"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_4.png",
+    "SHA256": "93403148A7B20C6CA14D6730FDE8A2736B070B03687F4B29E2DC0C15F9AA913B"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_5.png",
+    "SHA256": "F5FB95065EE6377BC3ECED47E53EA1741C4DCA3E5B5A2B505B9A119649897143"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_wild.png",
+    "SHA256": "F5FB95065EE6377BC3ECED47E53EA1741C4DCA3E5B5A2B505B9A119649897143"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_dead.png",
+    "SHA256": "E0CD940CED77054339C83FA588C48A2A8A748D5B7B4C38A98FB712E3FA89242F"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/beet_dead_young.png",
+    "SHA256": "1B718952A482ED4548B952F92D385A199A827B06C1884CC3A064FB43F498045E"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/cabbage_5.png",
+    "SHA256": "9185512B22B25DE4A9DDEA2F1C5F96BA9CDE1158D4D9C4A98CA186A1B0E332CF"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/soybean_5.png",
+    "SHA256": "52192F94496FAF2923A3077783FF890953E3328401F7F083C78870D968EA0EA3"
+  },
+  {
+    "Jar": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Resource": "assets/tfc/textures/block/crop/lentil_5.png",
+    "SHA256": "D5EA64CD51AAB81D3820CAA6EBD76F07CC2EE11D1F7920F1D2DDBC0275D7999D"
+  }
+]

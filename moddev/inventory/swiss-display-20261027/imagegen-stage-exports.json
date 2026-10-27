@@ -1,0 +1,128 @@
+[
+  {
+    "Age": 0,
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-7c6dc07e-fa8a-4912-8623-c637883056c0.png",
+    "RawSize": [
+      1983,
+      793
+    ],
+    "VisibleBounds": [
+      853,
+      609,
+      1127,
+      730
+    ],
+    "FramingAlphaThreshold": 26,
+    "Export": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\swiss-display-20261027\\candidate-png\\swiss_chard_age_0_leafy_v1.png",
+    "ContentSize": [
+      5,
+      2
+    ],
+    "SHA256": "63B8F6311AF6073DBE01316089B1A381F178D850BE09FAB23FCB7A48F8F982B7"
+  },
+  {
+    "Age": 1,
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-0f1f98e8-37d6-4cc6-8b79-dd5af2c1f85e.png",
+    "RawSize": [
+      1774,
+      887
+    ],
+    "VisibleBounds": [
+      665,
+      649,
+      1109,
+      827
+    ],
+    "FramingAlphaThreshold": 26,
+    "Export": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\swiss-display-20261027\\candidate-png\\swiss_chard_age_1_leafy_v1.png",
+    "ContentSize": [
+      6,
+      3
+    ],
+    "SHA256": "43C6D9E419CED94E04251B87494468764A88C6BB707F009A4EC6A6F378287EFB"
+  },
+  {
+    "Age": 2,
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-264742f4-af36-4960-aef4-b3931be78631.png",
+    "RawSize": [
+      1586,
+      992
+    ],
+    "VisibleBounds": [
+      536,
+      676,
+      1066,
+      913
+    ],
+    "FramingAlphaThreshold": 26,
+    "Export": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\swiss-display-20261027\\candidate-png\\swiss_chard_age_2_leafy_v1.png",
+    "ContentSize": [
+      8,
+      4
+    ],
+    "SHA256": "2948EEC16F85AA87EC6F1C2EDD8BED3261CA4CB3FC0211049106159906617E1F"
+  },
+  {
+    "Age": 3,
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-d052fb68-37f1-43b6-9116-2cc387b5d0b6.png",
+    "RawSize": [
+      1499,
+      1049
+    ],
+    "VisibleBounds": [
+      348,
+      446,
+      1168,
+      977
+    ],
+    "FramingAlphaThreshold": 26,
+    "Export": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\swiss-display-20261027\\candidate-png\\swiss_chard_age_3_leafy_v1.png",
+    "ContentSize": [
+      10,
+      7
+    ],
+    "SHA256": "7E3503273B2D54745B7B38F12843AAC0B9F3A0FA2CF7E0E9D0CF428D5E2A4662"
+  },
+  {
+    "Age": 4,
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-cebf9c72-9779-41db-9664-41e7030e9699.png",
+    "RawSize": [
+      1402,
+      1122
+    ],
+    "VisibleBounds": [
+      280,
+      515,
+      1122,
+      1041
+    ],
+    "FramingAlphaThreshold": 26,
+    "Export": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\swiss-display-20261027\\candidate-png\\swiss_chard_age_4_leafy_v1.png",
+    "ContentSize": [
+      11,
+      7
+    ],
+    "SHA256": "250A24E667ECD0C2ABD2C56D95A2D49664E9D7888F09A9C2E334E78F133EC277"
+  },
+  {
+    "Age": 5,
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-c8b01978-106e-4fcf-a0aa-3f7bc8ee32b3.png",
+    "RawSize": [
+      1312,
+      1199
+    ],
+    "VisibleBounds": [
+      57,
+      311,
+      1281,
+      1143
+    ],
+    "FramingAlphaThreshold": 26,
+    "Export": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\swiss-display-20261027\\candidate-png\\swiss_chard_age_5_leafy_v1.png",
+    "ContentSize": [
+      12,
+      8
+    ],
+    "SHA256": "A653D5CB7E62022872C587CECBCBFC4CFEE7DAEEEE67D634AD74D5221BB67E7D"
+  }
+]

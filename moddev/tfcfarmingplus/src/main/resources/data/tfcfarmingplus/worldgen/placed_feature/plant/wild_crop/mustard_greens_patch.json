@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/mustard_greens_patch","placement":[{"type":"tfc:climate","min_temperature":-5,"max_temperature":25,"min_groundwater":60,"max_groundwater":300},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

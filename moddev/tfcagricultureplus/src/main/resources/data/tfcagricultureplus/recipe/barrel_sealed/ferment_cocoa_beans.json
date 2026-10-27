@@ -1,0 +1,28 @@
+{
+  "type": "tfc:barrel_sealed",
+  "duration": 24000,
+  "input_fluid": {
+    "amount": 250,
+    "fluid": "minecraft:water"
+  },
+  "input_item": {
+    "type": "tfc:and",
+    "children": [
+      {
+        "item": "firmalife:food/cocoa_beans"
+      },
+      {
+        "type": "tfc:has_trait",
+        "trait": "firmalife:dried"
+      },
+      {
+        "type": "tfc:not_rotten"
+      }
+    ],
+    "count": 1
+  },
+  "output_item": {
+    "count": 1,
+    "id": "tfcagricultureplus:food/fermented_cocoa_beans"
+  }
+}

@@ -1,0 +1,41 @@
+﻿莴笋正式贴图路径（16×16原图；64×64仅工作区预览）
+
+celtuce_age_0_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\crop\celtuce_age_0_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_age_0_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_age_0_stem_v1.txt
+
+celtuce_age_1_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\crop\celtuce_age_1_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_age_1_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_age_1_stem_v1.txt
+
+celtuce_age_2_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\crop\celtuce_age_2_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_age_2_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_age_2_stem_v1.txt
+
+celtuce_age_3_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\crop\celtuce_age_3_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_age_3_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_age_3_stem_v1.txt
+
+celtuce_age_4_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\crop\celtuce_age_4_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_age_4_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_age_4_stem_v1.txt
+
+celtuce_age_5_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\crop\celtuce_age_5_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_age_5_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_age_5_stem_v1.txt
+
+celtuce_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\dead_crop\celtuce_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_stem_v1.txt
+
+celtuce_young_stem_v1
+D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\tfcfarmingplus\src\main\resources\assets\tfcfarmingplus\textures\block\dead_crop\celtuce_young_stem_v1.png
+64预览：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\preview-64\celtuce_young_stem_v1.png
+16格像素源：D:\TFC农业重置\Essential TerraFirmaCraft (TFC)\Essential TerraFirmaCraft (TFC)\moddev\inventory\celtuce-display-20261027\pixel-source-16\celtuce_young_stem_v1.txt

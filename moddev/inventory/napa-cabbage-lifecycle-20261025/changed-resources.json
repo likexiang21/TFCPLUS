@@ -1,0 +1,13 @@
+[
+  "models/block/crop/napa_cabbage_age_0.json",
+  "models/block/crop/napa_cabbage_age_1.json",
+  "models/block/crop/napa_cabbage_age_2.json",
+  "models/block/crop/napa_cabbage_age_3.json",
+  "models/block/crop/napa_cabbage_age_4.json",
+  "models/block/crop/napa_cabbage_age_5.json",
+  "models/block/wild_crop/napa_cabbage.json",
+  "models/block/wild_crop/napa_cabbage_young.json",
+  "blockstates/wild_crop/napa_cabbage.json",
+  "models/block/dead_crop/napa_cabbage.json",
+  "models/block/dead_crop/napa_cabbage_young.json"
+]

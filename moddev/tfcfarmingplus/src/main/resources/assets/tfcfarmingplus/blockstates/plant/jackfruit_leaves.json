@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/jackfruit_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/jackfruit_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/jackfruit_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/jackfruit_fruiting_leaves"}}}

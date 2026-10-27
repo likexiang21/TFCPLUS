@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/birch"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/birch"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/birch"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/birch"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"variants":{"mature=false":{"model":"tfcfarmingplus:block/dead_crop/jobs_tears_young"},"mature=true,part=bottom":{"model":"tfcfarmingplus:block/dead_crop/jobs_tears"},"mature=true,part=top":{"model":"tfc:block/dead_crop/maize_top"}}}

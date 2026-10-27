@@ -1,0 +1,17 @@
+{
+  "type": "tfcagricultureplus:cutting_board",
+  "ingredient": {
+    "item": "tfcfarmingplus:food/ginger"
+  },
+  "result": {
+    "modifiers": [
+      {
+        "type": "tfc:copy_food"
+      }
+    ],
+    "stack": {
+      "count": 2,
+      "id": "tfcagricultureplus:food/ginger_slices"
+    }
+  }
+}

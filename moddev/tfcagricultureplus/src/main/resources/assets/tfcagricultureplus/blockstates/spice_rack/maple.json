@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/maple"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/maple"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/maple"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/maple"
+    }
+  }
+}

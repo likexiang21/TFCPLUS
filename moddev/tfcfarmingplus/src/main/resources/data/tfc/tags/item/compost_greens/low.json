@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tfcfarmingplus:hops",
+    "tfcfarmingplus:food/tea_leaf",
+    "tfcfarmingplus:food/coffee_bean"
+  ]
+}

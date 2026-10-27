@@ -1,0 +1,83 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-AF native16 celtuce complete display; artwork/runtime approval pending",
+  "ReviewedJsonSha256": {
+    "assets/tfcfarmingplus/blockstates/crop/celtuce.json": "A217223756A3E9DD6E54672EC5354EE2789D61566B076332F9D5EDCBC781285D",
+    "assets/tfcfarmingplus/blockstates/dead_crop/celtuce.json": "1901A91D0FB1D47C75DC29A00E4383A6DE4650B570CB106678ADFF468CE7ECAA",
+    "assets/tfcfarmingplus/blockstates/wild_crop/celtuce.json": "97D2E7B23DEEAAE9C1D427FD85A793E8E4E065D24BCA259CA8AFC13795E62E6C",
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_0.json": "80712466A12631FEF9A7BB768579A28ED01FCFEB142279357C0FB2A89F1504AE",
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_1.json": "6EB6043E9C58A3527177EC007B0AFE83720C4BEAB473A5A364A5114B83EE94AD",
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_2.json": "AF5F9A251BCDE578FF2DA5B5C06792D65F487C21F0E47671D3ACB61162C9425B",
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_3.json": "2A9A93A5BDE0F39793F934758B5145ED1804FC3C31D3CB799E0E2DDAAF6659EF",
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_4.json": "E78B0459FDD9D58491DC2C6D5CD55A260BDD78F7DF158D4F2545917C066DC05C",
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_5.json": "5F6C5F591E8B5A720D65F8E85A9F9560F09C7CC643364505B5CC9545EDBAFB5E",
+    "assets/tfcfarmingplus/models/block/dead_crop/celtuce.json": "423E7AA57326222F3D3CE9E3AEB93EFC6949C058475F2C32AAB1E9F97B10BB0C",
+    "assets/tfcfarmingplus/models/block/dead_crop/celtuce_young.json": "5CB62E02D15EAB7908EA3106A41F506598684007D7745B77F6EBC1C10F3950F0",
+    "assets/tfcfarmingplus/models/block/wild_crop/celtuce.json": "3DAEB4EDC2BCB6395934FA7FFDB0E20BA73CA9E199D1988DB1EB79402D68DAC5",
+    "assets/tfcfarmingplus/models/block/wild_crop/celtuce_young.json": "4B7E3CD7C371A0908B828B814A63DFA97C8ED79473C23CDD874B4591D8BECF6B",
+    "assets/tfcfarmingplus/models/item/food/celtuce.json": "2253C049820DC405C81FAAB35FB18B5B3DCA833C8466FC08B7BEC7D1F2913A29",
+    "assets/tfcfarmingplus/models/item/seeds/celtuce.json": "A6931B5922877A587199343E80C5A5FD4F2CBD5C6B5FFF0D7AA1BEA74AFCEDAD",
+    "assets/tfcfarmingplus/models/item/wild_crop/celtuce.json": "BD606F4F6662856CBCEF6E86781E1BD458F96E76000A0AA6F8DA1B3BCB38500F",
+    "data/firmalife/firmalife/plantable/celtuce.json": "87704A44B304F1C14A834D704D3C0DA5F9B06F393D603BA0E04A1509B1B236A2"
+  },
+  "ProtectedTextureSha256": {
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_0.png": "640087643F92173FFFD684D165085ADB5F93D384A25200B81765F905BC223C66",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_0_stem_v1.png": "AC6890F11FE093FC0A962AFA40331EB06F78C03B394113D5944F9D01F6F6D53D",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_1.png": "A890076FC2DBD5D014623CAF4257EF48B45737E046253DBDF05B5E05F6A1C914",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_1_stem_v1.png": "913DEB4D600A4F8CA0EFA5ED2440100D4B8C954F6F65654FF72C6A5A9DC20BFB",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_2.png": "44BF2D452BBC84537A3F785C71100968E3EDC637A36CAF0DD5A66221A0918FCD",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_2_stem_v1.png": "3D035358247354EC60CFF8FE9D5FB2810B6CC055D897B08ABCAF8015DB8CE442",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_3.png": "D59213FBDAD14FAB243CBF6715832E32836D3D8907D8A19643752443BAB32A8E",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_3_stem_v1.png": "04600C56BF6412A715354BC78BBDE79F03624BD50588E7186169D678BC6D45CE",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_4.png": "64446CDAE6911D9F1F13F03104DCC2C7AAA772738334F2927B8C865B2F79238F",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_4_stem_v1.png": "52F8776214A57BCCD4C9C227A9F2CFE8B60058EB9883C13E3375A266407799DB",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_5.png": "40CF3229886AAC23530C8A8CE58042EF129EFCDEFBE6D4F449AF9ABBC0DAD041",
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_5_stem_v1.png": "5B58BBF98A8FC0D3CC29A102791F4EB4D36A71E4B82B015C368E27E098F6191D",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celtuce.png": "2B97F4C1746FCD1222269270A4C47E2C6F206DE0C254044B978933A9EFD83011",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celtuce_stem_v1.png": "1520072F9F695F10A8929C4EFC3F862D2BF37B086FE25E54A4B5D0424AE2BC3E",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celtuce_young.png": "6D849206E76C0471823338FAE14A18BB854A5C9506BD12408DF9F8EBBEA41C6E",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celtuce_young_stem_v1.png": "CDD8FA5F18F8056D4A9E4977B66394C321CC4985548D20FC373EC0D7C55F4947",
+    "assets/tfcfarmingplus/textures/block/wild_crop/celtuce.png": "BED711E5E52AD8469FF8CD17BB4172BD3E2CE01C28D50052FCA1DCBE3BF76126",
+    "assets/tfcfarmingplus/textures/item/food/celtuce.png": "F3FE249B4FAC048462A07B3B67D95E91329CA432C2E902747035C06D013792E6",
+    "assets/tfcfarmingplus/textures/item/food/celtuce_stem_v1.png": "43F617780957BE4D30FA3B0833CC86847F5EB18ECEBCCB692098D03D38C71554",
+    "assets/tfcfarmingplus/textures/item/seeds/celtuce.png": "FE3680B1AD4BAAB8F4F5737FBF8EACC1E6B42A549D493FB8C7994C08A83C0835"
+  },
+  "ProtectedGameplaySha256": {
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/celtuce.json": "4FD2278B70BE91395E2E8593A988F059974FF0798AC4BF756250794B34F38E77",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/dead_crop/celtuce.json": "3972ADF94235E41085EDE30D11B8F261D02EE93D7DA9331F673093B17EDF996F",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/celtuce.json": "A8A2C348FB10D15D14B03D51BEFD3D81C66F17C34A23F8D43A76373665B038DC",
+    "src/main/resources/data/tfcfarmingplus/tfc/climate_range/crop/celtuce.json": "28194F287CF0F0A86DDD0E4194A5DBA86DF4A8B321F2047DBED15E805E353B6D",
+    "src/main/resources/data/tfcfarmingplus/tfc/food/celtuce.json": "7D1F50DA63FC5561FF9AAA79E13DC70A7A17E717737FFC5CBC9EAB0A0CC84CBC",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/celtuce.json": "B3379E0D12E7892EBED2230BF8FC0BFDE792C3985E06F8FE8AF1D0810EC3BD47",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/celtuce_patch.json": "93591B8A8EA3AB2507259134E06E1E75BEB62EAD393BC560ECDC953C12F9451E",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/celtuce.json": "64C0A65E7F7293D13F66F52857F3E0290584C96AF71F3A136306616902F20C03",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/celtuce_patch.json": "4FC0E0D81501AE0B23D924B3DEEE2667F5A82880746F937A707382D1AD2CA825",
+    "src/main/java/com/example/tfcfarmingplus/common/MyCrops.java": "C0C7D9738E3D5AD0157CF8D0D2D40C8909F2F2C781E7265DA5F8B0A3E8FFCD70",
+    "src/main/java/com/example/tfcfarmingplus/common/MyWildCrops.java": "0CCEA1ADEE8D1C534A2DE45E057E93D78B6191A443F0FE51FC68B50933239B2D",
+    "src/main/java/com/example/tfcfarmingplus/common/blocks/MyCropBlock.java": "AE9786D90DB5AE09772BBD35F800E5250B8F044CD6B66A1A66E9159BE8190DDF"
+  },
+  "PlanterStageTextures": [
+    "tfcfarmingplus:block/crop/celtuce_age_0_stem_v1",
+    "tfcfarmingplus:block/crop/celtuce_age_1_stem_v1",
+    "tfcfarmingplus:block/crop/celtuce_age_2_stem_v1",
+    "tfcfarmingplus:block/crop/celtuce_age_3_stem_v1",
+    "tfcfarmingplus:block/crop/celtuce_age_4_stem_v1",
+    "tfcfarmingplus:block/crop/celtuce_age_5_stem_v1"
+  ],
+  "NativeDependency": {
+    "Jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Files": [
+      {
+        "Path": "assets/tfc/models/block/wild_crop/crop.json",
+        "SHA256": "8EF33918260610034C01AD995C1470AE20E5866C70965D7C6CD9AA7B076DB605"
+      },
+      {
+        "Path": "assets/tfc/textures/block/crop/wild_crop_grass.png",
+        "SHA256": "F1AA771D097BD9504FA432A535A74F10135752FC99388CC306ADDE85D536D1CB"
+      }
+    ]
+  },
+  "PixelSourceRule": "Eight explicit 16x16 grids;64 is exact4x nearest preview,workspace only.",
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

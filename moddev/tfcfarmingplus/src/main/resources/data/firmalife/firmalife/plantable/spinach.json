@@ -1,0 +1,29 @@
+{
+  "crop": {
+    "count": 1,
+    "id": "tfcfarmingplus:food/spinach"
+  },
+  "ingredient": {
+    "item": "tfcfarmingplus:seeds/spinach"
+  },
+  "nutrient": {
+    "nitrogen": 0.7,
+    "phosphorous": -0.2,
+    "potassium": -0.2
+  },
+  "planter": "quad",
+  "seed": {
+    "count": 1,
+    "id": "tfcfarmingplus:seeds/spinach"
+  },
+  "specials": [],
+  "stages": 5,
+  "textures": [
+    "tfcfarmingplus:block/crop/spinach_age_0",
+    "tfcfarmingplus:block/crop/spinach_age_1",
+    "tfcfarmingplus:block/crop/spinach_age_2",
+    "tfcfarmingplus:block/crop/spinach_age_3",
+    "tfcfarmingplus:block/crop/spinach_age_4",
+    "tfcfarmingplus:block/crop/spinach_planter_mature_v1"
+  ]
+}

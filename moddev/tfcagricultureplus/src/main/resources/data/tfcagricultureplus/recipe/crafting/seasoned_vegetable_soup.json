@@ -1,0 +1,34 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        { "tag": "tfcagricultureplus:foods/seasonable_soups" },
+        { "type": "tfc:not_rotten" },
+        { "type": "tfc:lacks_trait", "trait": "tfcagricultureplus:seasoned" }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        { "tag": "tfcagricultureplus:foods/ground_spices" },
+        { "type": "tfc:not_rotten" }
+      ]
+    }
+  ],
+  "primary_ingredient": {
+    "type": "tfc:and",
+    "children": [
+      { "tag": "tfcagricultureplus:foods/seasonable_soups" },
+      { "type": "tfc:not_rotten" },
+      { "type": "tfc:lacks_trait", "trait": "tfcagricultureplus:seasoned" }
+    ]
+  },
+  "result": {
+    "modifiers": [
+      { "type": "tfc:copy_input" },
+      { "type": "tfc:add_trait", "trait": "tfcagricultureplus:seasoned" }
+    ]
+  }
+}

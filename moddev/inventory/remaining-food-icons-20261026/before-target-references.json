@@ -1,0 +1,162 @@
+[
+  {
+    "Family": "food",
+    "Name": "brussels_sprouts",
+    "ChineseName": "芽甘蓝",
+    "Model": "tfcfarmingplus:item/food/brussels_sprouts",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\brussels_sprouts.json",
+    "ModelSha256": "996DEB1CBAFF0D6972C2EC7A7F73A44333157A843E37C0C5A67C6A468199CC7B",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/brussels_sprouts.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/onion",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/onion.png",
+    "CurrentSha256": "5EA6C57F2D5457EAA1F62D03A82A1D7BE883273048413A4B5025397A8E87C51B",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/brussels_sprouts.png",
+    "StoredSha256": "012E5404620F32A29EBA7AE4940CF6D58ECB519C946BADF5A9180FE0C1FFDC8E",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "chive",
+    "ChineseName": "韭菜",
+    "Model": "tfcfarmingplus:item/food/chive",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\chive.json",
+    "ModelSha256": "F03528542287583D64729C78B574FD65CA688F51A115D988008E4C41492F812A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/chive.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rye",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rye.png",
+    "CurrentSha256": "5B003714063A9587F2EDA5A3F03B290CEA8F13D591BFAB0064B3F2DF03A0C300",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/chive.png",
+    "StoredSha256": "F0A442C1D929C46F1FE2902BF51B10ACCD14D418ADA0DEAB14B950B0395A18FC",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "malabar_spinach",
+    "ChineseName": "木耳菜",
+    "Model": "tfcfarmingplus:item/food/malabar_spinach",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\malabar_spinach.json",
+    "ModelSha256": "D9382142FAF57743A21BBA95F03967452EAC9E78E5490AB8687FB4D030CC783A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/malabar_spinach.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/tomato",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/tomato.png",
+    "CurrentSha256": "B7C9520A5F00DCC17F073813520B364C81FFF581F538F263955C9EAB2124F576",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/malabar_spinach.png",
+    "StoredSha256": "5673F9FC46DF0EE0417F011B4DF17A1DB08896F0458D9B899AEC484AB32AFA92",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "water_dropwort",
+    "ChineseName": "水芹",
+    "Model": "tfcfarmingplus:item/food/water_dropwort",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\water_dropwort.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/water_dropwort.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/water_dropwort.png",
+    "StoredSha256": "D916E7019F74873A6EE231979E314676F5AA4844C5625FC0306DD5DB96F7C42C",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "water_caltrop",
+    "ChineseName": "菱角",
+    "Model": "tfcfarmingplus:item/food/water_caltrop",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\water_caltrop.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/water_caltrop.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/water_caltrop.png",
+    "StoredSha256": "77EAE06DCEBFB7326182E422A2F30419F8320EEB6EC2D2F28D9A1A28532FEC31",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "water_chestnut",
+    "ChineseName": "荸荠",
+    "Model": "tfcfarmingplus:item/food/water_chestnut",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\water_chestnut.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/water_chestnut.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/water_chestnut.png",
+    "StoredSha256": "F9DAF577B6DE027800DDCA853CDE50FEE7920B228F73B50F4F0E16E3FF17D172",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "water_shield",
+    "ChineseName": "莼菜",
+    "Model": "tfcfarmingplus:item/food/water_shield",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\water_shield.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/water_shield.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/water_shield.png",
+    "StoredSha256": "83ADD8E97EE140A1A88461FEBD881E5F9520C485026200B722F08F96E1744EAD",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "water_spinach",
+    "ChineseName": "空心菜",
+    "Model": "tfcfarmingplus:item/food/water_spinach",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\water_spinach.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/water_spinach.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/water_spinach.png",
+    "StoredSha256": "21DCDD40B4764FA6DB8FAEC4045335A3816639001F42B834D6DEC3E74A6DE79B",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

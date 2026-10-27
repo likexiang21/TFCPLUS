@@ -1,0 +1,124 @@
+{
+  "Sources": {
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_0.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\swiss_chard_age_0.json",
+      "Sha256": "5421285A9A375C8E1817731D0CB88932780B4793A8925884DC62824EDBB93F0E"
+    },
+    "assets/minecraft/models/block/crop.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/crop.json",
+      "Sha256": "D078DE149252E74DDBFA19C80300F9E627A44913266664A1B08DD25D3F558F18"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_0_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\swiss_chard_age_0_leafy_v2.png",
+      "Sha256": "BBC1C4653CB1E2F6B8380D6D4507C142EF591C9DD675A1356EEC69E6F29A7508"
+    },
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_1.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\swiss_chard_age_1.json",
+      "Sha256": "65C1863F2E7237BE372B4EA88FCC41D2618CFC2280C58E7E9F0E992746D491B2"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_1_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\swiss_chard_age_1_leafy_v2.png",
+      "Sha256": "25A93B4F5194B0E6881D24391A81198705DCB94939827CFE6B9DA72E99804443"
+    },
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_2.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\swiss_chard_age_2.json",
+      "Sha256": "C8C559E95C607CF672E1753CC6936E956C69711F74DCDAF2EAADDB9D33951383"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_2_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\swiss_chard_age_2_leafy_v2.png",
+      "Sha256": "AC8556734ADC79B1A6A42D2CD101996DB6B96DEAE6950E39CB25590BF7B5FFE8"
+    },
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_3.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\swiss_chard_age_3.json",
+      "Sha256": "A1E00ADA228A22655333F2165E45A50640DE5FB14BA72DE5E3385CFB2D09683F"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_3_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\swiss_chard_age_3_leafy_v2.png",
+      "Sha256": "CBF12D2196E00EBD6730A6DE48EED1E8B04D195B9BF5EE4E03D29FE3A322B61D"
+    },
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_4.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\swiss_chard_age_4.json",
+      "Sha256": "E36559646D30E831BB21A9B36F2FA063592FF6CEDDEA67325052D026949A5ADF"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_4_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\swiss_chard_age_4_leafy_v2.png",
+      "Sha256": "B78F873DBD08A3B074CEB4F2BDD802899050BD0D4F5F6FB7BD17633079159ED2"
+    },
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_5.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\swiss_chard_age_5.json",
+      "Sha256": "DC4A7B0857C312504279D6884BDD1D9B6248471DB0B82ADEE9B0BD4E6C6DB11F"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_5_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\swiss_chard_age_5_leafy_v2.png",
+      "Sha256": "78E4591731D49F450006B19F19D44AC01AE9CA00CBAA74405321104F7FF994B5"
+    },
+    "assets/tfcfarmingplus/models/block/wild_crop/swiss_chard.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\swiss_chard.json",
+      "Sha256": "37ED0A716C3D94AA55EE40C5DD5BCD7993B412831F1F807D4DFBB0233B6CCCFF"
+    },
+    "assets/tfc/models/block/wild_crop/crop.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/wild_crop/crop.json",
+      "Sha256": "8EF33918260610034C01AD995C1470AE20E5866C70965D7C6CD9AA7B076DB605"
+    },
+    "assets/minecraft/models/block/block.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/block.json",
+      "Sha256": "3EF6C442F1AB55D2A57FA58E28BB831268159052659F12B453B637B31DED1DA8"
+    },
+    "assets/tfc/textures/block/crop/wild_crop_grass.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/wild_crop_grass.png",
+      "Sha256": "F1AA771D097BD9504FA432A535A74F10135752FC99388CC306ADDE85D536D1CB"
+    },
+    "assets/tfcfarmingplus/models/block/wild_crop/swiss_chard_young.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\swiss_chard_young.json",
+      "Sha256": "5FF9DAD59FEF118A458B27FA197313F8DA2EF7296842D78B09EA3C55B5E9820D"
+    },
+    "assets/tfcfarmingplus/models/block/dead_crop/swiss_chard.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\swiss_chard.json",
+      "Sha256": "1743BE9FAA9A41103EFD876310AD14CF9F51B75E8BDFB72A92D08F0B815D7B27"
+    },
+    "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\swiss_chard_leafy_v2.png",
+      "Sha256": "8B07E50FE7ACF5F322A4A025BA8F65E9C1D80D707FFD6B5F84F1B33507C1BB21"
+    },
+    "assets/tfcfarmingplus/models/block/dead_crop/swiss_chard_young.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\swiss_chard_young.json",
+      "Sha256": "F61C94C418790B5BE8D5F6815A5E75BD45BCEBEF43D2F2D1D0C993176DE4A25B"
+    },
+    "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard_young_leafy_v2.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\swiss_chard_young_leafy_v2.png",
+      "Sha256": "864F99DB89545D0FFFC19D1EF689771FEF1C5144E3FC826D65F54F36BEBFCAAD"
+    }
+  },
+  "Planter": {
+    "crop": {
+      "count": 1,
+      "id": "tfcfarmingplus:food/swiss_chard"
+    },
+    "ingredient": {
+      "item": "tfcfarmingplus:seeds/swiss_chard"
+    },
+    "nutrient": {
+      "nitrogen": 0.6,
+      "phosphorous": 0.2,
+      "potassium": 0.4
+    },
+    "planter": "quad",
+    "seed": {
+      "count": 1,
+      "id": "tfcfarmingplus:seeds/swiss_chard"
+    },
+    "specials": [],
+    "stages": 5,
+    "textures": [
+      "tfcfarmingplus:block/crop/swiss_chard_age_0_leafy_v2",
+      "tfcfarmingplus:block/crop/swiss_chard_age_1_leafy_v2",
+      "tfcfarmingplus:block/crop/swiss_chard_age_2_leafy_v2",
+      "tfcfarmingplus:block/crop/swiss_chard_age_3_leafy_v2",
+      "tfcfarmingplus:block/crop/swiss_chard_age_4_leafy_v2",
+      "tfcfarmingplus:block/crop/swiss_chard_age_5_leafy_v2"
+    ]
+  },
+  "PlanterBaseOmitted": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

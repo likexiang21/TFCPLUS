@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/shallot_patch","placement":[{"type":"tfc:climate","min_temperature":0,"max_temperature":26,"min_groundwater":60,"max_groundwater":260},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

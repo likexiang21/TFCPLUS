@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:food/vegetables_soup",
+    "tfc:food/grain_soup",
+    "tfc:food/fruit_soup"
+  ]
+}

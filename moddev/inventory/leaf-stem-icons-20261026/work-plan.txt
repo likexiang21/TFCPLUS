@@ -1,0 +1,7 @@
+﻿AR4-Q 叶菜/茎菜食品图标（预期5/5）
+输入：六食品模型、食品/掉落/注册定义；已实看六对当前/保存图及既有素材候选。原图均为根/葱头形，不能回接。
+四叶菜lettuce、garland_chrysanthemum、perilla、purslane暂取kale叶束，不宣称物种独立形态。celery、celtuce采用本次image_gen制作并实际查看的16×16茎菜候选，新增celery_stalks_v1.png和celtuce_stem_v1.png，旧PNG不覆盖。
+修改：六assets/.../models/item/food/<物种>.json与tools/reviewed-item-icon-routes.json；新增两PNG，共七既有文件修改/二运行时新增。保持标准单层generated。合同扩展至15模型、18PNG、12食品数据；原生种子图保护保持。
+图片生成：内置image_gen，提示词imagegen-prompts.json，原始生成图留imagegen-source及默认目录，最近邻等比导出与透明居中为16×16，不重绘旧图；来源与哈希在imagegen-asset-manifest.json。检查小尺寸辨识后再采用，非用户美术验收。
+不改种子、生命周期、盆栽、玩法属性、Java、ID/NBT、B；不做全局命名整理。
+完成条件：隔离防回退及15文件安全复制、资源/418台账、离线构建、六模型修改两PNG新增的JAR差异、部署哈希和综合静态检查通过；255交接/README/217/218及新分诊更新。实机均false，全部农业完成后再交TXT总结。

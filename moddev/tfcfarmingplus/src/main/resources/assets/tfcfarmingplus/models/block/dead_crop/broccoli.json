@@ -1,0 +1,316 @@
+{
+  "credit": "TFC Farming Plus - AR4-D dry broccoli using existing own dry stem/leaf atlas",
+  "ambientocclusion": false,
+  "textures": {
+    "crop": "tfcfarmingplus:block/dead_crop/broccoli",
+    "particle": "#crop"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0.02,
+        5.48
+      ],
+      "to": [
+        11,
+        11.02,
+        5.48
+      ],
+      "shade": false,
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          8,
+          0,
+          5.48
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        0.02,
+        10.52
+      ],
+      "to": [
+        11,
+        11.02,
+        10.52
+      ],
+      "shade": false,
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [
+          8,
+          0,
+          10.52
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        5.48,
+        0.02,
+        5
+      ],
+      "to": [
+        5.48,
+        11.02,
+        11
+      ],
+      "shade": false,
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          5.48,
+          0,
+          8
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        10.52,
+        0.02,
+        5
+      ],
+      "to": [
+        10.52,
+        11.02,
+        11
+      ],
+      "shade": false,
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          10.52,
+          0,
+          8
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            6,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        0.02,
+        7.5
+      ],
+      "to": [
+        8.5,
+        7,
+        8.5
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            6,
+            8,
+            15
+          ],
+          "texture": "#crop"
+        },
+        "south": {
+          "uv": [
+            6,
+            6,
+            8,
+            15
+          ],
+          "texture": "#crop"
+        },
+        "east": {
+          "uv": [
+            6,
+            6,
+            8,
+            15
+          ],
+          "texture": "#crop"
+        },
+        "west": {
+          "uv": [
+            6,
+            6,
+            8,
+            15
+          ],
+          "texture": "#crop"
+        },
+        "up": {
+          "uv": [
+            6,
+            6,
+            8,
+            15
+          ],
+          "texture": "#crop"
+        },
+        "down": {
+          "uv": [
+            6,
+            6,
+            8,
+            15
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        7,
+        6
+      ],
+      "to": [
+        10,
+        10,
+        10
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#crop"
+        },
+        "south": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#crop"
+        },
+        "east": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#crop"
+        },
+        "west": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#crop"
+        },
+        "up": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#crop"
+        },
+        "down": {
+          "uv": [
+            8,
+            1,
+            12,
+            3
+          ],
+          "texture": "#crop"
+        }
+      }
+    }
+  ]
+}

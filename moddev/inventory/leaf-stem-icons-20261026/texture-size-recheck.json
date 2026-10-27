@@ -1,0 +1,79 @@
+{
+  "NewAssets": [
+    {
+      "Name": "celery",
+      "ModelTexture": "tfcfarmingplus:item/food/celery_stalks_v1",
+      "SourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\celery_stalks_v1.png",
+      "SourceSize": [
+        16,
+        16
+      ],
+      "Mode": "RGBA",
+      "Packages": [
+        {
+          "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\build\\libs\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+          "Size": [
+            16,
+            16
+          ],
+          "MatchesSource": true
+        },
+        {
+          "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+          "Size": [
+            16,
+            16
+          ],
+          "MatchesSource": true
+        },
+        {
+          "Path": "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+          "Size": [
+            16,
+            16
+          ],
+          "MatchesSource": true
+        }
+      ]
+    },
+    {
+      "Name": "celtuce",
+      "ModelTexture": "tfcfarmingplus:item/food/celtuce_stem_v1",
+      "SourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\celtuce_stem_v1.png",
+      "SourceSize": [
+        16,
+        16
+      ],
+      "Mode": "RGBA",
+      "Packages": [
+        {
+          "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\build\\libs\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+          "Size": [
+            16,
+            16
+          ],
+          "MatchesSource": true
+        },
+        {
+          "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+          "Size": [
+            16,
+            16
+          ],
+          "MatchesSource": true
+        },
+        {
+          "Path": "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+          "Size": [
+            16,
+            16
+          ],
+          "MatchesSource": true
+        }
+      ]
+    }
+  ],
+  "ScannedFoodAndSeedPNGs": 229,
+  "Non16x16": [],
+  "RuntimeVerified": false
+}

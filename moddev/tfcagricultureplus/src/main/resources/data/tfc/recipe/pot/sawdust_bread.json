@@ -1,0 +1,31 @@
+{
+  "type": "tfc:pot",
+  "ingredients": [
+    {
+      "item": "tfc:ceramic/bowl"
+    },
+    {
+      "item": "tfcagricultureplus:sawdust"
+    },
+    {
+      "item": "tfcagricultureplus:sawdust"
+    },
+    {
+      "item": "tfcagricultureplus:sawdust"
+    },
+    {
+      "item": "tfcagricultureplus:sawdust"
+    }
+  ],
+  "fluid_ingredient": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "duration": 300,
+  "temperature": 250,
+  "item_output": [
+    {
+      "id": "tfcagricultureplus:sawdust_soup"
+    }
+  ]
+}

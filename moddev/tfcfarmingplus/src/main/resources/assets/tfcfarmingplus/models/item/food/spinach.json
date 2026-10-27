@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tfcfarmingplus:item/food/spinach_harvest_v1"
+  }
+}

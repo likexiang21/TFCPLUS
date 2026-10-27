@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/mortar/granite"},"facing=east":{"model":"tfcagricultureplus:block/mortar/granite","y":90},"facing=south":{"model":"tfcagricultureplus:block/mortar/granite","y":180},"facing=west":{"model":"tfcagricultureplus:block/mortar/granite","y":270}}}

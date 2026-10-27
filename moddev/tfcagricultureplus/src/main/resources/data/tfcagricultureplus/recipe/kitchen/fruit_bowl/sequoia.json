@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/sequoia"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:fruit_bowl/sequoia",
+    "count": 1
+  },
+  "pattern": [
+    " P ",
+    "PPP",
+    "P P"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

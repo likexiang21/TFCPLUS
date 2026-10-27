@@ -1,0 +1,13 @@
+[
+  "models/block/crop/cauliflower_age_0.json",
+  "models/block/crop/cauliflower_age_1.json",
+  "models/block/crop/cauliflower_age_2.json",
+  "models/block/crop/cauliflower_age_3.json",
+  "models/block/crop/cauliflower_age_4.json",
+  "models/block/crop/cauliflower_age_5.json",
+  "models/block/wild_crop/cauliflower.json",
+  "models/block/wild_crop/cauliflower_young.json",
+  "blockstates/wild_crop/cauliflower.json",
+  "models/block/dead_crop/cauliflower.json",
+  "models/block/dead_crop/cauliflower_young.json"
+]

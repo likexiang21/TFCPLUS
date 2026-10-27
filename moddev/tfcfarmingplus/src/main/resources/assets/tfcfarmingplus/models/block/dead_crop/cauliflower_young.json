@@ -1,0 +1,76 @@
+{
+  "credit": "TFC Farming Plus - AR4-H two whole small dry leaf regions; no head",
+  "ambientocclusion": false,
+  "textures": {
+    "crop": "tfcfarmingplus:block/dead_crop/cauliflower",
+    "particle": "#crop"
+  },
+  "elements": [
+    {
+      "from": [
+        8,
+        0.02,
+        6
+      ],
+      "to": [
+        8,
+        6.02,
+        10
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            6
+          ],
+          "texture": "#crop"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            6
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0.02,
+        8
+      ],
+      "to": [
+        10,
+        6.02,
+        8
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4,
+            6
+          ],
+          "texture": "#crop"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            4,
+            6
+          ],
+          "texture": "#crop"
+        }
+      }
+    }
+  ]
+}

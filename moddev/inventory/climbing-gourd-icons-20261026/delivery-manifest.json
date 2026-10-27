@@ -1,0 +1,46 @@
+{
+  "Preflight": [
+    {
+      "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+      "Sha256": "6A9C897D60FBCF16AA6FCB942A741C953A4D1B6B971141986AE335F4D4766004",
+      "MatchedBackup": true
+    },
+    {
+      "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+      "Sha256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "MatchedBackup": true
+    },
+    {
+      "Path": "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+      "Sha256": "6A9C897D60FBCF16AA6FCB942A741C953A4D1B6B971141986AE335F4D4766004",
+      "MatchedBackup": true
+    },
+    {
+      "Path": "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+      "Sha256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "MatchedBackup": true
+    }
+  ],
+  "PackagedFoodSeedPNGsChecked": 237,
+  "AllItemPNGs16x16": true,
+  "Packages": [
+    {
+      "Module": "tfcfarmingplus",
+      "Sha256": "D1C32093B6B93DFD639BF8A4124B243E4863AAA1744C7C3FD3F873B414F16EEE",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\build\\libs\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    },
+    {
+      "Module": "tfcagricultureplus",
+      "Sha256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\build\\libs\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Shared timber geometry adapted from TFC Woodworking 1.2.4, copyright (c) 2024 uTa4u.
+Source: https://github.com/uTa4u/TFC-Woodworking
+See tfcwoodwork-MIT.txt. Material textures are referenced from TFC/ArborFirmaCraft, not redistributed.

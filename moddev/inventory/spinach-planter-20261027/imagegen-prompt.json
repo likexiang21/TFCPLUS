@@ -1,0 +1,9 @@
+{
+  "Mode": "built-in image_gen; new asset with two reference sheets",
+  "Prompt": "Create ONE transparent Minecraft/TerraFirmaCraft in-world mature spinach PLANT atlas sprite, for a Firmalife quad planter. Reference image 1 shows exact installed TFC ORIGINAL crop atlas pixels, NOT item icons: study native beet leaf layering, native cabbage compact grounded growth, irregular distinct pixel color steps. Reference image 2 is the project spinach growth sequence: preserve dark green plant identity and small rooted leaf clump progression; do NOT copy the floating pale flower in its last tile. Generate a new original mature leafy spinach clump, low broad leaves emerging from a small shared basal crown, enough irregular overlapping dark/mid green blades to distinguish it from the prior small two-leaf stage. Flat orthographic plant atlas, NOT a perspective rendered item, NOT a food bunch, no pot/soil, no fruits, no flowers/white dots, no roots/bulbs/seed pods. Authentic restrained TFC pixel style. Exactly 16x16 logical square pixels enlarged with crisp nearest-neighbor blocks; no gradients, blur, outlines, shadows, captions, checkerboard or border. Transparent background. Entire plant within logical columns 3..12 because the native planter clips 2 columns on each side, bottom of stalk/crown touches logical row15, leaf tips around rows5..7; transparent upper rows. Green natural leaves with lighter green scattered leaf faces and dark leaf separations, no radial shiny sphere. Single sprite only, transparent square canvas. This is a new bitmap using both sheets as visual references, not editing or copying the original native artwork.",
+  "ReferenceImages": [
+    "TFC-native-crop-reference.png",
+    "spinach-current-ages.png"
+  ],
+  "Original": "C:/Users/asus/.codex/generated_images/01a10f79-2f78-7943-a187-88601096d4bf/exec-c6fc959c-3060-4a7c-b3af-469850f3b22f.png"
+}

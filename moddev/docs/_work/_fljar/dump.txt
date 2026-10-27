@@ -1,0 +1,44 @@
+﻿===== data/firmalife/firmalife/plantable/fig.json =====
+{"crop":{"count":1,"id":"firmalife:food/fig"},"extra_seed_chance":0.08,"ingredient":{"item":"firmalife:plant/fig_sapling"},"nutrient":{"nitrogen":0.25,"phosphorous":0.25,"potassium":0.25},"planter":"bonsai","seed":{"count":1,"id":"firmalife:plant/fig_sapling"},"specials":[],"textures":["firmalife:block/fruit_tree/fig_fruiting_leaves","firmalife:block/fruit_tree/fig_dry_leaves","firmalife:block/fruit_tree/fig_flowering_leaves","firmalife:block/fruit_tree/fig_branch","firmalife:block/fruit_tree/fig_leaves"],"tier":15}
+===== data/firmalife/firmalife/plantable/cocoa.json =====
+{"crop":{"count":1,"id":"firmalife:food/cocoa_beans"},"extra_seed_chance":0.08,"ingredient":{"item":"firmalife:plant/cocoa_sapling"},"nutrient":{"nitrogen":0.3,"phosphorous":0.2,"potassium":0.45},"planter":"bonsai","seed":{"count":1,"id":"firmalife:plant/cocoa_sapling"},"specials":[],"textures":["firmalife:block/fruit_tree/cocoa_fruiting_leaves","firmalife:block/fruit_tree/cocoa_dry_leaves","firmalife:block/fruit_tree/cocoa_flowering_leaves","firmalife:block/fruit_tree/cocoa_branch","firmalife:block/fruit_tree/cocoa_leaves"],"tier":15}
+===== data/firmalife/firmalife/plantable/pineapple.json =====
+{"crop":{"count":1,"id":"firmalife:food/pineapple"},"extra_seed_chance":0.08,"ingredient":{"item":"firmalife:plant/pineapple_bush"},"nutrient":{"nitrogen":0.3,"phosphorous":0.3,"potassium":0.3},"planter":"trellis","seed":{"count":1,"id":"firmalife:plant/pineapple_bush"},"specials":[],"textures":["firmalife:block/berry_bush/pineapple_bush","firmalife:block/berry_bush/dry_pineapple_bush","firmalife:block/berry_bush/flowering_pineapple_bush","firmalife:block/berry_bush/fruiting_pineapple_bush"],"tier":15}
+===== data/firmalife/firmalife/plantable/nightshade.json =====
+{"crop":{"count":1,"id":"firmalife:food/nightshade_berry"},"extra_seed_chance":0.08,"ingredient":{"item":"firmalife:plant/nightshade_bush"},"nutrient":{"nitrogen":0.1,"phosphorous":0.2,"potassium":0.2},"planter":"trellis","seed":{"count":1,"id":"firmalife:plant/nightshade_bush"},"specials":[],"textures":["firmalife:block/berry_bush/nightshade_bush","firmalife:block/berry_bush/dry_nightshade_bush","firmalife:block/berry_bush/flowering_nightshade_bush","firmalife:block/berry_bush/fruiting_nightshade_bush"],"tier":15}
+===== data/firmalife/firmalife/plantable/red_grapes.json =====
+{"crop":{"count":1,"id":"firmalife:food/red_grapes"},"ingredient":{"item":"firmalife:seeds/red_grape"},"nutrient":{"nitrogen":0.25,"phosphorous":0.25,"potassium":0.25},"planter":"trellis","seed":{"count":1,"id":"firmalife:seeds/red_grape"},"specials":[],"textures":["firmalife:block/crop/grape_leaves","firmalife:block/crop/grape_leaves_dead","firmalife:block/crop/grape_leaves_flowering","firmalife:block/crop/grape_leaves_red"],"tier":15}
+===== data/firmalife/firmalife/plantable/white_grapes.json =====
+{"crop":{"count":1,"id":"firmalife:food/white_grapes"},"ingredient":{"item":"firmalife:seeds/white_grape"},"nutrient":{"nitrogen":0.25,"phosphorous":0.25,"potassium":0.25},"planter":"trellis","seed":{"count":1,"id":"firmalife:seeds/white_grape"},"specials":[],"textures":["firmalife:block/crop/grape_leaves","firmalife:block/crop/grape_leaves_dead","firmalife:block/crop/grape_leaves_flowering","firmalife:block/crop/grape_leaves_white"],"tier":15}
+===== data/firmalife/firmalife/plantable/banana.json =====
+{"crop":{"count":1,"id":"tfc:food/banana"},"extra_seed_chance":0.08,"ingredient":{"item":"tfc:plant/banana_sapling"},"nutrient":{"nitrogen":0.25,"phosphorous":0.3,"potassium":0.3},"planter":"hanging","seed":{"count":1,"id":"tfc:plant/banana_sapling"},"specials":["firmalife:block/crop/banana_fruit"],"stages":4,"textures":["firmalife:block/crop/banana_0","firmalife:block/crop/banana_1","firmalife:block/crop/banana_2","firmalife:block/crop/banana_3","firmalife:block/crop/banana_4"],"tier":15}
+===== data/tfc/tags/block/fruit_tree_leaves.json =====
+{"values":["firmalife:plant/cocoa_leaves","firmalife:plant/fig_leaves"]}
+===== data/tfc/tags/block/fruit_tree_branches.json =====
+{"values":["firmalife:plant/cocoa_branch","firmalife:plant/fig_branch","firmalife:plant/cocoa_growing_branch","firmalife:plant/fig_growing_branch"]}
+===== data/tfc/tags/block/fruit_tree_saplings.json =====
+{"values":["firmalife:plant/cocoa_sapling","firmalife:plant/fig_sapling"]}
+===== data/tfc/tags/item/plants.json =====
+{"values":["firmalife:plant/basil","firmalife:plant/bay_laurel","firmalife:plant/cardamom","firmalife:plant/cilantro","firmalife:plant/cumin","firmalife:plant/oregano","firmalife:plant/pimento","firmalife:plant/vanilla"]}
+===== data/firmalife/tags/block/herbs.json =====
+{"values":["firmalife:plant/basil","firmalife:plant/bay_laurel","firmalife:plant/cardamom","firmalife:plant/cilantro","firmalife:plant/cumin","firmalife:plant/oregano","firmalife:plant/pimento","firmalife:plant/vanilla"]}
+===== data/firmalife/tags/block/grape_strings.json =====
+{"values":["firmalife:grape_string_red","firmalife:grape_string_white"]}
+===== data/firmalife/tags/block/grape_trellis_posts_plant.json =====
+{"values":["firmalife:grape_trellis_post_red","firmalife:grape_trellis_post_white"]}
+===== data/firmalife/tags/block/bee_restoration_plants.json =====
+{"values":["#firmalife:herbs","tfc:plant/goldenrod","tfc:plant/rose","tfc:plant/allium","tfc:plant/anthurium","tfc:plant/blood_lily","tfc:plant/blue_ginger","tfc:plant/blue_orchid","tfc:plant/buttercup","tfc:plant/butterfly_milkweed","tfc:plant/black_orchid","tfc:plant/calendula","tfc:plant/cornflower","tfc:plant/dandelion","tfc:plant/desert_flame","tfc:plant/edelweiss","tfc:plant/field_horsetail","tfc:plant/grape_hyacinth","tfc:plant/heliconia","tfc:plant/heather","tfc:plant/houstonia","tfc:plant/nasturtium","tfc:plant/oxeye_daisy","tfc:plant/poppy","tfc:plant/pulsatilla","tfc:plant/silver_spurflower","tfc:plant/snapdragon_pink","tfc:plant/snapdragon_red","tfc:plant/snapdragon_white","tfc:plant/snapdragon_yellow","tfc:plant/trillium","tfc:plant/tropical_milkweed","tfc:plant/tulip_orange","tfc:plant/tulip_red","tfc:plant/tulip_pink","tfc:plant/tulip_white","tfc:plant/yellow_saxifrage"]}
+===== data/tfc/tags/block/thorny_bushes.json =====
+{"values":["firmalife:plant/pineapple_bush"]}
+===== data/firmalife/tfc/food/fig.json =====
+{"decay_modifier":1.0,"fruit":0.9,"hunger":4,"ingredient":{"item":"firmalife:food/fig"},"saturation":0.8,"water":5.0}
+===== data/firmalife/tfc/food/pineapple.json =====
+{"decay_modifier":1.0,"fruit":0.75,"hunger":4,"ingredient":{"item":"firmalife:food/pineapple"},"saturation":0.85,"water":1.0}
+===== data/firmalife/tfc/food/nightshade_berry.json =====
+{"decay_modifier":1.0,"fruit":3.0,"hunger":4,"ingredient":{"item":"firmalife:food/nightshade_berry"},"saturation":0.85,"water":1.0}
+===== data/firmalife/tfc/food/grapes.json =====
+{"decay_modifier":0.5,"fruit":0.5,"hunger":4,"ingredient":{"tag":"firmalife:foods/grapes"},"saturation":2.5,"water":2.0}
+===== data/firmalife/tfc/food/cocoa_beans.json =====
+{"decay_modifier":0.25,"hunger":4,"ingredient":{"item":"firmalife:food/cocoa_beans"}}
+===== MISSING: data/firmalife/tfc/food/banana.json =====
+

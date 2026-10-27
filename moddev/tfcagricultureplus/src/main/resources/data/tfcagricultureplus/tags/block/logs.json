@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#tfcagricultureplus:logs_log",
+    "#tfcagricultureplus:logs_half",
+    "#tfcagricultureplus:logs_quarter"
+  ]
+}

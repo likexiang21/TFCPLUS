@@ -1,0 +1,260 @@
+[
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_0.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_0.json",
+    "Sha256": "0FA157FAED3069F4E3848A314806E09521E683FDBD9975357D3D52864A811791"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/minecraft/models/block/crop.json",
+    "Origin": "D:/TFC农业重置/.tooling/game/versions/1.21.1/1.21.1.jar!/assets/minecraft/models/block/crop.json",
+    "Sha256": "D078DE149252E74DDBFA19C80300F9E627A44913266664A1B08DD25D3F558F18"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_0.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_0.png",
+    "Sha256": "7198E85E8FEB3D028190A9F0F8FC450F2A766BF65E0AB2D18AD2C5EA921B2097"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_1.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_1.json",
+    "Sha256": "EF8020053C6DA3581AE7DB0CDFE8C425E5AF4FE742FAE76C1767F3E5A319A8FB"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_1.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_1.png",
+    "Sha256": "D742F40DA4CD596E435F0247656D5226758621B16A6C80307A2DA3715BC30983"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_2.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_2.json",
+    "Sha256": "C71CFA5D0C5ED803F853F4AA2442062F6001D778BFF9BE3EB6FAE885DBBD05D4"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_2.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_2.png",
+    "Sha256": "F09B704025C006FF0E4CE421C5462DA2C051FF88C06A15FBC5F5D81F4BE90D83"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_3.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_3.json",
+    "Sha256": "DC31AE63057E608499171445399F4DD8AF08972EF5749EF8AD410FBB8C1F456A"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_3.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_3.png",
+    "Sha256": "13601F45889E9230E6E14F2BE279C9AB62C24DA97F1B4374037EA2F05B15DE60"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_4.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_4.json",
+    "Sha256": "26A5AA14F9784165A32E8B0188E1329CA4BAE7BB4D911A969B1873B11595165E"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_4.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_4.png",
+    "Sha256": "84FB8FEB4D06E1DDD461519CC4A4949540F91B70A0859D0CDE24EC16E799A6D2"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_5.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_5.json",
+    "Sha256": "D59DEB57E98D545033F63E51462F17D2D53A0D608BFF8CAC4B5FBA8F59F12911"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_5.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_5.png",
+    "Sha256": "D5EA64CD51AAB81D3820CAA6EBD76F07CC2EE11D1F7920F1D2DDBC0275D7999D"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/wild_crop/fenugreek.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\fenugreek.json",
+    "Sha256": "A89B50002D12F3DB6653F9AB2F385C57491969C89D34974554382BB4BD5D80A0"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/models/block/wild_crop/crop.json",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/wild_crop/crop.json",
+    "Sha256": "8EF33918260610034C01AD995C1470AE20E5866C70965D7C6CD9AA7B076DB605"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/minecraft/models/block/block.json",
+    "Origin": "D:/TFC农业重置/.tooling/game/versions/1.21.1/1.21.1.jar!/assets/minecraft/models/block/block.json",
+    "Sha256": "3EF6C442F1AB55D2A57FA58E28BB831268159052659F12B453B637B31DED1DA8"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/wild_crop_grass.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/wild_crop_grass.png",
+    "Sha256": "F1AA771D097BD9504FA432A535A74F10135752FC99388CC306ADDE85D536D1CB"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_wild.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_wild.png",
+    "Sha256": "D5EA64CD51AAB81D3820CAA6EBD76F07CC2EE11D1F7920F1D2DDBC0275D7999D"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/models/block/dead_crop/lentil_young.json",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/dead_crop/lentil_young.json",
+    "Sha256": "4E8FC12D58D7317E461F97F9FD1D09F63DC332D038C284611234B098E3126DF8"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_dead_young.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_dead_young.png",
+    "Sha256": "E441AC7677C0509C04534A43F84ABA0A939BFFFD56C4D1AA2DABCB13AC50BF4F"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/dead_crop/fenugreek.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\fenugreek.json",
+    "Sha256": "EE3B685B037DCE14699C2CE235B366333D7E1606FA340E03A52E20306098D452"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_dead.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_dead.png",
+    "Sha256": "8DDFF18A62ED0989D93BB177E8A96438D4D8C99FDC1828F5EBDA8BE3A0201CE7"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfcfarmingplus/models/block/dead_crop/fenugreek_young.json",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\fenugreek_young.json",
+    "Sha256": "4E8FC12D58D7317E461F97F9FD1D09F63DC332D038C284611234B098E3126DF8"
+  },
+  {
+    "Phase": "before",
+    "Resource": "assets/tfc/textures/block/crop/lentil_dead_young.png",
+    "Origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/lentil_dead_young.png",
+    "Sha256": "E441AC7677C0509C04534A43F84ABA0A939BFFFD56C4D1AA2DABCB13AC50BF4F"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_0.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_0.json",
+    "Sha256": "548E23533E2B056790CAFE0EC26E9383942A4CEBB080A97404149EA386B60CFC"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/minecraft/models/block/crop.json",
+    "Origin": "D:/TFC农业重置/.tooling/game/versions/1.21.1/1.21.1.jar!/assets/minecraft/models/block/crop.json",
+    "Sha256": "D078DE149252E74DDBFA19C80300F9E627A44913266664A1B08DD25D3F558F18"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_0.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\fenugreek_age_0.png",
+    "Sha256": "261641761CA76EAC44DFC25FFA1D532F4AFC63DF9143B5800843789A7718F57C"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_1.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_1.json",
+    "Sha256": "E8FD7766CFAD384B389D0AD5D202208BCF87D45EDCC45E009DA578AE272F130C"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_1.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\fenugreek_age_1.png",
+    "Sha256": "E6768972F9B0277AC9E8A1A00CAEDB315936E679CF6FB8900635AE4B6C26AE66"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_2.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_2.json",
+    "Sha256": "666B392EB0D648010C50582C2AE64F76092850AF88611B605876727BAAFD9837"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_2.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\fenugreek_age_2.png",
+    "Sha256": "A36ACD4F9B43B88EB7A3CB1A95E44421C5B8C1D3CE74BE143B15E239B867C054"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_3.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_3.json",
+    "Sha256": "B21B15D136D16C98C53B2D008074FA3AA7D9483BF8B602724A2487D21CABC1DC"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_3.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\fenugreek_age_3.png",
+    "Sha256": "E2266F1226DF798968B20FCE4183AFF6C480997EBF477F15EC76798F4699F341"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_4.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_4.json",
+    "Sha256": "BDA6E98AC33FAC0E618660AF3698000A7864B9A3EEE75B54DA9736CBB81D8DE0"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_4.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\fenugreek_age_4.png",
+    "Sha256": "C8B7545A9C5F23C098F9E8E6BB9F564C6DFED894E25C902C26D9AA743E45308B"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/crop/fenugreek_age_5.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\fenugreek_age_5.json",
+    "Sha256": "7901CBB2DDA80A71F3336930FF80ADEAA90D545240737FBAD6C93F461241DF59"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_5.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\fenugreek_age_5.png",
+    "Sha256": "AA914C0C63E86914B6E5A80A7FB41B478D84939CDC1A2ED96563ABA530753921"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/wild_crop/fenugreek.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\fenugreek.json",
+    "Sha256": "E0999F4EACFDD38A6CCBF12BA0C75BAE7CB1C63692A05D0CA8823EF5171C212F"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/wild_crop/fenugreek_young.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\fenugreek_young.json",
+    "Sha256": "A5C4E0104E4A5999736C7E6318700FE0D8EB2979E972FB25F4762F51FF11AC21"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/dead_crop/fenugreek.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\fenugreek.json",
+    "Sha256": "762D6415634DCBFBF44BB54162B2BABB84269E7546C6D3FC581DBF2F784469B9"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/dead_crop/fenugreek.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\fenugreek.png",
+    "Sha256": "818712694D5B083335A49D752F29A2FF525B55EEF9CF9110E5C3A9F0D415047A"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/models/block/dead_crop/fenugreek_young.json",
+    "Origin": "moddev\\inventory\\fenugreek-display-20261026\\candidate-resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\fenugreek_young.json",
+    "Sha256": "BD98EBAB16E4BA3BF85EAE8C40E21BB9E3E5DBCA993B8532E380C7F20789E521"
+  },
+  {
+    "Phase": "candidate",
+    "Resource": "assets/tfcfarmingplus/textures/block/dead_crop/fenugreek_young.png",
+    "Origin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\fenugreek_young.png",
+    "Sha256": "5BE60C4DDD6437EB09669965DBEF683DCB70E06E97A87138205DA5D0B8EB2EF5"
+  }
+]

@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/bambara_nut_patch","placement":[{"type":"tfc:climate","min_temperature":11,"max_temperature":31,"min_groundwater":80,"max_groundwater":320},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

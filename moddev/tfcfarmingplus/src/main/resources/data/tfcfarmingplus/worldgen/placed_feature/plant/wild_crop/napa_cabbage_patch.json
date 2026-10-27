@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/napa_cabbage_patch","placement":[{"type":"tfc:climate","min_temperature":-8,"max_temperature":24,"min_groundwater":40,"max_groundwater":280},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

@@ -1,0 +1,65 @@
+{
+  "Materials": 6,
+  "Rows": [
+    {
+      "Name": "flax",
+      "Product": "tfcfarmingplus:fiber/flax",
+      "Cultivated": "原生crop_yield_uniform，0至动态6～10上限",
+      "Wild": "成熟1～3份；未熟不出材料",
+      "Planter": 1,
+      "Uses": "12份同种纤维织麻布；两份纤维制两绳；高档棕料",
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "hemp",
+      "Product": "tfcfarmingplus:fiber/hemp",
+      "Cultivated": "原生crop_yield_uniform，0至动态6～10上限",
+      "Wild": "成熟1～3份；未熟不出材料",
+      "Planter": 1,
+      "Uses": "12份同种纤维织麻布；两份纤维制两绳；高档棕料",
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "ramie",
+      "Product": "tfcfarmingplus:fiber/ramie",
+      "Cultivated": "原生crop_yield_uniform，0至动态6～10上限",
+      "Wild": "成熟1～3份；未熟不出材料",
+      "Planter": 1,
+      "Uses": "12份同种纤维织麻布；两份纤维制两绳；高档棕料",
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "sisal",
+      "Product": "tfcfarmingplus:fiber/sisal",
+      "Cultivated": "原生crop_yield_uniform，0至动态6～10上限",
+      "Wild": "成熟1～3份；未熟不出材料",
+      "Planter": 1,
+      "Uses": "12份同种纤维织麻布；两份纤维制两绳；高档棕料",
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "cotton",
+      "Product": "tfcfarmingplus:cotton_boll",
+      "Cultivated": "原生crop_yield_uniform，0至动态6～10上限",
+      "Wild": "成熟1～3份；未熟不出材料",
+      "Planter": 1,
+      "Uses": "棉铃＋纺锤制一份通用线；高档棕料",
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "hops",
+      "Product": "tfcfarmingplus:hops",
+      "Cultivated": "原生crop_yield_uniform，0至动态6～10上限",
+      "Wild": "成熟1～3份；未熟不出材料",
+      "Planter": 1,
+      "Uses": "低档绿料；酿酒链仍后续",
+      "RuntimeVerified": false
+    }
+  ],
+  "Recipes": 3,
+  "Findings": [],
+  "RuntimeVerified": false,
+  "SourceInstance": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)",
+  "NativeTfcSha256": "1565EFA96F090BEC8E8C12F54AE222D3F9321EF7FAD2EA3AF752FB9198E803DF",
+  "NeoForgeTagJar": "D:\\TFC农业重置\\.tooling\\game\\libraries\\net\\neoforged\\neoforge\\21.1.248\\neoforge-21.1.248-universal.jar"
+}

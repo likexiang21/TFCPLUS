@@ -1,0 +1,19 @@
+{
+  "Blockstates": 482,
+  "ModelApplications": 2839,
+  "UnresolvedApplications": 0,
+  "CropSpecies": 87,
+  "TallSpecies": 27,
+  "TreeSpecies": 49,
+  "TreeLeafCases": 196,
+  "NonCubeTreeLeafCases": 0,
+  "SourcePNG": 1748,
+  "LivePairedTextures": 98,
+  "PairedTextureBoundaryDifferences": 98,
+  "MissingOwnSeedModels": [],
+  "SeedTextureNamespaces": {
+    "tfc": 87
+  },
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

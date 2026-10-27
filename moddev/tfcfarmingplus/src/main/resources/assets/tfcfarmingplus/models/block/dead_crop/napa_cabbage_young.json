@@ -1,0 +1,76 @@
+{
+  "credit": "TFC Farming Plus - AR4-I existing whole young dry napa cabbage region, no head",
+  "ambientocclusion": false,
+  "textures": {
+    "crop": "tfcfarmingplus:block/dead_crop/napa_cabbage_young",
+    "particle": "#crop"
+  },
+  "elements": [
+    {
+      "from": [
+        8,
+        0.02,
+        5.5
+      ],
+      "to": [
+        8,
+        4.02,
+        10.5
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            5,
+            12,
+            10,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "west": {
+          "uv": [
+            5,
+            12,
+            10,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        0.02,
+        8
+      ],
+      "to": [
+        10.5,
+        4.02,
+        8
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            12,
+            10,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "south": {
+          "uv": [
+            5,
+            12,
+            10,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    }
+  ]
+}

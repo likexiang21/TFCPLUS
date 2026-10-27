@@ -1,0 +1,76 @@
+{
+  "credit": "TFC Farming Plus - AR4-E two whole dry young leaves from existing dry lettuce atlas",
+  "ambientocclusion": false,
+  "textures": {
+    "crop": "tfcfarmingplus:block/dead_crop/lettuce",
+    "particle": "#crop"
+  },
+  "elements": [
+    {
+      "from": [
+        8,
+        0.02,
+        6
+      ],
+      "to": [
+        8,
+        4.02,
+        10
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0.02,
+        8
+      ],
+      "to": [
+        10,
+        4.02,
+        8
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#crop"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#crop"
+        }
+      }
+    }
+  ]
+}

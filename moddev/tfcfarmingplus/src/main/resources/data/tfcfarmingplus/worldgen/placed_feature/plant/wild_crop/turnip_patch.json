@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/turnip_patch","placement":[{"type":"tfc:climate","min_temperature":-12,"max_temperature":20,"min_groundwater":80,"max_groundwater":280},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

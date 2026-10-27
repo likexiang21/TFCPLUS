@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tfcagricultureplus:food/ground_ginger",
+    "tfcagricultureplus:food/ground_turmeric",
+    "tfcagricultureplus:food/ground_black_pepper"
+  ]
+}

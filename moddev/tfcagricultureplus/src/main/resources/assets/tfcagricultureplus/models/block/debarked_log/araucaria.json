@@ -1,0 +1,9 @@
+{
+  "parent": "tfcagricultureplus:block/timber/debarked_log",
+  "textures": {
+    "side": "afc:block/wood/stripped_log/araucaria",
+    "top": "afc:block/wood/stripped_log_top/araucaria",
+    "inner": "afc:block/wood/stripped_log/araucaria",
+    "particle": "afc:block/wood/stripped_log/araucaria"
+  }
+}

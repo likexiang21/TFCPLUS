@@ -1,0 +1,31 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "afc:wood/stripped_wood/araucaria"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bast/araucaria"
+      }
+    },
+    {
+      "action": "drop_above",
+      "item": {
+        "count": 2,
+        "id": "tfcagricultureplus:bast/araucaria"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfcagricultureplus:debarked_log/araucaria"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_chop",
+    "volume": 0.6,
+    "pitch": 0.8
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/fig"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/fig"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/fig"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/fig"
+    }
+  }
+}

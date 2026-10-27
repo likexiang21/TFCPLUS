@@ -1,0 +1,1 @@
+{"type":"firmalife:oven","duration":1200,"temperature":400.0,"ingredient":{"type":"tfc:and","children":[{"item":"tfcagricultureplus:food/raw_sweet_pancake"},{"type":"tfc:not_rotten"}]},"result":{"count":1,"id":"tfcagricultureplus:food/sweet_pancake"}}

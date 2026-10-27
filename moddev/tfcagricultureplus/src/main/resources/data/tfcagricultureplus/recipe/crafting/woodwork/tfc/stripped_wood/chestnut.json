@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:wood/stripped_log/chestnut"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bast/chestnut"
+    }
+  },
+  "result": {
+    "id": "tfc:wood/stripped_wood/chestnut",
+    "count": 1
+  }
+}

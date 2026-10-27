@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "mature=true": {
+      "model": "tfcfarmingplus:block/wild_crop/napa_cabbage"
+    },
+    "mature=false": {
+      "model": "tfcfarmingplus:block/wild_crop/napa_cabbage_young"
+    }
+  }
+}

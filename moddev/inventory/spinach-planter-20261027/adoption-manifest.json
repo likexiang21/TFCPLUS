@@ -1,0 +1,13 @@
+{
+  "NewPNG": "assets/tfcfarmingplus/textures/block/crop/spinach_planter_mature_v1.png",
+  "ModifiedResource": "data/firmalife/firmalife/plantable/spinach.json",
+  "ModifiedTools": [
+    "spinach-display-contract.json",
+    "audit-reviewed-crop-display.ps1",
+    "gen-crops.ps1"
+  ],
+  "ProtectedPNGs": 14,
+  "GameplayUnchanged": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

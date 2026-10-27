@@ -1,0 +1,103 @@
+[
+  {
+    "Case": "valid",
+    "ExitCode": 0,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-common_bean",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-cowpea",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-pea",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-winged_bean",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-common_bean",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-cowpea",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-pea",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-winged_bean",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-common_bean",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-cowpea",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-pea",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-winged_bean",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-food-id",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "b-shadows-art",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "prior-celtuce-regression",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "protected-32",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "unprotected-32",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "invalid-png",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "safe-copy-nineteen-json-only",
+    "Files": 19,
+    "ByteIdentical": true,
+    "Passed": true
+  }
+]

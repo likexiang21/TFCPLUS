@@ -1,0 +1,380 @@
+﻿Compiled from "TFCBlockEntity.java"
+public abstract class net.dries007.tfc.common.blockentities.TFCBlockEntity extends net.minecraft.world.level.block.entity.BlockEntity {
+  protected net.dries007.tfc.common.blockentities.TFCBlockEntity(net.minecraft.world.level.block.entity.BlockEntityType<?>, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+  public final net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket getUpdatePacket();
+  public final void onDataPacket(net.minecraft.network.Connection, net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket, net.minecraft.core.HolderLookup$Provider);
+  public final net.minecraft.nbt.CompoundTag getUpdateTag(net.minecraft.core.HolderLookup$Provider);
+  public final void handleUpdateTag(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider);
+  public final void setRemoved();
+  public final void onChunkUnloaded();
+  public final void onLoad();
+  protected void onLoadAdditional();
+  protected void onUnloadAdditional();
+  protected void saveAdditional(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider);
+  protected void loadAdditional(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider);
+  public void markForSync();
+  public final void markDirty();
+  public final void sendVanillaUpdatePacket();
+  public net.minecraft.network.protocol.Packet getUpdatePacket();
+}
+Compiled from "InventoryBlockEntity.java"
+public abstract class net.dries007.tfc.common.blockentities.InventoryBlockEntity<C extends net.neoforged.neoforge.items.IItemHandlerModifiable & net.neoforged.neoforge.common.util.INBTSerializable<net.minecraft.nbt.CompoundTag>> extends net.dries007.tfc.common.blockentities.TFCBlockEntity implements net.dries007.tfc.common.container.ISlotCallback, net.minecraft.world.MenuProvider, net.minecraft.world.Clearable {
+  protected final C inventory;
+  protected final net.dries007.tfc.common.capabilities.SidedHandler<net.neoforged.neoforge.items.IItemHandlerModifiable> sidedInventory;
+  protected net.minecraft.network.chat.Component customName;
+  protected final net.minecraft.network.chat.Component defaultName;
+  static final boolean $assertionsDisabled;
+  public static net.dries007.tfc.common.blockentities.InventoryBlockEntity$InventoryFactory<net.neoforged.neoforge.items.ItemStackHandler> defaultInventory(int);
+  protected net.dries007.tfc.common.blockentities.InventoryBlockEntity(net.minecraft.world.level.block.entity.BlockEntityType<?>, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, net.dries007.tfc.common.blockentities.InventoryBlockEntity$InventoryFactory<C>);
+  protected net.dries007.tfc.common.blockentities.InventoryBlockEntity(net.minecraft.world.level.block.entity.BlockEntityType<?>, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, net.dries007.tfc.common.blockentities.InventoryBlockEntity$InventoryFactory<C>, java.lang.String);
+  public C getInventory();
+  public net.neoforged.neoforge.items.IItemHandler getSidedInventory(net.minecraft.core.Direction);
+  public net.minecraft.network.chat.Component getDisplayName();
+  protected void applyImplicitComponents(net.minecraft.world.level.block.entity.BlockEntity$DataComponentInput);
+  protected void collectImplicitComponents(net.minecraft.core.component.DataComponentMap$Builder);
+  public net.minecraft.world.inventory.AbstractContainerMenu createMenu(int, net.minecraft.world.entity.player.Inventory, net.minecraft.world.entity.player.Player);
+  public void loadAdditional(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider);
+  public void saveAdditional(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider);
+  public void clearContent();
+  public void ejectInventory();
+  public void setAndUpdateSlots(int);
+  public boolean canInteractWith(net.minecraft.world.entity.player.Player);
+  static {};
+}
+Compiled from "TickCounterBlockEntity.java"
+public class net.dries007.tfc.common.blockentities.TickCounterBlockEntity extends net.dries007.tfc.common.blockentities.TFCBlockEntity {
+  protected long lastUpdateTick;
+  static final boolean $assertionsDisabled;
+  public static void reset(net.minecraft.world.level.Level, net.minecraft.core.BlockPos);
+  public static void addTicks(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, long);
+  public net.dries007.tfc.common.blockentities.TickCounterBlockEntity(net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+  protected net.dries007.tfc.common.blockentities.TickCounterBlockEntity(net.minecraft.world.level.block.entity.BlockEntityType<?>, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+  public long getTicksSinceUpdate();
+  public void setLastUpdateTick(long);
+  public long getLastUpdateTick();
+  public void resetCounter();
+  public void reduceCounter(long);
+  public void increaseCounter(long);
+  public void loadAdditional(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider);
+  public void saveAdditional(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider);
+  static {};
+}
+Compiled from "TickableBlockEntity.java"
+public abstract class net.dries007.tfc.common.blockentities.TickableBlockEntity extends net.dries007.tfc.common.blockentities.TFCBlockEntity {
+  protected net.dries007.tfc.common.blockentities.TickableBlockEntity(net.minecraft.world.level.block.entity.BlockEntityType<?>, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+  public void checkForLastTickSync();
+  public void markForSync();
+}
+Compiled from "BlockEntityContainer.java"
+public abstract class net.dries007.tfc.common.container.BlockEntityContainer<T extends net.dries007.tfc.common.blockentities.InventoryBlockEntity<?>> extends net.dries007.tfc.common.container.Container {
+  protected final T blockEntity;
+  protected net.dries007.tfc.common.container.BlockEntityContainer(net.minecraft.world.inventory.MenuType<?>, int, T);
+  public boolean stillValid(net.minecraft.world.entity.player.Player);
+  public T getBlockEntity();
+}
+Compiled from "Container.java"
+public class net.dries007.tfc.common.container.Container extends net.minecraft.world.inventory.AbstractContainerMenu {
+  protected int containerSlots;
+  protected net.minecraft.world.entity.player.Player player;
+  protected net.dries007.tfc.common.container.ISlotCallback callback;
+  public static net.dries007.tfc.common.container.Container create(net.minecraft.world.inventory.MenuType<?>, int, net.minecraft.world.entity.player.Inventory);
+  protected net.dries007.tfc.common.container.Container(net.dries007.tfc.common.container.ISlotCallback, net.minecraft.world.inventory.MenuType<?>, int);
+  protected net.dries007.tfc.common.container.Container(net.minecraft.world.inventory.MenuType<?>, int);
+  public <C extends net.dries007.tfc.common.container.Container> C init(net.minecraft.world.entity.player.Inventory, int);
+  public <C extends net.dries007.tfc.common.container.Container> C init(net.minecraft.world.entity.player.Inventory);
+  public net.minecraft.world.item.ItemStack quickMoveStack(net.minecraft.world.entity.player.Player, int);
+  public void setCarried(net.minecraft.world.item.ItemStack);
+  public boolean stillValid(net.minecraft.world.entity.player.Player);
+  protected boolean moveStack(net.minecraft.world.item.ItemStack, int);
+  protected void addContainerSlots();
+  protected final void addPlayerInventorySlots(net.minecraft.world.entity.player.Inventory, int);
+  protected final void giveItemStackToPlayerOrDrop(net.minecraft.world.entity.player.Player, net.minecraft.world.item.ItemStack);
+  public final net.dries007.tfc.common.container.Container$IndexType typeOf(int);
+}
+Compiled from "ItemStackContainer.java"
+public class net.dries007.tfc.common.container.ItemStackContainer extends net.dries007.tfc.common.container.Container {
+  protected final net.minecraft.world.item.ItemStack stack;
+  protected final net.minecraft.world.entity.player.Player player;
+  protected final net.minecraft.world.InteractionHand hand;
+  protected final int hotbarIndex;
+  protected int itemIndex;
+  protected net.dries007.tfc.common.container.ItemStackContainer(net.minecraft.world.inventory.MenuType<?>, int, net.minecraft.world.entity.player.Inventory, net.minecraft.world.item.ItemStack, net.minecraft.world.InteractionHand, int);
+  public <C extends net.dries007.tfc.common.container.Container> C init(net.minecraft.world.entity.player.Inventory, int);
+  public net.minecraft.world.item.ItemStack getTargetStack();
+  public boolean stillValid(net.minecraft.world.entity.player.Player);
+  public void clicked(int, int, net.minecraft.world.inventory.ClickType, net.minecraft.world.entity.player.Player);
+  static {};
+}
+Compiled from "ExtendedProperties.java"
+public class net.dries007.tfc.common.blocks.ExtendedProperties {
+  static final boolean $assertionsDisabled;
+  public static net.dries007.tfc.common.blocks.ExtendedProperties of(net.minecraft.world.level.block.state.BlockBehaviour$Properties);
+  public static net.dries007.tfc.common.blocks.ExtendedProperties of(net.minecraft.world.level.block.state.BlockBehaviour);
+  public static net.dries007.tfc.common.blocks.ExtendedProperties of();
+  public static net.dries007.tfc.common.blocks.ExtendedProperties of(net.minecraft.world.item.DyeColor);
+  public static net.dries007.tfc.common.blocks.ExtendedProperties of(net.minecraft.world.level.material.MapColor);
+  public static net.dries007.tfc.common.blocks.ExtendedProperties of(java.util.function.Function<net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.material.MapColor>);
+  public net.dries007.tfc.common.blocks.ExtendedProperties blockEntity(java.util.function.Supplier<? extends net.minecraft.world.level.block.entity.BlockEntityType<?>>);
+  public <T extends net.minecraft.world.level.block.entity.BlockEntity> net.dries007.tfc.common.blocks.ExtendedProperties ticks(net.minecraft.world.level.block.entity.BlockEntityTicker<T>);
+  public <T extends net.minecraft.world.level.block.entity.BlockEntity> net.dries007.tfc.common.blocks.ExtendedProperties serverTicks(net.minecraft.world.level.block.entity.BlockEntityTicker<T>);
+  public <T extends net.minecraft.world.level.block.entity.BlockEntity> net.dries007.tfc.common.blocks.ExtendedProperties clientTicks(net.minecraft.world.level.block.entity.BlockEntityTicker<T>);
+  public <T extends net.minecraft.world.level.block.entity.BlockEntity> net.dries007.tfc.common.blocks.ExtendedProperties ticks(net.minecraft.world.level.block.entity.BlockEntityTicker<T>, net.minecraft.world.level.block.entity.BlockEntityTicker<T>);
+  public net.dries007.tfc.common.blocks.ExtendedProperties flammable(int, int);
+  public net.dries007.tfc.common.blocks.ExtendedProperties flammableLikeLogs();
+  public net.dries007.tfc.common.blocks.ExtendedProperties flammableLikePlanks();
+  public net.dries007.tfc.common.blocks.ExtendedProperties flammableLikeLeaves();
+  public net.dries007.tfc.common.blocks.ExtendedProperties flammableLikeWool();
+  public net.dries007.tfc.common.blocks.ExtendedProperties pathType(net.minecraft.world.level.pathfinder.PathType);
+  public net.dries007.tfc.common.blocks.ExtendedProperties enchantPower(float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties enchantPower(java.util.function.ToDoubleFunction<net.minecraft.world.level.block.state.BlockState>);
+  public net.dries007.tfc.common.blocks.ExtendedProperties cloneEmpty();
+  public net.dries007.tfc.common.blocks.ExtendedProperties cloneItem(net.minecraft.world.level.ItemLike);
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties properties();
+  public boolean hasBlockEntity();
+  public <T extends net.minecraft.world.level.block.entity.BlockEntity> net.minecraft.world.level.block.entity.BlockEntityType<T> blockEntity();
+  public net.dries007.tfc.common.blocks.ExtendedProperties noCollission();
+  public net.dries007.tfc.common.blocks.ExtendedProperties noOcclusion();
+  public net.dries007.tfc.common.blocks.ExtendedProperties friction(float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties speedFactor(float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties jumpFactor(float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties sound(net.minecraft.world.level.block.SoundType);
+  public net.dries007.tfc.common.blocks.ExtendedProperties lightLevel(java.util.function.ToIntFunction<net.minecraft.world.level.block.state.BlockState>);
+  public net.dries007.tfc.common.blocks.ExtendedProperties strength(float, float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties instabreak();
+  public net.dries007.tfc.common.blocks.ExtendedProperties strength(float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties randomTicks();
+  public net.dries007.tfc.common.blocks.ExtendedProperties dynamicShape();
+  public net.dries007.tfc.common.blocks.ExtendedProperties noLootTable();
+  public net.dries007.tfc.common.blocks.ExtendedProperties dropsLike(net.minecraft.world.level.block.Block);
+  public net.dries007.tfc.common.blocks.ExtendedProperties dropsLike(java.util.function.Supplier<net.minecraft.world.level.block.Block>);
+  public net.dries007.tfc.common.blocks.ExtendedProperties air();
+  public net.dries007.tfc.common.blocks.ExtendedProperties isValidSpawn(net.minecraft.world.level.block.state.BlockBehaviour$StateArgumentPredicate<net.minecraft.world.entity.EntityType<?>>);
+  public net.dries007.tfc.common.blocks.ExtendedProperties isRedstoneConductor(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+  public net.dries007.tfc.common.blocks.ExtendedProperties isSuffocating(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+  public net.dries007.tfc.common.blocks.ExtendedProperties isViewBlocking(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+  public net.dries007.tfc.common.blocks.ExtendedProperties hasPostProcess(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+  public net.dries007.tfc.common.blocks.ExtendedProperties emissiveRendering(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+  public net.dries007.tfc.common.blocks.ExtendedProperties requiresCorrectToolForDrops();
+  public net.dries007.tfc.common.blocks.ExtendedProperties mapColor(net.minecraft.world.level.material.MapColor);
+  public net.dries007.tfc.common.blocks.ExtendedProperties mapColor(java.util.function.Function<net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.material.MapColor>);
+  public net.dries007.tfc.common.blocks.ExtendedProperties mapColor(net.minecraft.world.item.DyeColor);
+  public net.dries007.tfc.common.blocks.ExtendedProperties destroyTime(float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties explosionResistance(float);
+  public net.dries007.tfc.common.blocks.ExtendedProperties ignitedByLava();
+  public net.dries007.tfc.common.blocks.ExtendedProperties liquid();
+  public net.dries007.tfc.common.blocks.ExtendedProperties forceSolidOn();
+  public net.dries007.tfc.common.blocks.ExtendedProperties forceSolidOff();
+  public net.dries007.tfc.common.blocks.ExtendedProperties pushReaction(net.minecraft.world.level.material.PushReaction);
+  public net.dries007.tfc.common.blocks.ExtendedProperties offsetType(net.minecraft.world.level.block.state.BlockBehaviour$OffsetType);
+  public net.dries007.tfc.common.blocks.ExtendedProperties requiredFeatures(net.minecraft.world.flag.FeatureFlag...);
+  public net.dries007.tfc.common.blocks.ExtendedProperties instrument(net.minecraft.world.level.block.state.properties.NoteBlockInstrument);
+  public net.dries007.tfc.common.blocks.ExtendedProperties defaultInstrument();
+  public net.dries007.tfc.common.blocks.ExtendedProperties replaceable();
+  net.minecraft.world.level.block.entity.BlockEntity newBlockEntity(net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+  <T extends net.minecraft.world.level.block.entity.BlockEntity> net.minecraft.world.level.block.entity.BlockEntityTicker<T> getTicker(net.minecraft.world.level.Level, net.minecraft.world.level.block.entity.BlockEntityType<T>);
+  int getFlammability();
+  int getFireSpreadSpeed();
+  net.minecraft.world.level.pathfinder.PathType getPathType();
+  float getEnchantmentPower(net.minecraft.world.level.block.state.BlockState);
+  net.minecraft.world.item.ItemStack getCloneItemStack(net.minecraft.world.level.block.Block);
+  static {};
+}
+Compiled from "ExtendedBlock.java"
+public class net.dries007.tfc.common.blocks.ExtendedBlock extends net.minecraft.world.level.block.Block implements net.dries007.tfc.common.blocks.IForgeBlockExtension {
+  public net.dries007.tfc.common.blocks.ExtendedBlock(net.dries007.tfc.common.blocks.ExtendedProperties);
+  public net.dries007.tfc.common.blocks.ExtendedProperties getExtendedProperties();
+}
+Compiled from "FluidHolder.java"
+public final class net.dries007.tfc.common.fluids.FluidHolder<F extends net.minecraft.world.level.material.FlowingFluid> extends java.lang.Record {
+  public net.dries007.tfc.common.fluids.FluidHolder(net.neoforged.neoforge.registries.DeferredHolder<net.neoforged.neoforge.fluids.FluidType, net.neoforged.neoforge.fluids.FluidType>, net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.level.material.Fluid, F>, net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.level.material.Fluid, F>);
+  public F getFlowing();
+  public F getSource();
+  public net.neoforged.neoforge.fluids.FluidType getType();
+  public net.minecraft.world.level.block.state.BlockState createSourceBlock();
+  public final java.lang.String toString();
+  public final int hashCode();
+  public final boolean equals(java.lang.Object);
+  public net.neoforged.neoforge.registries.DeferredHolder<net.neoforged.neoforge.fluids.FluidType, net.neoforged.neoforge.fluids.FluidType> type();
+  public net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.level.material.Fluid, F> flowing();
+  public net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.level.material.Fluid, F> source();
+}
+Compiled from "MoltenFluid.java"
+public abstract class net.dries007.tfc.common.fluids.MoltenFluid extends net.neoforged.neoforge.fluids.BaseFlowingFluid {
+  protected net.dries007.tfc.common.fluids.MoltenFluid(net.neoforged.neoforge.fluids.BaseFlowingFluid$Properties);
+  protected void animateTick(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.material.FluidState, net.minecraft.util.RandomSource);
+  protected void randomTick(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.material.FluidState, net.minecraft.util.RandomSource);
+  protected net.minecraft.core.particles.ParticleOptions getDripParticle();
+  protected boolean isRandomlyTicking();
+  protected void beforeDestroyingBlock(net.minecraft.world.level.LevelAccessor, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+  protected int getSlopeFindDistance(net.minecraft.world.level.LevelReader);
+  protected int getDropOff(net.minecraft.world.level.LevelReader);
+  public int getTickDelay(net.minecraft.world.level.LevelReader);
+  protected int getSpreadDelay(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.material.FluidState, net.minecraft.world.level.material.FluidState);
+}
+Compiled from "MixingFluid.java"
+public abstract class net.dries007.tfc.common.fluids.MixingFluid extends net.neoforged.neoforge.fluids.BaseFlowingFluid {
+  protected net.dries007.tfc.common.fluids.MixingFluid(net.neoforged.neoforge.fluids.BaseFlowingFluid$Properties);
+  public int sourceNeighborCount(net.minecraft.world.level.LevelReader, net.minecraft.core.BlockPos);
+  public boolean isSourceBlockOfThisType(net.minecraft.world.level.material.FluidState);
+  public boolean isSame(net.minecraft.world.level.material.Fluid);
+  public void spreadToSides(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.material.FluidState, net.minecraft.world.level.block.state.BlockState);
+  protected void spread(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.material.FluidState);
+  protected net.minecraft.world.level.material.FluidState getNewLiquid(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+  public void tick(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.material.FluidState);
+  public void animateTick(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.material.FluidState, net.minecraft.util.RandomSource);
+  public net.minecraft.core.particles.ParticleOptions getDripParticle();
+}
+Compiled from "Metal.java"
+public final class net.dries007.tfc.util.Metal extends java.lang.Enum<net.dries007.tfc.util.Metal> implements net.minecraft.util.StringRepresentable, net.dries007.tfc.util.registry.RegistryMetal {
+  public static final net.dries007.tfc.util.Metal BISMUTH;
+  public static final net.dries007.tfc.util.Metal BISMUTH_BRONZE;
+  public static final net.dries007.tfc.util.Metal BLACK_BRONZE;
+  public static final net.dries007.tfc.util.Metal BRONZE;
+  public static final net.dries007.tfc.util.Metal BRASS;
+  public static final net.dries007.tfc.util.Metal COPPER;
+  public static final net.dries007.tfc.util.Metal GOLD;
+  public static final net.dries007.tfc.util.Metal NICKEL;
+  public static final net.dries007.tfc.util.Metal ROSE_GOLD;
+  public static final net.dries007.tfc.util.Metal SILVER;
+  public static final net.dries007.tfc.util.Metal TIN;
+  public static final net.dries007.tfc.util.Metal ZINC;
+  public static final net.dries007.tfc.util.Metal STERLING_SILVER;
+  public static final net.dries007.tfc.util.Metal WROUGHT_IRON;
+  public static final net.dries007.tfc.util.Metal CAST_IRON;
+  public static final net.dries007.tfc.util.Metal PIG_IRON;
+  public static final net.dries007.tfc.util.Metal STEEL;
+  public static final net.dries007.tfc.util.Metal BLACK_STEEL;
+  public static final net.dries007.tfc.util.Metal BLUE_STEEL;
+  public static final net.dries007.tfc.util.Metal RED_STEEL;
+  public static final net.dries007.tfc.util.Metal WEAK_STEEL;
+  public static final net.dries007.tfc.util.Metal WEAK_BLUE_STEEL;
+  public static final net.dries007.tfc.util.Metal WEAK_RED_STEEL;
+  public static final net.dries007.tfc.util.Metal HIGH_CARBON_STEEL;
+  public static final net.dries007.tfc.util.Metal HIGH_CARBON_BLACK_STEEL;
+  public static final net.dries007.tfc.util.Metal HIGH_CARBON_BLUE_STEEL;
+  public static final net.dries007.tfc.util.Metal HIGH_CARBON_RED_STEEL;
+  public static final net.dries007.tfc.util.Metal UNKNOWN;
+  public static net.dries007.tfc.util.Metal[] values();
+  public static net.dries007.tfc.util.Metal valueOf(java.lang.String);
+  public java.lang.String getSerializedName();
+  public int getColor();
+  public net.minecraft.world.item.Rarity rarity();
+  public float weatheringResistance();
+  public boolean defaultParts();
+  public boolean allParts();
+  public net.dries007.tfc.common.LevelTier toolTier();
+  public net.minecraft.core.Holder<net.minecraft.world.item.ArmorMaterial> armorMaterial();
+  public int armorDurability(net.minecraft.world.item.ArmorItem$Type);
+  public net.minecraft.world.level.material.MapColor mapColor();
+  public net.minecraft.world.level.block.Block getBlock(net.dries007.tfc.util.Metal$BlockType);
+  public boolean isPiglinCurrency();
+  public int tier();
+  static {};
+}
+Compiled from "FoodTrait.java"
+public final class net.dries007.tfc.common.component.food.FoodTrait {
+  public static final com.mojang.serialization.Codec<net.minecraft.core.Holder<net.dries007.tfc.common.component.food.FoodTrait>> CODEC;
+  public static final net.minecraft.network.codec.StreamCodec<net.minecraft.network.RegistryFriendlyByteBuf, net.minecraft.core.Holder<net.dries007.tfc.common.component.food.FoodTrait>> STREAM_CODEC;
+  public net.dries007.tfc.common.component.food.FoodTrait(java.util.function.Supplier<java.lang.Double>, java.lang.String);
+  public float getDecayModifier();
+  public void addTooltipInfo(java.util.function.Consumer<net.minecraft.network.chat.Component>);
+  static {};
+}
+Compiled from "FoodTraits.java"
+public class net.dries007.tfc.common.component.food.FoodTraits {
+  public static final net.minecraft.resources.ResourceKey<net.minecraft.core.Registry<net.dries007.tfc.common.component.food.FoodTrait>> KEY;
+  public static final net.minecraft.core.Registry<net.dries007.tfc.common.component.food.FoodTrait> REGISTRY;
+  public static final net.neoforged.neoforge.registries.DeferredRegister<net.dries007.tfc.common.component.food.FoodTrait> TRAITS;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> SALTED;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> BRINED;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> PICKLED;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> PRESERVED;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> PRESERVED_IN_VINEGAR;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> CHARCOAL_GRILLED;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> WOOD_GRILLED;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> BURNT_TO_A_CRISP;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> WILD;
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.dries007.tfc.common.component.food.FoodTrait, net.dries007.tfc.common.component.food.FoodTrait> CANNED;
+  public net.dries007.tfc.common.component.food.FoodTraits();
+  static {};
+}
+Compiled from "FoodCapability.java"
+public final class net.dries007.tfc.common.component.food.FoodCapability {
+  public static final net.dries007.tfc.util.data.DataManager<net.dries007.tfc.common.component.food.FoodDefinition> MANAGER;
+  public static final net.dries007.tfc.util.collections.IndirectHashCollection<net.minecraft.world.item.Item, net.dries007.tfc.common.component.food.FoodDefinition> CACHE;
+  public net.dries007.tfc.common.component.food.FoodCapability();
+  public static net.dries007.tfc.common.component.food.IFood get(net.minecraft.world.item.ItemStack);
+  public static boolean has(net.minecraft.world.item.ItemStack);
+  public static net.dries007.tfc.common.component.food.FoodDefinition getDefinition(net.minecraft.world.item.ItemStack);
+  public static void setFoodForDynamicItemOnCreate(net.minecraft.world.item.ItemStack, net.dries007.tfc.common.component.food.FoodData);
+  public static net.minecraft.world.item.ItemStack applyTrait(net.minecraft.world.item.ItemStack, net.minecraft.core.Holder<net.dries007.tfc.common.component.food.FoodTrait>);
+  public static net.minecraft.world.item.ItemStack removeTrait(net.minecraft.world.item.ItemStack, net.minecraft.core.Holder<net.dries007.tfc.common.component.food.FoodTrait>);
+  public static boolean hasTrait(net.minecraft.world.item.ItemStack, net.minecraft.core.Holder<net.dries007.tfc.common.component.food.FoodTrait>);
+  public static boolean isRotten(net.minecraft.world.item.ItemStack);
+  public static void addTooltipInfo(net.minecraft.world.item.ItemStack, java.util.function.Consumer<net.minecraft.network.chat.Component>);
+  public static net.minecraft.world.item.ItemStack setCreationDate(net.minecraft.world.item.ItemStack, long);
+  public static net.minecraft.world.item.ItemStack setCreatedNow(net.minecraft.world.item.ItemStack);
+  public static net.minecraft.world.item.ItemStack setTransientNonDecaying(net.minecraft.world.item.ItemStack);
+  public static net.minecraft.world.item.ItemStack setInvisibleNonDecaying(net.minecraft.world.item.ItemStack);
+  public static net.minecraft.world.item.ItemStack setNonDecaying(net.minecraft.world.item.ItemStack);
+  public static net.minecraft.world.item.ItemStack setRotten(net.minecraft.world.item.ItemStack);
+  public static net.minecraft.world.item.ItemStack updateFoodFromPrevious(net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack);
+  public static net.minecraft.world.item.ItemStack updateFoodFromAllPrevious(java.util.Collection<net.minecraft.world.item.ItemStack>, net.minecraft.world.item.ItemStack);
+  public static void markRecipeOutputsAsNonDecaying(net.minecraft.core.RegistryAccess, net.minecraft.world.item.crafting.RecipeManager);
+  public static net.minecraft.world.item.ItemStack mergeItemStacks(net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack);
+  public static boolean areStacksStackableExceptCreationDate(net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack);
+  public static long getRoundedCreationDate();
+  public static long getRoundedCreationDate(long);
+  public static net.minecraft.world.item.ItemStack roundCreationDate(net.minecraft.world.item.ItemStack);
+  public static boolean isRotten(long, float);
+  public static long getLifeTime(float);
+  static {};
+}
+Compiled from "FoodDefinition.java"
+public final class net.dries007.tfc.common.component.food.FoodDefinition extends java.lang.Record implements net.dries007.tfc.common.recipes.IRecipePredicate<net.minecraft.world.item.ItemStack> {
+  public static final com.mojang.serialization.Codec<net.dries007.tfc.common.component.food.FoodDefinition> CODEC;
+  public static final net.minecraft.network.codec.StreamCodec<net.minecraft.network.RegistryFriendlyByteBuf, net.dries007.tfc.common.component.food.FoodDefinition> STREAM_CODEC;
+  public static final net.dries007.tfc.common.component.food.FoodDefinition DEFAULT;
+  public net.dries007.tfc.common.component.food.FoodDefinition(net.minecraft.world.item.crafting.Ingredient, net.dries007.tfc.common.component.food.FoodData, boolean);
+  public boolean matches(net.minecraft.world.item.ItemStack);
+  public final java.lang.String toString();
+  public final int hashCode();
+  public final boolean equals(java.lang.Object);
+  public net.minecraft.world.item.crafting.Ingredient ingredient();
+  public net.dries007.tfc.common.component.food.FoodData food();
+  public boolean edible();
+  public boolean matches(java.lang.Object);
+  static {};
+}
+Compiled from "AnimalProductEvent.java"
+public final class net.dries007.tfc.util.events.AnimalProductEvent extends net.neoforged.bus.api.Event implements net.neoforged.bus.api.ICancellableEvent {
+  public static boolean produce(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.dries007.tfc.common.entities.livestock.TFCAnimalProperties, net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack, int);
+  public static boolean produce(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.entity.player.Player, net.dries007.tfc.common.entities.livestock.TFCAnimalProperties, net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack, int);
+  public net.dries007.tfc.util.events.AnimalProductEvent(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.entity.player.Player, net.dries007.tfc.common.entities.livestock.TFCAnimalProperties, net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack, int);
+  public net.dries007.tfc.util.events.AnimalProductEvent(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.entity.player.Player, net.dries007.tfc.common.entities.livestock.TFCAnimalProperties, net.neoforged.neoforge.fluids.FluidStack, net.minecraft.world.item.ItemStack, int);
+  public net.minecraft.world.level.Level getLevel();
+  public net.minecraft.core.BlockPos getPos();
+  public net.dries007.tfc.common.entities.livestock.TFCAnimalProperties getAnimalProperties();
+  public net.minecraft.world.entity.Entity getEntity();
+  public net.minecraft.world.entity.player.Player getPlayer();
+  public net.minecraft.world.item.ItemStack getTool();
+  public net.minecraft.world.item.ItemStack getProduct();
+  public net.neoforged.neoforge.fluids.FluidStack getFluidProduct();
+  public void setProduct(net.minecraft.world.item.ItemStack);
+  public void setProduct(net.neoforged.neoforge.fluids.FluidStack);
+  public int getUses();
+  public void setUses(int);
+}
+Compiled from "StartFireEvent.java"
+public final class net.dries007.tfc.util.events.StartFireEvent extends net.neoforged.bus.api.Event implements net.neoforged.bus.api.ICancellableEvent {
+  public static boolean startFireWithSound(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, net.minecraft.core.Direction, net.minecraft.world.entity.player.Player, net.minecraft.world.item.ItemStack);
+  public static boolean startFire(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, net.minecraft.core.Direction, net.minecraft.world.entity.player.Player, net.minecraft.world.item.ItemStack);
+  public static boolean startFire(net.minecraft.world.level.Level, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState, net.minecraft.core.Direction, net.minecraft.world.entity.player.Player, net.minecraft.world.item.ItemStack, net.dries007.tfc.util.events.StartFireEvent$FireStrength, double);
+  public net.minecraft.world.level.Level getLevel();
+  public net.minecraft.core.BlockPos getPos();
+  public net.minecraft.world.level.block.state.BlockState getState();
+  public net.minecraft.core.Direction getTargetedFace();
+  public net.minecraft.world.entity.player.Player getPlayer();
+  public net.minecraft.world.item.ItemStack getItemStack();
+  public boolean isStrong();
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tfcagricultureplus:block/debarked_log/mahogany",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "tfcagricultureplus:block/debarked_log/mahogany",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tfcagricultureplus:block/debarked_log/mahogany",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfcagricultureplus:block/debarked_log/mahogany",
+      "y": 270
+    }
+  }
+}

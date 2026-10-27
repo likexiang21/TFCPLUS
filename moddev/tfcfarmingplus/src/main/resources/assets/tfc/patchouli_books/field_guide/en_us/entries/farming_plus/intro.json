@@ -1,0 +1,54 @@
+{
+  "name": "About TFC Farming Plus",
+  "category": "tfc:farming_plus",
+  "icon": "tfcfarmingplus:seeds/spinach",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "TFC Farming Plus",
+      "text": "This tab collects the plants that $(thing)TFC Farming Plus$() adds to TerraFirmaCraft:$(br2)$(li)12 perennial $(l:tfc:farming_plus/bushes)bushes$() — berry bushes, tea and coffee$(li)87 farmable $(l:tfc:farming_plus/crops)crops$()$(li)87 matching $(l:tfc:farming_plus/wild_crops)wild plants$() that provide the seeds$(li)48 $(l:tfc:farming_plus/fruit_trees)fruit trees$() — the sapling grows into branches, and harvest fruiting leaves or ripe branches, depending on the species"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Soil nutrients",
+      "text": "Hold Shift over seeds: unsigned amounts consume nutrients; + amounts return them. Actual return depends on growth, soil and other nutrient supply.$(br2)Use native fertilizer on crops or farmland. Crouching applies a batch; full relevant bars consume none. Compost supplies nitrogen and potassium, not phosphorus; use bone meal or wood ash for phosphorus.$(br2)$(l:tfc:food/fertilizers)Native fertilizers$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Composting",
+      "text": "Vegetables and fruit are high green material; grain is medium green. Project whole winter melons, bottle gourds and cantaloupes also count as high green.$(br2)Leaves and B woodworking sawdust are low brown material. Use the native composter ratio and waiting rules. Bone meal fertilizes soil but poisons compost; keep it out of the composter.$(br2)$(l:tfc:food/composter)Composting instructions$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "materials",
+      "title": "Plant materials",
+      "text": "With expansion B, place 12 of the same plant fiber in a TFC loom and work 12 steps for 1 burlap cloth. Two fibers placed diagonally craft 2 ropes.$(br2)One cotton boll and a native spindle craft 1 generic string; the spindle is returned with damage, or breaks when worn out.$(br2)Plant fibers and cotton bolls are high brown compost material. Hops are low green material; the brewing chain remains future work."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "grain_processing",
+      "title": "Grain processing",
+      "text": "With expansion B, quern one spelt, emmer or einkorn into one native wheat flour. Rotten inputs are rejected and food history is carried over.$(br2)Use existing native dough and mixing bowl recipes. Sorghum is grain rather than a vegetable. Other project grains have no dedicated milling chain yet; eat or compost them under native rules."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "beans_oilseeds",
+      "title": "Beans and oilseeds",
+      "text": "Existing beans, sesame, safflower and sunflower harvests retain their food data and vegetable-tag access to native soup, salads and sandwiches. Equipment and food rules still apply.$(br2)Dedicated oil extraction is not connected; these crops do not become canola paste. Project bowl dough rejects rotten ingredients and carries input food history using TFC rules."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "vegetables_seasoning",
+      "title": "Vegetables and spices",
+      "text": "Project leaf, root and aquatic vegetables can enter native soup, salad and sandwich recipes, or high-green compost.$(br2)With B, grind ginger or turmeric in a mortar. Craft fresh spice powder with fresh, unseasoned soup to season the same soup once.$(br2)Board-cut ginger, turmeric and napa cabbage retain native vegetable uses."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "tea_coffee_status",
+      "title": "Tea and coffee harvests",
+      "text": "Tea and coffee are perennial bushes; right-click during fruiting to harvest leaves or beans.$(br2)Their existing edible behavior is retained. Both are now low-green compost material; combine with brown material in the native composter.$(br2)Tea fixing, roasting and brewing, and coffee roasting, grinding and brewing are not available yet. Raw harvests are not drinks."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1
+}

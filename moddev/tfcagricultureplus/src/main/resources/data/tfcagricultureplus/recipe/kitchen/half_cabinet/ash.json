@@ -1,0 +1,15 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/ash"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:half_cabinet/ash",
+    "count": 1
+  },
+  "pattern": [
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

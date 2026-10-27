@@ -1,0 +1,68 @@
+{
+  "type": "tfcagricultureplus:food_mixing_bowl",
+  "fluid_ingredients": {
+    "amount": 300,
+    "fluid": "firmalife:yeast_starter"
+  },
+  "item_ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfcagricultureplus:foods/cake_flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfcagricultureplus:foods/cake_flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfcagricultureplus:foods/cake_flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "firmalife:foods/raw_eggs"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfc:foods/sweeteners"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result_item": {
+    "count": 1,
+    "id": "tfcagricultureplus:food/cake_dough"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "cowpea",
+  "variant": 2,
+  "prompt": "Use case: stylized-concept. Asset type: original Minecraft inventory food sprite of two fresh green COWPEA / YARDLONG BEAN pods (豇豆). Extremely simple coarse 16x16 pixel art. Two connected long hanging green bean pods, each a continuous solid ribbon at least TWO logical pixels wide all the way from stem to tip; each about 11 logical pixels long. Separate the two pods with a clear transparent space. Gentle curves, no thin taper below two logical pixels, no single-pixel speckles. Readability after reduction to a real 16 by 16 image is the priority. One compact paired-pod icon, bold uninterrupted silhouette, short shared stem. Flat muted green colors, 4-5 shades only, no fine surface detailing. Genuinely transparent background with empty margins. Every shape made of large crisp opaque square blocks, no antialiasing, gradients, tiny gaps, string, leaf crown, text, border, checkerboard or ground shadow. Not an illustration: a deliberately simple 16x16 retro-game icon. Output PNG transparency."
+}

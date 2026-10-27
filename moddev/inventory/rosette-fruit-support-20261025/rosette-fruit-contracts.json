@@ -1,0 +1,637 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-C 5 rosette species / 60 declared states",
+  "Findings": [],
+  "FruitBounds": {
+    "To": [
+      10,
+      12,
+      10
+    ],
+    "From": [
+      6,
+      7,
+      6
+    ]
+  },
+  "LeafCount": 12,
+  "SupportPlanes": [
+    "z=5.98",
+    "z=10.02",
+    "x=5.98",
+    "x=10.02"
+  ],
+  "PenetratingLeafIndices": [],
+  "ConsumerModels": [
+    "tfcfarmingplus:block/crop/agave_age_5_fruiting",
+    "tfcfarmingplus:block/crop/cardoon_age_5_fruiting",
+    "tfcfarmingplus:block/crop/kale_age_5_fruiting",
+    "tfcfarmingplus:block/crop/purslane_age_5_fruiting",
+    "tfcfarmingplus:block/crop/sisal_age_5_fruiting"
+  ],
+  "StateCases": [
+    {
+      "Species": "kale",
+      "State": "age=0,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/kale_age_0",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=1,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/kale_age_1",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=2,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/kale_age_2",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=3,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/kale_age_3",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=4,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/kale_age_4",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=5,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/kale_age_5",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_5",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_5",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=0,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/kale_age_0_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=1,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/kale_age_1_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=2,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/kale_age_2_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=3,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/kale_age_3_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=4,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/kale_age_4_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "State": "age=5,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/kale_age_5_fruiting",
+      "UsesSharedMatureGeometry": true,
+      "FoliageTexture": "tfcfarmingplus:block/crop/kale_rosette_5_fruiting",
+      "ParticleTexture": "tfcfarmingplus:block/crop/kale_rosette_5_fruiting",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=0,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_0",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=1,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_1",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=2,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_2",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=3,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_3",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=4,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_4",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=5,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_5",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_5",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_5",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=0,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_0_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=1,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_1_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=2,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_2_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=3,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_3_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=4,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_4_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "State": "age=5,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/cardoon_age_5_fruiting",
+      "UsesSharedMatureGeometry": true,
+      "FoliageTexture": "tfcfarmingplus:block/crop/cardoon_rosette_5_fruiting",
+      "ParticleTexture": "tfcfarmingplus:block/crop/cardoon_rosette_5_fruiting",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=0,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/agave_age_0",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=1,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/agave_age_1",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=2,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/agave_age_2",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=3,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/agave_age_3",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=4,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/agave_age_4",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=5,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/agave_age_5",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_5",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_5",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=0,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/agave_age_0_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=1,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/agave_age_1_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=2,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/agave_age_2_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=3,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/agave_age_3_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=4,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/agave_age_4_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "State": "age=5,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/agave_age_5_fruiting",
+      "UsesSharedMatureGeometry": true,
+      "FoliageTexture": "tfcfarmingplus:block/crop/agave_rosette_5_fruiting",
+      "ParticleTexture": "tfcfarmingplus:block/crop/agave_rosette_5_fruiting",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=0,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_0",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=1,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_1",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=2,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_2",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=3,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_3",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=4,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_4",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=5,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_5",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_5",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_5",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=0,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_0_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=1,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_1_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=2,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_2_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=3,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_3_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=4,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_4_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "State": "age=5,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/purslane_age_5_fruiting",
+      "UsesSharedMatureGeometry": true,
+      "FoliageTexture": "tfcfarmingplus:block/crop/purslane_rosette_5_fruiting",
+      "ParticleTexture": "tfcfarmingplus:block/crop/purslane_rosette_5_fruiting",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=0,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_0",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=1,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_1",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=2,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_2",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=3,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_3",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=4,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_4",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=5,fruiting=false",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_5",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_5",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_5",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=0,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_0_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_0",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_0",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=1,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_1_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_1",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=2,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_2_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_2",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_2",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=3,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_3_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_3",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_3",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=4,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_4_fruiting",
+      "UsesSharedMatureGeometry": false,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_4",
+      "ParticleTexture": "tfcfarmingplus:block/crop/rosette_4",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "State": "age=5,fruiting=true",
+      "Model": "tfcfarmingplus:block/crop/sisal_age_5_fruiting",
+      "UsesSharedMatureGeometry": true,
+      "FoliageTexture": "tfcfarmingplus:block/crop/sisal_rosette_5_fruiting",
+      "ParticleTexture": "tfcfarmingplus:block/crop/sisal_rosette_5_fruiting",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "ExternalResourcePacksVerified": false
+}

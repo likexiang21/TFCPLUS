@@ -1,0 +1,194 @@
+[
+  {
+    "Name": "swiss_chard_age_0_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-7c6dc07e-fa8a-4912-8623-c637883056c0.png",
+    "RawSize": [
+      1983,
+      793
+    ],
+    "VisibleBounds": [
+      853,
+      609,
+      1127,
+      730
+    ],
+    "ContentSize": [
+      5,
+      2
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_0_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "63B8F6311AF6073DBE01316089B1A381F178D850BE09FAB23FCB7A48F8F982B7"
+  },
+  {
+    "Name": "swiss_chard_age_1_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-0f1f98e8-37d6-4cc6-8b79-dd5af2c1f85e.png",
+    "RawSize": [
+      1774,
+      887
+    ],
+    "VisibleBounds": [
+      665,
+      649,
+      1109,
+      827
+    ],
+    "ContentSize": [
+      6,
+      3
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_1_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "43C6D9E419CED94E04251B87494468764A88C6BB707F009A4EC6A6F378287EFB"
+  },
+  {
+    "Name": "swiss_chard_age_2_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-5c76f5a9-372e-453a-8b0f-c913ed8324f2.png",
+    "RawSize": [
+      1585,
+      992
+    ],
+    "VisibleBounds": [
+      533,
+      673,
+      1068,
+      911
+    ],
+    "ContentSize": [
+      8,
+      4
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_2_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "E6929B5CBE1C139614BE92931FA7E115289F3E30BA3E0966AA159C427DEEF7F4"
+  },
+  {
+    "Name": "swiss_chard_age_3_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-18c3c2df-2091-4921-8d61-9640de67ff09.png",
+    "RawSize": [
+      1500,
+      1049
+    ],
+    "VisibleBounds": [
+      345,
+      442,
+      1169,
+      977
+    ],
+    "ContentSize": [
+      10,
+      7
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_3_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "32366F62ABC5E0E0836AADC54D5DD0B774185409E2A369ED535BFD9828E24AFE"
+  },
+  {
+    "Name": "swiss_chard_age_4_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-266eb496-046a-4830-8f92-6adee0aab970.png",
+    "RawSize": [
+      1402,
+      1122
+    ],
+    "VisibleBounds": [
+      278,
+      513,
+      1125,
+      1040
+    ],
+    "ContentSize": [
+      11,
+      7
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_4_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "92C2048CA74DF4E1138F5B5A2AD49B8C96D64A20F742ED704038FE326C93F0CE"
+  },
+  {
+    "Name": "swiss_chard_age_5_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-f3f0856f-c480-4525-818c-c739d8cfb0d8.png",
+    "RawSize": [
+      1312,
+      1199
+    ],
+    "VisibleBounds": [
+      56,
+      310,
+      1281,
+      1139
+    ],
+    "ContentSize": [
+      12,
+      8
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_5_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "FC4F3D13817E9D689C7D58A1926A9A06981B529EEEE58747DF874D232A512E69"
+  },
+  {
+    "Name": "swiss_chard_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-e126b54b-778f-4e31-aef6-1374a84176fa.png",
+    "RawSize": [
+      1374,
+      1145
+    ],
+    "VisibleBounds": [
+      67,
+      361,
+      1340,
+      1106
+    ],
+    "ContentSize": [
+      12,
+      7
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "8AA0D0566C1ACA7A05148EF55882160156331610C27F3DDC3EFBEB820F50587B"
+  },
+  {
+    "Name": "swiss_chard_young_leafy_v1",
+    "Raw": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-32a50599-53bf-4f0a-adc9-093427a8360d.png",
+    "RawSize": [
+      1774,
+      887
+    ],
+    "VisibleBounds": [
+      610,
+      666,
+      1109,
+      832
+    ],
+    "ContentSize": [
+      6,
+      2
+    ],
+    "RelativePath": "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard_young_leafy_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "SHA256": "0C1D604437A29803EAC88DB1100A6199415FE967E1EBA80280CE4429D4343BF8"
+  }
+]

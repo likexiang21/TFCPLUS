@@ -1,0 +1,10 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {"item": "tfcagricultureplus:cooked_silkworm"},
+    {"item": "tfc:spindle"}
+  ],
+  "primary_ingredient": {"item": "tfc:spindle"},
+  "remainder": {"modifiers": [{"type": "tfc:damage_crafting_remainder"}]},
+  "result": {"count": 1, "id": "tfcagricultureplus:silk_thread"}
+}

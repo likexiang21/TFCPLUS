@@ -1,0 +1,2 @@
+# Preserve bytes of hash-protected resources and UTF-8 BOM scripts.
+* -text

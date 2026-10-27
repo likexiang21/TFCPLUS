@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/pine"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:counter_cabinet/pine",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "PPP",
+    "   "
+  ],
+  "type": "minecraft:crafting_shaped"
+}

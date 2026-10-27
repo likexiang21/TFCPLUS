@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/cutting_board/dolomite"},"facing=east":{"model":"tfcagricultureplus:block/cutting_board/dolomite","y":90},"facing=south":{"model":"tfcagricultureplus:block/cutting_board/dolomite","y":180},"facing=west":{"model":"tfcagricultureplus:block/cutting_board/dolomite","y":270}}}

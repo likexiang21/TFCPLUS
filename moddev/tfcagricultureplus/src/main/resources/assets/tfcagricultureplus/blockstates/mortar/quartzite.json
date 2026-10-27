@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/mortar/quartzite"},"facing=east":{"model":"tfcagricultureplus:block/mortar/quartzite","y":90},"facing=south":{"model":"tfcagricultureplus:block/mortar/quartzite","y":180},"facing=west":{"model":"tfcagricultureplus:block/mortar/quartzite","y":270}}}

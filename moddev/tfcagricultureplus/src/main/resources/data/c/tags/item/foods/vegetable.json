@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tfcagricultureplus:food/ginger_slices",
+    "tfcagricultureplus:food/turmeric_slices",
+    "tfcagricultureplus:food/napa_cabbage_shreds"
+  ]
+}

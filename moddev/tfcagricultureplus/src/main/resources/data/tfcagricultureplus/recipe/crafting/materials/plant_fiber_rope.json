@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "F ",
+    " F"
+  ],
+  "key": {
+    "F": {
+      "tag": "tfcfarmingplus:materials/plant_fibers"
+    }
+  },
+  "result": {
+    "id": "tfc:rope",
+    "count": 2
+  }
+}

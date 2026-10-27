@@ -1,0 +1,16 @@
+{
+  "key": {
+    "P": {
+      "item": "afc:wood/planks/mahoe"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:spice_rack/mahoe",
+    "count": 1
+  },
+  "pattern": [
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

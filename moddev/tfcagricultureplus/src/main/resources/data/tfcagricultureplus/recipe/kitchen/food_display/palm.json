@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/palm"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:food_display/palm",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

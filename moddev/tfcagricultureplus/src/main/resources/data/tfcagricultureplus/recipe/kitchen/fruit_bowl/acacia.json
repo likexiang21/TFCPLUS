@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/acacia"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:fruit_bowl/acacia",
+    "count": 1
+  },
+  "pattern": [
+    " P ",
+    "PPP",
+    "P P"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

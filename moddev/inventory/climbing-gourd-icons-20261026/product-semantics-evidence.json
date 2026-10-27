@@ -1,0 +1,567 @@
+[
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/bitter_melon.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/tomato"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/bitter_melon.json",
+    "Data": {
+      "decay_modifier": 2.5,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/bitter_melon"
+      },
+      "saturation": 1,
+      "vegetables": 1.3,
+      "water": 4
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/bitter_melon.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/bitter_melon",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/bitter_melon",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/bitter_melon",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/bitter_melon"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/bitter_melon",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/bitter_melon",
+                  "properties": {
+                    "part": "bottom",
+                    "stick": "true"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/chayote.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/tomato"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/chayote.json",
+    "Data": {
+      "decay_modifier": 2.5,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/chayote"
+      },
+      "saturation": 1.5,
+      "vegetables": 1.5,
+      "water": 4
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/chayote.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/chayote",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/chayote",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/chayote",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/chayote"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/chayote",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/chayote",
+                  "properties": {
+                    "part": "bottom",
+                    "stick": "true"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/loofah.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/tomato"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/loofah.json",
+    "Data": {
+      "decay_modifier": 2,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/loofah"
+      },
+      "saturation": 1,
+      "vegetables": 1.4,
+      "water": 4
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/loofah.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/loofah",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/loofah",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/loofah",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/loofah"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/loofah",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/loofah",
+                  "properties": {
+                    "part": "bottom",
+                    "stick": "true"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "File": "assets/tfcfarmingplus/models/item/food/snake_gourd.json",
+    "Data": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/tomato"
+      }
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/tfc/food/snake_gourd.json",
+    "Data": {
+      "decay_modifier": 2,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/snake_gourd"
+      },
+      "saturation": 1,
+      "vegetables": 1.3,
+      "water": 4.5
+    }
+  },
+  {
+    "File": "data/tfcfarmingplus/loot_table/blocks/crop/snake_gourd.json",
+    "Data": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/snake_gourd",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/snake_gourd",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/snake_gourd",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/snake_gourd"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/snake_gourd",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/snake_gourd",
+                  "properties": {
+                    "part": "bottom",
+                    "stick": "true"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "丝瓜",
+      "anchor": "loofah",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 15°C - 36°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 85 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 45 $(bold)$(6)磷$(): 30 $(bold)$(d)钾$(): 50$()$(br2)丝瓜是$(thing)攀爬性作物$()。嫩时做汤，老了只剩一团纤维。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空，用木棍右键下半株搭架才能继续长高。完全成熟后破坏任意半株收获并返种、返棍，各结算一次；空手右键不采摘。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "苦瓜",
+      "anchor": "bitter_melon",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 16°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 35 - 80 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 40 $(bold)$(6)磷$(): 35 $(bold)$(d)钾$(): 50$()$(br2)苦瓜是$(thing)攀爬性作物$()。苦味来自瓜肉，越熟越苦。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空，用木棍右键下半株搭架才能继续长高。完全成熟后破坏任意半株收获并返种、返棍，各结算一次；空手右键不采摘。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "蛇瓜",
+      "anchor": "snake_gourd",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 18°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 85 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 40 $(bold)$(6)磷$(): 35 $(bold)$(d)钾$(): 50$()$(br2)蛇瓜是$(thing)攀爬性作物$()。能垂到两米长的细长瓜。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空，用木棍右键下半株搭架才能继续长高。完全成熟后破坏任意半株收获并返种、返棍，各结算一次；空手右键不采摘。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "佛手瓜",
+      "anchor": "chayote",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 15°C - 34°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 90 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 40 $(bold)$(6)磷$(): 35 $(bold)$(d)钾$(): 50$()$(br2)佛手瓜是$(thing)攀爬性作物$()。需支架才能长高，成熟后连株收获。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空，用木棍右键下半株搭架才能继续长高。完全成熟后破坏任意半株收获并返种、返棍，各结算一次；空手右键不采摘。$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Loofah",
+      "anchor": "loofah",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 15°C - 36°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 85 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 45 $(bold)$(6)Phosphorous$(): 30 $(bold)$(d)Potassium$(): 50$()$(br2)Loofah is a $(thing)climbing crop$(): tender in soup, nothing but fibre when old.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above. To grow tall, right-click the lower plant with a wooden stick. Once fully grown, break either half to harvest and return seeds and the stick once. Empty-hand right-click does not harvest.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Bitter Melon",
+      "anchor": "bitter_melon",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 16°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 35 - 80 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 40 $(bold)$(6)Phosphorous$(): 35 $(bold)$(d)Potassium$(): 50$()$(br2)Bitter Melon is a $(thing)climbing crop$(): the bitterness is in the flesh, stronger as it ripens.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above. To grow tall, right-click the lower plant with a wooden stick. Once fully grown, break either half to harvest and return seeds and the stick once. Empty-hand right-click does not harvest.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Snake Gourd",
+      "anchor": "snake_gourd",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 18°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 85 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 40 $(bold)$(6)Phosphorous$(): 35 $(bold)$(d)Potassium$(): 50$()$(br2)Snake Gourd is a $(thing)climbing crop$(): a gourd that hangs two meters long.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above. To grow tall, right-click the lower plant with a wooden stick. Once fully grown, break either half to harvest and return seeds and the stick once. Empty-hand right-click does not harvest.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Chayote",
+      "anchor": "chayote",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 15°C - 34°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 90 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 40 $(bold)$(6)Phosphorous$(): 35 $(bold)$(d)Potassium$(): 50$()$(br2)Chayote is a $(thing)climbing crop$(): needs support to grow tall and is removed at harvest.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above. To grow tall, right-click the lower plant with a wooden stick. Once fully grown, break either half to harvest and return seeds and the stick once. Empty-hand right-click does not harvest.$(br2)"
+    }
+  },
+  {
+    "File": "data/c/tags/item/foods/vegetable.json",
+    "ExactIDs": [
+      "tfcfarmingplus:food/bitter_melon",
+      "tfcfarmingplus:food/chayote",
+      "tfcfarmingplus:food/loofah",
+      "tfcfarmingplus:food/snake_gourd"
+    ]
+  }
+]

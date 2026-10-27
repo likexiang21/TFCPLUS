@@ -1,0 +1,27 @@
+{
+  "name": "Strawberries",
+  "category": "tfc:farming_plus",
+  "icon": "tfc:food/strawberry",
+  "read_by_default": true,
+  "sortnum": 7,
+  "extra_recipe_mappings": {
+    "tfc:food/strawberry": 0,
+    "tfcfarmingplus:seeds/strawberry": 0,
+    "tfcfarmingplus:wild_crop/strawberry": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "strawberry",
+      "item": "tfcfarmingplus:seeds/strawberry",
+      "title": "Growing Strawberries",
+      "text": "Plant strawberry seeds on TFC farmland. This is a single-block crop. Break the fully grown crop to harvest $(item)Strawberries$() and recover a seed.$(br2)Growth conditions:$(br)$(bold)Temperature$(): 5–28°C$(br)$(bold)Hydration$(): 35–85%$(br2)Manage the soil and nutrients using TFC's farming rules."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:food/strawberry",
+      "title": "Harvest and Wild Crops",
+      "text": "Both cultivated strawberries and mature wild strawberry crops yield TFC's $(item)Strawberries$() ($(item)tfc:food/strawberry$()).$(br2)Break a wild strawberry crop to obtain a seed. Mature wild crops also provide fruit. Grow the seeds on farmland to continue cultivation."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "wood_chop": {
+    "subtitle": "sounds.tfcagricultureplus.wood_chop",
+    "sounds": ["tfcagricultureplus:wood_chop"]
+  },
+  "wood_sawed": {
+    "subtitle": "sounds.tfcagricultureplus.wood_sawed",
+    "sounds": ["tfcagricultureplus:wood_sawed"]
+  },
+  "wood_hit_ground": {
+    "subtitle": "sounds.tfcagricultureplus.wood_hit_ground",
+    "sounds": ["tfcagricultureplus:wood_hit_ground"]
+  }
+}

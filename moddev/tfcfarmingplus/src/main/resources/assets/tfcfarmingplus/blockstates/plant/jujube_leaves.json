@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/jujube_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/jujube_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/jujube_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/jujube_fruiting_leaves"}}}

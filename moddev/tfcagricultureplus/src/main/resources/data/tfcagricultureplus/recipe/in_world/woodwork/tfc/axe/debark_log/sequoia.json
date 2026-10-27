@@ -1,0 +1,33 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "acceptableStates": [
+      {
+        "Name": "tfc:wood/stripped_log/sequoia",
+        "Properties": {
+          "axis": "y",
+          "branch_direction": "none"
+        }
+      }
+    ],
+    "block": "tfc:wood/stripped_log/sequoia"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bast/sequoia"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfcagricultureplus:debarked_log/sequoia"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_chop",
+    "volume": 0.6,
+    "pitch": 0.8
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/chestnut"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:food_display/chestnut",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

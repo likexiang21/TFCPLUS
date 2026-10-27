@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:wood/log/white_cedar"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bark/white_cedar"
+    }
+  },
+  "result": {
+    "id": "tfc:wood/wood/white_cedar",
+    "count": 1
+  }
+}

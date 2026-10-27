@@ -1,0 +1,17 @@
+{
+  "ingredient": {
+    "item": "tfcfarmingplus:bottle_gourd"
+  },
+  "type": "tfcagricultureplus:cutting_board",
+  "result": {
+    "modifiers": [
+      {
+        "type": "tfc:copy_food"
+      }
+    ],
+    "stack": {
+      "count": 4,
+      "id": "tfcfarmingplus:food/bottle_gourd_slice"
+    }
+  }
+}

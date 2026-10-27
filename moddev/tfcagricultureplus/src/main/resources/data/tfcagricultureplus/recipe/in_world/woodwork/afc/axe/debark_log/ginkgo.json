@@ -1,0 +1,33 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "acceptableStates": [
+      {
+        "Name": "afc:wood/stripped_log/ginkgo",
+        "Properties": {
+          "axis": "y",
+          "branch_direction": "none"
+        }
+      }
+    ],
+    "block": "afc:wood/stripped_log/ginkgo"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bast/ginkgo"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfcagricultureplus:debarked_log/ginkgo"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_chop",
+    "volume": 0.6,
+    "pitch": 0.8
+  }
+}

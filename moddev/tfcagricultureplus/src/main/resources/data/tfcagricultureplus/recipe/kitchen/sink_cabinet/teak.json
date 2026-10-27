@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "afc:wood/planks/teak"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:sink_cabinet/teak",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

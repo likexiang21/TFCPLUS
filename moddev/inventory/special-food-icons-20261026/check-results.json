@@ -1,0 +1,168 @@
+[
+  {
+    "Case": "valid",
+    "ExitCode": 0,
+    "Passed": true
+  },
+  {
+    "Case": "old-fruit-rhubarb",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-fruit-sunflower",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-fruit-agave",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "native-fruit-rhubarb",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "native-fruit-sunflower",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "native-fruit-agave",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "cross-nut-rhubarb",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "cross-nut-sunflower",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "cross-nut-agave",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-rhubarb",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-sunflower",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-agave",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "b-shadow",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "nutrition",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "prior-walnut",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "unprotected-32",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-guide-zh_cn-rhubarb",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-guide-zh_cn-sunflower",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-guide-zh_cn-agave",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-guide-en_us-rhubarb",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-guide-en_us-sunflower",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-guide-en_us-agave",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "duplicate-anchor",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-guide",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "b-guide-shadow",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-template-0",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-template-1",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-template-2",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-template-3",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-template-4",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-template-5",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "safe-copy-fortythree-json-only",
+    "Files": 43,
+    "ByteIdentical": true,
+    "Passed": true
+  }
+]

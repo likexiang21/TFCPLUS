@@ -1,0 +1,20 @@
+{
+  "ModelsReconciled": 229,
+  "TFCTextureModels": 125,
+  "OwnTextureModels": 104,
+  "TFCSeedTextureModels": 85,
+  "ChangedFoodModels": 4,
+  "NewPNGs": 4,
+  "ExistingPNGsModified": 0,
+  "ItemFoodSeedPNGsSizeChecked": 259,
+  "AR4VConfirmedFoodMismatchesRemaining": [],
+  "OtherArtAndLifecycleBacklogRemains": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "RemainingSharedLeafFoodModels": [
+    "lettuce",
+    "purslane",
+    "spinach",
+    "swiss_chard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "tfc:wood/stripped_wood/douglas_fir"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bast/douglas_fir"
+      }
+    },
+    {
+      "action": "drop_above",
+      "item": {
+        "count": 2,
+        "id": "tfcagricultureplus:bast/douglas_fir"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfcagricultureplus:debarked_log/douglas_fir"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_chop",
+    "volume": 0.6,
+    "pitch": 0.8
+  }
+}

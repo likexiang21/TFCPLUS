@@ -1,0 +1,20 @@
+{
+  "SheetsViewed": [
+    "AR4L-existing-textures.png",
+    "AR4L-before-p28.png",
+    "AR4L-before-p5.png",
+    "AR4L-before-p70.png",
+    "AR4L-candidate-p28.png",
+    "AR4L-candidate-p5.png",
+    "AR4L-candidate-p70.png"
+  ],
+  "Observed": [
+    "修改前三角度中成熟辣椒是直立水稻叶丛，野生幼株是褐色枯苗。",
+    "候选六龄由小苗、分枝叶丛到带浅色花点和红色长椒的成熟株；低角度可看到悬垂长果。",
+    "候选野生幼株是绿色两叶小苗，野生成熟株为带红椒叶丛；成熟枯死株为褐黄枝叶并保留红褐果实，幼年枯死态为小型褐枝。",
+    "食品既有图为红色椒果，种子为散落绿褐颗粒；本片只接引用，不评价为最终美术验收。"
+  ],
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "Limitations": "沿用现有原生crop四片叶面；不重绘PNG。物种整株观感、地面衔接、掉落物、盆栽和游戏光影均待实机。"
+}

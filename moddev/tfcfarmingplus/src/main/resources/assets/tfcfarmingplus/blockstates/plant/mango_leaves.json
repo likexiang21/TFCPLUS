@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/mango_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/mango_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/mango_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/mango_fruiting_leaves"}}}

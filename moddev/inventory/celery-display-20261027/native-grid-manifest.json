@@ -1,0 +1,106 @@
+{
+  "SourceGrid": [
+    16,
+    16
+  ],
+  "AlgorithmicShapes": false,
+  "PriorImagegenDraftsAdopted": false,
+  "Assets": [
+    {
+      "Name": "celery_age_0_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_age_0_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_age_0_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_age_0_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "477156E06060FA26DBFF144B7D1B96AF68ECA5B2178A0EA5F959DC20046CECB0"
+    },
+    {
+      "Name": "celery_age_1_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_age_1_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_age_1_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_age_1_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "0080D1448EDFD7C77E3FF4051931CD94CD462B90C8147FB0167FAFB5ACCDDEB8"
+    },
+    {
+      "Name": "celery_age_2_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_age_2_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_age_2_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_age_2_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "B2BFCAAFE12D8183E0393924766390B3A8E670ABD989139A39E4FB2E864D5C0F"
+    },
+    {
+      "Name": "celery_age_3_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_age_3_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_age_3_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_age_3_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "DBBCAAA9C614E0D91A65DFA7FC11CFDDFB33E7929B6249D3C865C30A9FFD4015"
+    },
+    {
+      "Name": "celery_age_4_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_age_4_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_age_4_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_age_4_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "9760F31637F81DA8746C627C9850ABE9D43215D62687B67669D891DBFE2091DE"
+    },
+    {
+      "Name": "celery_age_5_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_age_5_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_age_5_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_age_5_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "3E799AD47F8F2C5C973B8DD0DAFEEF9C153765116DC1A21EE90BB95450714784"
+    },
+    {
+      "Name": "celery_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "91D31889CE1BAEF46DEC83231EF643F66C4C60E866441FD611B0470E50B7305C"
+    },
+    {
+      "Name": "celery_young_stalks_v1",
+      "EditableSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\pixel-source-16\\celery_young_stalks_v1.txt",
+      "PixelSize": [
+        16,
+        16
+      ],
+      "PNG": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\native-grid-png\\celery_young_stalks_v1.png",
+      "Preview64": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celery-display-20261027\\preview-64\\celery_young_stalks_v1.png",
+      "PreviewRule": "exact 4x nearest neighbour; workspace only",
+      "SHA256": "03287998357FFE85494C791EAA5EAB031BC59F0329FD33D2B07880E3C704A7C7"
+    }
+  ]
+}

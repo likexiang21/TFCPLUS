@@ -1,0 +1,17 @@
+{
+  "tree": "cupuacu",
+  "legacy_tree": "cocoa",
+  "product": "firmalife:food/cocoa_beans",
+  "sapling": "tfcfarmingplus:plant/cupuacu_sapling",
+  "leaves": "tfcfarmingplus:plant/cupuacu_leaves",
+  "legacy_product": "tfcfarmingplus:food/cocoa",
+  "retired_product": "tfcfarmingplus:food/cupuacu",
+  "guide_text": {
+    "en_us": "Growth temperature: 18–42°C.$(br2)Check the sapling tooltip; an active month and suitable climate are also required. Fruit grows on mature branches connected up/down with no adjacent fruit-tree leaves.$(br2)Root climate and fruiting months gate two stages using the berry growth setting; fractional time is retained. Right-click ripe fruit; harvest restarts the timer. Breaking a ripe branch also drops one product.$(br2)Northern trunk flowering months: 3, 4, 10, 11; fruiting months: 5, 6, 7, 12. TFC shifts seasons in the south.$(br2)Harvest Firmalife cocoa beans; bonsai yields the same beans for existing drying, fermentation and roasting.",
+    "zh_cn": "生长温度：18～42°C。$(br2)树苗等待以物品提示为准，转枝须在活动月份满足气候。果实只长在上下相连且六邻无果树叶的成熟枝干。$(br2)根部温湿度合适且在结果期时，按浆果生长配置推进两阶段；余量保留。成熟后右键采收，采后重新计时；破坏成熟枝也掉一份产物。$(br2)北半球枝干开花月：3、4、10、11；结果月：5、6、7、12。南半球由TFC换季。$(br2)产物为Firmalife可可豆；盆景同产物，接现有干燥、发酵和烘焙。"
+  },
+  "diagram_text": {
+    "en_us": "Fruit develops and ripens on the exposed lower trunk.",
+    "zh_cn": "果实在下方裸露的主干上生长、成熟。"
+  }
+}

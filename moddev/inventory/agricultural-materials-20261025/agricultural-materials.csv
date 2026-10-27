@@ -1,0 +1,7 @@
+﻿"作物","材料编号","栽培产量规则","野生产量","盆栽产量","用途","实机确认"
+"flax","tfcfarmingplus:fiber/flax","原生crop_yield_uniform，0至动态6～10上限","成熟1～3份；未熟不出材料","1","12份同种纤维织麻布；两份纤维制两绳；高档棕料","False"
+"hemp","tfcfarmingplus:fiber/hemp","原生crop_yield_uniform，0至动态6～10上限","成熟1～3份；未熟不出材料","1","12份同种纤维织麻布；两份纤维制两绳；高档棕料","False"
+"ramie","tfcfarmingplus:fiber/ramie","原生crop_yield_uniform，0至动态6～10上限","成熟1～3份；未熟不出材料","1","12份同种纤维织麻布；两份纤维制两绳；高档棕料","False"
+"sisal","tfcfarmingplus:fiber/sisal","原生crop_yield_uniform，0至动态6～10上限","成熟1～3份；未熟不出材料","1","12份同种纤维织麻布；两份纤维制两绳；高档棕料","False"
+"cotton","tfcfarmingplus:cotton_boll","原生crop_yield_uniform，0至动态6～10上限","成熟1～3份；未熟不出材料","1","棉铃＋纺锤制一份通用线；高档棕料","False"
+"hops","tfcfarmingplus:hops","原生crop_yield_uniform，0至动态6～10上限","成熟1～3份；未熟不出材料","1","低档绿料；酿酒链仍后续","False"

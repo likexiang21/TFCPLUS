@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#tfcagricultureplus:bark",
+    "#tfcagricultureplus:bast",
+    "tfcagricultureplus:sawdust"
+  ]
+}

@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/bael_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/bael_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/bael_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/bael_fruiting_leaves"}}}

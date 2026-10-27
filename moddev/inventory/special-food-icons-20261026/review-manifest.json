@@ -1,0 +1,25 @@
+{
+  "Changed": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/agave.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/rhubarb.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/sunflower.json",
+    "moddev/tfcfarmingplus/tools/audit-item-icon-routes.ps1",
+    "moddev/tfcfarmingplus/tools/gen-crops.ps1",
+    "moddev/tfcfarmingplus/tools/gen-patchouli-book.ps1",
+    "moddev/tfcfarmingplus/tools/reviewed-item-icon-routes.json"
+  ],
+  "Added": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/agave_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/rhubarb_harvest_v2.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sunflower_harvest_v2.png"
+  ],
+  "Removed": [],
+  "Counts": {
+    "tfcfarmingplus/src": 5913,
+    "tfcfarmingplus/tools": 101,
+    "tfcagricultureplus/src": 3107,
+    "tfcagricultureplus/tools": 19
+  }
+}

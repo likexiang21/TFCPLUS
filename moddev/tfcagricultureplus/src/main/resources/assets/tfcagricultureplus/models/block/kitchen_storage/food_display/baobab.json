@@ -1,0 +1,6 @@
+{
+  "parent": "tfcagricultureplus:block/kitchen_storage/food_display",
+  "textures": {
+    "all": "tfc:block/wood/planks/baobab"
+  }
+}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/knife_block/beech"},"facing=east":{"model":"tfcagricultureplus:block/knife_block/beech","y":90},"facing=south":{"model":"tfcagricultureplus:block/knife_block/beech","y":180},"facing=west":{"model":"tfcagricultureplus:block/knife_block/beech","y":270}}}

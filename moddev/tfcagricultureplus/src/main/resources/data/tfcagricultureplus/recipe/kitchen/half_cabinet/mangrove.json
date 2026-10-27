@@ -1,0 +1,15 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/mangrove"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:half_cabinet/mangrove",
+    "count": 1
+  },
+  "pattern": [
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

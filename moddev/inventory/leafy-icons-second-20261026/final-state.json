@@ -1,0 +1,129 @@
+{
+  "Stage": "AR4-Z",
+  "StaticDeliveryComplete": true,
+  "ExpectedComplexity": "5/5",
+  "ActualComplexity": "5/5",
+  "BackupEntriesVerified": 9168,
+  "ChangedExistingFiles": [
+    "README.md",
+    "moddev/docs/217-agriculture-repair-next-phase-plan-20261023.md",
+    "moddev/docs/218-agriculture-audit-baseline-20261023.md",
+    "moddev/tfcfarmingplus/build/libs/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/lettuce.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/purslane.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/spinach.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/swiss_chard.json",
+    "moddev/tfcfarmingplus/tools/reviewed-item-icon-routes.json",
+    "moddev/tfcfarmingplus/tools/spinach-display-contract.json",
+    "mods/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+    "pcl-mods/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar"
+  ],
+  "SourceDiff": {
+    "Changed": [
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/lettuce.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/purslane.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/spinach.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/swiss_chard.json",
+      "moddev/tfcfarmingplus/tools/reviewed-item-icon-routes.json",
+      "moddev/tfcfarmingplus/tools/spinach-display-contract.json"
+    ],
+    "Added": [
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lettuce_harvest_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/purslane_harvest_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/spinach_harvest_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/swiss_chard_harvest_v1.png"
+    ],
+    "Removed": [],
+    "Counts": {
+      "tfcfarmingplus/src": 5921,
+      "tfcfarmingplus/tools": 101,
+      "tfcagricultureplus/src": 3107,
+      "tfcagricultureplus/tools": 19
+    }
+  },
+  "Counts": {
+    "tfcfarmingplus/src": 5921,
+    "tfcfarmingplus/tools": 101,
+    "tfcagricultureplus/src": 3107,
+    "tfcagricultureplus/tools": 19
+  },
+  "NewFoodPNGs": 4,
+  "ExistingPNGsModified": 0,
+  "SourceFoodSeedPNGs16x16": 263,
+  "PackagedFoodSeedPNGs16x16": 263,
+  "ModelsReconciled": 229,
+  "ChecksPassed": 29,
+  "SafeCopyIconJSONs": 44,
+  "SafeCopySpinachJSONs": 17,
+  "IconProtection": {
+    "Models": 44,
+    "PNGs": 81,
+    "FoodData": 41,
+    "GuidePages": 6,
+    "TemplateRows": 6,
+    "Findings": 0
+  },
+  "SpinachProtection": {
+    "StateCases": 10,
+    "PNGs": 13,
+    "Findings": 0
+  },
+  "GuideAndTemplateContractsUnchanged": true,
+  "LedgerRows": 418,
+  "VerifyPassed": true,
+  "BuildPassed": true,
+  "BuildSeconds": 77,
+  "HealthcheckPassed": true,
+  "JarDiff": {
+    "Modified": [
+      "assets/tfcfarmingplus/models/item/food/lettuce.json",
+      "assets/tfcfarmingplus/models/item/food/purslane.json",
+      "assets/tfcfarmingplus/models/item/food/spinach.json",
+      "assets/tfcfarmingplus/models/item/food/swiss_chard.json"
+    ],
+    "Added": [
+      "assets/tfcfarmingplus/textures/item/food/lettuce_harvest_v1.png",
+      "assets/tfcfarmingplus/textures/item/food/purslane_harvest_v1.png",
+      "assets/tfcfarmingplus/textures/item/food/spinach_harvest_v1.png",
+      "assets/tfcfarmingplus/textures/item/food/swiss_chard_harvest_v1.png"
+    ],
+    "Removed": []
+  },
+  "Packages": [
+    {
+      "Module": "tfcfarmingplus",
+      "SHA256": "9218D5B069A013C2A616AD3603EE4D7CEE75999335346BC9D7284C271CC81B39",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\build\\libs\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    },
+    {
+      "Module": "tfcagricultureplus",
+      "SHA256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\build\\libs\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    }
+  ],
+  "VisualSheetsActuallyViewed": [
+    "AR4Z-current-stored-candidates.png",
+    "AR4Z-exported-leafy-candidates.png",
+    "AR4Z-current-source-icons.png"
+  ],
+  "OriginalGeneratedImagesActuallyViewed": 4,
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "GameLaunched": false,
+  "PCLArchiveCreated": false,
+  "AgricultureComplete": false,
+  "AgricultureTXTDeferredUntilComplete": true,
+  "NamingCleanup233Deferred": true,
+  "RemainingSharedLeafFoodModels": [],
+  "NextStage": "AR4-AA",
+  "NextExpectedComplexity": "5/5",
+  "Handoff": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\docs\\264-ar4z-leafy-food-icons-second-batch-20261026.md"
+}

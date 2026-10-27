@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:wood/stripped_log/sequoia"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bast/sequoia"
+    }
+  },
+  "result": {
+    "id": "tfc:wood/stripped_wood/sequoia",
+    "count": 1
+  }
+}

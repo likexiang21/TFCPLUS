@@ -1,0 +1,178 @@
+{
+  "credit": "TFC Farming Plus - AR4-G allocated full dry silhouettes at one atlas pixel per model unit",
+  "ambientocclusion": false,
+  "textures": {
+    "0": "tfcfarmingplus:block/crop/rosette_dead",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0.02,
+        8
+      ],
+      "to": [
+        12,
+        16.02,
+        8
+      ],
+      "shade": false,
+      "rotation": {
+        "axis": "x",
+        "angle": -22.5,
+        "origin": [
+          8,
+          0,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        0.02,
+        8
+      ],
+      "to": [
+        12,
+        16.02,
+        8
+      ],
+      "shade": false,
+      "rotation": {
+        "axis": "x",
+        "angle": 22.5,
+        "origin": [
+          8,
+          0,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        0.02,
+        4
+      ],
+      "to": [
+        8,
+        16.02,
+        12
+      ],
+      "shade": false,
+      "rotation": {
+        "axis": "z",
+        "angle": -22.5,
+        "origin": [
+          8,
+          0,
+          8
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            8,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        0.02,
+        4
+      ],
+      "to": [
+        8,
+        16.02,
+        12
+      ],
+      "shade": false,
+      "rotation": {
+        "axis": "z",
+        "angle": 22.5,
+        "origin": [
+          8,
+          0,
+          8
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            8,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

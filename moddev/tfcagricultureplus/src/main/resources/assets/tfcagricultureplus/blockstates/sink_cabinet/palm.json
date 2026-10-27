@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/sink_cabinet/palm"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/sink_cabinet/palm"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/sink_cabinet/palm"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/sink_cabinet/palm"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/cutting_board/phyllite"},"facing=east":{"model":"tfcagricultureplus:block/cutting_board/phyllite","y":90},"facing=south":{"model":"tfcagricultureplus:block/cutting_board/phyllite","y":180},"facing=west":{"model":"tfcagricultureplus:block/cutting_board/phyllite","y":270}}}

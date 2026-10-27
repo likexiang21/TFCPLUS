@@ -1,0 +1,7 @@
+{
+  "parent": "tfcfarmingplus:block/crop/rosette_age_5",
+  "textures": {
+    "0": "tfcfarmingplus:block/crop/kale_rosette_5",
+    "particle": "#0"
+  }
+}

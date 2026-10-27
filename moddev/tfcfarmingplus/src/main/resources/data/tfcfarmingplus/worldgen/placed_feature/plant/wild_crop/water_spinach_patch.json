@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/water_spinach_patch","placement":[{"type":"tfc:climate","min_temperature":18,"max_temperature":38,"min_groundwater":260,"max_groundwater":400},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

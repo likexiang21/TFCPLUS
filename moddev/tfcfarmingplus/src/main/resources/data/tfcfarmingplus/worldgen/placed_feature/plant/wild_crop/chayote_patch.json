@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/chayote_patch","placement":[{"type":"tfc:climate","min_temperature":15,"max_temperature":34,"min_groundwater":160,"max_groundwater":360},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

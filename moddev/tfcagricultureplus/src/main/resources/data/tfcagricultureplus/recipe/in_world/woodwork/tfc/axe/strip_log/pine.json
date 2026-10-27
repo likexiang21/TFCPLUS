@@ -1,0 +1,37 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "acceptableStates": [
+      {
+        "Name": "tfc:wood/log/pine",
+        "Properties": {
+          "axis": "y",
+          "branch_direction": "none"
+        }
+      }
+    ],
+    "block": "tfc:wood/log/pine"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bark/pine"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfc:wood/stripped_log/pine",
+    "Properties": {
+      "axis": "y",
+      "branch_direction": "none"
+    }
+  },
+  "sound": {
+    "sound": "minecraft:item.axe.strip",
+    "volume": 1.0,
+    "pitch": 1.0
+  }
+}

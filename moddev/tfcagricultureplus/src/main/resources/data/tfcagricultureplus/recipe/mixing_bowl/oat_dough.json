@@ -1,0 +1,35 @@
+{
+  "type": "tfcagricultureplus:food_mixing_bowl",
+  "fluid_ingredients": {
+    "amount": 100,
+    "fluid": "firmalife:yeast_starter"
+  },
+  "item_ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "tfc:food/oat_flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfc:foods/sweeteners"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result_item": {
+    "count": 1,
+    "id": "firmalife:food/oat_dough"
+  }
+}

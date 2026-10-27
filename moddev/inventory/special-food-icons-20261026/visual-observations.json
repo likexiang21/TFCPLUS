@@ -1,0 +1,42 @@
+[
+  {
+    "File": "AR4X-before-and-candidates-p1.png",
+    "SHA256": "2FA6D60813ACB16BE6420B8A5B974F325FED9C19C55C9BFF2C81FA4103ED5A4D",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "File": "AR4X-exported-special-candidates.png",
+    "SHA256": "8C27DD7CF66F53F06905FEB550DDCD19F42D2376CF29324408762189DDFCF980",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "File": "AR4X-before-and-candidates-v2-p1.png",
+    "SHA256": "6C4A8CBF1F724B90890D6248DEB8C73881B8940B009DAD5CE46DD9DC761D40F4",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "File": "AR4X-exported-special-candidates-v2.png",
+    "SHA256": "2ED03F2216488C3F2C3ABBB18503544FC21D2CCA31BB174A820A7B68343C6C33",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "File": "AR4X-current-source-icons.png",
+    "SHA256": "3F61DFE5435FB83088DC538B782651267650583F7300F5E8D9316AEEC4D5F51D",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

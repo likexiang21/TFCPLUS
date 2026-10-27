@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:wood/stripped_log/kapok"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bast/kapok"
+    }
+  },
+  "result": {
+    "id": "tfc:wood/stripped_wood/kapok",
+    "count": 1
+  }
+}

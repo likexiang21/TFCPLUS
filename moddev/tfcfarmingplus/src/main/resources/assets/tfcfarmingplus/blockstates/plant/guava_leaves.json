@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/guava_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/guava_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/guava_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/guava_fruiting_leaves"}}}

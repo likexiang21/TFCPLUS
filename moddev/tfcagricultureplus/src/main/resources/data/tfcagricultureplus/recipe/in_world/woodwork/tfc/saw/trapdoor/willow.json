@@ -1,0 +1,31 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "tfc:wood/planks/willow_slab"
+  },
+  "tool": "saw",
+  "result_items": [
+    {
+      "action": "drop_center",
+      "item": {
+        "count": 2,
+        "id": "tfc:wood/trapdoor/willow"
+      }
+    },
+    {
+      "action": "drop_center",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:sawdust"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "minecraft:air"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_sawed",
+    "volume": 0.6,
+    "pitch": 1.0
+  }
+}

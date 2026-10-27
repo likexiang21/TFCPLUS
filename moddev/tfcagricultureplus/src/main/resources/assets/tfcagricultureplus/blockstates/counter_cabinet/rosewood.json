@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/rosewood"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/rosewood"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/rosewood"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/counter_cabinet/rosewood"
+    }
+  }
+}

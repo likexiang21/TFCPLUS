@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/aronia_bush_patch","placement":[{"type":"tfc:climate","min_temperature":-14,"max_temperature":24,"min_groundwater":120,"max_groundwater":320,"min_forest":2,"max_forest":4},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":30}]}

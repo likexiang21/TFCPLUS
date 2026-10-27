@@ -1,0 +1,82 @@
+[
+  {
+    "Family": "food",
+    "Name": "taro",
+    "ChineseName": "芋头",
+    "Model": "tfcfarmingplus:item/food/taro",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\taro.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/taro.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/taro.png",
+    "StoredSha256": "4B1596D02528FDEA83AAFB143F0A8C13883830AFCB7D4AE782CD8119921967EF",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "yam",
+    "ChineseName": "山药",
+    "Model": "tfcfarmingplus:item/food/yam",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\yam.json",
+    "ModelSha256": "D9382142FAF57743A21BBA95F03967452EAC9E78E5490AB8687FB4D030CC783A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/yam.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/tomato",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/tomato.png",
+    "CurrentSha256": "B7C9520A5F00DCC17F073813520B364C81FFF581F538F263955C9EAB2124F576",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/yam.png",
+    "StoredSha256": "D2746BDFBB41A558783C4A02045ECFD3EB424B282B7EE521731884445CCD4315",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "lotus",
+    "ChineseName": "莲藕",
+    "Model": "tfcfarmingplus:item/food/lotus",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\lotus.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/lotus.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/lotus.png",
+    "StoredSha256": "4AC501408AA13FC0F53750017EF1A8FCFF4CB3C76BD4ED3A940B62B67029DA4E",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Family": "food",
+    "Name": "arrowhead",
+    "ChineseName": "慈菇",
+    "Model": "tfcfarmingplus:item/food/arrowhead",
+    "ModelOrigin": "moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\arrowhead.json",
+    "ModelSha256": "D10678A886C292EB68FBC81511E02609B283387F6EEE4E85D355DEB5DC19006A",
+    "ParentChain": [
+      "assets/tfcfarmingplus/models/item/food/arrowhead.json",
+      "assets/minecraft/models/item/generated.json"
+    ],
+    "CurrentTexture": "tfc:item/food/rice",
+    "CurrentOrigin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/item/food/rice.png",
+    "CurrentSha256": "4C2C2ADE9914EDECBCB7FD3C00176D75D79A40261415938E94C5007B1AC0C196",
+    "StoredTexture": "assets/tfcfarmingplus/textures/item/food/arrowhead.png",
+    "StoredSha256": "757343794C0EED0DC24AB4DB3D06D8DB743EE1994C9E3BE32F889B3BEEE31648",
+    "CurrentEqualsStoredBytes": false,
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

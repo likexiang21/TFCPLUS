@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/pea_patch","placement":[{"type":"tfc:climate","min_temperature":-8,"max_temperature":20,"min_groundwater":100,"max_groundwater":320},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

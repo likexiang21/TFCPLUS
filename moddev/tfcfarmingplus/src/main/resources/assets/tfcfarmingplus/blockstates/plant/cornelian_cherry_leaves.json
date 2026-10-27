@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/cornelian_cherry_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/cornelian_cherry_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/cornelian_cherry_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/cornelian_cherry_fruiting_leaves"}}}

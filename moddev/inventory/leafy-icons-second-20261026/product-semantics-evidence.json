@@ -1,0 +1,1431 @@
+[
+  {
+    "Name": "lettuce",
+    "CurrentModel": {
+      "Path": "assets/tfcfarmingplus/models/item/food/lettuce.json",
+      "SHA256": "B274E5A7DE4AA8176684811025CECCC0C1FAF9A1748CC2BDFD5B6F8850EB134A",
+      "JSON": {
+        "parent": "item/generated",
+        "textures": {
+          "layer0": "tfcfarmingplus:item/food/kale"
+        }
+      }
+    },
+    "FoodData": {
+      "Path": "data/tfcfarmingplus/tfc/food/lettuce.json",
+      "SHA256": "5B53C19E93E9B2A77181E738A3FBC0D4A94F4722AB919A746D47581C85E228C6",
+      "JSON": {
+        "decay_modifier": 1.5,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/lettuce"
+        },
+        "saturation": 1,
+        "vegetables": 1.5,
+        "water": 5
+      }
+    },
+    "Guides": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+        "SHA256": "C7B2B91B8ABAA6B225049EB7B798611E931448BD5D75D27C023D87DC7567C163",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "生菜",
+            "anchor": "lettuce",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -6°C - 24°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 15 - 75 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 60 $(bold)$(6)磷$(): +20 $(bold)$(d)钾$(): +20$()$(br2)生菜是单格作物。含水量很高，同时补充水分与蔬菜营养。$(br2)生菜种子可以种植在$(l:tfc:food/farmland)农田$()上，成熟后收割可以得到$(thing)生菜$()和$(thing)生菜种子$()。$(br2)"
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+        "SHA256": "8070EDF990D9BF8A4B199F27F8255541C6B3F004FD3D2FA967DB6F63586D20A2",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Lettuce",
+            "anchor": "lettuce",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -6°C - 24°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 15 - 75 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 60 $(bold)$(6)Phosphorous$(): +20 $(bold)$(d)Potassium$(): +20$()$(br2)Lettuce is a single block crop: very watery, topping up both hunger and thirst.$(br2)Lettuce seeds can be planted on $(l:tfc:food/farmland)farmland$(), and once ripe the harvest gives $(thing)Lettuce$() and $(thing)Lettuce Seeds$().$(br2)"
+          }
+        ]
+      }
+    ],
+    "DeclaredReferences": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/tfc/food/lettuce.json",
+        "SHA256": "5B53C19E93E9B2A77181E738A3FBC0D4A94F4722AB919A746D47581C85E228C6",
+        "JSON": {
+          "decay_modifier": 1.5,
+          "hunger": 4,
+          "ingredient": {
+            "item": "tfcfarmingplus:food/lettuce"
+          },
+          "saturation": 1,
+          "vegetables": 1.5,
+          "water": 5
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/lettuce.json",
+        "SHA256": "CFF49940E34D1A361166A3A98FBA370CBA3D096AE13B8118847A151C8B02863B",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/lettuce",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/lettuce",
+                      "properties": {
+                        "age": "5"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "tfc:crop_yield_uniform",
+                        "min": 0,
+                        "max": {
+                          "type": "minecraft:uniform",
+                          "min": 6,
+                          "max": 10
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/lettuce"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/lettuce.json",
+        "SHA256": "E7AD9F0BB8FA81370D74F4D971EE2652FEE0DD64CF81A90D91C42F46E6A016EF",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/lettuce",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:wild_crop/lettuce",
+                      "properties": {
+                        "mature": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 3,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/lettuce"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/lettuce.json",
+        "SHA256": "F9C9D26C3BA162A36E6ED427079ED5E0A84CDD8A76895DA8B641B97A0BEC0CBB",
+        "JSON": {
+          "crop": {
+            "count": 1,
+            "id": "tfcfarmingplus:food/lettuce"
+          },
+          "ingredient": {
+            "item": "tfcfarmingplus:seeds/lettuce"
+          },
+          "nutrient": {
+            "nitrogen": 0.6,
+            "phosphorous": -0.2,
+            "potassium": -0.2
+          },
+          "planter": "quad",
+          "seed": {
+            "count": 1,
+            "id": "tfcfarmingplus:seeds/lettuce"
+          },
+          "specials": [],
+          "stages": 5,
+          "textures": [
+            "tfc:block/crop/onion_0",
+            "tfc:block/crop/onion_1",
+            "tfc:block/crop/onion_2",
+            "tfc:block/crop/onion_3",
+            "tfc:block/crop/onion_4",
+            "tfc:block/crop/onion_5"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/foods/vegetable.json",
+        "SHA256": "FAD745D38A761B6695D5D96F1F49DC6E77184F56FAC75F182E8559FE58EBADB9",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:food/spinach",
+            "tfcfarmingplus:food/lettuce",
+            "tfcfarmingplus:food/celery",
+            "tfcfarmingplus:food/kale",
+            "tfcfarmingplus:food/napa_cabbage",
+            "tfcfarmingplus:food/mustard_greens",
+            "tfcfarmingplus:food/broccoli",
+            "tfcfarmingplus:food/cauliflower",
+            "tfcfarmingplus:food/brussels_sprouts",
+            "tfcfarmingplus:food/swiss_chard",
+            "tfcfarmingplus:food/celtuce",
+            "tfcfarmingplus:food/garland_chrysanthemum",
+            "tfcfarmingplus:food/perilla",
+            "tfcfarmingplus:food/arugula",
+            "tfcfarmingplus:food/turnip",
+            "tfcfarmingplus:food/parsnip",
+            "tfcfarmingplus:food/sunchoke",
+            "tfcfarmingplus:food/shallot",
+            "tfcfarmingplus:food/celeriac",
+            "tfcfarmingplus:food/salsify",
+            "tfcfarmingplus:food/ginger",
+            "tfcfarmingplus:food/turmeric",
+            "tfcfarmingplus:food/yacon",
+            "tfcfarmingplus:food/chicory_root",
+            "tfcfarmingplus:food/chickpea",
+            "tfcfarmingplus:food/faba_bean",
+            "tfcfarmingplus:food/lupin",
+            "tfcfarmingplus:food/adzuki",
+            "tfcfarmingplus:food/bambara_nut",
+            "tfcfarmingplus:food/fenugreek",
+            "tfcfarmingplus:food/sesame",
+            "tfcfarmingplus:food/safflower",
+            "tfcfarmingplus:food/chili",
+            "tfcfarmingplus:food/eggplant",
+            "tfcfarmingplus:food/okra",
+            "tfcfarmingplus:food/asparagus",
+            "tfcfarmingplus:food/chive",
+            "tfcfarmingplus:food/rhubarb",
+            "tfcfarmingplus:food/artichoke",
+            "tfcfarmingplus:food/taro",
+            "tfcfarmingplus:food/water_chestnut",
+            "tfcfarmingplus:food/water_caltrop",
+            "tfcfarmingplus:food/wild_rice_stem",
+            "tfcfarmingplus:food/lotus",
+            "tfcfarmingplus:food/water_dropwort",
+            "tfcfarmingplus:food/water_spinach",
+            "tfcfarmingplus:food/arrowhead",
+            "tfcfarmingplus:food/gorgon_nut",
+            "tfcfarmingplus:food/loofah",
+            "tfcfarmingplus:food/bitter_melon",
+            "tfcfarmingplus:food/snake_gourd",
+            "tfcfarmingplus:food/yam",
+            "tfcfarmingplus:food/malabar_spinach",
+            "tfcfarmingplus:food/chayote",
+            "tfcfarmingplus:food/water_shield",
+            "tfcfarmingplus:food/cardoon",
+            "tfcfarmingplus:food/agave",
+            "tfcfarmingplus:food/purslane",
+            "tfcfarmingplus:food/pea",
+            "tfcfarmingplus:food/cowpea",
+            "tfcfarmingplus:food/common_bean",
+            "tfcfarmingplus:food/winged_bean",
+            "tfcfarmingplus:food/pigeon_pea",
+            "tfcfarmingplus:food/sunflower"
+          ]
+        }
+      }
+    ],
+    "JavaSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\java\\com\\example\\tfcfarmingplus\\common\\MyCrops.java",
+    "JavaSHA256": "C0C7D9738E3D5AD0157CF8D0D2D40C8909F2F2C781E7265DA5F8B0A3E8FFCD70",
+    "RegistrationLines": [
+      {
+        "Line": 51,
+        "Text": "    public static final DataManager.Reference<ClimateRange> LETTUCE_CLIMATE = climate(\"crop/lettuce\");"
+      },
+      {
+        "Line": 129,
+        "Text": "    public static final DeferredHolder<Block, DeadCropBlock> DEAD_LETTUCE = dead(\"lettuce\", LETTUCE_CLIMATE);"
+      },
+      {
+        "Line": 197,
+        "Text": "    public static final DeferredHolder<Item, Item> LETTUCE = food(\"lettuce\");"
+      },
+      {
+        "Line": 276,
+        "Text": "    public static final DeferredHolder<Item, Item> LETTUCE_SEEDS ="
+      },
+      {
+        "Line": 277,
+        "Text": "        seed(\"lettuce\", () -> MyCrops.LETTUCE_CROP.get(), 0.6f, -0.2f, -0.2f, LETTUCE_CLIMATE);"
+      },
+      {
+        "Line": 435,
+        "Text": "    public static final DeferredHolder<Block, MyCropBlock> LETTUCE_CROP ="
+      },
+      {
+        "Line": 436,
+        "Text": "        crop(\"lettuce\", 5, 0.6f, -0.2f, -0.2f, LETTUCE_CLIMATE, () -> MyCrops.DEAD_LETTUCE.get());"
+      },
+      {
+        "Line": 1021,
+        "Text": "            SPINACH_CROP.get(), LETTUCE_CROP.get(), CELERY_CROP.get(), KALE_CROP.get(),"
+      },
+      {
+        "Line": 1053,
+        "Text": "            case \"lettuce\" -> LETTUCE_SEEDS;"
+      }
+    ],
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Name": "spinach",
+    "CurrentModel": {
+      "Path": "assets/tfcfarmingplus/models/item/food/spinach.json",
+      "SHA256": "E6880FBFA9B34607118B7FE0BDC419DC3E6F34908C89D67A3EE5CE893DE763BA",
+      "JSON": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "tfcfarmingplus:item/food/kale"
+        }
+      }
+    },
+    "FoodData": {
+      "Path": "data/tfcfarmingplus/tfc/food/spinach.json",
+      "SHA256": "1BC17796EFEFC0D3116B1D733CC2C2B325D15A04857C11745767D94FE5838800",
+      "JSON": {
+        "decay_modifier": 1.2,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/spinach"
+        },
+        "saturation": 1,
+        "vegetables": 2
+      }
+    },
+    "Guides": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+        "SHA256": "C7B2B91B8ABAA6B225049EB7B798611E931448BD5D75D27C023D87DC7567C163",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "菠菜",
+            "anchor": "spinach",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -12°C - 25°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 10 - 70 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 70 $(bold)$(6)磷$(): +20 $(bold)$(d)钾$(): +20$()$(br2)菠菜是单格作物。最耐寒的叶菜之一，霜降前都还能长。$(br2)菠菜种子可以种植在$(l:tfc:food/farmland)农田$()上，成熟后收割可以得到$(thing)菠菜$()和$(thing)菠菜种子$()。$(br2)"
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+        "SHA256": "8070EDF990D9BF8A4B199F27F8255541C6B3F004FD3D2FA967DB6F63586D20A2",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Spinach",
+            "anchor": "spinach",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -12°C - 25°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 10 - 70 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 70 $(bold)$(6)Phosphorous$(): +20 $(bold)$(d)Potassium$(): +20$()$(br2)Spinach is a single block crop: one of the hardiest greens, still growing until the first hard frost.$(br2)Spinach seeds can be planted on $(l:tfc:food/farmland)farmland$(), and once ripe the harvest gives $(thing)Spinach$() and $(thing)Spinach Seeds$().$(br2)"
+          }
+        ]
+      }
+    ],
+    "DeclaredReferences": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/tfc/food/spinach.json",
+        "SHA256": "1BC17796EFEFC0D3116B1D733CC2C2B325D15A04857C11745767D94FE5838800",
+        "JSON": {
+          "decay_modifier": 1.2,
+          "hunger": 4,
+          "ingredient": {
+            "item": "tfcfarmingplus:food/spinach"
+          },
+          "saturation": 1,
+          "vegetables": 2
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/spinach.json",
+        "SHA256": "EC0D831E3EBB4F4732F25456AE1E93E07EA71446BC8B859B79FFA0E1B5E45BE3",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/spinach",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/spinach",
+                      "properties": {
+                        "age": "5"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "tfc:crop_yield_uniform",
+                        "min": 0,
+                        "max": {
+                          "type": "minecraft:uniform",
+                          "min": 6,
+                          "max": 10
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/spinach"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/spinach.json",
+        "SHA256": "D1BEF369A7D07D4753A9AA793311680A4CA1C8769F5C5BFCA6A7C2B723760E47",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/spinach",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:wild_crop/spinach",
+                      "properties": {
+                        "mature": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 3,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/spinach"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/spinach.json",
+        "SHA256": "F8995ECE7E52F1672A49C72B5A8CA45679D917C0159348D3C7004C2E3A2E9737",
+        "JSON": {
+          "crop": {
+            "count": 1,
+            "id": "tfcfarmingplus:food/spinach"
+          },
+          "ingredient": {
+            "item": "tfcfarmingplus:seeds/spinach"
+          },
+          "nutrient": {
+            "nitrogen": 0.7,
+            "phosphorous": -0.2,
+            "potassium": -0.2
+          },
+          "planter": "quad",
+          "seed": {
+            "count": 1,
+            "id": "tfcfarmingplus:seeds/spinach"
+          },
+          "specials": [],
+          "stages": 5,
+          "textures": [
+            "tfcfarmingplus:block/crop/spinach_age_0",
+            "tfcfarmingplus:block/crop/spinach_age_1",
+            "tfcfarmingplus:block/crop/spinach_age_2",
+            "tfcfarmingplus:block/crop/spinach_age_3",
+            "tfcfarmingplus:block/crop/spinach_age_4",
+            "tfcfarmingplus:block/crop/spinach_age_4"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/foods/vegetable.json",
+        "SHA256": "FAD745D38A761B6695D5D96F1F49DC6E77184F56FAC75F182E8559FE58EBADB9",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:food/spinach",
+            "tfcfarmingplus:food/lettuce",
+            "tfcfarmingplus:food/celery",
+            "tfcfarmingplus:food/kale",
+            "tfcfarmingplus:food/napa_cabbage",
+            "tfcfarmingplus:food/mustard_greens",
+            "tfcfarmingplus:food/broccoli",
+            "tfcfarmingplus:food/cauliflower",
+            "tfcfarmingplus:food/brussels_sprouts",
+            "tfcfarmingplus:food/swiss_chard",
+            "tfcfarmingplus:food/celtuce",
+            "tfcfarmingplus:food/garland_chrysanthemum",
+            "tfcfarmingplus:food/perilla",
+            "tfcfarmingplus:food/arugula",
+            "tfcfarmingplus:food/turnip",
+            "tfcfarmingplus:food/parsnip",
+            "tfcfarmingplus:food/sunchoke",
+            "tfcfarmingplus:food/shallot",
+            "tfcfarmingplus:food/celeriac",
+            "tfcfarmingplus:food/salsify",
+            "tfcfarmingplus:food/ginger",
+            "tfcfarmingplus:food/turmeric",
+            "tfcfarmingplus:food/yacon",
+            "tfcfarmingplus:food/chicory_root",
+            "tfcfarmingplus:food/chickpea",
+            "tfcfarmingplus:food/faba_bean",
+            "tfcfarmingplus:food/lupin",
+            "tfcfarmingplus:food/adzuki",
+            "tfcfarmingplus:food/bambara_nut",
+            "tfcfarmingplus:food/fenugreek",
+            "tfcfarmingplus:food/sesame",
+            "tfcfarmingplus:food/safflower",
+            "tfcfarmingplus:food/chili",
+            "tfcfarmingplus:food/eggplant",
+            "tfcfarmingplus:food/okra",
+            "tfcfarmingplus:food/asparagus",
+            "tfcfarmingplus:food/chive",
+            "tfcfarmingplus:food/rhubarb",
+            "tfcfarmingplus:food/artichoke",
+            "tfcfarmingplus:food/taro",
+            "tfcfarmingplus:food/water_chestnut",
+            "tfcfarmingplus:food/water_caltrop",
+            "tfcfarmingplus:food/wild_rice_stem",
+            "tfcfarmingplus:food/lotus",
+            "tfcfarmingplus:food/water_dropwort",
+            "tfcfarmingplus:food/water_spinach",
+            "tfcfarmingplus:food/arrowhead",
+            "tfcfarmingplus:food/gorgon_nut",
+            "tfcfarmingplus:food/loofah",
+            "tfcfarmingplus:food/bitter_melon",
+            "tfcfarmingplus:food/snake_gourd",
+            "tfcfarmingplus:food/yam",
+            "tfcfarmingplus:food/malabar_spinach",
+            "tfcfarmingplus:food/chayote",
+            "tfcfarmingplus:food/water_shield",
+            "tfcfarmingplus:food/cardoon",
+            "tfcfarmingplus:food/agave",
+            "tfcfarmingplus:food/purslane",
+            "tfcfarmingplus:food/pea",
+            "tfcfarmingplus:food/cowpea",
+            "tfcfarmingplus:food/common_bean",
+            "tfcfarmingplus:food/winged_bean",
+            "tfcfarmingplus:food/pigeon_pea",
+            "tfcfarmingplus:food/sunflower"
+          ]
+        }
+      }
+    ],
+    "JavaSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\java\\com\\example\\tfcfarmingplus\\common\\MyCrops.java",
+    "JavaSHA256": "C0C7D9738E3D5AD0157CF8D0D2D40C8909F2F2C781E7265DA5F8B0A3E8FFCD70",
+    "RegistrationLines": [
+      {
+        "Line": 50,
+        "Text": "    public static final DataManager.Reference<ClimateRange> SPINACH_CLIMATE = climate(\"crop/spinach\");"
+      },
+      {
+        "Line": 115,
+        "Text": "    public static final DataManager.Reference<ClimateRange> WATER_SPINACH_CLIMATE = climate(\"crop/water_spinach\");"
+      },
+      {
+        "Line": 128,
+        "Text": "    public static final DeferredHolder<Block, DeadCropBlock> DEAD_SPINACH = dead(\"spinach\", SPINACH_CLIMATE);"
+      },
+      {
+        "Line": 190,
+        "Text": "    public static final DeferredHolder<Block, DeadCropBlock> DEAD_WATER_SPINACH = deadFlooded(\"water_spinach\", WATER_SPINACH_CLIMATE);"
+      },
+      {
+        "Line": 196,
+        "Text": "    public static final DeferredHolder<Item, Item> SPINACH = food(\"spinach\");"
+      },
+      {
+        "Line": 263,
+        "Text": "    public static final DeferredHolder<Item, Item> WATER_SPINACH = food(\"water_spinach\");"
+      },
+      {
+        "Line": 274,
+        "Text": "    public static final DeferredHolder<Item, Item> SPINACH_SEEDS ="
+      },
+      {
+        "Line": 275,
+        "Text": "        seed(\"spinach\", () -> MyCrops.SPINACH_CROP.get(), 0.7f, -0.2f, -0.2f, SPINACH_CLIMATE);"
+      },
+      {
+        "Line": 414,
+        "Text": "    public static final DeferredHolder<Item, Item> WATER_SPINACH_SEEDS ="
+      },
+      {
+        "Line": 415,
+        "Text": "        seed(\"water_spinach\", () -> MyCrops.WATER_SPINACH_CROP.get(), 0.8f, -0.2f, -0.2f, WATER_SPINACH_CLIMATE);"
+      },
+      {
+        "Line": 433,
+        "Text": "    public static final DeferredHolder<Block, MyCropBlock> SPINACH_CROP ="
+      },
+      {
+        "Line": 434,
+        "Text": "        crop(\"spinach\", 5, 0.7f, -0.2f, -0.2f, SPINACH_CLIMATE, () -> MyCrops.DEAD_SPINACH.get());"
+      },
+      {
+        "Line": 569,
+        "Text": "    public static final DeferredHolder<Block, MyFloodedCropBlock> WATER_SPINACH_CROP ="
+      },
+      {
+        "Line": 570,
+        "Text": "        flooded(\"water_spinach\", 5, 0.8f, -0.2f, -0.2f, WATER_SPINACH_CLIMATE, () -> MyCrops.DEAD_WATER_SPINACH.get());"
+      },
+      {
+        "Line": 731,
+        "Text": "    public static final DataManager.Reference<ClimateRange> MALABAR_SPINACH_CLIMATE = climate(\"crop/malabar_spinach\");"
+      },
+      {
+        "Line": 752,
+        "Text": "    public static final DeferredHolder<Block, Block> DEAD_MALABAR_SPINACH ="
+      },
+      {
+        "Line": 753,
+        "Text": "        MyBlocks.BLOCKS.register(\"dead_crop/malabar_spinach\","
+      },
+      {
+        "Line": 754,
+        "Text": "            () -> new DeadClimbingCropBlock(MyBlocks.deadProps(), MALABAR_SPINACH_CLIMATE));"
+      },
+      {
+        "Line": 755,
+        "Text": "    public static final DeferredHolder<Item, Item> MALABAR_SPINACH = food(\"malabar_spinach\");"
+      },
+      {
+        "Line": 765,
+        "Text": "    public static final DeferredHolder<Item, Item> MALABAR_SPINACH_SEEDS ="
+      },
+      {
+        "Line": 766,
+        "Text": "        seed(\"malabar_spinach\", () -> MyCrops.MALABAR_SPINACH_CROP.get(), 0.7f, -0.2f, -0.2f, MALABAR_SPINACH_CLIMATE);"
+      },
+      {
+        "Line": 785,
+        "Text": "    public static final DeferredHolder<Block, MyClimbingCropBlock> MALABAR_SPINACH_CROP ="
+      },
+      {
+        "Line": 786,
+        "Text": "        climb(\"malabar_spinach\", 4, 7, 0.7f, -0.2f, -0.2f, MALABAR_SPINACH_CLIMATE, () -> MyCrops.DEAD_MALABAR_SPINACH.get());"
+      },
+      {
+        "Line": 1021,
+        "Text": "            SPINACH_CROP.get(), LETTUCE_CROP.get(), CELERY_CROP.get(), KALE_CROP.get(),"
+      },
+      {
+        "Line": 1028,
+        "Text": "            CHICKPEA_CROP.get(), FABA_BEAN_CROP.get(), LUPIN_CROP.get(), ADZUKI_CROP.get(), BAMBARA_NUT_CROP.get(), FENUGREEK_CROP.get(), FLAX_CROP.get(), SESAME_CROP.get(), SAFFLOWER_CROP.get(), RAMIE_CROP.get(), CHILI_CROP.get(), EGGPLANT_CROP.get(), OKRA_CROP.get(), COTTON_CROP.get(), ASPARAGUS_CROP.get(), CHIVE_CROP.get(), RHUBARB_CROP.get(), ARTICHOKE_CROP.get(), CANTALOUPE_CROP.get(), WINTER_MELON_CROP.get(), BOTTLE_GOURD_CROP.get(), CHAYOTE_CROP.get(), HOPS_CROP.get(), LOOFAH_CROP.get(), BITTER_MELON_CROP.get(), SNAKE_GOURD_CROP.get(), YAM_CROP.get(), MALABAR_SPINACH_CROP.get(), TARO_CROP.get(), WATER_CHESTNUT_CROP.get(), WATER_CALTROP_CROP.get(), WILD_RICE_STEM_CROP.get(), LOTUS_CROP.get(), WATER_DROPWORT_CROP.get(), WATER_SPINACH_CROP.get(), ARROWHEAD_CROP.get(), GORGON_NUT_CROP.get(), WATER_SHIELD_CROP.get(),"
+      },
+      {
+        "Line": 1052,
+        "Text": "            case \"spinach\" -> SPINACH_SEEDS;"
+      },
+      {
+        "Line": 1115,
+        "Text": "            case \"malabar_spinach\" -> MALABAR_SPINACH_SEEDS;"
+      },
+      {
+        "Line": 1122,
+        "Text": "            case \"water_spinach\" -> WATER_SPINACH_SEEDS;"
+      }
+    ],
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Name": "swiss_chard",
+    "CurrentModel": {
+      "Path": "assets/tfcfarmingplus/models/item/food/swiss_chard.json",
+      "SHA256": "B274E5A7DE4AA8176684811025CECCC0C1FAF9A1748CC2BDFD5B6F8850EB134A",
+      "JSON": {
+        "parent": "item/generated",
+        "textures": {
+          "layer0": "tfcfarmingplus:item/food/kale"
+        }
+      }
+    },
+    "FoodData": {
+      "Path": "data/tfcfarmingplus/tfc/food/swiss_chard.json",
+      "SHA256": "D09BB209D6575D922DEF60427E2A674F7F34C8A3A2EBB0D11B5EBC91A53194EE",
+      "JSON": {
+        "decay_modifier": 4,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/swiss_chard"
+        },
+        "saturation": 1,
+        "vegetables": 2,
+        "water": 3
+      }
+    },
+    "Guides": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+        "SHA256": "C7B2B91B8ABAA6B225049EB7B798611E931448BD5D75D27C023D87DC7567C163",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "牛皮菜",
+            "anchor": "swiss_chard",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -5°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 80 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 60 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 40$()$(br2)牛皮菜是单格作物。叶柄肥厚、叶片宽大，割了还会再长。$(br2)牛皮菜种子可以种植在$(l:tfc:food/farmland)农田$()上，成熟后收割可以得到$(thing)牛皮菜$()和$(thing)牛皮菜种子$()。$(br2)"
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+        "SHA256": "8070EDF990D9BF8A4B199F27F8255541C6B3F004FD3D2FA967DB6F63586D20A2",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Swiss Chard",
+            "anchor": "swiss_chard",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -5°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 80 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 60 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 40$()$(br2)Swiss Chard is a single block crop: thick stalks and broad leaves.$(br2)Swiss Chard seeds can be planted on $(l:tfc:food/farmland)farmland$(), and once ripe the harvest gives $(thing)Swiss Chard$() and $(thing)Swiss Chard Seeds$().$(br2)"
+          }
+        ]
+      }
+    ],
+    "DeclaredReferences": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/tfc/food/swiss_chard.json",
+        "SHA256": "D09BB209D6575D922DEF60427E2A674F7F34C8A3A2EBB0D11B5EBC91A53194EE",
+        "JSON": {
+          "decay_modifier": 4,
+          "hunger": 4,
+          "ingredient": {
+            "item": "tfcfarmingplus:food/swiss_chard"
+          },
+          "saturation": 1,
+          "vegetables": 2,
+          "water": 3
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/swiss_chard.json",
+        "SHA256": "8B900A9FF514BE043CF380FAD9629252CA2E82B4BC7007011C151060EE87E118",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/swiss_chard",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/swiss_chard",
+                      "properties": {
+                        "age": "5"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "tfc:crop_yield_uniform",
+                        "min": 0,
+                        "max": {
+                          "type": "minecraft:uniform",
+                          "min": 6,
+                          "max": 10
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/swiss_chard"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/swiss_chard.json",
+        "SHA256": "5AE45579DA4476EAC9C6E1B674492B59DEC5E42B9C1BA1DFBB73ED836E41F941",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/swiss_chard",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:wild_crop/swiss_chard",
+                      "properties": {
+                        "mature": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 3,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/swiss_chard"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/swiss_chard.json",
+        "SHA256": "865D0FF1422EDB430C16D6BC95D42F6BCACCA9D45124B06A7712EAE4D2059ACF",
+        "JSON": {
+          "crop": {
+            "count": 1,
+            "id": "tfcfarmingplus:food/swiss_chard"
+          },
+          "ingredient": {
+            "item": "tfcfarmingplus:seeds/swiss_chard"
+          },
+          "nutrient": {
+            "nitrogen": 0.6,
+            "phosphorous": 0.2,
+            "potassium": 0.4
+          },
+          "planter": "quad",
+          "seed": {
+            "count": 1,
+            "id": "tfcfarmingplus:seeds/swiss_chard"
+          },
+          "specials": [],
+          "stages": 5,
+          "textures": [
+            "tfc:block/crop/beet_0",
+            "tfc:block/crop/beet_1",
+            "tfc:block/crop/beet_2",
+            "tfc:block/crop/beet_3",
+            "tfc:block/crop/beet_4",
+            "tfc:block/crop/beet_5"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/foods/vegetable.json",
+        "SHA256": "FAD745D38A761B6695D5D96F1F49DC6E77184F56FAC75F182E8559FE58EBADB9",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:food/spinach",
+            "tfcfarmingplus:food/lettuce",
+            "tfcfarmingplus:food/celery",
+            "tfcfarmingplus:food/kale",
+            "tfcfarmingplus:food/napa_cabbage",
+            "tfcfarmingplus:food/mustard_greens",
+            "tfcfarmingplus:food/broccoli",
+            "tfcfarmingplus:food/cauliflower",
+            "tfcfarmingplus:food/brussels_sprouts",
+            "tfcfarmingplus:food/swiss_chard",
+            "tfcfarmingplus:food/celtuce",
+            "tfcfarmingplus:food/garland_chrysanthemum",
+            "tfcfarmingplus:food/perilla",
+            "tfcfarmingplus:food/arugula",
+            "tfcfarmingplus:food/turnip",
+            "tfcfarmingplus:food/parsnip",
+            "tfcfarmingplus:food/sunchoke",
+            "tfcfarmingplus:food/shallot",
+            "tfcfarmingplus:food/celeriac",
+            "tfcfarmingplus:food/salsify",
+            "tfcfarmingplus:food/ginger",
+            "tfcfarmingplus:food/turmeric",
+            "tfcfarmingplus:food/yacon",
+            "tfcfarmingplus:food/chicory_root",
+            "tfcfarmingplus:food/chickpea",
+            "tfcfarmingplus:food/faba_bean",
+            "tfcfarmingplus:food/lupin",
+            "tfcfarmingplus:food/adzuki",
+            "tfcfarmingplus:food/bambara_nut",
+            "tfcfarmingplus:food/fenugreek",
+            "tfcfarmingplus:food/sesame",
+            "tfcfarmingplus:food/safflower",
+            "tfcfarmingplus:food/chili",
+            "tfcfarmingplus:food/eggplant",
+            "tfcfarmingplus:food/okra",
+            "tfcfarmingplus:food/asparagus",
+            "tfcfarmingplus:food/chive",
+            "tfcfarmingplus:food/rhubarb",
+            "tfcfarmingplus:food/artichoke",
+            "tfcfarmingplus:food/taro",
+            "tfcfarmingplus:food/water_chestnut",
+            "tfcfarmingplus:food/water_caltrop",
+            "tfcfarmingplus:food/wild_rice_stem",
+            "tfcfarmingplus:food/lotus",
+            "tfcfarmingplus:food/water_dropwort",
+            "tfcfarmingplus:food/water_spinach",
+            "tfcfarmingplus:food/arrowhead",
+            "tfcfarmingplus:food/gorgon_nut",
+            "tfcfarmingplus:food/loofah",
+            "tfcfarmingplus:food/bitter_melon",
+            "tfcfarmingplus:food/snake_gourd",
+            "tfcfarmingplus:food/yam",
+            "tfcfarmingplus:food/malabar_spinach",
+            "tfcfarmingplus:food/chayote",
+            "tfcfarmingplus:food/water_shield",
+            "tfcfarmingplus:food/cardoon",
+            "tfcfarmingplus:food/agave",
+            "tfcfarmingplus:food/purslane",
+            "tfcfarmingplus:food/pea",
+            "tfcfarmingplus:food/cowpea",
+            "tfcfarmingplus:food/common_bean",
+            "tfcfarmingplus:food/winged_bean",
+            "tfcfarmingplus:food/pigeon_pea",
+            "tfcfarmingplus:food/sunflower"
+          ]
+        }
+      }
+    ],
+    "JavaSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\java\\com\\example\\tfcfarmingplus\\common\\MyCrops.java",
+    "JavaSHA256": "C0C7D9738E3D5AD0157CF8D0D2D40C8909F2F2C781E7265DA5F8B0A3E8FFCD70",
+    "RegistrationLines": [
+      {
+        "Line": 61,
+        "Text": "    public static final DataManager.Reference<ClimateRange> SWISS_CHARD_CLIMATE = climate(\"crop/swiss_chard\");"
+      },
+      {
+        "Line": 137,
+        "Text": "    public static final DeferredHolder<Block, DeadCropBlock> DEAD_SWISS_CHARD = dead(\"swiss_chard\", SWISS_CHARD_CLIMATE);"
+      },
+      {
+        "Line": 205,
+        "Text": "    public static final DeferredHolder<Item, Item> SWISS_CHARD = food(\"swiss_chard\");"
+      },
+      {
+        "Line": 292,
+        "Text": "    public static final DeferredHolder<Item, Item> SWISS_CHARD_SEEDS ="
+      },
+      {
+        "Line": 293,
+        "Text": "        seed(\"swiss_chard\", () -> MyCrops.SWISS_CHARD_CROP.get(), 0.6f, 0.2f, 0.4f, SWISS_CHARD_CLIMATE);"
+      },
+      {
+        "Line": 453,
+        "Text": "    public static final DeferredHolder<Block, MyCropBlock> SWISS_CHARD_CROP ="
+      },
+      {
+        "Line": 454,
+        "Text": "        crop(\"swiss_chard\", 5, 0.6f, 0.2f, 0.4f, SWISS_CHARD_CLIMATE, () -> MyCrops.DEAD_SWISS_CHARD.get());"
+      },
+      {
+        "Line": 1024,
+        "Text": "            BRUSSELS_SPROUTS_CROP.get(), SWISS_CHARD_CROP.get(), CELTUCE_CROP.get(), GARLAND_CHRYSANTHEMUM_CROP.get(), PERILLA_CROP.get(), ARUGULA_CROP.get(), TURNIP_CROP.get(), PARSNIP_CROP.get(), SUNCHOKE_CROP.get(), SHALLOT_CROP.get(), CELERIAC_CROP.get(), SALSIFY_CROP.get(), GINGER_CROP.get(), TURMERIC_CROP.get(), YACON_CROP.get(), CHICORY_ROOT_CROP.get(),"
+      },
+      {
+        "Line": 1061,
+        "Text": "            case \"swiss_chard\" -> SWISS_CHARD_SEEDS;"
+      }
+    ],
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Name": "purslane",
+    "CurrentModel": {
+      "Path": "assets/tfcfarmingplus/models/item/food/purslane.json",
+      "SHA256": "B274E5A7DE4AA8176684811025CECCC0C1FAF9A1748CC2BDFD5B6F8850EB134A",
+      "JSON": {
+        "parent": "item/generated",
+        "textures": {
+          "layer0": "tfcfarmingplus:item/food/kale"
+        }
+      }
+    },
+    "FoodData": {
+      "Path": "data/tfcfarmingplus/tfc/food/purslane.json",
+      "SHA256": "B1C725F440E183CB04C315FBFFBEE024FE3C9375C912CB731C48BB9A84BADADB",
+      "JSON": {
+        "decay_modifier": 4,
+        "hunger": 4,
+        "ingredient": {
+          "item": "tfcfarmingplus:food/purslane"
+        },
+        "saturation": 0.5,
+        "vegetables": 1.5,
+        "water": 4
+      }
+    },
+    "Guides": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+        "SHA256": "C7B2B91B8ABAA6B225049EB7B798611E931448BD5D75D27C023D87DC7567C163",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "马齿苋",
+            "anchor": "purslane",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 10°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 20 - 70 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 40 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 30$()$(br2)种子（侧芽）播在$(l:tfc:food/farmland)农田$()上。莲座分六龄生长，完全成熟并显现中心结果态后，破坏整株采收并返还1至2份侧芽；空手右键不采摘。枯死时在原地返还1份对应侧芽，应及时拾取；之后破坏共享死株不再掉落。$(br2)"
+          }
+        ]
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+        "SHA256": "8070EDF990D9BF8A4B199F27F8255541C6B3F004FD3D2FA967DB6F63586D20A2",
+        "Pages": [
+          {
+            "type": "patchouli:text",
+            "title": "Purslane",
+            "anchor": "purslane",
+            "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 10°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 20 - 70 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 40 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 30$()$(br2)Sow seeds (sidebuds) on $(l:tfc:food/farmland)farmland$(). This rosette has six leaf stages. Once fully grown with a ripe centre, break the whole plant to harvest and receive one to two sidebuds; an empty-hand right-click does not harvest. When it dies, one species sidebud drops immediately: collect it promptly. Breaking the shared dead plant gives nothing further.$(br2)"
+          }
+        ]
+      }
+    ],
+    "DeclaredReferences": [
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/tfc/food/purslane.json",
+        "SHA256": "B1C725F440E183CB04C315FBFFBEE024FE3C9375C912CB731C48BB9A84BADADB",
+        "JSON": {
+          "decay_modifier": 4,
+          "hunger": 4,
+          "ingredient": {
+            "item": "tfcfarmingplus:food/purslane"
+          },
+          "saturation": 0.5,
+          "vegetables": 1.5,
+          "water": 4
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/purslane.json",
+        "SHA256": "4667ADF489C6684E339E6F459A32B58DC9C04CBA4BEFFC4E145F404DE27802A9",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/purslane",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:crop/purslane",
+                      "properties": {
+                        "age": "5",
+                        "fruiting": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "tfc:crop_yield_uniform",
+                        "min": 0,
+                        "max": {
+                          "type": "minecraft:uniform",
+                          "min": 6,
+                          "max": 10
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/purslane",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "min": 1,
+                        "max": 2
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/purslane.json",
+        "SHA256": "035C0738666734EAEE836E0A41249CE66B677FDF64494D3B0A71F5E1EDAE4E3E",
+        "JSON": {
+          "type": "minecraft:block",
+          "pools": [
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:food/purslane",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "tfcfarmingplus:wild_crop/purslane",
+                      "properties": {
+                        "mature": "true"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 3,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "name": "loot_pool",
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "tfcfarmingplus:seeds/purslane"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/purslane.json",
+        "SHA256": "0FEC0D1EF6505152D4B4BD6A1E814DB2E21E0B25753BDCAF32594B079786F4B6",
+        "JSON": {
+          "crop": {
+            "count": 1,
+            "id": "tfcfarmingplus:food/purslane"
+          },
+          "ingredient": {
+            "item": "tfcfarmingplus:seeds/purslane"
+          },
+          "nutrient": {
+            "nitrogen": 0.4,
+            "phosphorous": 0.2,
+            "potassium": 0.3
+          },
+          "planter": "quad",
+          "seed": {
+            "count": 1,
+            "id": "tfcfarmingplus:seeds/purslane"
+          },
+          "specials": [],
+          "stages": 5,
+          "textures": [
+            "tfc:block/crop/beet_0",
+            "tfc:block/crop/beet_1",
+            "tfc:block/crop/beet_2",
+            "tfc:block/crop/beet_3",
+            "tfc:block/crop/beet_4",
+            "tfc:block/crop/beet_5"
+          ]
+        }
+      },
+      {
+        "Path": "moddev/tfcfarmingplus/src/main/resources/data/c/tags/item/foods/vegetable.json",
+        "SHA256": "FAD745D38A761B6695D5D96F1F49DC6E77184F56FAC75F182E8559FE58EBADB9",
+        "JSON": {
+          "replace": false,
+          "values": [
+            "tfcfarmingplus:food/spinach",
+            "tfcfarmingplus:food/lettuce",
+            "tfcfarmingplus:food/celery",
+            "tfcfarmingplus:food/kale",
+            "tfcfarmingplus:food/napa_cabbage",
+            "tfcfarmingplus:food/mustard_greens",
+            "tfcfarmingplus:food/broccoli",
+            "tfcfarmingplus:food/cauliflower",
+            "tfcfarmingplus:food/brussels_sprouts",
+            "tfcfarmingplus:food/swiss_chard",
+            "tfcfarmingplus:food/celtuce",
+            "tfcfarmingplus:food/garland_chrysanthemum",
+            "tfcfarmingplus:food/perilla",
+            "tfcfarmingplus:food/arugula",
+            "tfcfarmingplus:food/turnip",
+            "tfcfarmingplus:food/parsnip",
+            "tfcfarmingplus:food/sunchoke",
+            "tfcfarmingplus:food/shallot",
+            "tfcfarmingplus:food/celeriac",
+            "tfcfarmingplus:food/salsify",
+            "tfcfarmingplus:food/ginger",
+            "tfcfarmingplus:food/turmeric",
+            "tfcfarmingplus:food/yacon",
+            "tfcfarmingplus:food/chicory_root",
+            "tfcfarmingplus:food/chickpea",
+            "tfcfarmingplus:food/faba_bean",
+            "tfcfarmingplus:food/lupin",
+            "tfcfarmingplus:food/adzuki",
+            "tfcfarmingplus:food/bambara_nut",
+            "tfcfarmingplus:food/fenugreek",
+            "tfcfarmingplus:food/sesame",
+            "tfcfarmingplus:food/safflower",
+            "tfcfarmingplus:food/chili",
+            "tfcfarmingplus:food/eggplant",
+            "tfcfarmingplus:food/okra",
+            "tfcfarmingplus:food/asparagus",
+            "tfcfarmingplus:food/chive",
+            "tfcfarmingplus:food/rhubarb",
+            "tfcfarmingplus:food/artichoke",
+            "tfcfarmingplus:food/taro",
+            "tfcfarmingplus:food/water_chestnut",
+            "tfcfarmingplus:food/water_caltrop",
+            "tfcfarmingplus:food/wild_rice_stem",
+            "tfcfarmingplus:food/lotus",
+            "tfcfarmingplus:food/water_dropwort",
+            "tfcfarmingplus:food/water_spinach",
+            "tfcfarmingplus:food/arrowhead",
+            "tfcfarmingplus:food/gorgon_nut",
+            "tfcfarmingplus:food/loofah",
+            "tfcfarmingplus:food/bitter_melon",
+            "tfcfarmingplus:food/snake_gourd",
+            "tfcfarmingplus:food/yam",
+            "tfcfarmingplus:food/malabar_spinach",
+            "tfcfarmingplus:food/chayote",
+            "tfcfarmingplus:food/water_shield",
+            "tfcfarmingplus:food/cardoon",
+            "tfcfarmingplus:food/agave",
+            "tfcfarmingplus:food/purslane",
+            "tfcfarmingplus:food/pea",
+            "tfcfarmingplus:food/cowpea",
+            "tfcfarmingplus:food/common_bean",
+            "tfcfarmingplus:food/winged_bean",
+            "tfcfarmingplus:food/pigeon_pea",
+            "tfcfarmingplus:food/sunflower"
+          ]
+        }
+      }
+    ],
+    "JavaSource": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\java\\com\\example\\tfcfarmingplus\\common\\MyCrops.java",
+    "JavaSHA256": "C0C7D9738E3D5AD0157CF8D0D2D40C8909F2F2C781E7265DA5F8B0A3E8FFCD70",
+    "RegistrationLines": [
+      {
+        "Line": 122,
+        "Text": "    public static final DataManager.Reference<ClimateRange> PURSLANE_CLIMATE = climate(\"crop/purslane\");"
+      },
+      {
+        "Line": 270,
+        "Text": "    public static final DeferredHolder<Item, Item> PURSLANE = food(\"purslane\");"
+      },
+      {
+        "Line": 427,
+        "Text": "    public static final DeferredHolder<Item, Item> PURSLANE_SEEDS ="
+      },
+      {
+        "Line": 428,
+        "Text": "        seed(\"purslane\", () -> MyCrops.PURSLANE_CROP.get(), 0.4f, 0.2f, 0.3f, PURSLANE_CLIMATE);"
+      },
+      {
+        "Line": 585,
+        "Text": "    public static final DeferredHolder<Block, RosetteCropBlock> PURSLANE_CROP ="
+      },
+      {
+        "Line": 586,
+        "Text": "        rosette(\"purslane\", 0.4f, 0.2f, 0.3f, PURSLANE_CLIMATE);"
+      },
+      {
+        "Line": 1026,
+        "Text": "            CARDOON_CROP.get(), AGAVE_CROP.get(), PURSLANE_CROP.get(),"
+      },
+      {
+        "Line": 1138,
+        "Text": "            case \"purslane\" -> PURSLANE_SEEDS;"
+      }
+    ],
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

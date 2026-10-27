@@ -1,0 +1,21 @@
+{
+  "Modified": [
+    "assets/tfcfarmingplus/models/item/food/brussels_sprouts.json",
+    "assets/tfcfarmingplus/models/item/food/chive.json",
+    "assets/tfcfarmingplus/models/item/food/malabar_spinach.json",
+    "assets/tfcfarmingplus/models/item/food/water_caltrop.json",
+    "assets/tfcfarmingplus/models/item/food/water_chestnut.json",
+    "assets/tfcfarmingplus/models/item/food/water_dropwort.json",
+    "assets/tfcfarmingplus/models/item/food/water_shield.json",
+    "assets/tfcfarmingplus/models/item/food/water_spinach.json"
+  ],
+  "Added": [
+    "assets/tfcfarmingplus/textures/item/food/brussels_sprouts_harvest_v1.png",
+    "assets/tfcfarmingplus/textures/item/food/malabar_spinach_harvest_v1.png",
+    "assets/tfcfarmingplus/textures/item/food/water_chestnut_harvest_v1.png",
+    "assets/tfcfarmingplus/textures/item/food/water_dropwort_harvest_v1.png",
+    "assets/tfcfarmingplus/textures/item/food/water_shield_harvest_v2.png",
+    "assets/tfcfarmingplus/textures/item/food/water_spinach_harvest_v1.png"
+  ],
+  "Removed": []
+}

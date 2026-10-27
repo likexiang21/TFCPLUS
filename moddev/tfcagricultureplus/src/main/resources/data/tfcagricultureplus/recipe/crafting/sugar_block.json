@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SS", "SS"],
+  "key": { "S": { "tag": "tfc:foods/sweeteners" } },
+  "result": { "id": "tfcagricultureplus:sugar_block", "count": 1 }
+}

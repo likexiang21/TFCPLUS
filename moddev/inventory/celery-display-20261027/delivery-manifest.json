@@ -1,0 +1,49 @@
+{
+  "Preflight": [
+    {
+      "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+      "SHA256": "78F8256355CE25DCD061E48A983382E408FC2DA8845AEB3D6B7DD0B87671600F",
+      "MatchedBackup": true
+    },
+    {
+      "Path": "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+      "SHA256": "78F8256355CE25DCD061E48A983382E408FC2DA8845AEB3D6B7DD0B87671600F",
+      "MatchedBackup": true
+    },
+    {
+      "Path": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+      "SHA256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "MatchedBackup": true
+    },
+    {
+      "Path": "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+      "SHA256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "MatchedBackup": true
+    }
+  ],
+  "PackagedFoodSeedPNGsChecked": 263,
+  "AllItemPNGs16x16": true,
+  "AllOldPackagedPNGsUnchanged": true,
+  "Packages": [
+    {
+      "Module": "tfcfarmingplus",
+      "SHA256": "6D9C304D9C5431973CFC4F3DE3A57D21872AA82F8825EC113AE1DEA969A7C3F5",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\build\\libs\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    },
+    {
+      "Module": "tfcagricultureplus",
+      "SHA256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\build\\libs\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    }
+  ],
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

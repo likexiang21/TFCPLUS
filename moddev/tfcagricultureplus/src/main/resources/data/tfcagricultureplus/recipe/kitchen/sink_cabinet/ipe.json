@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "afc:wood/planks/ipe"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:sink_cabinet/ipe",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

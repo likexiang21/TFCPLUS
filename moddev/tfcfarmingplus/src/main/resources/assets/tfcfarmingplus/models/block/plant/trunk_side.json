@@ -1,0 +1,18 @@
+{
+  "credit": "TFC Farming Plus - 自有树干几何（水平分枝，基准朝西；blockstate 用 y 旋转出其余三向）",
+  "textures": { "0": "#bark", "particle": "#bark" },
+  "elements": [
+    {
+      "from": [0, 4, 4],
+      "to": [4, 12, 12],
+      "faces": {
+        "north": { "uv": [4, 4, 8, 12], "texture": "#0" },
+        "east": { "uv": [4, 4, 12, 12], "texture": "#0" },
+        "south": { "uv": [8, 4, 12, 12], "texture": "#0" },
+        "west": { "uv": [4, 4, 12, 12], "texture": "#0" },
+        "up": { "uv": [4, 4, 8, 12], "texture": "#0" },
+        "down": { "uv": [4, 4, 8, 12], "texture": "#0" }
+      }
+    }
+  ]
+}

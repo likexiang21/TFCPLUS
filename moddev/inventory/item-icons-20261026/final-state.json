@@ -1,0 +1,33 @@
+{
+  "Slice": "AR4-O",
+  "ExpectedComplexity": "5/5",
+  "ActualComplexity": "5/5",
+  "BackupEntries": 9123,
+  "RuntimeModified": 6,
+  "RuntimeAdded": 0,
+  "RuntimeRemoved": 0,
+  "ToolsChanged": 2,
+  "ToolsAdded": 2,
+  "SourceFilesA": 5885,
+  "SourceFilesB": 3107,
+  "PNGChanges": 0,
+  "JavaChanges": 0,
+  "BChanges": 0,
+  "ReviewedModels": 229,
+  "ViewedSheets": 27,
+  "FixtureAndGeneratorChecks": 24,
+  "CrossNamespaceLedger": 418,
+  "AHash": "89C9238FEF0849CD313A8E5C658D428DEEEB9C62D62DBCB679C3DD4736F39146",
+  "BHash": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "GameLaunched": false,
+  "PCLArchiveRebuilt": false,
+  "NextSlice": "AR4-P asparagus/eggplant/okra food icons",
+  "NextExpectedComplexity": "4/5",
+  "KnownLimits": [
+    "Shared icons, species-specific art pending",
+    "Full verify supported/tested in PowerShell 7; Windows PowerShell 5.1 full verification hits existing JSON compatibility limit",
+    "User resource pack precedence and in-game appearance unverified"
+  ]
+}

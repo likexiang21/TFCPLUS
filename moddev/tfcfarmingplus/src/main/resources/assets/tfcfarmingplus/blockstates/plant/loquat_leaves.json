@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/loquat_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/loquat_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/loquat_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/loquat_fruiting_leaves"}}}

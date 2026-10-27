@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/aspen"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:counter_cabinet/aspen",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "PPP",
+    "   "
+  ],
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "Case": "fixture-valid",
+    "ExitCode": 0,
+    "ExpectedSuccess": true,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-beet-route",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-wrong-food-id",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-missing-shared-art",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-changed-stored-art",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-b-shadow",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-extra-layer",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-geometry",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-native-atlas-override",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "fixture-missing-model",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "draft-ItemIconsOnly",
+    "ExitCode": 0,
+    "ExpectedSuccess": true,
+    "Passed": true,
+    "Files": 6,
+    "ByteIdentical": true
+  },
+  {
+    "Case": "draft-ChiliDisplayOnly",
+    "ExitCode": 0,
+    "ExpectedSuccess": true,
+    "Passed": true,
+    "Files": 17,
+    "ByteIdentical": true
+  },
+  {
+    "Case": "draft-FenugreekDisplayOnly",
+    "ExitCode": 0,
+    "ExpectedSuccess": true,
+    "Passed": true,
+    "Files": 17,
+    "ByteIdentical": true
+  },
+  {
+    "Case": "draft-SpinachDisplayOnly",
+    "ExitCode": 0,
+    "ExpectedSuccess": true,
+    "Passed": true,
+    "Files": 17,
+    "ByteIdentical": true
+  },
+  {
+    "Case": "guard-no-root",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-live-root",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-BroccoliFormsOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-LettuceFormsOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-KaleWildFormsOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-CauliflowerFormsOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-NapaCabbageFormsOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-ChiliDisplayOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-FenugreekDisplayOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  },
+  {
+    "Case": "guard-SpinachDisplayOnly",
+    "ExitCode": 1,
+    "ExpectedSuccess": false,
+    "Passed": true
+  }
+]

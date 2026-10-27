@@ -1,0 +1,33 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "acceptableStates": [
+      {
+        "Name": "tfc:wood/stripped_log/willow",
+        "Properties": {
+          "axis": "y",
+          "branch_direction": "none"
+        }
+      }
+    ],
+    "block": "tfc:wood/stripped_log/willow"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bast/willow"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfcagricultureplus:debarked_log/willow"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_chop",
+    "volume": 0.6,
+    "pitch": 0.8
+  }
+}

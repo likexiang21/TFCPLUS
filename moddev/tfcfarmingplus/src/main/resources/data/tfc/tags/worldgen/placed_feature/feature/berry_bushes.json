@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "tfcfarmingplus:plant/lingonberry_bush_patch",
+    "tfcfarmingplus:plant/bearberry_bush_patch",
+    "tfcfarmingplus:plant/crowberry_bush_patch",
+    "tfcfarmingplus:plant/bilberry_bush_patch",
+    "tfcfarmingplus:plant/blackcurrant_bush_patch",
+    "tfcfarmingplus:plant/redcurrant_bush_patch",
+    "tfcfarmingplus:plant/haskap_bush_patch",
+    "tfcfarmingplus:plant/goji_bush_patch",
+    "tfcfarmingplus:plant/serviceberry_bush_patch",
+    "tfcfarmingplus:plant/aronia_bush_patch",
+    "tfcfarmingplus:plant/tea_bush_patch",
+    "tfcfarmingplus:plant/coffee_bush_patch"
+  ],
+  "remove": [
+    "tfc:plant/strawberry_bush_patch"
+  ]
+}

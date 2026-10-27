@@ -1,0 +1,132 @@
+{
+  "Schema": 1,
+  "Scope": "Three seedling models and their historical textures in current A/B sources",
+  "Findings": [],
+  "ReviewedUnusedEmptyPaths": [
+    "tfcfarmingplus/textures/block/crop/broccoli_age_0.png",
+    "tfcfarmingplus/textures/block/crop/kale_age_0.png"
+  ],
+  "Seedlings": [
+    {
+      "Name": "broccoli",
+      "LegacyTexture": "tfcfarmingplus:block/crop/broccoli_age_0",
+      "LegacyRelativePath": "tfcfarmingplus/textures/block/crop/broccoli_age_0.png",
+      "LegacySHA256": "7074F74F39A8AD752DB14A876089E9867D92B2425C37A6D44A74660F900A877D",
+      "LegacyNonemptyPixels": 0,
+      "DeclaredLegacyConsumers": [],
+      "ActiveTexture": "tfcfarmingplus:block/crop/broccoli_leafball_0",
+      "ActiveNonemptyPixels": 56,
+      "States": [
+        {
+          "State": "age=0",
+          "Model": "tfcfarmingplus:block/crop/broccoli_age_0",
+          "ParentChain": [
+            "tfcfarmingplus:block/crop/broccoli_age_0",
+            "tfcfarmingplus:block/crop/leafball_age_0"
+          ],
+          "FaceTextures": [
+            "tfcfarmingplus:block/crop/broccoli_leafball_0"
+          ],
+          "SampledNonemptyFaces": 8
+        }
+      ],
+      "PlanterTextures": [
+        "tfc:block/crop/cabbage_0",
+        "tfc:block/crop/cabbage_1",
+        "tfc:block/crop/cabbage_2",
+        "tfc:block/crop/cabbage_3",
+        "tfc:block/crop/cabbage_4",
+        "tfc:block/crop/cabbage_5"
+      ],
+      "Classification": "Historical texture has no declared A/B source consumer; current seedling uses another texture",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "kale",
+      "LegacyTexture": "tfcfarmingplus:block/crop/kale_age_0",
+      "LegacyRelativePath": "tfcfarmingplus/textures/block/crop/kale_age_0.png",
+      "LegacySHA256": "7074F74F39A8AD752DB14A876089E9867D92B2425C37A6D44A74660F900A877D",
+      "LegacyNonemptyPixels": 0,
+      "DeclaredLegacyConsumers": [],
+      "ActiveTexture": "tfcfarmingplus:block/crop/kale_rosette_0",
+      "ActiveNonemptyPixels": 26,
+      "States": [
+        {
+          "State": "age=0,fruiting=false",
+          "Model": "tfcfarmingplus:block/crop/kale_age_0",
+          "ParentChain": [
+            "tfcfarmingplus:block/crop/kale_age_0",
+            "tfcfarmingplus:block/crop/rosette_age_0"
+          ],
+          "FaceTextures": [
+            "tfcfarmingplus:block/crop/kale_rosette_0"
+          ],
+          "SampledNonemptyFaces": 8
+        },
+        {
+          "State": "age=0,fruiting=true",
+          "Model": "tfcfarmingplus:block/crop/kale_age_0_fruiting",
+          "ParentChain": [
+            "tfcfarmingplus:block/crop/kale_age_0_fruiting",
+            "tfcfarmingplus:block/crop/rosette_age_0"
+          ],
+          "FaceTextures": [
+            "tfcfarmingplus:block/crop/kale_rosette_0"
+          ],
+          "SampledNonemptyFaces": 8
+        }
+      ],
+      "PlanterTextures": [
+        "tfc:block/crop/cabbage_0",
+        "tfc:block/crop/cabbage_1",
+        "tfc:block/crop/cabbage_2",
+        "tfc:block/crop/cabbage_3",
+        "tfc:block/crop/cabbage_4",
+        "tfc:block/crop/cabbage_5"
+      ],
+      "Classification": "Historical texture has no declared A/B source consumer; current seedling uses another texture",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "lettuce",
+      "LegacyTexture": "tfcfarmingplus:block/crop/lettuce_age_0",
+      "LegacyRelativePath": "tfcfarmingplus/textures/block/crop/lettuce_age_0.png",
+      "LegacySHA256": "B0C3647C0BB254A0CAA93FC6EE92E35A5FD17FB4D74D588A16A0B28BBF888A25",
+      "LegacyNonemptyPixels": 2,
+      "DeclaredLegacyConsumers": [],
+      "ActiveTexture": "tfcfarmingplus:block/crop/lettuce_leafball_0",
+      "ActiveNonemptyPixels": 50,
+      "States": [
+        {
+          "State": "age=0",
+          "Model": "tfcfarmingplus:block/crop/lettuce_age_0",
+          "ParentChain": [
+            "tfcfarmingplus:block/crop/lettuce_age_0",
+            "tfcfarmingplus:block/crop/leafball_age_0"
+          ],
+          "FaceTextures": [
+            "tfcfarmingplus:block/crop/lettuce_leafball_0"
+          ],
+          "SampledNonemptyFaces": 8
+        }
+      ],
+      "PlanterTextures": [
+        "tfc:block/crop/onion_0",
+        "tfc:block/crop/onion_1",
+        "tfc:block/crop/onion_2",
+        "tfc:block/crop/onion_3",
+        "tfc:block/crop/onion_4",
+        "tfc:block/crop/onion_5"
+      ],
+      "Classification": "Historical texture has no declared A/B source consumer; current seedling uses another texture",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "SourceInstance": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)",
+  "ExternalResourcePacksVerified": false,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

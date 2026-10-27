@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/sisal_patch","placement":[{"type":"tfc:climate","min_temperature":18,"max_temperature":40,"min_groundwater":20,"max_groundwater":180},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

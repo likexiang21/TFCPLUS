@@ -1,0 +1,279 @@
+{
+  "Schema": 1,
+  "Scope": "AR2-D existing grains, beans, oilseeds and project bowl food metadata",
+  "RuntimeVerified": false,
+  "Crops": [
+    {
+      "名称": "黍",
+      "ID": "tfcfarmingplus:food/millet",
+      "类别": "谷物",
+      "食品营养": "grain=1",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "谷子",
+      "ID": "tfcfarmingplus:food/foxtail_millet",
+      "类别": "谷物",
+      "食品营养": "grain=1.2",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "荞麦",
+      "ID": "tfcfarmingplus:food/buckwheat",
+      "类别": "谷物",
+      "食品营养": "grain=1.2",
+      "腐烂系数": 1.8,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "福尼奥米",
+      "ID": "tfcfarmingplus:food/fonio",
+      "类别": "谷物",
+      "食品营养": "grain=1",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "斯佩耳特麦",
+      "ID": "tfcfarmingplus:food/spelt",
+      "类别": "谷物",
+      "食品营养": "grain=1.5",
+      "腐烂系数": 2,
+      "现有路径": "B配方：原生手磨1份→原生小麦粉1份→既有原生面团/搅拌碗；直接食用/中档绿料堆肥",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "二粒麦",
+      "ID": "tfcfarmingplus:food/emmer",
+      "类别": "谷物",
+      "食品营养": "grain=1.5",
+      "腐烂系数": 2,
+      "现有路径": "B配方：原生手磨1份→原生小麦粉1份→既有原生面团/搅拌碗；直接食用/中档绿料堆肥",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "单粒麦",
+      "ID": "tfcfarmingplus:food/einkorn",
+      "类别": "谷物",
+      "食品营养": "grain=1.3",
+      "腐烂系数": 2,
+      "现有路径": "B配方：原生手磨1份→原生小麦粉1份→既有原生面团/搅拌碗；直接食用/中档绿料堆肥",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "珍珠粟",
+      "ID": "tfcfarmingplus:food/pearl_millet",
+      "类别": "谷物",
+      "食品营养": "grain=1.2",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "苋米",
+      "ID": "tfcfarmingplus:food/amaranth",
+      "类别": "谷物",
+      "食品营养": "grain=1.4",
+      "腐烂系数": 1.5,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "藜麦",
+      "ID": "tfcfarmingplus:food/quinoa",
+      "类别": "谷物",
+      "食品营养": "grain=1.5",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "穇子",
+      "ID": "tfcfarmingplus:food/finger_millet",
+      "类别": "谷物",
+      "食品营养": "grain=1",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "薏苡",
+      "ID": "tfcfarmingplus:food/jobs_tears",
+      "类别": "谷物",
+      "食品营养": "grain=1.3",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "高粱",
+      "ID": "tfcfarmingplus:food/sorghum",
+      "类别": "谷物",
+      "食品营养": "grain=1.2",
+      "腐烂系数": 2,
+      "现有路径": "直接食用、原生中档绿料堆肥；专属磨粉链待开发",
+      "NativeMealTagCandidate": false,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "鹰嘴豆",
+      "ID": "tfcfarmingplus:food/chickpea",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.5;protein=1.2",
+      "腐烂系数": 2.5,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "蚕豆",
+      "ID": "tfcfarmingplus:food/faba_bean",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.5;protein=1.2",
+      "腐烂系数": 3,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "羽扇豆",
+      "ID": "tfcfarmingplus:food/lupin",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.3;protein=1.5",
+      "腐烂系数": 2.5,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "红小豆",
+      "ID": "tfcfarmingplus:food/adzuki",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.5;protein=1.2",
+      "腐烂系数": 3,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "班巴拉豆",
+      "ID": "tfcfarmingplus:food/bambara_nut",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.5;protein=1.5",
+      "腐烂系数": 3,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "胡卢巴",
+      "ID": "tfcfarmingplus:food/fenugreek",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.8;protein=1",
+      "腐烂系数": 2.5,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "豌豆",
+      "ID": "tfcfarmingplus:food/pea",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.8;protein=1",
+      "腐烂系数": 1,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "豇豆",
+      "ID": "tfcfarmingplus:food/cowpea",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.5;protein=1.2",
+      "腐烂系数": 1,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "菜豆",
+      "ID": "tfcfarmingplus:food/common_bean",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.6;protein=1.2",
+      "腐烂系数": 1,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "四棱豆",
+      "ID": "tfcfarmingplus:food/winged_bean",
+      "类别": "豆类",
+      "食品营养": "vegetables=0.7;protein=1.3",
+      "腐烂系数": 1,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "木豆",
+      "ID": "tfcfarmingplus:food/pigeon_pea",
+      "类别": "豆类",
+      "食品营养": "protein=1.3",
+      "腐烂系数": 1,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "芝麻",
+      "ID": "tfcfarmingplus:food/sesame",
+      "类别": "油料",
+      "食品营养": "grain=0.9",
+      "腐烂系数": 1.2,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥；专属榨油链待开发",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "红花",
+      "ID": "tfcfarmingplus:food/safflower",
+      "类别": "油料",
+      "食品营养": "grain=0.8",
+      "腐烂系数": 1.5,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥；专属榨油链待开发",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    },
+    {
+      "名称": "向日葵",
+      "ID": "tfcfarmingplus:food/sunflower",
+      "类别": "油料",
+      "食品营养": "",
+      "腐烂系数": 0.5,
+      "现有路径": "直接食用、原生汤/沙拉/三明治及高档绿料堆肥；专属榨油链待开发",
+      "NativeMealTagCandidate": true,
+      "RuntimeVerified": false
+    }
+  ],
+  "Findings": [],
+  "NativeReference": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar"
+}

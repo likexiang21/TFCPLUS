@@ -1,0 +1,31 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "afc:wood/stripped_wood/fig"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bast/fig"
+      }
+    },
+    {
+      "action": "drop_above",
+      "item": {
+        "count": 2,
+        "id": "tfcagricultureplus:bast/fig"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfcagricultureplus:debarked_log/fig"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_chop",
+    "volume": 0.6,
+    "pitch": 0.8
+  }
+}

@@ -1,0 +1,3770 @@
+{
+  "name": "Дикие фрукты",
+  "category": "tfc:the_world",
+  "icon": "tfc:textures/item/food/elderberry.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В мире можно найти множество растущих диких фруктов. Их можно собирать для еды или выращивания. Дикие фрукты можно найти на трех видах растений: $(l:the_world/wild_fruits#fruit_trees)фруктовые деревья$(), $(l:the_world/wild_fruits#tall_bushes)высокие кусты$() и $(l:the_world/wild_fruits#small_bushes)низкие кусты$().$(br2)Все плодоносящие растения имеют схожий жизненный цикл. Со сменой сезонов они будут расти, формировать цветы, давать плоды, а затем впадать в состояние покоя."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Плодовые растения сезонны. Во время покоя эти растения будут выглядеть коричневыми и безжизненными. Весной они становятся зелеными и здоровыми, готовясь производить плоды и расти. Точные сроки этой стадии варьируются в зависимости от фрукта. Плодовые растения также могут умирать: от старости или из-за неподходящих климатических условий."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "fruit_trees",
+      "text": "$(thing)Фруктовые деревья$() растут из маленьких саженцев в большие цветущие деревья. Ветви фруктовых деревьев — это их сердце, и они будут расти, пока климатические условия оптимальны. По мере созревания фруктовых деревьев, они будут покрываться $(thing)листьями$() вокруг своих ветвей. Листья могут цвести и плодоносить в зависимости от сезона.",
+      "title": "Фруктовые деревья"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/fruit_tree.png"
+      ],
+      "text": "Типичное фруктовое дерево.",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Плодовые деревья начинаются с $(thing)саженцев$(). Саженцы начинают расти, формируя первый элемент дерева, если сейчас не период покоя для данного фрукта, и удовлетворены климатические условия этого вида. Размер готового дерева приблизительно определяется количеством саженцев в исходном блоке саженцев: чем их больше, тем крупнее дерево.$(br)В один блок через $(thing)прививку$() можно добавить дополнительные саженцы. Для прививки нажмите $(item)$(k:key.use)$() по саженцу, с новым саженцем и $(thing)ножом$() в руках."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы получить саженцы фруктового дерева, сломайте 'локтевые' блоки дерева (блоки ветвей, прикрепленные к стволу со сторон и сверху) $(thing)топором$(). Саженцы могут быть привиты к 'локтевым' секциям, если они не слишком высоко на дереве. Это позволяет одному дереву выращивать несколько фруктов. Созревшие фрукты собираются нажатием $(item)$(k:key.use)$(). Вы получите один фрукт, а растение вернется к стадии роста. Этот цикл будет продолжаться пока дерево не впадет в состояние покоя."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Плодовым деревьям необходимы подходящие $(l:core_mechanics/climate#temperature)температура$() и $(l:food/hydration)влажность$(). Плодовые деревья будут расти и плодоносить только в том случае, если среднегодовая температура у основания дерева, где посажен саженец, находится в пределах допустимого диапазона для этого вида. Аналогично, влажность определяется среднегодовым количеством осадков и водными источниками, расположенными поблизости от основания дерева."
+    },
+    {
+      "type": "patchouli:empty"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cherry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-5.2)...$(cfg:temperature:14)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 100–350 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.cherry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.cherry.hydration) %$(br2)Вишнёвые деревья растут с января по март, начинают цвести в апреле и мае, приносят плоды в июне.",
+      "title": "Вишнёвое дерево"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример вишнёвого дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "green_apple",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-10.6)...$(cfg:temperature:10.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 130–280 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.green_apple.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.green_apple.hydration) %$(br2)Зелёные яблони растут с марта по июль, начинают цвести в августе и сентябре, приносят плоды в октябре.",
+      "title": "Зелёная яблоня"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример зелёного яблоневого дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "lemon",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:7.4)...$(cfg:temperature:24.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 220–440 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.lemon.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.lemon.hydration) %$(br2)Лимонные деревья растут с февраля по май, начинают цвести в июне и июле, приносят плоды в августе.",
+      "title": "Лимонное дерево"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример лимонного дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "olive",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:2) - $(cfg:temperature:23)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 250 - 450mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.olive.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.olive.hydration)%$(br2)Olive trees grow from March to July, start flowering in August and September, and bear fruit in October.$(br2)Olives can be used to produce $(l:mechanics/lamps#olives)Olive Oil$(), which can be used as a fuel for lamps.",
+      "title": "Оливковое дерево"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример оливкового дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "orange",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:9.2)...$(cfg:temperature:40)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 300–500 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.orange.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.orange.hydration) %$(br2)Апельсиновые деревья растут с марта по июнь, начинают цвести в июле и августе, приносят плоды в сентябре.",
+      "title": "Апельсиновое дерево"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример апельсинового дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "peach",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-3.4)...$(cfg:temperature:15.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 180–470 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.peach.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.peach.hydration) %$(br2)Персиковые деревья растут с декабря по март, начинают цвести в апреле и мае, приносят плоды в июне.",
+      "title": "Персиковое дерево"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример персикового дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "plum",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-7)...$(cfg:temperature:12.2)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 120–300 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.plum.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.plum.hydration) %$(br2)Сливовые деревья растут с января по апрель, начинают цветение в мае и июне, приносят плоды в июле.",
+      "title": "Сливовое дерево"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример сливового дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "red_apple",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-10.6)...$(cfg:temperature:10.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 190–310 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.red_apple.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.red_apple.hydration) %$(br2)Красные яблони растут с марта по июль, начинают цветение в августе и сентябре, приносят плоды в октябре.",
+      "title": "Красная яблоня"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример красного яблоневого дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "banana",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:11) - $(cfg:temperature:40)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 280 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.banana.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.banana.hydration)%$(br2)Bananas grow only vertically, lack leaves, and only fruit at the topmost block. Saplings are dropped from the flowering part of the plant. Once a banana plant is harvested, it dies, and must be replanted in the spring.",
+      "title": "Банановое дерево"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример бананового дерева.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=dormant]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=healthy]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=flowering]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=fruiting]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Янв"
+        },
+        {
+          "text": "Фев"
+        },
+        {
+          "text": "Мар"
+        },
+        {
+          "text": "Апр"
+        },
+        {
+          "text": "Май"
+        },
+        {
+          "text": "Июн"
+        },
+        {
+          "text": "Июл"
+        },
+        {
+          "text": "Авг"
+        },
+        {
+          "text": "Сен"
+        },
+        {
+          "text": "Окт"
+        },
+        {
+          "text": "Ноя"
+        },
+        {
+          "text": "Дек"
+        },
+        {
+          "text": "Вишня"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Яблоко"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Лимон"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Оливки"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Апельсин"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Персик"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "text": "Слива"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Банан"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "Календарь созревания фруктовых деревьев.",
+      "title": "Фруктовые деревья",
+      "legend": [
+        {
+          "text": "Спит",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Растёт",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Цветёт",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Плодоносит",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "tall_bushes",
+      "text": "$(thing)Высокие кусты$() — это фруктовые блоки, которые могут разрастаться во всех направлениях. Они растут вверх до трех блоков в высоту, или дают $(thing)побеги$() сбоку, которые могут превратиться в полноценные кусты. Со временем кусты перестают разрастаться и достигают зрелости. Сбор урожая с кустов острым инструментом может привести к выпадению нового побега. Полностью созревшие кусты всегда дают свой побег при сборе острым инструментом.",
+      "title": "Высокие кусты"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/berry_bush.png"
+      ],
+      "text": "Дикий высокий куст.",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Высокие кусты могут распространяться, когда их побегам есть где укорениться. На практике это означает, что им нужен твердый блок под ними для размещения нового куста. Создание плоской открытой территории без травы или другого мусора даёт им больше возможностей для роста."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кусты, как и фруктовые деревья, учитывают блок в основе растения при определении $(l:food/hydration)влажности$() и $(l:core_mechanics/climate#temperature)температуры$(), и растут, пока среднегодовые осадки и температура соответствуют требованиям. $(br)Любой полноценный блок куста может дать ягоды, которые собираются с помощью $(item)$(k:key.use)$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blackberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-5.2)...$(cfg:temperature:19.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 200–500 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.blackberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.blackberry.hydration) %$(br2)Кусты ежевики растут с февраля по май, цветут в июне и июле, плодоносят в августе.$(br)Их можно найти в местах с небольшим количеством деревьев.",
+      "title": "Куст ежевики"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример куста ежевики.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "raspberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-10.6)...$(cfg:temperature:14)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 180–450 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.raspberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.raspberry.hydration) %$(br2)Кусты малины растут с апреля по июль, цветут в августе и сентябре, плодоносят в октябре.$(br)Их можно найти в местах с небольшим количеством деревьев.",
+      "title": "Куст малины"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример куста малины.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blueberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-8.8)...$(cfg:temperature:8.6)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 150–400 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.blueberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.blueberry.hydration) %$(br2)Кусты черники растут с февраля по май, цветут в июне и июле, плодоносят в августе.$(br)Их можно найти в местах с небольшим количеством деревьев.",
+      "title": "Куст черники"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример куста черники.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "elderberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-5.2)...$(cfg:temperature:15.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 120–380 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.elderberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.elderberry.hydration) %$(br2)Кусты бузины растут с февраля по май, цветут в июне и июле, и плодоносят в августе.$(br)Их можно найти в местах с небольшим количеством деревьев.",
+      "title": "Куст бузины"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Пример куста бузины.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Янв"
+        },
+        {
+          "text": "Фев"
+        },
+        {
+          "text": "Мар"
+        },
+        {
+          "text": "Апр"
+        },
+        {
+          "text": "Май"
+        },
+        {
+          "text": "Июн"
+        },
+        {
+          "text": "Июл"
+        },
+        {
+          "text": "Авг"
+        },
+        {
+          "text": "Сен"
+        },
+        {
+          "text": "Окт"
+        },
+        {
+          "text": "Ноя"
+        },
+        {
+          "text": "Дек"
+        },
+        {
+          "text": "Ежевика"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Малина"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Черника"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Бузина"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "Календарь созревания высоких кустов.",
+      "title": "Высокие ягодные кусты",
+      "legend": [
+        {
+          "text": "Спит",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Растёт",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Цветёт",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Плодоносит",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "small_bushes",
+      "text": "$(thing)Низкие кусты$() — это стелящиеся фруктовые блоки, которые встречаются в лесах. Низкие кусты иногда разрастаются на соседние блоки, если поблизости не слишком много других кустов.$(br2)Низкие кусты проходят через три стадии роста, и полностью созревший куст может дать ягоды, которые собираются с помощью $(item)$(k:key.use)$().",
+      "title": "Низкие кусты"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Три разных размера низкого куста",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=1]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "bunchberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-14.2)...$(cfg:temperature:1.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 280–500 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.bunchberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.bunchberry.hydration) %$(br2)Кусты кизила растут с мая по июль, цветут в августе и сентябре, плодоносят в октябре.$(br)Их можно найти в лесах.",
+      "title": "Куст кизила"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Стадии роста куста кизила по месяцам.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "gooseberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-7)...$(cfg:temperature:12.2)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 200–500 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.gooseberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.gooseberry.hydration) %$(br2)Кусты крыжовника растут с апреля по июль, цветут в августе и сентябре, плодоносят в октябре.$(br)Их можно найти в лесах.",
+      "title": "Куст крыжовника"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Стадии роста куста крыжовника по месяцам.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "snowberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-10.6)...$(cfg:temperature:5)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 200–500 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.snowberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.snowberry.hydration) %$(br2)Кусты волчьей ягоды растут с марта по июнь, цветут в июле и августе, плодоносят в сентябре.$(br)Их можно найти в лесах.",
+      "title": "Куст волчьей ягоды"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Стадии роста куста волчьей ягоды по месяцам.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cloudberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-14.2)...$(cfg:temperature:6.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 80–320 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.cloudberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.cloudberry.hydration) %$(br2)Кусты морошки растут с февраля по май, цветут в июне и августе, плодоносят в сентябре.$(br)Их можно найти в лесах.",
+      "title": "Куст морошки"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Стадии роста куста морошки по месяцам.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "wintergreen_berry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-8.8)...$(cfg:temperature:6.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 100–370 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.wintergreen_berry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.wintergreen_berry.hydration) %$(br2)Кусты брусники растут с мая по сентябрь, цветут в октябре и ноябре, плодоносят в декабре.$(br)Их можно найти в лесах.",
+      "title": "Куст брусники"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Стадии роста куста брусники по месяцам.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cranberry",
+      "text": "Встречается в регионах с климатом: $(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:temperature:-14.2)...$(cfg:temperature:8.6)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Осадки$(): 250–500 мм$(br2)Условия роста:$(br)$(bold)$(l:core_mechanics/climate#temperature)Температура$(): $(cfg:climate.cranberry.temperature)$(br)$(bold)$(l:food/hydration)Влажность$(): $(cfg:climate.cranberry.hydration) %$(br2)Кусты клюквы растут с марта по июнь, цветут в июле и августе, плодоносят в сентябре.$(br)Их можно найти в лесах. В отличие от большинства низких кустов, кусты клюквы выращиваются под водой.",
+      "title": "Куст клюквы"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Стадии роста куста клюквы по месяцам.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=dormant,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=healthy,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=flowering,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=fruiting,stage=2,fluid=water]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Янв"
+        },
+        {
+          "text": "Фев"
+        },
+        {
+          "text": "Мар"
+        },
+        {
+          "text": "Апр"
+        },
+        {
+          "text": "Май"
+        },
+        {
+          "text": "Июн"
+        },
+        {
+          "text": "Июл"
+        },
+        {
+          "text": "Авг"
+        },
+        {
+          "text": "Сен"
+        },
+        {
+          "text": "Окт"
+        },
+        {
+          "text": "Ноя"
+        },
+        {
+          "text": "Дек"
+        },
+        {
+          "text": "Кизил"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Крыжовник"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Волчья"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Морошка"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Брусника"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "text": "Клюква"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "Календарь созревания низких кустов.",
+      "title": "Низкие ягодные кусты",
+      "legend": [
+        {
+          "text": "Спит",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Растёт",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Цветёт",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Плодоносит",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4,
+  "extra_recipe_mappings": {
+    "tfc:food/cherry": 8,
+    "tfc:plant/cherry_sapling": 8,
+    "tfc:food/green_apple": 10,
+    "tfc:plant/green_apple_sapling": 10,
+    "tfc:food/lemon": 12,
+    "tfc:plant/lemon_sapling": 12,
+    "tfc:food/olive": 14,
+    "tfc:plant/olive_sapling": 14,
+    "tfc:food/orange": 16,
+    "tfc:plant/orange_sapling": 16,
+    "tfc:food/peach": 18,
+    "tfc:plant/peach_sapling": 18,
+    "tfc:food/plum": 20,
+    "tfc:plant/plum_sapling": 20,
+    "tfc:food/red_apple": 22,
+    "tfc:plant/red_apple_sapling": 22,
+    "tfc:food/banana": 24,
+    "tfc:plant/banana_sapling": 24,
+    "tfc:food/blackberry": 32,
+    "tfc:plant/blackberry_bush": 32,
+    "tfc:food/raspberry": 34,
+    "tfc:plant/raspberry_bush": 34,
+    "tfc:food/blueberry": 36,
+    "tfc:plant/blueberry_bush": 36,
+    "tfc:food/elderberry": 38,
+    "tfc:plant/elderberry_bush": 38,
+    "tfc:food/bunchberry": 44,
+    "tfc:plant/bunchberry_bush": 44,
+    "tfc:food/gooseberry": 46,
+    "tfc:plant/gooseberry_bush": 46,
+    "tfc:food/snowberry": 48,
+    "tfc:plant/snowberry_bush": 48,
+    "tfc:food/cloudberry": 50,
+    "tfc:plant/cloudberry_bush": 50,
+    "tfc:food/wintergreen_berry": 52,
+    "tfc:plant/wintergreen_berry_bush": 52,
+    "tfc:food/cranberry": 54,
+    "tfc:plant/cranberry_bush": 54
+  }
+}

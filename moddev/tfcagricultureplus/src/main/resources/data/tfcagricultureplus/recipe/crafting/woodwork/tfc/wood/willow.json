@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:wood/log/willow"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bark/willow"
+    }
+  },
+  "result": {
+    "id": "tfc:wood/wood/willow",
+    "count": 1
+  }
+}

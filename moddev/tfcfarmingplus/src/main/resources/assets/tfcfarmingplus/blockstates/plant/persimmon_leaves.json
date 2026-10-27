@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/persimmon_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/persimmon_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/persimmon_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/persimmon_fruiting_leaves"}}}

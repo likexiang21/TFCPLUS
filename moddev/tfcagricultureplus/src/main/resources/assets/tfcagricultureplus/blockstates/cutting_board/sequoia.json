@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/cutting_board/sequoia"},"facing=east":{"model":"tfcagricultureplus:block/cutting_board/sequoia","y":90},"facing=south":{"model":"tfcagricultureplus:block/cutting_board/sequoia","y":180},"facing=west":{"model":"tfcagricultureplus:block/cutting_board/sequoia","y":270}}}

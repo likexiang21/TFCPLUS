@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/coffee_bush_patch","placement":[{"type":"tfc:climate","min_temperature":4,"max_temperature":44,"min_groundwater":120,"max_groundwater":400,"min_forest":2,"max_forest":4},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":30}]}

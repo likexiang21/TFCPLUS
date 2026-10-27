@@ -1,0 +1,9 @@
+{
+  "parent": "tfcfarmingplus:block/crop/leafball_age_4",
+  "textures": {
+    "0": "tfcfarmingplus:block/crop/lettuce_leafball_4",
+    "1": "tfcfarmingplus:block/crop/lettuce_leafball_head_top",
+    "2": "tfcfarmingplus:block/crop/lettuce_leafball_head",
+    "particle": "#0"
+  }
+}

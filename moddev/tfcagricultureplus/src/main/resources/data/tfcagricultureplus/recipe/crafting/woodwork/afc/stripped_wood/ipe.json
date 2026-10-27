@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/stripped_log/ipe"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bast/ipe"
+    }
+  },
+  "result": {
+    "id": "afc:wood/stripped_wood/ipe",
+    "count": 1
+  }
+}

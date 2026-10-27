@@ -1,0 +1,35 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "afc:wood/wood/mahogany"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bark/mahogany"
+      }
+    },
+    {
+      "action": "drop_above",
+      "item": {
+        "count": 2,
+        "id": "tfcagricultureplus:bark/mahogany"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "afc:wood/stripped_wood/mahogany",
+    "Properties": {
+      "axis": "y",
+      "branch_direction": "none"
+    }
+  },
+  "sound": {
+    "sound": "minecraft:item.axe.strip",
+    "volume": 1.0,
+    "pitch": 1.0
+  }
+}

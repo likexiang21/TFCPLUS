@@ -1,0 +1,8 @@
+{
+  "decay_modifier": 0.8,
+  "hunger": 3,
+  "saturation": 1.4,
+  "dairy": 1.5,
+  "protein": 0.8,
+  "ingredient": { "item": "tfcagricultureplus:food/cheese_slice" }
+}

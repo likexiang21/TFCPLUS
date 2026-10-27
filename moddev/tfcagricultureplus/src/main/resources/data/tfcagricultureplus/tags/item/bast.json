@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfcagricultureplus:bast/acacia",
+    "tfcagricultureplus:bast/ash",
+    "tfcagricultureplus:bast/aspen",
+    "tfcagricultureplus:bast/birch",
+    "tfcagricultureplus:bast/blackwood",
+    "tfcagricultureplus:bast/chestnut",
+    "tfcagricultureplus:bast/douglas_fir",
+    "tfcagricultureplus:bast/hickory",
+    "tfcagricultureplus:bast/kapok",
+    "tfcagricultureplus:bast/mangrove",
+    "tfcagricultureplus:bast/maple",
+    "tfcagricultureplus:bast/oak",
+    "tfcagricultureplus:bast/palm",
+    "tfcagricultureplus:bast/pine",
+    "tfcagricultureplus:bast/rosewood",
+    "tfcagricultureplus:bast/sequoia",
+    "tfcagricultureplus:bast/spruce",
+    "tfcagricultureplus:bast/sycamore",
+    "tfcagricultureplus:bast/white_cedar",
+    "tfcagricultureplus:bast/willow"
+  ]
+}

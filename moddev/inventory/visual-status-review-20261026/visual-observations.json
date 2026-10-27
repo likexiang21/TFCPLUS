@@ -1,0 +1,38 @@
+[
+  {
+    "Sheet": "AR4V-nuts-p1.png",
+    "SHA256": "AF752E4D6F137AD0198B500DC41C659FD3EB54F31E4892C60D4FBA9B1E5ED6CF",
+    "ActuallyViewed": true,
+    "Observation": "四种坚果当前及保存图相同，呈桃、双樱桃、柠檬、橙子形态；当前接线本身不是缺文件。",
+    "Scope": "四食品各当前/保存图对照，共八格；离线二维",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Sheet": "AR4V-nuts-and-products-p2.png",
+    "SHA256": "0EA9EB9B03764DF08A338F3B1882E09E536EB5B7126062D84CCC479570473F69",
+    "ActuallyViewed": true,
+    "Observation": "核桃呈绿苹果；龙舌兰为红色根形；向日葵当前穗/保存整花；大黄当前豆荚/保存泛黄细长形。",
+    "Scope": "四食品各当前/保存图对照，共八格；离线二维",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Sheet": "AR4V-shared-leaf-p1.png",
+    "SHA256": "3A14DE89DD284929A849699538E00AFB4BA04C9F8FAAB71DB8BF197AE9245F23",
+    "ActuallyViewed": true,
+    "Observation": "芝麻菜、茼蒿、生菜、芥菜当前同叶束，保存图为根形/果形，不应直接回接。",
+    "Scope": "四食品各当前/保存图对照，共八格；离线二维",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "Sheet": "AR4V-shared-leaf-p2.png",
+    "SHA256": "61B7B782FDE627CCF47AC0BB358D80FE36EA469B9638AD39747E79EAF7D84D34",
+    "ActuallyViewed": true,
+    "Observation": "紫苏、马齿苋、菠菜、牛皮菜当前同叶束，保存图为根形/果形，物种专用美术仍缺。",
+    "Scope": "四食品各当前/保存图对照，共八格；离线二维",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

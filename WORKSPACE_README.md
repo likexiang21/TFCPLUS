@@ -1,0 +1,213 @@
+# Essential TFC - Filling the gap of basic TFC modpacks in 1.18/1.20/1.21
+
+> **2026-10-27 用户已暂停功能开发。当前只整理版本并上传 GitHub；下一片 AR4-AH 芦笋仍在计划中，等待用户明确恢复后再施工。**
+
+> **下次制作 PCL 客户端压缩包前必读：**[成功流程与失误复盘（215）](moddev/docs/215-pcl-packaging-playbook-and-failure-lessons-20261022.md)，并核对[运行时重建证据（214）](moddev/docs/214-pcl-runtime-rebuild-20261022.md)。用户已确认 v6 可以正常运行；下面 209～213 号链接记录的是失败包的排查过程，不能作为新版打包做法。
+
+Otherwise known as the modpack I'd recommend someone start with in TerraFirmaCraft 1.18.2, 1.20.1 or 1.21.1
+
+I plan to keep this up-to-date consistently.
+
+## 本地开发入口（更新于 2026-10-27）
+
+- [全部现有工作完成后的命名、结构与可读性整理计划](moddev/docs/233-final-code-readability-and-structure-plan-20261024.md)：用户新增收尾任务，当前仅登记；实际整理预期复杂度5/5。
+
+- [下一阶段农业系统修复与闭环计划](moddev/docs/217-agriculture-repair-next-phase-plan-20261023.md)：按本次最新要求将 A0 农业台账审计和 A1 作物/果树闭环补强提前；先核现状，再按证据逐片修复。
+- [农业现状与缺口基线审计（AR0）](moddev/docs/218-agriculture-audit-baseline-20261023.md)：第一轮静态基线与缺口分级已完成；中英文草莓手册覆盖的初版误判已更正，逐物种生命周期审计仍按切片继续。
+- [AR1-A 草莓手册修复交接](moddev/docs/219-ar1a-strawberry-guide-20261023.md)：补全十种语言的灌木隐藏、日历与跳转，新增草莓种植说明；已构建并部署工作区/PCL_TFC，实机待确认。
+- [AR1-B 可可产物与旧树兼容交接](moddev/docs/220-ar1b-cocoa-canonical-20261023.md)：统一盆栽/采收产物、隐藏旧树入口并接回大花可可、修正手册与生成工具；A/B 已构建和成对部署，实机待确认。
+- [AR1-C 单格与可采摘作物审查](moddev/docs/221-ar1c-single-pickable-crop-audit-20261023.md)：87 项形态矩阵、42 项深入静态检查及 14 页采收操作说明修订；已构建部署，实机待确认。附[中文矩阵](moddev/inventory/crop-contracts-20261023/crop-contracts.csv)。
+- [AR1-D 双格与攀爬作物修复](moddev/docs/222-ar1d-tall-climbing-crop-repair-20261023.md)：27 项死株类型、长高分界、掉落/返棍及手册修正；累计 69 项深入静态检查，已构建部署，实机待确认。附[AR1-D矩阵](moddev/inventory/tall-crops-20261023/crop-contracts.csv)。整套体检仍有两张既有透明苗期 PNG，已登记后续处理。
+- [AR1-E 水生作物浅水生成与说明修复](moddev/docs/223-ar1e-flooded-crop-generation-guide-repair-20261023.md)：10项浅水生成、先备水后播种说明及流体状态检查；累计79项深入静态核对，已构建部署，实机待确认。附[AR1-E矩阵](moddev/inventory/flooded-crops-20261023/crop-contracts.csv)。
+- [AR1-F 蔓延作物与整瓜修复](moddev/docs/224-ar1f-spreading-fruit-decay-harvest-repair-20261023.md)：修正藤/果实重复掉落、整瓜食品数据、实体加载与保存，接回已有案板一瓜四片；累计82项深入静态核对，已构建部署，实机待验。附[AR1-F矩阵](moddev/inventory/spreading-crops-20261023/crop-contracts.csv)。
+- [AR1-G 莲座作物结果与返种修复](moddev/docs/225-ar1g-rosette-state-harvest-guide-repair-20261023.md)：明确幼苗未结果、活株返一至两份侧芽、死亡成功转换后返种，补齐六龄和结果态手册；87项均完成当前范围深入静态核对，已构建部署，实机待验。附[最新矩阵](moddev/inventory/rosette-crops-20261023/crop-contracts.csv)。
+- [AR3-A 温带果树与共享生长修复](moddev/docs/226-ar3a-temperate-tree-lifecycle-repair-20261023.md)：修正种植计时、嫁接根坐标、转枝结转与提示单位，独立实现开花粒子并恢复原生叶片效果；补14种水果分类和28页说明。14种深入静态核对、已构建部署，实机待验。附[果树矩阵](moddev/inventory/temperate-trees-20261023/tree-contracts.csv)。
+- [AR2-A 水果与整派配方修复](moddev/docs/227-ar2a-fruit-tags-pie-processing-repair-20261023.md)：修正整派水果标签、腐烂原料拒绝及食品信息在合成/放置/分餐/保存中的传递，清除旧草莓生成回退。27处食品标签静态核对通过，A/B已构建、B已部署，实机待验。附[食品原料矩阵](moddev/inventory/fruit-processing-20261023/fruit-processing.csv)。
+- [AR3-B 热带果树与自然初始生长修复](moddev/docs/228-ar3b-tropical-tree-generation-repair-20261023.md)：修正自然枝哨兵值初始进度，补14种水果分类和28页说明；累计28种深入静态审查，已构建部署，实机待验。附[最新果树矩阵](moddev/inventory/tropical-trees-20261023/tree-contracts.csv)。
+- [AR3-C 坚果树与原生食物用途接入](moddev/docs/229-ar3c-nut-tree-food-integration-20261024.md)：补五种坚果分类及汤/沙拉/三明治用途、十页说明和草莓生成防回退；累计33种深入静态审查，已构建部署，实机待验。附[最新果树矩阵](moddev/inventory/nut-trees-20261024/tree-contracts.csv)。
+- [AR3-D 树干结果与旧可可兼容修复](moddev/docs/230-ar3d-trunk-fruit-lifecycle-legacy-cocoa-20261024.md)：修正半球、根部气候、成熟枝根交接、阶段余量和采收顺序，补成熟拆枝掉果及分类；累计40项深入静态核对，已构建部署，实机待验。附[最新总表](moddev/inventory/branch-fruits-20261024/all-tree-contracts.csv)。
+- [AR3-E 黑胡椒及其余八种果树闭环交接](moddev/docs/231-ar3e-pepper-and-remaining-fruit-trees-20261024.md)：补黑胡椒成熟掉果、八种水果分类及18个文字页；49项树类完成当前范围静态核对，已构建部署、实机待验。附[最新总表](moddev/inventory/pepper-fruit-trees-20261024/all-tree-contracts.csv)。
+- [农业完善阶段总结（TXT）](moddev/docs/232-农业完善阶段总结-20261024.txt)：截至AR3-E的自然语言汇总，区分修改、构建、检查与待实机事项。
+- [AR3-F 灌木计时与自然生成兼容交接](moddev/docs/234-ar3f-bush-timers-worldgen-compatibility-20261024.md)：补蔓生种植计时、未初始化旧/自然株与受限根恢复；生成标签合并12种灌木并仅排除原版草莓灌木patch。528组状态检查和构建部署完成，实机待验。附[灌木矩阵](moddev/inventory/bushes-worldgen-20261024/bush-contracts.csv)。
+- [AR2-B 土壤养分、肥料与堆肥接入](moddev/docs/235-ar2b-soil-nutrients-fertilizer-compost-20261024.md)：87项N/P/K声明及10份原生肥料核对，补三种整瓜高档绿料入口和中英文土壤说明；已构建部署、实机待验。附[养分矩阵](moddev/inventory/soil-fertilizer-20261024/soil-crops.csv)。
+- [AR2-C 农业材料与原生加工用途](moddev/docs/236-ar2c-agricultural-material-processing-20261025.md)：补四种麻纤维织布/制绳、棉铃纺锤制线和六材料堆肥入口，A/B成对构建部署、实机待验；未扩建完整酿酒或脱胶系统。附[材料矩阵](moddev/inventory/agricultural-materials-20261025/agricultural-materials.csv)。
+- [AR2-D 谷物、豆类和油料加工及食品信息](moddev/docs/237-ar2d-grain-bean-oilseed-processing-20261025.md)：27项用途审查，修正高粱分类、补三种小麦磨粉并修复13份搅拌碗食品历史；A/B构建部署完成、实机待验。附[用途矩阵](moddev/inventory/grain-food-processing-20261025/grain-food-processing.csv)。
+- [AR2-E 剩余蔬菜、调味与茶咖啡用途](moddev/docs/238-ar2e-vegetables-spices-beverage-harvests-20261025.md)：52项用途审查，接回三种案板食材的原生用途、茶咖啡基础堆肥；修正覆盖漏扫，完整台账418项。已构建部署、实机待验。附[用途矩阵](moddev/inventory/vegetable-beverage-processing-20261025/vegetable-beverage-processing.csv)。
+- [AR4-A 苗期模型与历史贴图引用复核](moddev/docs/239-ar4a-seedling-texture-reference-review-20261025.md)：三张旧贴图未被当前苗期引用，完成2D/三角度离线查看及有哈希保护的体检归类；游戏素材与JAR未改，实机/美术仍待验。附[引用矩阵](moddev/inventory/seedling-visuals-20261025/seedling-texture-contracts.csv)。
+- [AR4-B 三种叶菜完整形态审查与粒子修复](moddev/docs/240-ar4b-leaf-vegetable-lifecycle-visuals-particles-20261025.md)：36状态及三角度查看，修复24模型粒子接线并限制旧生成工具；A已构建部署，图片/几何不改。结果态承托及野生/死株外观仍有后续项。附[状态矩阵](moddev/inventory/leaf-vegetable-visuals-20261025/leaf-vegetable-model-contracts.csv)。
+- [AR4-C 共享莲座结果态高度与承托修复](moddev/docs/241-ar4c-shared-rosette-fruit-support-20261025.md)：五种作物前后对照，果块降低三格、完整外侧叶承托，60状态及穿模负例检查通过；A已构建部署，实机待验。附[状态矩阵](moddev/inventory/rosette-fruit-support-20261025/rosette-fruit-contracts.csv)。
+- [AR4-D 西兰花野生与枯死形态修复](moddev/docs/242-ar4d-broccoli-wild-dead-models-20261025.md)：四状态改用本物种几何/素材，补防回退约束；A已构建部署，全部PNG/Java/B不变，实机待验。附[离线对照](moddev/inventory/broccoli-wild-dead-20261025/AR4D-candidate-p28.png)。
+- [AR4-E 生菜野生与枯死形态修复](moddev/docs/243-ar4e-lettuce-wild-dead-models-20261025.md)：四状态改用本物种宽叶/叶球及既有褐色素材，防止生成器回退洋葱引用；A已构建部署，实机待验。附[离线对照](moddev/inventory/lettuce-wild-dead-20261025/AR4E-candidate-p28.png)。
+- [AR4-F 羽衣甘蓝野生形态与共享死株范围](moddev/docs/244-ar4f-kale-wild-shared-dead-scope-20261025.md)：野生两态改用完整自有宽叶；五种作物共用死株的10条逻辑案例/2实际状态已核对，A构建部署通过，实机待验，共享外观留下一片。附[共享范围表](moddev/inventory/kale-wild-shared-dead-20261025/shared-dead-rosette-scope.csv)。
+- [AR4-G 共享莲座枯死形态修复](moddev/docs/245-ar4g-shared-dead-rosette-visuals-20261025.md)：修复成熟枝条截断与幼年空白叶面，保留原图和1∶1比例；生成器保护、A构建部署通过，实机/最终美术待验。附[离线采用图](moddev/inventory/shared-dead-visuals-20261025/AR4G-units-p28.png)。
+- [AR4-H 花菜生命周期模型与粒子核对](moddev/docs/246-ar4h-cauliflower-lifecycle-models-20261025.md)：修复六龄粒子与四种野生/死株借用，四叶菜46状态通过；栽培几何/所有PNG/Java/B保持，A已构建部署，实机待验。附[状态表](moddev/inventory/cauliflower-lifecycle-20261025/leaf-vegetable-model-contracts.csv)。
+- [AR4-I 白菜生命周期模型与粒子核对](moddev/docs/247-ar4i-napa-cabbage-lifecycle-models-20261025.md)：六龄粒子和野生/死株借用修复，五叶菜56状态通过，A已构建部署、实机待验；新增第二龄叶球低角度暗缝待共享承托复核。附[状态表](moddev/inventory/napa-cabbage-lifecycle-20261025/leaf-vegetable-model-contracts.csv)。
+- [AR4-J 共享叶球承托与原生卷心菜范围复核](moddev/docs/248-ar4j-shared-leafball-support-20261025.md)：五物种30栽培状态，四侧承托及六原生粒子修复，22张最终离线图和62状态检查通过；A已构建部署，PNG/Java/B不变，实机待验。附[承托状态表](moddev/inventory/leafball-support-20261025/leafball-support-contracts.csv)。后续清单见249号。
+- [AR4-K 剩余视觉问题与当前接线复核](moddev/docs/249-ar4k-current-visual-backlog-review-20261025.md)：22项清单及实际引用盘点完成，发现77种作物栽培仍取TFC纹理、种子/盆栽存在类似接线；八张图已看，游戏资源/JAR未改。附[剩余清单](moddev/inventory/visual-backlog-20261025/remaining-visual-backlog.csv)。辣椒修复后续见250号。
+- [AR4-L 辣椒显示链与生成器保护](moddev/docs/250-ar4l-chili-display-and-generator-protection-20261025.md)：十四份资源接回自有六龄、野生/死株、种子/食品与盆栽，全部PNG/Java/B和玩法保持；七张图、检查及A构建部署通过，实机待验。附[十状态表](moddev/inventory/chili-display-20261025/chili-display-contracts.csv)。葫芦巴后续见251号。
+- [AR4-M 葫芦巴显示链与共用检查](moddev/docs/251-ar4m-fenugreek-display-and-shared-checks-20261026.md)：十四份资源修复，未采用野生绿团；全部PNG/Java/B及辣椒运行时不变，十张图、检查、A构建部署通过，实机待验。附[状态表](moddev/inventory/fenugreek-display-20261026/audit-fenugreek/fenugreek-display-contracts.csv)。菠菜后续见252号。
+- [AR4-N 菠菜显示修复与素材错配](moddev/docs/252-ar4n-spinach-display-and-asset-mismatch-20261026.md)：十四资源修复甜菜/旧白花显示，全部PNG/玩法/Java/B和前两物种保持；图标暂复用，盆栽末两阶段共图，美术/实机待验。A构建部署及检查通过。附[状态表](moddev/inventory/spinach-display-20261026/audit-spinach/spinach-display-contracts.csv)。图标专项后续见253号。
+- [AR4-O 食品/种子图标核对与首批叶菜修复](moddev/docs/253-ar4o-item-icon-audit-and-leafy-first-batch-20261026.md)：229条/26页实际核对，三叶菜六模型改用共享绿叶/散粒；所有PNG/玩法/Java/B保持。24隔离检查、A构建部署及体检通过，实机/专用美术待验。附[分诊清单](moddev/inventory/item-icons-20261026/item-icon-triage.csv)。三种采收图标后续见254号。
+- [AR4-P 芦笋、茄子、秋葵采收图标修复](moddev/docs/254-ar4p-asparagus-eggplant-okra-harvest-icons-20261026.md)：三食品模型接回既有本物种图，原PNG/玩法/种子/生命周期/Java/B保持；14隔离与安全复制检查、418台账、A构建部署及体检通过，实机/最终美术待验。附[当前分诊](moddev/inventory/harvest-icons-20261026/item-icon-triage.csv)。六种叶菜/茎菜图标后续见255号。
+- [AR4-Q 六种叶菜/茎菜采收图标修复](moddev/docs/255-ar4q-leaf-stem-harvest-icons-20261026.md)：四叶菜暂共享叶束，芹菜/莴笋新增16×16独立v1图；原图和玩法/Java/B保持。20检查、418台账及A构建部署/体检通过，实机/最终美术待验。附[当前分诊](moddev/inventory/leaf-stem-icons-20261026/item-icon-triage.csv)及[生成提示词](moddev/inventory/leaf-stem-icons-20261026/imagegen-prompts.json)。四豆类图标后续见256号。
+- [AR4-R 四豆类采收图标与尺寸保护](moddev/docs/256-ar4r-bean-harvest-icons-and-size-guard-20261026.md)：菜豆/豇豆/豌豆/四棱豆新增独立16×16鲜豆图，四模型修复；全部原PNG/玩法/Java/B保持。20检查、233源/包内图尺寸、418台账及A构建部署/体检通过，实机/最终美术待验。附[当前分诊](moddev/inventory/bean-icons-20261026/item-icon-triage.csv)及[提示词](moddev/inventory/bean-icons-20261026/imagegen-prompts.json)。四攀爬瓜图标后续见257号。
+- [AR4-S 四攀爬瓜类采收图标修复](moddev/docs/257-ar4s-climbing-gourd-harvest-icons-20261026.md)：苦瓜/佛手瓜/丝瓜/蛇瓜新增独立16×16整瓜图，原图/玩法/独立瓜方块/Java/B保持。18检查、237源/包内图尺寸、418台账及A构建部署/体检通过，实机/最终美术待验。附[当前分诊](moddev/inventory/climbing-gourd-icons-20261026/item-icon-triage.csv)及[提示词](moddev/inventory/climbing-gourd-icons-20261026/imagegen-prompts.json)。四地下收获物图标后续见258号。
+- [AR4-T 四地下收获物图标修复](moddev/docs/258-ar4t-underground-harvest-icons-20261026.md)：芋头/山药/莲藕/慈菇新增独立16×16图，原图/营养/玩法/Java/B保持。19检查、241源/包内图尺寸、418台账及A构建部署/体检通过，实机/最终美术待验。附[当前分诊](moddev/inventory/underground-icons-20261026/item-icon-triage.csv)及[提示词](moddev/inventory/underground-icons-20261026/imagegen-prompts.json)。八项食品图标后续见[259号](moddev/docs/259-ar4u-remaining-food-icons-20261026.md)。
+- [AR4-U 八项食品图标修复与交付](moddev/docs/259-ar4u-remaining-food-icons-20261026.md)：韭菜/菱角复用既有图，其余六项新增16×16候选，原图/玩法/Java/B保持。28检查、247源/包尺寸、418台账及A构建部署/体检通过，实机/最终美术待验；明确错配子组清空，其他农业/美术仍待办。附[当前分诊](moddev/inventory/remaining-food-icons-20261026/item-icon-triage.csv)、[来源及正式路径](moddev/inventory/remaining-food-icons-20261026/imagegen-asset-manifest.json)、[初始提示词](moddev/inventory/remaining-food-icons-20261026/imagegen-prompts.json)和[莼菜重做提示](moddev/inventory/remaining-food-icons-20261026/imagegen-water-shield-retry-prompt.json)。当前复核见[260号](moddev/docs/260-ar4v-visual-backlog-and-agriculture-status-20261026.md)。
+- [AR4-V 剩余视觉与农业阶段状态](moddev/docs/260-ar4v-visual-backlog-and-agriculture-status-20261026.md)：只读复核四页十六食品、八项产物定义与22条历史待办，纠正草莓世界生成旧状态；87作物/49树类/12灌木的静态交付、待美术和实机分开记录。A/B源/工具/JAR不改，完整体检及全部源资源/安装包比对通过。附[下一批队列](moddev/inventory/visual-status-review-20261026/next-work-queue.csv)和[产物判断](moddev/inventory/visual-status-review-20261026/product-verdicts.csv)。五坚果后续见[261号](moddev/docs/261-ar4w-nut-food-icons-20261026.md)。
+- [AR4-W 五种坚果食品图标](moddev/docs/261-ar4w-nut-food-icons-20261026.md)：五张独立16×16新候选替代水果外形，原图/食品/玩法/Java/B保持。26检查、252源/包尺寸、418台账及A构建部署/体检通过，实机/最终美术待验。附[新图正式路径/来源](moddev/inventory/nut-icons-20261026/imagegen-asset-manifest.json)、[生成提示词](moddev/inventory/nut-icons-20261026/imagegen-prompts.json)和[当前分诊](moddev/inventory/nut-icons-20261026/item-icon-triage.csv)。三项后续见[262号](moddev/docs/262-ar4x-special-food-icons-and-guide-20261026.md)。
+- [AR4-X 三特殊食品图标与准确说明](moddev/docs/262-ar4x-special-food-icons-and-guide-20261026.md)：三张16×16新图、六页中英文说明及模板保护，原图/食品/玩法/Java/B保持。33检查、六页模板对照、255源/包尺寸、418台账及A构建部署/体检通过；整书草稿的草莓额外两页保留为未发布差异，实机/最终美术待验。附[新图正式路径/来源](moddev/inventory/special-food-icons-20261026/imagegen-asset-manifest.json)、[初始提示词](moddev/inventory/special-food-icons-20261026/imagegen-prompts.json)及[重做提示词](moddev/inventory/special-food-icons-20261026/imagegen-retry-prompts.json)。四叶菜后续见[263号](moddev/docs/263-ar4y-leafy-food-icons-first-batch-20261026.md)。
+- [AR4-Y 首批四叶菜独立食品图标](moddev/docs/263-ar4y-leafy-food-icons-first-batch-20261026.md)：四张独立16×16新候选替代共享叶束，原图/食品/玩法/Java/B和手册/模板保持。24检查、259源/包尺寸、418台账及A构建部署/体检通过，实机/最终美术待验。附[正式路径与来源](moddev/inventory/leafy-icons-first-20261026/imagegen-asset-manifest.json)、[生成提示词](moddev/inventory/leafy-icons-first-20261026/imagegen-prompts.json)和[当前分诊](moddev/inventory/leafy-icons-first-20261026/item-icon-triage.csv)。后四叶菜见[264号](moddev/docs/264-ar4z-leafy-food-icons-second-batch-20261026.md)。
+- [AR4-Z 后四叶菜食品图标与菠菜双重保护](moddev/docs/264-ar4z-leafy-food-icons-second-batch-20261026.md)：四张16×16独立候选，原图/食品/玩法/Java/B保持；菠菜专用保护同步，八共享叶菜组静态接线完成。29检查、44/17安全JSON、263源/包尺寸、418台账及A构建部署/体检通过，实机/最终美术待验。附[正式路径与来源](moddev/inventory/leafy-icons-second-20261026/imagegen-asset-manifest.json)、[生成提示词](moddev/inventory/leafy-icons-second-20261026/imagegen-prompts.json)和[当前分诊](moddev/inventory/leafy-icons-second-20261026/item-icon-triage.csv)。向日葵显示交付见[265号](moddev/docs/265-ar4aa-sunflower-whole-display-20261027.md)。
+- [AR4-AA 向日葵整株显示与防回退](moddev/docs/265-ar4aa-sunflower-whole-display-20261027.md)：两格茎叶/花盘、野生/枯株与盆栽错图修复，全部原图及玩法保持；21项检查、构建和两处部署/体检通过，实机与最终美术未验。附[同条件对照](moddev/inventory/sunflower-display-20261027/AR4AA-mature-before-after.png)及[下一步队列](moddev/inventory/sunflower-display-20261027/next-work-queue.csv)。播种图标、盆栽重复阶段仍待美术复核；菠菜盆栽后续见[266号](moddev/docs/266-ar4ab-spinach-planter-mature-20261027.md)。
+- [AR4-AB 菠菜盆栽成熟显示](moddev/docs/266-ar4ab-spinach-planter-mature-20261027.md)：参考已安装TFC原版作物，新增16×16成熟叶株图并接入最后阶段；15项检查、构建/两处部署/体检通过，实机与最终美术未验。绘图先看原版的要求已写入开发规则。附[正式贴图](moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/spinach_planter_mature_v1.png)、[提示词](moddev/inventory/spinach-planter-20261027/imagegen-prompt.json)和[源预览](moddev/inventory/spinach-planter-20261027/AR4AB-current-p28.png)。牛皮菜采收说明核对见[267号](moddev/docs/267-ar4ac-swiss-chard-harvest-guide-20261027.md)。
+- [AR4-AC 牛皮菜采收说明与生命周期核对](moddev/docs/267-ar4ac-swiss-chard-harvest-guide-20261027.md)：纠正割后再生承诺，明确农田整株采收后重新播种；玩法和贴图保持。八文字页/八模板保护、11项检查、构建部署/体检通过，实机未验。整书草稿176/174页差异继续待核，未发布。牛皮菜显示交付见[268号](moddev/docs/268-ar4ad-swiss-chard-native16-display-20261027.md)。
+- [AR4-AD 牛皮菜原生16格完整显示](moddev/docs/268-ar4ad-swiss-chard-native16-display-20261027.md)：六龄/野生/死株/盆栽接线，八份16格像素稿、64仅工作区预览；21项检查、构建/两处部署/体检通过，最终美术与实机未验。附[逐张贴图路径](moddev/inventory/swiss-display-20261027/贴图文件路径.txt)、[16格源图](moddev/inventory/swiss-display-20261027/AR4AD-native16-authored.png)及[正式源预览](moddev/inventory/swiss-display-20261027/AR4AD-current-p28.png)。芹菜已静态交付，见[269号](moddev/docs/269-ar4ae-celery-native16-display-20261027.md)。
+- [AR4-AE 芹菜原生16格完整显示](moddev/docs/269-ar4ae-celery-native16-display-20261027.md)：六龄/野生/枯株/盆栽，八图16格起稿、64仅预览；23项检查、构建与两处部署通过，最终美术及实机待验。附[贴图路径清单](moddev/inventory/celery-display-20261027/贴图文件路径.txt)、[原图一览](moddev/inventory/celery-display-20261027/AR4AE-native16-authored.png)和[实际源模型预览](moddev/inventory/celery-display-20261027/AR4AE-current-p28.png)。莴笋显示已静态交付，见[270号](moddev/docs/270-ar4af-celtuce-native16-display-20261027.md)。
+- [AR4-AF 莴笋原生16格完整显示](moddev/docs/270-ar4af-celtuce-native16-display-20261027.md)：六龄/野生/枯株/盆栽；八份16格新稿、64仅工作区预览；24项检查、构建/两处部署/体检通过，最终美术与实机待验。附[贴图路径](moddev/inventory/celtuce-display-20261027/贴图文件路径.txt)、[原图一览](moddev/inventory/celtuce-display-20261027/AR4AF-native16-authored.png)、[实际源模型预览](moddev/inventory/celtuce-display-20261027/AR4AF-current-p28.png)。大黄显示已静态交付，见[271号](moddev/docs/271-ar4ag-rhubarb-native16-display-20261027.md)。
+- [AR4-AG 大黄原生16格完整显示](moddev/docs/271-ar4ag-rhubarb-native16-display-20261027.md)：六龄/野生/枯株/盆栽；八份16格新稿、64仅工作区预览；26项检查、构建/两处部署/体检通过，可采摘再生保持；最终美术与实机待验。附[贴图路径](moddev/inventory/rhubarb-display-20261027/贴图文件路径.txt)、[原图一览](moddev/inventory/rhubarb-display-20261027/AR4AG-native16-authored.png)、[实际源模型预览](moddev/inventory/rhubarb-display-20261027/AR4AG-current-p28.png)。下一片AR4-AH芦笋完整显示链，预期5/5。
+- [K3 烤炉计时与黄油蛋糕修复记录](moddev/docs/216-oven-timer-and-butter-cake-fix-20261022.md)：记录 15 种烤炉原料的热量能力、低温清零、黄油块装饰和待实机验收项。
+- [PCL 客户端压缩包修复记录](moddev/docs/209-pcl-client-archive-20261022.md)：包含可被 PCL 识别的 `versions/<版本>/<版本>.json` 结构。
+- [PCL NeoForge 缺失修复记录](moddev/docs/210-pcl-neoforge-missing-20261022.md)：修复导入后 NeoForge 本体未被补全的问题。
+- [PCL NeoForge 通用包路径修复记录](moddev/docs/211-pcl-neoforge-artifact-path-20261022.md)：修复 PCL 回退请求普通 JAR 路径的问题。
+- [PCL 客户端运行库缺失修复记录](moddev/docs/212-pcl-client-runtime-20261022.md)：补齐 NeoForge 21.1.248 客户端映射运行库，修复 `LoadingOverlay` 缺失崩溃。
+- [PCL v5 启动包及现有实例修复](moddev/docs/213-pcl-v5-runtime-repair-20261022.md)：修复 v4 的普通 JAR 404 回归，并直接修补现有 PCL 实例。
+
+- [开发规则](DEVELOPMENT_RULES.md)：后续开发禁止直接照抄示例模组代码。
+- [代码来源复核与独立实现记录](moddev/docs/131-source-audit-independent-design-20261007.md)。
+- [阶段 2 基础台账与入口修正](moddev/docs/132-phase2-baseline-ledger-20261007.md)。
+- [阶段 3 石臼食品研磨交接](moddev/docs/133-phase3-mortar-foods-20261007.md)。
+- [阶段 4 案板预处理交接](moddev/docs/134-phase4-board-foods-20261007.md)。
+- [阶段 5 干燥架试点交接](moddev/docs/135-phase5-drying-rack-20261007.md)。
+- [阶段 6 整合与发布交接](moddev/docs/136-release-integration-handoff-20261007.md)。
+- [阶段 7 实机回归记录](moddev/docs/137-runtime-regression-20261007.md)。
+- [阶段 8 回归问题修复](moddev/docs/138-phase8-fixes-20261007.md)。
+- [阶段 9 可可首批加工闭环](moddev/docs/139-phase9-cocoa-vertical-slice-20261007.md)。
+- [阶段 10 可可内容实机回归](moddev/docs/140-phase10-runtime-regression-20261008.md)。
+- [阶段 11 可可加工链扩展](moddev/docs/141-phase11-cocoa-processing-20261008.md)。
+- [第 12 步起后续开发计划](moddev/docs/142-next-development-plan-20261008.md)。
+- [案板、石臼、干燥架鼠标交互回归记录](moddev/docs/143-interaction-regression-20261008.md)。
+- [Minecraft 客户端自动操作故障诊断](moddev/docs/144-minecraft-automation-diagnosis-20261008.md)。
+- [Minecraft 自动操作修复尝试](moddev/docs/145-minecraft-automation-repair-attempt-20261008.md)。
+- [第 12 步验收暂缓记录](moddev/docs/146-phase12-acceptance-deferred-20261008.md)。
+- [第 13 步可可发酵流程](moddev/docs/147-phase13-cocoa-fermentation-20261008.md)。
+- [第 14 步草莓接管预研](moddev/docs/148-phase14-strawberry-preflight-20261008.md)。
+- [第 15 步香料调味入口预研](moddev/docs/149-phase15-spice-preflight-20261008.md)。
+- [第 16 步整合与实机验证清单](moddev/docs/150-phase16-integration-and-manual-checklist-20261009.md)。
+- [覆盖与跨命名空间文件台账](moddev/tfcagricultureplus/OVERRIDE-REGISTRY.md)。
+- [缺陷整改总方案](moddev/docs/152-defect-remediation-master-plan-20261009.md)。
+- [缺陷整改阶段 0 审计记录](moddev/docs/153-phase0-baseline-audit-20261009.md)。
+- [缺陷整改 canonical ID 台账](moddev/docs/153-canonical-id-ledger-20261009.json)。
+- [全局缺陷审计与后续开发总计划](moddev/docs/154-global-defect-audit-and-development-plan-20261010.md)。
+- [阶段 1 工具门禁与版本基线](moddev/docs/155-phase1-tooling-baseline-20261010.md)。
+- [阶段 2 P0 草莓、可可和汤入口规范化](moddev/docs/156-phase2-p0-canonical-cleanup-20261010.md)。
+- [阶段 2 P1 TFC 容器接口第一批重构](moddev/docs/157-phase2-p1-tfc-inventory-refactor-20261010.md)。
+- [阶段 2 P2 草莓世界生成、可可和调味入口修复](moddev/docs/158-phase2-p2-worldgen-cocoa-seasoning-20261012.md)。
+- [阶段 3、4 干燥架、木工与封窑修复](moddev/docs/159-phase3-4-drying-timber-kiln-20261012.md)。
+- [实机验收与干燥架八件批量改动](moddev/docs/160-runtime-acceptance-drying-batch-plan-20261013.md)。
+- [B 阶段独立木工迁移与工作台契约计划](moddev/docs/161-phase-b-independent-woodworking-migration-plan-20261013.md)。
+- [B-1 独立木工核心迁移首批交接](moddev/docs/162-phase-b1-independent-woodwork-core-20261013.md)。
+- [B-1 木料堆状态与劈木行为第二批交接](moddev/docs/163-phase-b1-pile-behavior-20261013.md)。
+- [B-1 木料堆容量整理与纵向续堆第三批交接](moddev/docs/164-phase-b1-pile-settling-20261013.md)。
+- [B-2 木料堆潜行连续放入交接](moddev/docs/165-phase-b2-pile-crouch-insert-20261013.md)。
+- [B-2 木工工具交互规则交接](moddev/docs/166-phase-b2-tool-interaction-20261013.md)。
+- [B-3 / B-4 工作台与容器契约门禁交接](moddev/docs/167-phase-b3-b4-contract-gates-20261013.md)。
+- [B-5 显示、兼容与构建收尾交接](moddev/docs/168-phase-b5-display-compatibility-20261013.md)。
+- [B-6 木料堆交互收尾交接](moddev/docs/169-phase-b6-pile-interaction-polish-20261013.md)。
+- [B-7 木料堆树种一致性修复交接](moddev/docs/170-phase-b7-pile-species-compatibility-20261013.md)。
+- [B-8 木工流程审计门禁交接](moddev/docs/171-phase-b8-woodwork-flow-gate-20261013.md)。
+- [B 阶段独立木工完成交接](moddev/docs/172-phase-b-woodworking-completion-20261013.md)。
+- [下一阶段开发规划（木工验收、养蚕与 A/B 回归）](moddev/docs/173-next-development-plan-20261013.md)。
+- [C1 B 养蚕基础链交接](moddev/docs/174-phase-c1-silkworm-foundation-20261014.md)。
+- [C1 养蚕后处理与 TFC 织绸链交接](moddev/docs/175-phase-c1-silkworm-processing-20261014.md)。
+- [当前版本实机验证记录与待验清单](moddev/docs/176-runtime-verification-record-20261014.md)。
+- [实机反馈、木工阻断分析与养蚕重做方案](moddev/docs/177-runtime-feedback-and-silkworm-redesign-20261015.md)。
+- [木工流程收尾与养蚕基础流程施工](moddev/docs/178-phase-c1-silkworm-and-woodwork-closeout-20261015.md)。
+- [养蚕第二批生命周期与容器访问补全](moddev/docs/179-phase-c1-silkworm-second-batch-20261015.md)。
+- [养蚕第三批每日结算一致性修复](moddev/docs/180-phase-c1-silkworm-third-batch-20261016.md)。
+- [养蚕手册与当前流程同步](moddev/docs/181-phase-c1-silkworm-guide-sync-20261016.md)。
+- [养蚕系统全流程开发收口](moddev/docs/182-phase-c1-silkworm-full-flow-closeout-20261016.md)。
+- [养蚕全流程实机验证准备记录](moddev/docs/183-phase-c1-silkworm-runtime-ready-20261016.md)。
+- [实机反馈后的养蚕与独立木工修复记录](moddev/docs/184-runtime-feedback-silkworm-woodwork-repair-20261017.md)。
+- [养蚕箱 UI 布局调整记录](moddev/docs/185-silkworm-ui-layout-20261017.md)。
+- [下一阶段开发计划（实机收口、B 回归与 A/B 审计）](moddev/docs/186-next-development-plan-20261017.md)。
+- [阶段二 B 设备与木工回归收口施工记录](moddev/docs/187-phase2-b-regression-closeout-20261017.md)。
+- [下一阶段新内容开发计划（A/B 台账、作物补强与加工扩展）](moddev/docs/188-next-content-development-plan-20261018.md)。
+- [额外厨具系统优先开发计划](moddev/docs/189-kitchenware-first-development-plan-20261018.md)。
+- [K0 厨具台账与接口冻结记录](moddev/docs/190-kitchenware-k0-ledger-20261018.md)。
+- [K1 厨房骨架首批施工记录](moddev/docs/191-kitchenware-k1-skeleton-20261018.md)。
+- [K1 厨具系统实机测试清单与自动化验证记录](moddev/docs/192-k1-runtime-test-checklist-20261018.md)。
+- [K2 炒锅与调味垂直切片施工记录](moddev/docs/193-k2-pan-vertical-slice-20261018.md)。
+- [K3 面团成型与可放置整派垂直切片](moddev/docs/194-k3-dough-and-placeable-pie-20261018.md)。
+- [K3 熔化锅与 Firmalife 巧克力混合物垂直切片](moddev/docs/195-k3-melting-pot-20261019.md)。
+- [K3 整蛋糕与统一可放置食品切片](moddev/docs/196-k3-whole-cake-placeable-food-20261019.md)。
+- [K3 整奶酪与统一可放置食品切片](moddev/docs/197-k3-whole-cheese-placeable-food-20261019.md)。
+- [K3 黄油块与统一可放置食品切片](moddev/docs/198-k3-butter-block-placeable-food-20261019.md)。
+- [K3 果冻块与统一可放置食品切片](moddev/docs/199-k3-jelly-block-placeable-food-20261019.md)。
+- [K3 糖块与统一可放置食品切片](moddev/docs/200-k3-sugar-block-placeable-food-20261019.md)。
+- [K3 可放置食品统一实机验证清单](moddev/docs/201-k3-placeable-food-runtime-checklist-20261019.md)。
+- [路径长度审计与 PCL 短路径迁移实例](moddev/docs/202-path-length-audit-and-pcl-staging-20261019.md)。
+- [K3 可放置整黄油放置崩溃修复记录](moddev/docs/203-k3-placeable-food-level-null-crashfix-20261020.md)。
+- [K3 面团、案板与厨具系统重构开发计划](moddev/docs/204-k3-dough-board-and-kitchen-rework-plan-20261020.md)。
+- [K3 面团案板确认交互修订记录](moddev/docs/205-k3-dough-board-confirm-interaction-revision-20261021.md)。
+- [K3 面团案板确认加工功能全面开发计划](moddev/docs/206-k3-dough-board-confirmation-comprehensive-plan-20261021.md)。
+- [K3 面团案板确认加工施工记录](moddev/docs/207-k3-dough-board-confirmation-implementation-20261021.md)。
+- [PCL 启动器实例压缩包记录](moddev/docs/208-pcl-instance-archive-20261021.md)。
+- [下一阶段开发计划](moddev/docs/130-next-development-plan-20261006.md)。
+- [案板与木工最新交接记录](moddev/docs/129-boards-timber-validation-20261006.md)。
+
+### Uses packwiz for modpack management: https://packwiz.infra.link/
+---
+Mod List:
+- (Sodium) Chloride
+- [EMF] Entity Model Features [Fabric & Forge]
+- [ETF] Entity Texture Features - [Fabric & Forge]
+- Aures - TFC Livestock Skins
+- Balm
+- Barrels 2012
+- BSL Shaders
+- Complementary Shaders - Reimagined
+- Controlling
+- Corpse
+- Cupboard
+- Curios API
+- Euphoria Patches
+- Extreme sound muffler - (Neo)Forge
+- FallingTree
+- FerriteCore ((Neo)Forge)
+- Forgified Fabric API
+- ImmediatelyFast
+- Inventory Tweaks - ReFoxed
+- Iris Shaders
+- Jade 🔍
+- Just Enough Items (JEI)
+- Key Smithing for TFC
+- Lithium (Fabric/NeoForge)
+- MakeUp - Ultra Fast | Shaders
+- ModernFix
+- Mouse Tweaks
+- No Chat Restrictions
+- Patchouli
+- Photon Shader
+- Roxy
+- Seamless Loading Screen
+- Searchables
+- Simple Backups
+- Slightly Improved Font (32x)
+- Sodium
+- Sodium Extra
+- Sodium/Embeddium Dynamic Lights
+- Sophisticated Auto Walk
+- TerraFirmaCraft
+- TFC Canes
+- TFC Water Flasks
+- TFCGenViewer
+- TFCGyres-OreHints
+- Vexxed Visuals: TerraFirmaCraft
+- voxy
+- Voxy Server Side Forge / NeoForge
+- Xaero's Minimap
+- Xaero's World Map
+- YetAnotherConfigLib
+
+

@@ -1,0 +1,58 @@
+{
+  "Mode": "built-in image_gen",
+  "Prompt": "imagegen-prompt.json",
+  "FinalPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\spinach_planter_mature_v1.png",
+  "SHA256": "B452EE65CB79BC62E895E13C3A53586103F5BDB518C8E9B6E977803815E0446D",
+  "SourceAndJarSize": [
+    16,
+    16
+  ],
+  "References": [
+    {
+      "Jar": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+      "Resource": "assets/tfc/textures/block/crop/beet_5.png",
+      "SHA256": "F5FB95065EE6377BC3ECED47E53EA1741C4DCA3E5B5A2B505B9A119649897143"
+    },
+    {
+      "Jar": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+      "Resource": "assets/tfc/textures/block/crop/cabbage_5.png",
+      "SHA256": "9185512B22B25DE4A9DDEA2F1C5F96BA9CDE1158D4D9C4A98CA186A1B0E332CF"
+    },
+    {
+      "Jar": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+      "Resource": "assets/tfc/textures/block/crop/lentil_5.png",
+      "SHA256": "D5EA64CD51AAB81D3820CAA6EBD76F07CC2EE11D1F7920F1D2DDBC0275D7999D"
+    },
+    {
+      "Jar": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+      "Resource": "assets/tfc/textures/block/crop/soybean_5.png",
+      "SHA256": "52192F94496FAF2923A3077783FF890953E3328401F7F083C78870D968EA0EA3"
+    }
+  ],
+  "ExportDetails": {
+    "OriginalSize": [
+      1254,
+      1254
+    ],
+    "CutoutVisibleBounds": [
+      113,
+      626,
+      1190,
+      1155
+    ],
+    "FramingAlphaThreshold": 26,
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ContentSize": [
+      12,
+      6
+    ],
+    "AlphaPreservedInsideCrop": true,
+    "OriginalRawKept": true
+  },
+  "OriginalArtPreserved": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

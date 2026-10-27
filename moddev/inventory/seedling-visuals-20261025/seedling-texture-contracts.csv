@@ -1,0 +1,4 @@
+﻿"作物","历史贴图","当前贴图","历史声明引用数","状态模型","判定范围","VisualAccepted","RuntimeVerified"
+"broccoli","tfcfarmingplus:block/crop/broccoli_age_0","tfcfarmingplus:block/crop/broccoli_leafball_0","0","tfcfarmingplus:block/crop/broccoli_age_0","当前A/B源码；外部资源包及动态引用未实机确认","False","False"
+"kale","tfcfarmingplus:block/crop/kale_age_0","tfcfarmingplus:block/crop/kale_rosette_0","0","tfcfarmingplus:block/crop/kale_age_0;tfcfarmingplus:block/crop/kale_age_0_fruiting","当前A/B源码；外部资源包及动态引用未实机确认","False","False"
+"lettuce","tfcfarmingplus:block/crop/lettuce_age_0","tfcfarmingplus:block/crop/lettuce_leafball_0","0","tfcfarmingplus:block/crop/lettuce_age_0","当前A/B源码；外部资源包及动态引用未实机确认","False","False"

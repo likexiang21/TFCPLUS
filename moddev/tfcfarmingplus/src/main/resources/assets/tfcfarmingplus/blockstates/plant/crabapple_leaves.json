@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/crabapple_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/crabapple_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/crabapple_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/crabapple_fruiting_leaves"}}}

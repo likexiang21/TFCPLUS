@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/knife_block/sycamore"},"facing=east":{"model":"tfcagricultureplus:block/knife_block/sycamore","y":90},"facing=south":{"model":"tfcagricultureplus:block/knife_block/sycamore","y":180},"facing=west":{"model":"tfcagricultureplus:block/knife_block/sycamore","y":270}}}

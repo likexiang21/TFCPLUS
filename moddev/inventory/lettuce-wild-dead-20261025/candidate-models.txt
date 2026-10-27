@@ -1,0 +1,4 @@
+tfcfarmingplus:block/wild_crop/lettuce
+tfcfarmingplus:block/wild_crop/lettuce_young
+tfcfarmingplus:block/dead_crop/lettuce
+tfcfarmingplus:block/dead_crop/lettuce_young

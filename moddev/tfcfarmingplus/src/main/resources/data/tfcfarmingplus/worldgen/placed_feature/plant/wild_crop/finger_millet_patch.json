@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/finger_millet_patch","placement":[{"type":"tfc:climate","min_temperature":8,"max_temperature":31,"min_groundwater":100,"max_groundwater":340},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

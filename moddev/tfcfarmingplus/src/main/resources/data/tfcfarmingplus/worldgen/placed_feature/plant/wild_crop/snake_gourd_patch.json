@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/snake_gourd_patch","placement":[{"type":"tfc:climate","min_temperature":18,"max_temperature":38,"min_groundwater":160,"max_groundwater":340},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

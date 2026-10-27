@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/chicory_root_patch","placement":[{"type":"tfc:climate","min_temperature":-8,"max_temperature":26,"min_groundwater":120,"max_groundwater":300},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

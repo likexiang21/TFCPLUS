@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "bitter_melon",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-ed83afc5-1532-4e11-b47d-d402e330cc3f.png",
+    "PreservedSource": "moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-source\\bitter_melon.png",
+    "OriginalSize": [
+      1312,
+      1199
+    ],
+    "GeneratedSha256": "7EF2C3F7B9F08B392934AA951A0BABA1FD5286960F054A0C49F60200E0155956",
+    "Export": "moddev\\inventory\\climbing-gourd-icons-20261026\\exported-candidates\\bitter_melon_fruit_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "759E9D41F487C747294D24AC66A837B45B37A8622509EF7D351B92F97E6965A1",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\bitter_melon_fruit_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\bitter_melon.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "chayote",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-ca97f60e-b376-44d2-83a8-38e0141d9982.png",
+    "PreservedSource": "moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-source\\chayote.png",
+    "OriginalSize": [
+      1278,
+      1230
+    ],
+    "GeneratedSha256": "3579D8A7C0346402F2BB68240E2B949F63C6DA989C10F929D92B8B30C0698CEF",
+    "Export": "moddev\\inventory\\climbing-gourd-icons-20261026\\exported-candidates\\chayote_fruit_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "9FE22CAF2902E7566762CD05D02B3242090BDF4A38B0F63E9571DE26DF456767",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\chayote_fruit_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\chayote.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "loofah",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-ea319e6c-2e0f-42a3-bd70-1ca7626eb8ba.png",
+    "PreservedSource": "moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-source\\loofah.png",
+    "OriginalSize": [
+      1254,
+      1254
+    ],
+    "GeneratedSha256": "7B0A967DA7E01F15041A7D9F8CEA5AAF18E64B0045DEBD65BFA0D5D0E352C04E",
+    "Export": "moddev\\inventory\\climbing-gourd-icons-20261026\\exported-candidates\\loofah_fruit_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "ABB144CC5B998D5BFAA92D63F941F300CD410F92A9D1F0C96DD3E22610BC7BD2",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\loofah_fruit_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\loofah.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "snake_gourd",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-69f88a67-b836-4a15-a845-3fa52b369374.png",
+    "PreservedSource": "moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-source\\snake_gourd.png",
+    "OriginalSize": [
+      1312,
+      1199
+    ],
+    "GeneratedSha256": "549D8D46EEF4D0D4E0E9941DE2904EE316AAC68F80B05A9BC831A85AB8E9DD8B",
+    "Export": "moddev\\inventory\\climbing-gourd-icons-20261026\\exported-candidates\\snake_gourd_fruit_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "0ADC410609EA2EDCE93EE8DA9AEEDC48621D09317403726CFD0EB664FE44B56C",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\snake_gourd_fruit_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\snake_gourd.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\climbing-gourd-icons-20261026\\imagegen-prompts.json"
+  }
+]

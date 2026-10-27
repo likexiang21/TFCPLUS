@@ -1,0 +1,31 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "tfcagricultureplus:debarked_quarter/teak"
+  },
+  "tool": "saw",
+  "result_items": [
+    {
+      "action": "drop_center",
+      "item": {
+        "count": 2,
+        "id": "afc:wood/lumber/teak"
+      }
+    },
+    {
+      "action": "drop_center",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:sawdust"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "minecraft:air"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_sawed",
+    "volume": 0.6,
+    "pitch": 1.0
+  }
+}

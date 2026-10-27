@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/kale_patch","placement":[{"type":"tfc:climate","min_temperature":-20,"max_temperature":18,"min_groundwater":40,"max_groundwater":280},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

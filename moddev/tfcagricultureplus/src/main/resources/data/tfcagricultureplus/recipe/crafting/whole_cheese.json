@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CC", "CC"],
+  "key": { "C": { "tag": "firmalife:foods/cheeses" } },
+  "result": { "id": "tfcagricultureplus:whole_cheese", "count": 1 }
+}

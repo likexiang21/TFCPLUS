@@ -1,0 +1,1 @@
+{"type":"tfc:knapping","default_on":false,"knapping_type":"tfc:rock","ingredient":{"item":"tfc:groundcover/obsidian_shard"},"pattern":["  #  ","  #  ","  #  "," ### ","  #  "],"result":{"count":1,"id":"tfcagricultureplus:obsidian_pestle"}}

@@ -1,0 +1,192 @@
+{
+  "BeforePreview": {
+    "tfcfarmingplus/models/block/wild_crop/cauliflower.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\cauliflower.json",
+      "sha256": "79791aad6f54786e9e1134dc5f0e4fef0a8c9c757a7951c4a36e81e4128c8bca"
+    },
+    "tfc/textures/block/crop/cabbage_wild.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/cabbage_wild.png",
+      "sha256": "9185512b22b25de4a9ddea2f1c5f96ba9cde1158d4d9c4a98ca186a1b0e332cf"
+    },
+    "tfc/models/block/wild_crop/crop.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/wild_crop/crop.json",
+      "sha256": "8ef33918260610034c01ad995c1470ae20e5866c70965d7c6cd9aa7b076db605"
+    },
+    "tfc/textures/block/crop/wild_crop_grass.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/wild_crop_grass.png",
+      "sha256": "f1aa771d097bd9504fa432a535a74f10135752fc99388cc306adde85d536d1cb"
+    },
+    "minecraft/models/block/block.json": {
+      "origin": "D:\\TFC农业重置\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/block.json",
+      "sha256": "3ef6c442f1ab55d2a57fa58e28bb831268159052659f12b453b637b31ded1da8"
+    },
+    "tfc/models/block/dead_crop/cabbage_young.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/dead_crop/cabbage_young.json",
+      "sha256": "1fd912733a989b95c74c53d893d36a4d88f61e35e8a954ba5705fb72dce04be6"
+    },
+    "tfc/textures/block/crop/cabbage_dead_young.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/cabbage_dead_young.png",
+      "sha256": "6cf3836db57b6e65eb29e60c3f837147be580725ed0b2e38483c5e73a52f40b3"
+    },
+    "minecraft/models/block/crop.json": {
+      "origin": "D:\\TFC农业重置\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/crop.json",
+      "sha256": "d078de149252e74ddbfa19c80300f9e627a44913266664a1b08dd25d3f558f18"
+    },
+    "tfcfarmingplus/models/block/dead_crop/cauliflower.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\cauliflower.json",
+      "sha256": "76b03661d307af49845d29d4d5fcc753d6284bc1aaf2e677476a8e921630ff3b"
+    },
+    "tfc/textures/block/crop/cabbage_dead.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/cabbage_dead.png",
+      "sha256": "2c34ee3e82d16b6b87f58dbab6a76c41db8d17361326b749211ce5fed2b91199"
+    },
+    "tfcfarmingplus/models/block/dead_crop/cauliflower_young.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\cauliflower_young.json",
+      "sha256": "1fd912733a989b95c74c53d893d36a4d88f61e35e8a954ba5705fb72dce04be6"
+    },
+    "tfcfarmingplus/models/block/crop/cauliflower_age_0.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\cauliflower_age_0.json",
+      "sha256": "8ab01d7b0991da6a807eb712e3058b7fe24704256a784dbb3516af7ff115011d"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_0.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_0.png",
+      "sha256": "f3615866fb3fd95953fc48007e2319d7a8928f2e4bd90df2eb193d20a78a5120"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_0.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_0.json",
+      "sha256": "f90d5db309ffde2acea85349700f67b473f081e0813f3cd1249c6e4473ef5921"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_0.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_0.png",
+      "sha256": "b5305c5caf5e1c624fab335741f58fb5aaf1394e0b25bb63704dc8b8df203bf6"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_head.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_head.png",
+      "sha256": "ad4785d7927027ed9af43e7196017ae492e96ac89256ef4305e7b85d31edaa81"
+    },
+    "tfcfarmingplus/models/block/crop/cauliflower_age_1.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\cauliflower_age_1.json",
+      "sha256": "1eda7e652a7ab532513dc88a0bdb8c10b4c9f16efd738c9526d37918334d82ec"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_1.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_1.png",
+      "sha256": "5558ca45409d5fc3af0110ccce5c97728367d071efbdfc5234847689d4572815"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_1.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_1.json",
+      "sha256": "b6206b8e08aae55b1dc44c6362d5e408629af66a4b61cc555c25de0d4549a743"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_1.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_1.png",
+      "sha256": "7f0e52fddf737b3430abac4fe4dcb2b17df31ceda17a93f33d0a101745dcb884"
+    },
+    "tfcfarmingplus/models/block/crop/cauliflower_age_2.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\cauliflower_age_2.json",
+      "sha256": "0645e0f75e352692eeebf6d0c9488548956e203ec1eab0411e4e5947038eaaeb"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_2.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_2.png",
+      "sha256": "b751e4e7989a1b38e0709c9342bb2cd9edd876236514ac73b5c7502f565bb9a1"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_head_top.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_head_top.png",
+      "sha256": "5a162188fe516bdb34632826d68d0be3b8813ec527270b606fcd1b01b3175726"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_head.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_head.png",
+      "sha256": "7db1fa216fb062e5885b16eaad1a22fbc748c00ae08bc5c99d49c44901715136"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_2.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_2.json",
+      "sha256": "84c1a76c327c2cc066e9e3cd03e842c937b793b4cef61639945e1400359ca37e"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_2.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_2.png",
+      "sha256": "598661aa6ffe96d49a860640e7b2f019c50edabf0e94177130815ec5018c0311"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_head_top.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_head_top.png",
+      "sha256": "ad4785d7927027ed9af43e7196017ae492e96ac89256ef4305e7b85d31edaa81"
+    },
+    "tfcfarmingplus/models/block/crop/cauliflower_age_3.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\cauliflower_age_3.json",
+      "sha256": "718426cdcd1ed0e7d05fef17f49b0a28aa7659e0657d8db7c245ecef785a3610"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_3.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_3.png",
+      "sha256": "052ffd494b5317e6fbdcb6fdf86f501409575ed801274ede341376bdda36fa28"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_3.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_3.json",
+      "sha256": "da91f999de291fce34d249b8248c91f1fdcea488a8134fe87a85ef2cda2c89f3"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_3.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_3.png",
+      "sha256": "ef8d764174b42946c89ad23ed3e5dac7c20c7e709ef52364f1abfa6f5af79b17"
+    },
+    "tfcfarmingplus/models/block/crop/cauliflower_age_4.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\cauliflower_age_4.json",
+      "sha256": "aa2c60e98dfa5488fbe24a4d563b080e35e5769e3103498f062ad2ccafab567e"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_4.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_4.png",
+      "sha256": "24bea8bd7ae8da53e1493cafd6c8c197a72945e8a5c8f7abc05ed302385505f2"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_4.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_4.json",
+      "sha256": "d8d7aeede6405535af51f021330710fc4ffcc4435e6b7e675551374e6c8c698e"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_4.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_4.png",
+      "sha256": "cae4175035b32f9f32c2836a875a13bc37e480a2e7b88d434aae6b3dbef4fad7"
+    },
+    "tfcfarmingplus/models/block/crop/cauliflower_age_5.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\cauliflower_age_5.json",
+      "sha256": "c803d7034d4ab47ab36d921b24777b13213db721d0fa8503db07664bdc5b4d4f"
+    },
+    "tfcfarmingplus/textures/block/crop/cauliflower_leafball_5.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_5.png",
+      "sha256": "8d6c99ebb17ce189a5be9504524429a59567f24a4ee300962c160e81bf098c2e"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_5.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_5.json",
+      "sha256": "68124edf070fb2be2e2e2faf6967ce347070c83cb67b6c7659622e58beb5afdd"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_5.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4h-cauliflower-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_5.png",
+      "sha256": "5a6777afe23b3ddd13ebf8a74af93fcc42f0e1c826ec98480d4b01ceec4d25d3"
+    }
+  },
+  "CandidateJSON": {
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/blockstates/wild_crop/cauliflower.json": "598A02F275847F288301EFA25A8EE3A34ED10D794FD4B0D1F6AE1FADF7814ECA",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/cauliflower_age_0.json": "3316944D4AC1581CA5795694772CF09FB48AA50569ED4ADDD2B80D18F64ECA84",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/cauliflower_age_1.json": "2EDC49975E24216886A16C01E413A9A605F31270325AC533CDAB2753BEF10767",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/cauliflower_age_2.json": "7A3A3A6152436C25EA43FEBADCB993840C6EB6D9498EEAF59D7BA90D4556325D",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/cauliflower_age_3.json": "AAA08D8349FFD83F0B98B7757334454C2CCECEE92B6522CCCB155B8AF7AB65B3",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/cauliflower_age_4.json": "779EF0C92ADF637AD0F7E2C9EEA4A2BD91D460300EFD62ACBF2767384D7219F7",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/cauliflower_age_5.json": "3670A95286089A9D5D30ECDA9A2C15B66A5AD1E2A571951B3719EF241F22E2A6",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/cauliflower.json": "59BBC611AF7E341AC7B723BF849F76C43A9DB9F5FB4FF33CB8A360F10F820FB1",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/cauliflower_young.json": "6CF9C0FF92EA5FCE7EE7DBD5DFD86ADFF304AF0DB08F8FF5CA908B5F73CC771F",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/cauliflower.json": "6D1688BF21897F48757C114592BDA9494F119E868BE950DB9E98FBF013BED64C",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/cauliflower_young.json": "385A555F92DD9E721F41DAA696270E67F1CDC474664F0199FF13F7283B8CA3D2"
+  },
+  "OriginalSpeciesSprites": {
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_age_0.png": "3843CA339289A8C5148B2EE15E7C7FA07FF421FDA25824DA5F494F1EE18FD5A2",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_age_1.png": "9E12B8E5B8C84C63CD42D6F1F4FF5835A4DB8DDF066C98E2033504D9170C3EB1",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_age_2.png": "7B4AF5C0160182044292A290864C57401B0C03C51A8E6DD08343470368B6273F",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_age_3.png": "C73B5EB3235207A36F91CE79EFF1910103DE4C5EE1331508112250B8912F0425",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_age_4.png": "E6DD82B41B4F4FEBE08E3A7C76AECE76996EA175F9A4F58197E867C31BA61986",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_age_5.png": "6227FE073C81A099C01CE91E63BCB60D2F992F1B03BF82AB558353BB4BF2F6F9",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_0.png": "F3615866FB3FD95953FC48007E2319D7A8928F2E4BD90DF2EB193D20A78A5120",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_1.png": "5558CA45409D5FC3AF0110CCCE5C97728367D071EFBDFC5234847689D4572815",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_2.png": "B751E4E7989A1B38E0709C9342BB2CD9EDD876236514AC73B5C7502F565BB9A1",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_3.png": "052FFD494B5317E6FBDCB6FDF86F501409575ED801274EDE341376BDDA36FA28",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_4.png": "24BEA8BD7AE8DA53E1493CAFD6C8C197A72945E8A5C8F7ABC05ED302385505F2",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_5.png": "8D6C99EBB17CE189A5BE9504524429A59567F24A4EE300962C160E81BF098C2E",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_head.png": "7DB1FA216FB062E5885B16EAAD1A22FBC748C00AE08BC5C99D49C44901715136",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\cauliflower_leafball_head_top.png": "5A162188FE516BDB34632826D68D0BE3B8813EC527270B606FCD1B01B3175726",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\cauliflower.png": "6ED7E604AD4E07C81B58640E7D36545C9395E703F934C4D857281E2E05E1DE2F",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\cauliflower_young.png": "2E28CA5BC3FA5091FE0D3572620A37D45FC720A9C595AE3353A36DAA8F9E9A52",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\wild_crop\\cauliflower.png": "F4BF2D687BDF50E11D44A9B99FFCF5E11498181FB4C4CEC0BB0871CB83A2951E"
+  }
+}

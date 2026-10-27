@@ -1,0 +1,142 @@
+{
+  "Species": 12,
+  "BushBlocks": 20,
+  "StateCases": 528.0,
+  "Findings": [],
+  "Bushes": [
+    {
+      "Name": "lingonberry",
+      "Form": "矮丛",
+      "Product": "tfcfarmingplus:food/lingonberry",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FRUITING,FRUITING,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-18..16",
+      "Hydration": "25..75",
+      "StateCases": 12,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "bearberry",
+      "Form": "矮丛",
+      "Product": "tfcfarmingplus:food/bearberry",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,DORMANT,HEALTHY,HEALTHY,FLOWERING,FRUITING,FRUITING,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-20..14",
+      "Hydration": "15..60",
+      "StateCases": 12,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "crowberry",
+      "Form": "矮丛",
+      "Product": "tfcfarmingplus:food/crowberry",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,DORMANT,HEALTHY,HEALTHY,FLOWERING,FRUITING,DORMANT,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-22..14",
+      "Hydration": "20..70",
+      "StateCases": 12,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "bilberry",
+      "Form": "矮丛",
+      "Product": "tfcfarmingplus:food/bilberry",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FRUITING,DORMANT,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-16..18",
+      "Hydration": "30..80",
+      "StateCases": 12,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "blackcurrant",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/blackcurrant",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,HEALTHY,HEALTHY,FLOWERING,FRUITING,FRUITING,DORMANT,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-12..22",
+      "Hydration": "35..85",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "redcurrant",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/redcurrant",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,DORMANT,HEALTHY,FLOWERING,FRUITING,FRUITING,DORMANT,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-10..24",
+      "Hydration": "35..85",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "haskap",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/haskap",
+      "Lifecycle": "DORMANT,DORMANT,HEALTHY,HEALTHY,FLOWERING,FRUITING,DORMANT,DORMANT,DORMANT,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-14..22",
+      "Hydration": "35..85",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "goji",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/goji",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,HEALTHY,HEALTHY,FLOWERING,FRUITING,FLOWERING,FRUITING,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-12..30",
+      "Hydration": "10..55",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "serviceberry",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/serviceberry",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,HEALTHY,FLOWERING,FRUITING,DORMANT,DORMANT,DORMANT,DORMANT,DORMANT,DORMANT",
+      "Temperature": "-15..22",
+      "Hydration": "30..80",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "aronia",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/aronia",
+      "Lifecycle": "DORMANT,DORMANT,DORMANT,DORMANT,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FRUITING,FRUITING,DORMANT,DORMANT",
+      "Temperature": "-14..24",
+      "Hydration": "30..80",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "水果分类接入既有配方；实机待验"
+    },
+    {
+      "Name": "tea",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/tea_leaf",
+      "Lifecycle": "DORMANT,DORMANT,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING,FRUITING,HEALTHY,DORMANT",
+      "Temperature": "-6..40",
+      "Hydration": "20..95",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "已有食品定义可食用；饮品流程未开发，本批不新增"
+    },
+    {
+      "Name": "coffee",
+      "Form": "蔓生",
+      "Product": "tfcfarmingplus:food/coffee_bean",
+      "Lifecycle": "DORMANT,DORMANT,HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING,FRUITING,HEALTHY,HEALTHY,DORMANT,DORMANT",
+      "Temperature": "4..44",
+      "Hydration": "30..100",
+      "StateCases": 60,
+      "RuntimeVerified": false,
+      "Use": "已有食品定义可食用；饮品流程未开发，本批不新增"
+    }
+  ],
+  "RuntimeVerified": false,
+  "Module": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus"
+}

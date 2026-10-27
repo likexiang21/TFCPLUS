@@ -1,0 +1,27 @@
+{
+  "Scope": "AR4-D broccoli wild/dead only",
+  "OfflineViewed": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "SheetsViewed": [
+    "AR4D-textures.png",
+    "AR4D-before-p28.png",
+    "AR4D-before-p5.png",
+    "AR4D-before-p70.png",
+    "AR4D-candidate-p28.png",
+    "AR4D-candidate-p5.png",
+    "AR4D-candidate-p70.png"
+  ],
+  "Observations": {
+    "before": "Wild mature has tall grass hiding borrowed cabbage; wild young and dead young are cabbage rings; dead mature bright yellow leaf ring.",
+    "candidate": "Small centred green cuboid head visible within whole outward leaves in wild mature; green young leaf clump without head. Brown stem and branching leaves support residual dry cube in dead mature; smaller branching dead young has no cube.",
+    "limits": "Existing atlas is reused, dry head has subdued flat brown shading. Pixel-art texture quality and ground/light/resource-pack integration still require gameplay review; no newly generated or recoloured texture."
+  },
+  "candidate_resource_hashes": {
+    "models/block/wild_crop/broccoli.json": "BE742151F2BA70BE124730BE534718BC1E551EA9DB6C1823AE27F96FC648EBB3",
+    "models/block/wild_crop/broccoli_young.json": "89F42C7E65F3904E725E6E26B49E730F0AB14C51989828EB14AAB4BADDA41639",
+    "models/block/dead_crop/broccoli.json": "321E7EC4ED618BEBF64A1FD6E729B7AB4F90F989441E1C4088FAB8B6BBE56EE9",
+    "models/block/dead_crop/broccoli_young.json": "E94900241099CE37149B2AE07EF18E27241299EE659B7063C9DE00B32E00EFE4",
+    "blockstates/wild_crop/broccoli.json": "D6368B0074999E3B0936FEF6EA3F2239DF216637744D912E156699686DA376D5"
+  }
+}

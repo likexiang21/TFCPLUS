@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "taro",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-78130568-8ecd-479c-a971-c79eb51867ab.png",
+    "PreservedSource": "moddev\\inventory\\underground-icons-20261026\\imagegen-source\\taro.png",
+    "OriginalSize": [
+      1312,
+      1199
+    ],
+    "GeneratedSha256": "0D39148AC8964A285D5522E2D31166F80249398707713D29A81DD0C1153E4567",
+    "Export": "moddev\\inventory\\underground-icons-20261026\\exported-candidates\\taro_harvest_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "6F35582F451B9D29BF11436858F4E0C3299EEAF02E861F6E0F59AD5D3C34668C",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\taro_harvest_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\taro.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\underground-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "yam",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-0d243f2f-de13-4964-a742-447b42c374be.png",
+    "PreservedSource": "moddev\\inventory\\underground-icons-20261026\\imagegen-source\\yam.png",
+    "OriginalSize": [
+      1312,
+      1199
+    ],
+    "GeneratedSha256": "02A1033C49C07025B1629C74E88E95857C81483A2102C9D970CC010F3B50E5F8",
+    "Export": "moddev\\inventory\\underground-icons-20261026\\exported-candidates\\yam_harvest_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "0038FF62534AE14BED433B7A72EB30BFC28132BCEA066A77D7BCFA3DB1E703DE",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\yam_harvest_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\yam.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\underground-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "lotus",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-fadb1a0d-2844-4eec-963f-19a60ccaeef1.png",
+    "PreservedSource": "moddev\\inventory\\underground-icons-20261026\\imagegen-source\\lotus.png",
+    "OriginalSize": [
+      1214,
+      1295
+    ],
+    "GeneratedSha256": "8796BD979954EECFFF7601036D1DF9E69D193E558D1593C3B86FCD4DD78C5004",
+    "Export": "moddev\\inventory\\underground-icons-20261026\\exported-candidates\\lotus_harvest_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "AE5E4A2C4FABF1D82845B438D8C8ED5D708E5A83CAA96E7B3FAE04E9E8B600E0",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\lotus_harvest_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\lotus.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\underground-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "arrowhead",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-2efee848-9c62-43d3-8b79-f26da4e8c824.png",
+    "PreservedSource": "moddev\\inventory\\underground-icons-20261026\\imagegen-source\\arrowhead.png",
+    "OriginalSize": [
+      1312,
+      1199
+    ],
+    "GeneratedSha256": "B243AC3B94FB7906FCDDBB4297BB417F631E4C0709F5D0875BC1DD283A2EFF8C",
+    "Export": "moddev\\inventory\\underground-icons-20261026\\exported-candidates\\arrowhead_harvest_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "C61B2E54D5EA8CAA221D961F15E430F66874BB9183D2F3C5BA2F051D42C38D88",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\arrowhead_harvest_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\arrowhead.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\underground-icons-20261026\\imagegen-prompts.json"
+  }
+]

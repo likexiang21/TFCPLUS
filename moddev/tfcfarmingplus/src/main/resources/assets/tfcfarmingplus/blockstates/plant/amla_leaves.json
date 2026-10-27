@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/amla_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/amla_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/amla_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/amla_fruiting_leaves"}}}

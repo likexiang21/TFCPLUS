@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/white_cedar"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/white_cedar"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/white_cedar"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/white_cedar"
+    }
+  }
+}

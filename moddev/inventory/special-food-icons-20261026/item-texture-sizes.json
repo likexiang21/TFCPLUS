@@ -1,0 +1,2042 @@
+[
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/adzuki.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "13DF4CEE7336EA98750F698EB9E9954741A375BA298DDB0D878B023286B638FC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/agave.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7B93E1441F6AC3085DCC797BC598F2183403EDC15AF78AA1EAA9285AEB40B9F9"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/agave_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3ADB1FD67E049E210C152DC6F454E975C26F79129E097FDDFBF9DA2467AC8B58"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/almond.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D063E60107A50F8D108EFEEDE358F462340E84427A6063AD70ED37C82F414AA0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/almond_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "95434F828B3DA46761E3EA35B555C4B0AF1B45AD43DE56861F30D568FAECA170"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/amaranth.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "8572FEB6280485E1FB184C3E6D536AEBBA0B39B68565FA5C9AA25E25743DD498"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/amla.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "502E8B7E6730CC887F1D5C2301E0EA39AC5BD85D94F6779E0F9BCE0BF3E112BC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/apricot.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "DB1A4FBDBC3594B0A11BF4E42C49CBFC3FE7430775A2C8694D706F096DCA1822"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/aronia.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2466735492F925522FA564232CF6AF72DD90BBB36903FDD013BB6AC61ED797EF"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/arrowhead.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "757343794C0EED0DC24AB4DB3D06D8DB743EE1994C9E3BE32F889B3BEEE31648"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/arrowhead_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C61B2E54D5EA8CAA221D961F15E430F66874BB9183D2F3C5BA2F051D42C38D88"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/artichoke.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "63B82D6299D3296DCBC39A8F2C05B52A554F93B04896FB3CE0087189F231F8C7"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/arugula.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D14B0E13E09B3A1B9B2BC1A3D2F3CF5525224D71CA667A95BE3416A8FB6DDB05"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/asparagus.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "1B56A49A1D316DBCF0F4495BE2B6BC58A8D83F16693BC3A6FE9D5C25B90F295D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/avocado.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "65E23E777C0356B26EA5B13E5013B64EDF65390A478721730DEB44EA99073646"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/bael.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A62F65A52D7B32603ACD3884592AC41722F417D31AFDA3332E90D33B39D1707C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/bambara_nut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C54E2159808EFC0B617E55331F770C51A15CAECCF58DCC8E4E2B16B4D444762A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/bearberry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "49ECA431F529BC0B6E0B237A0B11C85B69FE4041E2E553665EB51486B4047462"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/bilberry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "1AC8F52A96BC072FB14EDBBB00221E23DFC237294AB871DEA0BA056FE0EA35ED"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/bitter_melon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F1CEACA3C198AF72623F5AD577B4C1160A7EA78D75FA5625DD6A07529A848FAE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/bitter_melon_fruit_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "759E9D41F487C747294D24AC66A837B45B37A8622509EF7D351B92F97E6965A1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/black_pepper.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "E5CAA7FE777C4A897011EBD662F5688214E3BB9E2C5E8A4FE42A0D110B4B22A7"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/blackcurrant.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "1741953B75DC456AE703FD59974EC8BEF13BE1268DF2154BE8589536C7481B46"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/bottle_gourd_slice.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A7E8FB03DF5E6C41E51EEFFA6199A13F49EE1A42C0F236759D04BE49976F9FD1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/breadfruit.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "201E28BBA9CBB3183B02726AF6DEE343618BB94F59EA124DF4A523AC75FF0BC6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/broccoli.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0C6CD3D6B5C73ECA1D0731D62C05A5A8A6D6E6D86817A5365C31A991EC64AB80"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/brussels_sprouts.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "012E5404620F32A29EBA7AE4940CF6D58ECB519C946BADF5A9180FE0C1FFDC8E"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/brussels_sprouts_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F0608E60AC182F8782BFE65646C6C9F4C3C310CF48831DEB575C3331401BA712"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/buckwheat.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "21FA567F3CDD88E80E46BCF4EA0E24913DF07272C12AC51E6B18B2565D381E51"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/canistel.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D1AED5F391887E2F757896A080FDB9A1EDC44114AECD1166EC2A8004C21C4045"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cantaloupe_slice.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "8B898CC073548CD841D17411C47ED80833198C9EDE15DB6FFA0FD6E32004440C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cardoon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "24B40843DC5D3E569C0BA38CAA5911596A1A8BBF64D3F175E9454CBDBC7E5165"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cauliflower.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A7678AB0414B4558D40B0D5A51C6A5D6CAC771A1C2BAC6F02F061B9F828F66BC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/celeriac.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "8B39D51E63B60C134F97AAA3B8375494190631F6FF5CDFED93BBDC3702E15699"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/celery.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7B3F84AB536736A2371A64737327A5E64B666A0190BF1F6BBB6C809C7B9E32AC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/celery_stalks_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "CAEE8CB1AC8B1CEBCC295958C8B16FEA3302BB5E6B2FBE9EB8393E4CFE2169D6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/celtuce.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F3FE249B4FAC048462A07B3B67D95E91329CA432C2E902747035C06D013792E6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/celtuce_stem_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "43F617780957BE4D30FA3B0833CC86847F5EB18ECEBCCB692098D03D38C71554"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/chayote.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7FAFB93284D0886EB670DCB1A7BF97D6372F321312A6E21BF1BD7E0BBC1FAD1F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/chayote_fruit_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "9FE22CAF2902E7566762CD05D02B3242090BDF4A38B0F63E9571DE26DF456767"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cherimoya.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "ED37E3AF27A84A5DBFB5B809AC9C9DAC2B9284A35DF45DF9E9AEEF295969932F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/chickpea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "246BDE1DEA00D3ED0B90F95DEC6743BE5FE61D320A52A58924EB9253AEEF377F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/chicory_root.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "537F82842E9585B947AF1C1C7AA14B400D740460ABA5BE67AD9078A4C6FA26A1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/chili.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "08C9464181D601CBE1BA25689AE376A8160739E1FA3FC359EF88A40BD01CCA9C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/chive.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F0A442C1D929C46F1FE2902BF51B10ACCD14D418ADA0DEAB14B950B0395A18FC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cocoa.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "1C1472C835EAC8D1B27F6FC97FF7548408DF42834C1517A82A2BE3D23038644D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/coffee_bean.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D0699B26DB82A83277B81DB1AE9DF6D2807502022D422691FD74413FFE3582E5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/common_bean.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6CD47AAE7A8DECC7C286D98D363CC1401F5FA9F9438F3BBAE25C1D9A4887CF47"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/common_bean_pod_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3245B6F98B4F244B5B7502DCA9A498E31D823951F105B9A9BB0FF946FE5CBA6D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cornelian_cherry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "FB0CDDE2535BA81F8CA8B6E6F6FE9D07CBD2E6B8D42901268941C774FB5726FA"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cowpea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "E388BC73E7B4D755FD8774D4FC5E9123A5EA60F7F1B487C3E40E536ECBC58EDE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cowpea_pod_v2.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2D7BEB20C0E19AA23B737BA501CEDB54B75942921FEAD0CF711C5544FA49187E"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/crabapple.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "16B27C28C1639FAC03D0BD52A76CBD82080F7384225857DCE030969DE1CAD478"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/crowberry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4A07E25EF2720039D29ED79297FF7AC6DDFF3F3E27CEE0F43959ED73D78A5690"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/cupuacu.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "AC37323F9279995FC2B78D1AEC41FFB6A22EAE42A3E144686C2ED959C44DF995"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/durian.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "CFCB0D82915F1983296D5D3ED6A53AC065F658C55A91EE41A33D2A503C2F0618"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/eggplant.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "68DEC4BDCC4595FC68ED9BA126CC5E8086DADB28B384FBD91AD04B61D5348536"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/einkorn.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6D57AD58D8F6CD0C915E71DB166B2C0C1CB104641E0EA0152F2E451A87F30A81"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/emmer.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3846B3DAA328DD084C59B2ED26F9B6CD614078957764B3FAF37CB3B27074A029"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/faba_bean.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3BA0F5DBD8E9ED52B077EAC50CAD6CE485BCD7EB017E49582D6E0A1136E44EB5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/fenugreek.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "594AD61C1D516FDCA5DAA0652BAAEC897501D14AED3EED059524D96B5347B6F4"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/finger_millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B0DAE3EC205CBD7E9FB58F9461BEC47620A7F7670C3FAFC96C07CF12C98DB3E5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/fonio.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7E05C3BFA05B734927F4ED78E56D4BC4D54432E859E0FE7BA65C799437F596A1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/foxtail_millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "61259850E039AF165468B01E7C5A656AFCC772CB996181D64CB03189D25004E7"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/garland_chrysanthemum.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "9A4E914896AF123BD69C7AE52BB11E19DC792DA5A1615C44C5BC3AF71CB4B2D5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/ginger.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2D033EA117CAE335528F5C3D918A71F25C4813FF4D7563276157DFFF607A772F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/goji.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D94007516A9087FAAAF1956EEE903E0F1B5510BAEF02F0CF544BA819E6EA717A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/gorgon_nut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "988B88817F54D6EAF9AF9207B56128DAC5EABB7E877B08A10FDD92B4D87CE88C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/grapefruit.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "8A7B42F42833B821A9C3A3E7049EDDFF0EEB41F3818DF7E2D9ED9B0890D237F0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/guava.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7B577AA3B555CE8935C283121DCA3B23ECFBCECD87A13CD1C87123F9B7A44F5F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/haskap.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D14E8D370B1B6D6AFD5790DB7272186117B01BFFCA7C67E250DADB4B8EC9FCA8"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/hawthorn.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "9AF3CE748548AB413A0A595CCFF2CCD065771798B3ECF5C00CAD0C541A7FFA9C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/hazelnut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3A3B05B80CD90E641767AB5F66915273F7CA3CFBF5B180214B2B7342E574B580"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/hazelnut_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "933D24B80F449643A39B1C37D302371A33EF39B3D05ED91E23C0215221B1324D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/jabuticaba.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6A7E7F2EB463B53718DDB665536AEFE9BC8DE7CFB1E4E4B7AEB53E788A49C540"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/jackfruit.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "264517CF85D87880C6AF818285F3C384EC289688A456C140951D6D5FD0EF66DD"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/jobs_tears.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D4D5AFC54858C384DF6891D8C108E0AB402AE26C7E193C3246944693A3293F33"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/jujube.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "62A92C24E2EF292C5CBD5164727FB44324D500987FFA84F1CAC1CD756BC4EDA1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/kale.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "FB939C2DDC44ACB72345C4E6BFDDAC74A0FB333CB1062FBAA0FC020D8281196D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/kiwi.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "CC9571F0DFAA31FFC838CBA6226D7A4B71AB19DE2146F9A7BACEB4395E913ADE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lettuce.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6B48C14E6CAA975E865AC6BD36A44BE9D9F5086FF488177F582945B756F169CF"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lime.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0D0A563DC172346A3CCC7337BE303731E5F24D078A69728BDD9166948931DABD"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lingonberry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C09EDF969DE79E92414A61115893D30D6E43B5CF57B0A10F1053FAD94794C249"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/longan.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D03BD520A6AB4F57A1CC8A0792D56FC1160FC9258E3DEF8858474D3DB6E01EE8"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/loofah.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "222E5C4B3C2438A228E68D88EB141418AAFD5FA50AB4401E95F9459023441D81"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/loofah_fruit_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "ABB144CC5B998D5BFAA92D63F941F300CD410F92A9D1F0C96DD3E22610BC7BD2"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/loquat.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "FC545A6EBD9AA301440DE756EC51B4FEEE3EB896AFDE52F620C2EEF1D295D4B5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lotus.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4AC501408AA13FC0F53750017EF1A8FCFF4CB3C76BD4ED3A940B62B67029DA4E"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lotus_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "AE5E4A2C4FABF1D82845B438D8C8ED5D708E5A83CAA96E7B3FAE04E9E8B600E0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lupin.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "AE5ECB1E1F6BD0424DB524D6B52B39EAF403D249C34E92D7A44D3373C6BB99F7"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/lychee.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "9DCA1184293859F056CD38F88D0DD4FCAEE43814CE18A5F6C0966956977A2A9F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/macadamia.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "EB1D9CE39E0D9555AE5C7C751C2C4B8AF2E9F19419CF43E17A24F1747C79317D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/macadamia_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F83A92D99384B3A509344E974E9667C7F686996B0C621D2AE7CE8A0A482AAE49"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/malabar_spinach.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "5673F9FC46DF0EE0417F011B4DF17A1DB08896F0458D9B899AEC484AB32AFA92"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/malabar_spinach_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F0720586D915D5EFBD60BDB60C8408FC115B0CD3385A151E0FF5449B0452F90B"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/mango.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B4A59DF89D3C7BEBD34B42597B367984853D75631F3961F62963976809CA5CB1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/mangosteen.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C918BB0B910CB84B2A7F56CFF8F387DD12CCA9596F06C5554DE0AD7BDB7DAB63"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/medlar.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "463DAA7F52CC9E6AB32CC12A84CEF0844BB9C8F99A678920C88D449FC37E036B"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "1EA20F837B1DAEB44D87AAEBF099FDE87F025C3A45AA551C015BCA322E5F542F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/mulberry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2384BC4494E3255613189C8C59AC4451570AA01F6D3E9E20FA809955B43B1A2E"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/mustard_greens.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "DD68DCF2126048CCBDBA7A56068CCE47DC530EC0DED62A655BBB98C66F1109B5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/napa_cabbage.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F0FFA02454C71071008AC883E8250E0EA7652552661801F4D5188850B14D32DE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/okra.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A32B5FBFB583FB09558BEB69AFAAF6F061ED11DAE0ED58892A00DA64DD555D9A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/papaya.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "19A04FB7DC6DD2F33E4D9170F1A96A5ADEC892C2EE97C156125E0817823BB23E"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/parsnip.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B6A5CF44050F4F0B14C6CFA1A9B71DE153E593EA756C84DFF8E7AC0D7284F8D6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pawpaw.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F015CD3D927C9C8E9F0C24B1684E3D6D3BC02823D706EBF57E024136BBFAAA93"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0A27B7754A85EB77F01C748F345B664C30DAD29BBD16F434F8D785DB7F9826F0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pea_pod_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "80369013458EC64C974EB1A8B5D494237565F617F110CB66AB26EC9036EC7240"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pear.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7058C4E9A0C0DF3FD045031AEB5DC16956B11B3BFC6820A3E996CA469B550DD3"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pearl_millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3C9D4EB058A0A2B6152795E439BD3C51CD48BECB7436853C537DDB6AF6F06719"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pecan.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "243005B82386DF133159BC3D00295BF7884A3D52D8F62A43A579134A98A8CE01"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pecan_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "8424B485FE12E1CD2B1A9D09F9B938EE38B6F1EDBFB8AF48DDD27207E37E448D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/perilla.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F9D588CAC6E4091B5C4867188F515BB2DCBD9F8E7E416B6D3361B05958DD7239"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/persimmon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D826516E319AB597B886CDCF09AB3F4E25CF0C0939F3FA971EFA53A743F8EB9B"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pigeon_pea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "EA0EDFD70083708EF3580444CC25FA7847A70532D3DB0B3208014300A53A47C9"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/pomegranate.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "AB7DFD2C9CEC56DDFA318F30F9DC640F08C83507D13000FC2F701750E65B4FDC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/purslane.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F4EA9D228FA8635D3DB05D132F033F6B2FF1371A2F1B7AC902B0E9CA3D002FF3"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/quince.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0FDA75A36EEE4C40A8E525043DD402CDB8481867F30F3331D927D7B1EEA3DACE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/quinoa.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "1423579773D332DEBA49F500F7126F629ACEEE1A1FCA809FC8105C2D5E4378B8"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/rambutan.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "BF1AD16BAF88A408356EBF536D9E719F0049BC90B4D9E5A792B8A6C197A53C84"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/redcurrant.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "E5500637D08DD8E052DF0DCF2B0DE6C53C55143C77B8801383E66A7653A3DE1E"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/rhubarb.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D3A8086EE93DB7E70D3DFC3AD64C045DB6E3E0F94D690A600C51501A98B19CE6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/rhubarb_harvest_v2.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "47C8C27A9CDAC4E07D7DFDDBA9D182638BA3F0D9977305CEE62AFEC814859E66"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/safflower.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4DEC92A3A5F3C9B3B662DF7CC013FAB15A3F6A478E5DBDAB285E1782FA108788"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/salsify.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "19AE1CD6C6FE20D096D3E351D4D2AA440464225B14D5F0E90B2A3D74BBD777EA"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sapodilla.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C7A2E9E5AFAFE7DB4353D32D99F4BE7872E195461D6EFD1CDB9F16E7CAC02646"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sea_buckthorn.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "8E4333C15F1F6A3ECEC4D59E7CF3D097FB7CB8B74B2C559CE043C3EA8341D033"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/serviceberry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F3E8221F91E0CBE4A8F20F3165B2E2A4007EE171CC840EE0FC3E2952A0DD3E51"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sesame.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "36D6783E3FF045BBCEA8D14F3BDE09BFF853DFF22F87A84EF3FCD836F341EDDE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/shallot.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "48683A1FFF5B0E5B54CE18F93ABA0B2F2818862E43444542C89ADD590FA82AC0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/snake_gourd.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "86CBC19FF58B618278C21E53B2B833E9F4794FA6ADAF1C19382EBDE65FE39D05"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/snake_gourd_fruit_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0ADC410609EA2EDCE93EE8DA9AEEDC48621D09317403726CFD0EB664FE44B56C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sorb.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "44A9AB69C0E3142D5995F60A572C16B9156268371BE00A54A10789334252DD5A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sorghum.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "172F35D330835FC4291B1DEC0E5CFA684E517A6BCAB98B19B87CEDB4F7D83380"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/soursop.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "23E07E9DC442AA1603903B294306585CA40D46356CDF5B00D7EA3B03F8C0A5EC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/spelt.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "DEED85CC0BDB255DF2162EC9B7FED5B1DFCE554113B4AE29683458233575580F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/spinach.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "73FB6E75C6A04A5871A3CC293E90089D997D315A8381356EB2A7F5A78D59C5FF"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/starfruit.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "99827D0A43BFA8BA7044D3569B6B598100DE8ED8E205B89C8312DB2AE2B75447"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sunchoke.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F7C647236FF47C42D4C0538E4441D5B59EE31B82E9EDB623AE83E83364BE6F83"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sunflower.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "428A23BF0D04939FE5B5AF336254C8727BA919D6A2E8A3A3E3F3DBC8AA7C20D4"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/sunflower_harvest_v2.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "BF54D99747372047750DF91E33F7417ED8175076E49B535E73FDBECBAF39EF90"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/swiss_chard.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0200B0B160CAA8AB2A6173B990B1BFF98351EAA43D250F471270838FC11CFC14"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/tamarind.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7CAD70278B06A5AD499CA685DFAFC119A331C848CE3DF92FA3C2B0B1523A6B8C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/taro.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4B1596D02528FDEA83AAFB143F0A8C13883830AFCB7D4AE782CD8119921967EF"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/taro_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6F35582F451B9D29BF11436858F4E0C3299EEAF02E861F6E0F59AD5D3C34668C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/tea_leaf.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "26519482EA95AC3E7D24B357514D16DA4B6A3EBFBE34BE27D566F5B734F5B0E9"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/turmeric.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B4478660169D953AC7F5F10A098C72B262C461676E4149A9CA1A31386437069D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/turnip.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "E9D6C6EEF6CCF4740AEF55C4996CD0FCCD223F1EEAD6B7F05F4079648809A85C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/walnut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C590493797A4B009FD3C702E248D60E040ECF5AA1ADA0FFF03905680F7DE19AC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/walnut_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "99EE535F3DD8E89A08F523EBC31501562E578D651267FE0D033AD4F7393A44F0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/wampee.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A4626CC8B70AFC6F24D97628CF2BB08FECEFDB48F4569313D84A0C85DFCED47A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_caltrop.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "77EAE06DCEBFB7326182E422A2F30419F8320EEB6EC2D2F28D9A1A28532FEC31"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_chestnut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F9DAF577B6DE027800DDCA853CDE50FEE7920B228F73B50F4F0E16E3FF17D172"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_chestnut_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "01BF98B0F590E41E5C81F43C45618C60D3D06F6E125332834856C0F4B32879CE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_dropwort.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D916E7019F74873A6EE231979E314676F5AA4844C5625FC0306DD5DB96F7C42C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_dropwort_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4A709BED50F04E438A11966D90E3468A750DF15347C5DB05DFC8B744F1BF3F3D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_shield.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "83ADD8E97EE140A1A88461FEBD881E5F9520C485026200B722F08F96E1744EAD"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_shield_harvest_v2.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "1F0C62B3E51A159E9E65BCACD4566F4B3AD5A89C1E12C36352B46B1C7A25726B"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_spinach.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "21DCDD40B4764FA6DB8FAEC4045335A3816639001F42B834D6DEC3E74A6DE79B"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/water_spinach_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "59D6990D0114619164AE8FF9DE9325728CCEB56F4A0696727B6EAAD7212F0479"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/wax_apple.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "15FFFF2C9B5B49F65CBE5E80B9279471B0A79CF9DF03C37B8E6CADD3A004DA99"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/waxberry.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2806FC9784E6933E29FD97DC748BB1D9747849C2B86BE0B09B748C52CCB2F2F1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/wild_rice_stem.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "E5EA442DBF500F6F36E16B5AA38E80F417B2332FB0C882CD376F6C033D8C2796"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/winged_bean.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6B39E9945E13B5B845C0DCCF2EF6AEF9821E89873EBDB65CECE225A34300FC9A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/winged_bean_pod_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3529FFFE556BB1DDB17609AEEF2534F1C4D069A4559A5264D264D391B218225F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/winter_melon_slice.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2B32D1E53B7E87E3BD0EA76837D2D75A1B25CA98F66CC244519B4127E7DB95E6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/yacon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C6875BBCBDA96D54E9BC7715242BC66A40FE80ECA67DABA0466F093CAA20DF25"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/yam.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D2746BDFBB41A558783C4A02045ECFD3EB424B282B7EE521731884445CCD4315"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/yam_harvest_v1.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0038FF62534AE14BED433B7A72EB30BFC28132BCEA066A77D7BCFA3DB1E703DE"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/adzuki.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "18D14ADAA01887EE25E213F1AFDFEB9FBA573868B1B49D70C2F61040460C9184"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/agave.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2FBCD27B04B39EB93A70FA5FF178091CADE151890B8FEFBFBD9219C75AEA21C6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/amaranth.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A5883A9170FE842FC307B50C24E482E2210E7657F1AF2099CEB2FE9B2F4BDC47"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/arrowhead.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "ACAFF5507AA9E1C505E91BD28C067DF8E72C9FD8D77D618CBE2EE76018635B02"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/artichoke.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C06679309F957AF5FCD02E069DBD10D6E01099F59BB9A9C827B4D0C954F47CF6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/arugula.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "EECAC1095DCFC39454BE7DF7B9A105496C20CEC460C0BD2FE17E64FE622976BA"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/asparagus.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C2ECCB15B2A7654FD79746A4C67360254F590761FF1B0C79310A385637583E1A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/bambara_nut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2C957FECB0D443E4B725123FA5734F17AB0755F0426B7F92014C9EB19B576AAF"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/bitter_melon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "516A9EDB6BCA5E1FE743448FD76AD47D25D76708894192BF6C95FD55426831EC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/bottle_gourd.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "65AFC844637237ADE05AAFE8A97318F2CE089166E53A2E7C3F53D233F3C5EBFB"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/broccoli.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2C0525AC1568A8354A4071892D4E11D00C4C25F334F625609201686879652737"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/brussels_sprouts.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "FE4E47A06D3D2B078AA2CF80C73DEA020D114D69B188F07F1B160A3A5AB761DD"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/buckwheat.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "98DE31AFD619E597F5E70CA67D5D7FD53B1B665FB12324821099E024705D21A8"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/cantaloupe.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "ED130182CFDCD781EDE6AD497B6D91116114980DDFF86115ECC116B60C36C063"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/cardoon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "CE3CE66A430E9BE58AEE4BCC355B330F3C6A07D1E4D3BB466044E02B9DBD8868"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/cauliflower.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "413A9FB0F31CF5C2F7FCF09902482625F941DC91706BA93F436E92C89DD12079"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/celeriac.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B7666DC1C3BFB8451C0DC1C1CDBE00B59DE29B9A135274CE45379AF3748AD70D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/celery.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "78DBDD1DB66A7A1021126335BEBD9109ECA7E154F6AF081F36A5E99F65A382BC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/celtuce.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "FE3680B1AD4BAAB8F4F5737FBF8EACC1E6B42A549D493FB8C7994C08A83C0835"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/chayote.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "8AF404E4DF2F80E9E29E3E5ABC1C5FD2A2F524AAFC7080FF6C59A69FFC6D469D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/chickpea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6E34E1262E0ACAAFD7C334D3FBEA48571DF2D9AB73A390C54E62AB8CEA0A0632"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/chicory_root.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "5EC6383A7C0150D347F32C4991DFFC6C5F5F538917B371542418CA660F97845A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/chili.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "70E1F93874CE957B0FEA9746D022AA9724FDC9371EABEEFDF4BC0D53840A2613"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/chive.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "E9F9F717C9C3B4543CE9028FD63278195F53FAC8B523CF8F1FF39D02DA5011EB"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/common_bean.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "974C4F10AAAF455597FE92850C9FFD39A59A9D5F0F253E02B9DF11A1C28D39B2"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/cotton.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "5D4AF8E1AC465447467DB2695A1D814654E702807D6F61E1DACBDF362A520AF8"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/cowpea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B13385725265BD2D5199C4658DA155289DE1953DE7C0258918BDE3D6331FBD58"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/eggplant.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "444885A2608970A1EDB6FE1435C588F44EB8DDC6C192E1C231C23827DBFAC860"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/einkorn.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "6E76EDC2182DED865E47B4C6242447D0481F8EE0855CED53E37867A8685A072C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/emmer.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "212FB9E68FFAC6AF85CE53134F137F046F92F9CEF7A7A50C3D3370818C48F3A9"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/faba_bean.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A5752E2F98DC931B99650F51CF9F617F933B0851BE06BFD96ABACB670EE0A044"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/fenugreek.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4FBDE9CD7B9DD8F6E5BD6A8CC0B2816B86BE5537EE685E6993BBF40DB18F7361"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/finger_millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "BAAE3CD170388AA0C3ADA5484F6CB87735AECEDC67ECD482B81B8F888A0D27C7"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/flax.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "466116017C8C6A6A2C83F2781FD2FC2989116EAAA7FEAF88EB4B4617E090ABC6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/fonio.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0249957BCD83754565D0B7E298A453F4F565A7658A1BA6BD9568C2D90A70F22B"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/foxtail_millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "5E5E50DD3F5D8D2C665292381EFBA679F6C3C157105D980C782FDB2E2BEA68F0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/garland_chrysanthemum.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "64E2291E5501236FBE66DCE6AC5FE392AB21372841E5CC9407017434B996B45C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/ginger.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "49796A9BC1586C0D99AB7C3CAF90EB554ED220321F32DB15A30374EC594AFA82"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/gorgon_nut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "88215FA7997FEEFD7F31F75A3D1A18FD46FE21508DCC71B97BA84610F31C4FD5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/hemp.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D84D0BF48707F5D4C8063445642AB1A366A3B57773D3B375F648139F75EAF624"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/hops.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "EAB191AD0BEB40551AEBA0981A5A11EAF03DDE0A9017F3ABFC07866531F59C46"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/jobs_tears.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "FDDE49DEF37358C7E45C780CAE1C5F90AED1C2973CB1519E772D87C9E6C20D5D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/kale.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "74911C4C0E13E9A603F13A88408263B72297C90CAC52AC02931C5E2BF4C10A5A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/lettuce.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "25C604998E5982A1CC93DB1CB7658816E089B20D1CC63A9644D795EC8E5C8C68"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/loofah.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "CEFD157136D18806FEE4D30ECE5CB5DC8E92DD0BD5511D89212197A00EDC2540"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/lotus.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "623F694F23EC624C6F81EF3D74D41F2B942E698E042C52A2E6E8F4A09FB292D8"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/lupin.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D3BF3850596ED7D05F4B494E0724F03F712F3CAAB4B71C4DE4F04D63B7B1A306"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/malabar_spinach.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A413274C5DD7CD1C324CB53CA934FD23711AC8D9480435BAE3A80127CB478F6D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "198E08DFEFD69C90836EBC207C5A49DEACF85FAA83A96C8A10A3D408E0B4D2B2"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/mustard_greens.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "FE321078F18E8EAEA4FE529352C302493DEE62974C35C5C0890CC879446198C1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/napa_cabbage.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "501A556D16C6498923AEC367283A070FBA5DD48504BE3918B5B25DA47B90C7D1"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/okra.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "2DC251000977801096A9C5582342B992F6182F5710CB40BCED081501B4CC9453"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/parsnip.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "985CC941336F518C6BABDF62916683483F899128579D002B9214DEEEDD71C4CB"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/pea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "79FA4A174A6CA1E089DB1E8A624D2A84468E1693EC9F6E1482BDCB46ED62013A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/pearl_millet.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D2F0A353EC3305FEB18A3328DEB06E62A8A0EDD634F8151ABCB367348C716582"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/perilla.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "D4DACD7C9FB09C8FAFE75AB7C796F7F7C09F19DA5C0DB5F43D523FD77490AD57"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/pigeon_pea.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7C5AB7FFC68AB4E9C8341BD80299C87755D8C27C6B83CB04333A215F35D3EA31"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/purslane.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "9894A1541D97B41F08846161BA40C46E70B01C07A6C2E5E3FCA5C70A9143A20D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/quinoa.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B31247EDD139CA2AC99D8E810C99CD9F602A0F41A509D9F3C9DB6CC61894C0F6"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/ramie.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "3677F5A4B9841AE2174B0CC8FE4A7FDC5A05F83FCF567AB3748D51BE81F57255"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/rhubarb.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0EAA7C2A5C1241FEE428965F146E09F06ABEF5F20E483FC6454B030ECD4E389C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/safflower.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "0C5D0021A091C26A735BE939E5DEC304406A84F506EB6587FB1AF276CA1409E0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/salsify.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4188E1F2131629B37BA6D3D03B6DC8F6A88F5076D02887D6DC6BEF0B99E62405"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/sesame.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "950BD869F44A9619CC7F3F2FDEC2344C4B703EF3DA1C7085B9C3E7718B39DA1E"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/shallot.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "4A365DAF6380157CDCF06D59044CF9AB3B14C99DC461569BF380D16EEEB33C4F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/sisal.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "411504C1C6EDC4910E8EA7552D3AFA2FBD461E73292C1EC3AF2786EB1CA36730"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/snake_gourd.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "DC41C1DA5E61EF2EA6BB39EC76A404CBFEF2D3E125977F76344F36695BE074DA"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/sorghum.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "04339071A54BE0A0C0DF551635CC6372D9579CEC6186CBCC4C709C5A23530A30"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/spelt.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "345E1BD5CEF5A63D9C9B4CF2438D7D91968486AD659B2A025A36744AD76C6A13"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/spinach.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "E4D8C061E41D8E42E36361A18F454B643B91A73F76F8B7F8C1D519AD1DD71E91"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/sunchoke.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "5F6CC066D5D38AD534521B157862680C1C4D30EB204537FB6F91B66E5A6D47D0"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/sunflower.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C06E25F858D2AB35531697AE5FD9B7710E7336AB0949B3BA873FFDE0F30C5E6F"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/swiss_chard.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "12D25A90F8F91D6373910C729D95459B6D2C76D81A504EFF2373B877482E26FC"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/taro.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "F385A4241FA36274BECDFED0B42F7F203D9737F40C97D51BB190F4210195E04C"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/turmeric.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A66D680D4EE59DC02A1B69DE22E1AFEAD828A3E26DFCD2B8C3E5CF223C94D4D9"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/turnip.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B4DD1ED4ED8A57FE8F9DE1244DBF7B805167C5E15EB8382FD3BAA008C12487CF"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/water_caltrop.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "9C1C1E9B42B2EDEFE0E6CE4EA4A2FAE8759F0476CC11BC80E09FAC9A559B498A"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/water_chestnut.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "669E9EA00BCEA41038109135AA9E01EC6F4D61E05EF4DBF1EC490098BBEC0244"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/water_dropwort.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "B0A8D0A9BEE6A38E4E01D6CADFFE96B31DCA8722A2667836A96BAF9A95CFF970"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/water_shield.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "599BF55C90F28C20FC77CB47D25DF66908973D4428E6ABC5B65629F7FDD24FC3"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/water_spinach.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "84E628796C28E756C1FC9CCB6556D485EE51CAEF459AD80D2E3496165E78F996"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/wild_rice_stem.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "C1D1025296650B75C14AC963B90650F494424EA014050E9AD6D8C09A4FCCB44D"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/winged_bean.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A600D7406F219361059312F349C70942D2E7678538A014A684B9D5056D62D274"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/winter_melon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "AE2D4C43F61D4570503D509D6785E95CE46604D56B5DBB936047E1AA28DD82A5"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/yacon.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "A6A22EB18FA4A262445EC20A6789F53769485201F00B8F7F1C290FB7F39A9167"
+  },
+  {
+    "Path": "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/seeds/yam.png",
+    "Size": [
+      16,
+      16
+    ],
+    "SHA256": "7F3DBB41A348221A2E15E161B6CB891E1C60740E52A578ED77AC5EB5A2A63578"
+  }
+]

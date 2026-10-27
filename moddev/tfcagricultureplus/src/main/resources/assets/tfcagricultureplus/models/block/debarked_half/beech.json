@@ -1,0 +1,9 @@
+{
+  "parent": "tfcagricultureplus:block/timber/debarked_half",
+  "textures": {
+    "side": "afc:block/wood/stripped_log/beech",
+    "top": "afc:block/wood/stripped_log_top/beech",
+    "inner": "afc:block/wood/stripped_log/beech",
+    "particle": "afc:block/wood/stripped_log/beech"
+  }
+}

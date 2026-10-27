@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tfcfarmingplus:fiber/flax",
+    "tfcfarmingplus:fiber/hemp",
+    "tfcfarmingplus:fiber/ramie",
+    "tfcfarmingplus:fiber/sisal"
+  ]
+}

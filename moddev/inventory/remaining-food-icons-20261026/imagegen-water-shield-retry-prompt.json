@@ -1,0 +1,5 @@
+{
+  "name": "water_shield",
+  "variant": 2,
+  "prompt": "Use case: stylized-concept. Original Minecraft inventory FOOD icon of WATER SHIELD tender leaf (莼菜). ONE LARGE young olive-green oval leaf partially rolled along its length, with a clear curled edge and a SHORT dark-green petiole. A simple central fold and two broad glossy highlight blocks convey its smooth surface. Make this single rolled leaf occupy 80-85 percent of the square canvas so that its silhouette is CLEAR at ACTUAL 16x16 pixels. Extremely simple 16x16 logical pixel art, large square blocks, 5 muted green shades only, dark leaf edge but no black outline, solid continuous leaf body. No multiple overlapping leaves, no long thin stems, no mushroom, no lily pad, no pond, no container or stray particles. Genuinely transparent background, centered, small transparent margins, no drawn checkerboard/grid/text/shadows. It is a tender edible young oval leaf, not a bean or seed pod; the central curved seam is a rolled leaf edge, not peas. Output PNG transparency. Prioritize a bold readable sprite silhouette over microtexture."
+}

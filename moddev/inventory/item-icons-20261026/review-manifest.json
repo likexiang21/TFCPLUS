@@ -1,0 +1,23 @@
+{
+  "Changed": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/arugula.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/mustard_greens.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/swiss_chard.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/seeds/arugula.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/seeds/mustard_greens.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/seeds/swiss_chard.json",
+    "moddev/tfcfarmingplus/tools/gen-crops.ps1",
+    "moddev/tfcfarmingplus/tools/verify.ps1"
+  ],
+  "Added": [
+    "moddev/tfcfarmingplus/tools/audit-item-icon-routes.ps1",
+    "moddev/tfcfarmingplus/tools/reviewed-item-icon-routes.json"
+  ],
+  "Removed": [],
+  "Counts": {
+    "tfcfarmingplus/src": 5885,
+    "tfcfarmingplus/tools": 101,
+    "tfcagricultureplus/src": 3107,
+    "tfcagricultureplus/tools": 19
+  }
+}

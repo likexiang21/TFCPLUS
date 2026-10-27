@@ -1,0 +1,54 @@
+{
+  "name": "关于 TFC农业+",
+  "category": "tfc:farming_plus",
+  "icon": "tfcfarmingplus:seeds/spinach",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "TFC农业+",
+      "text": "本选项卡收录 $(thing)TFC农业+$() 为 TerraFirmaCraft 增加的植物：$(br2)$(li)12 种多年生 $(l:tfc:farming_plus/bushes)灌木$() —— 浆果灌木、茶树与咖啡树$(li)87 种可耕种的 $(l:tfc:farming_plus/crops)作物$()$(li)87 种提供种子的 $(l:tfc:farming_plus/wild_crops)野生作物$()$(li)48 种 $(l:tfc:farming_plus/fruit_trees)果树$() —— 树苗长成枝干，按物种从结果期树叶或成熟枝干采收"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "养分与施肥",
+      "text": "按住Shift查看种子养分提示：正数为消耗，带+号为回补；实际回补受生长、土壤及其他养分供给影响。$(br2)手持原版肥料右键作物或耕地施肥；潜行可批量施肥，满额时不消耗。堆肥补氮、钾，不补磷；缺磷可用骨粉或木灰。$(br2)$(l:tfc:food/fertilizers)查看原版肥料说明$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "堆肥循环",
+      "text": "蔬菜、水果可作高档绿料，谷物可作中档绿料；冬瓜、葫芦、哈密瓜的整瓜也可作高档绿料。$(br2)树叶与B木工的木屑可作低档棕料。使用原版堆肥箱，遵守绿料/棕料比例和等待时间。骨粉可直接施肥，但属于堆肥毒物，不能混入。$(br2)$(l:tfc:food/composter)查看堆肥操作$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "materials",
+      "title": "植物材料用途",
+      "text": "装有B扩展时，四种麻纤维可接入原生加工：同种纤维12份在TFC织机操作12次得到1块粗麻布；两份纤维在合成格斜放得到2根绳索。$(br2)1个棉铃与原版纺锤合成1份通用线，纺锤按原版规则返还并消耗耐久，耗尽则损坏。$(br2)麻纤维和棉铃可作高档棕料；啤酒花可作低档绿料，酿酒链留待后续。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "grain_processing",
+      "title": "谷物加工",
+      "text": "装有B扩展时，斯佩尔特小麦、二粒小麦、一粒小麦可用TFC手磨磨粉：每份得1份原生小麦粉，保留食品历史并拒绝腐烂原料。$(br2)小麦粉沿用原生面团及现有搅拌碗配方，不新增面团。高粱归为谷物，不再作为蔬菜入菜。其余项目谷物尚无专属磨粉链，可食用或按原生规则堆肥。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "beans_oilseeds",
+      "title": "豆类与油料",
+      "text": "现有豆类、芝麻、红花、向日葵产物保留原食品数据，可按蔬菜标签用于原生汤、沙拉或三明治。配方仍遵守设备和食品规则。$(br2)油料专属榨油链尚未接入，不会磨成菜籽糊冒充其他油。搅拌碗面团拒绝腐烂原料，并按TFC规则继承投入食品的历史。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "vegetables_seasoning",
+      "title": "蔬菜与调味",
+      "text": "本项目的叶菜、根茎、水生蔬菜等可按原生规则制作汤、沙拉或三明治，也可作高档绿料。$(br2)装有B扩展时，姜、姜黄可在石臼磨成粉。将新鲜香料粉与尚未调味的新鲜汤放入合成格，给原汤加调味；同一碗汤不能重复调味。$(br2)案板切出的姜片、姜黄片和白菜丝同样可用于原生做菜。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "tea_coffee_status",
+      "title": "茶叶与咖啡豆",
+      "text": "茶树和咖啡树是多年生灌木，在结果期右键采收茶叶或咖啡豆。$(br2)两种收获物目前保留直接食用的既有设定，也可作低档绿料，加入原生堆肥箱并搭配棕料。$(br2)茶叶杀青、炒制、冲泡，以及咖啡烘焙、研磨、冲泡尚未开放；鲜叶或生豆不能直接当成饮品。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1
+}

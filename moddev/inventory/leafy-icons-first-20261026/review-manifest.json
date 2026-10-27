@@ -1,0 +1,22 @@
+{
+  "Changed": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/arugula.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/garland_chrysanthemum.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/mustard_greens.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/item/food/perilla.json",
+    "moddev/tfcfarmingplus/tools/reviewed-item-icon-routes.json"
+  ],
+  "Added": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/arugula_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/garland_chrysanthemum_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/mustard_greens_harvest_v1.png",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/item/food/perilla_harvest_v1.png"
+  ],
+  "Removed": [],
+  "Counts": {
+    "tfcfarmingplus/src": 5917,
+    "tfcfarmingplus/tools": 101,
+    "tfcagricultureplus/src": 3107,
+    "tfcagricultureplus/tools": 19
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "credit":"TFC Agriculture Plus",
+  "textures":{"wood":"tfc:block/wood/planks/oak","cocoon":"minecraft:block/white_wool","particle":"tfc:block/wood/planks/oak"},
+  "elements":[
+    {"from":[1,0,1],"to":[15,2,15],"faces":{"up":{"texture":"#wood"},"down":{"texture":"#wood"},"north":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"east":{"texture":"#wood"}}},
+    {"from":[1,2,2],"to":[15,13,3],"faces":{"north":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"east":{"texture":"#wood"},"up":{"texture":"#wood"}}},
+    {"from":[1,2,13],"to":[15,13,14],"faces":{"north":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"east":{"texture":"#wood"},"up":{"texture":"#wood"}}},
+    {"from":[2,2,3],"to":[3,13,13],"faces":{"north":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"east":{"texture":"#wood"},"up":{"texture":"#wood"}}},
+    {"from":[13,2,3],"to":[14,13,13],"faces":{"north":{"texture":"#wood"},"south":{"texture":"#wood"},"west":{"texture":"#wood"},"east":{"texture":"#wood"},"up":{"texture":"#wood"}}},
+    {"from":[3,3,3],"to":[13,5,13],"faces":{"up":{"texture":"#cocoon"},"down":{"texture":"#cocoon"},"north":{"texture":"#cocoon"},"south":{"texture":"#cocoon"},"west":{"texture":"#cocoon"},"east":{"texture":"#cocoon"}}}
+  ]
+}

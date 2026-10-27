@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "mature=true": {
+      "model": "tfcfarmingplus:block/wild_crop/lettuce"
+    },
+    "mature=false": {
+      "model": "tfcfarmingplus:block/wild_crop/lettuce_young"
+    }
+  }
+}

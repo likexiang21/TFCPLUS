@@ -1,0 +1,25 @@
+{
+  "type": "tfc:advanced_shapeless_crafting",
+  "ingredients": [
+    {
+      "item": "tfcfarmingplus:cotton_boll"
+    },
+    {
+      "item": "tfc:spindle"
+    }
+  ],
+  "primary_ingredient": {
+    "item": "tfc:spindle"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:string",
+    "count": 1
+  }
+}

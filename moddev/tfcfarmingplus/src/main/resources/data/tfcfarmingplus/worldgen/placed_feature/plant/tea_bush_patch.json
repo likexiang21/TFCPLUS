@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/tea_bush_patch","placement":[{"type":"tfc:climate","min_temperature":-6,"max_temperature":40,"min_groundwater":80,"max_groundwater":380,"min_forest":2,"max_forest":4},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":30}]}

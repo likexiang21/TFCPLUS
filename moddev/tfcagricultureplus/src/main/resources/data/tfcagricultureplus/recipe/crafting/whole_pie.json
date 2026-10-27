@@ -1,0 +1,54 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "FSF",
+    " D ",
+    "   "
+  ],
+  "key": {
+    "F": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/fruit"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "S": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "tfc:foods/sweeteners"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    "D": {
+      "type": "tfc:and",
+      "children": [
+        {
+          "tag": "c:foods/dough"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  },
+  "result": {
+    "stack": {
+      "id": "tfcagricultureplus:whole_pie",
+      "count": 1
+    },
+    "modifiers": [
+      {
+        "type": "tfc:copy_oldest_food"
+      }
+    ]
+  }
+}

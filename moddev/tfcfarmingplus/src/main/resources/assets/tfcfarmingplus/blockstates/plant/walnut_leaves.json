@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/walnut_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/walnut_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/walnut_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/walnut_fruiting_leaves"}}}

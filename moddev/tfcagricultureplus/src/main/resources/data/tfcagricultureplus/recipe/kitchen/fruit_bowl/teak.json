@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "afc:wood/planks/teak"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:fruit_bowl/teak",
+    "count": 1
+  },
+  "pattern": [
+    " P ",
+    "PPP",
+    "P P"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

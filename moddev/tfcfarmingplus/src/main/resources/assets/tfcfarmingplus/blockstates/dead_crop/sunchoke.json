@@ -1,0 +1,1 @@
+{"variants":{"mature=false":{"model":"tfcfarmingplus:block/dead_crop/sunchoke_young"},"mature=true,part=bottom":{"model":"tfcfarmingplus:block/dead_crop/sunchoke"},"mature=true,part=top":{"model":"tfc:block/dead_crop/maize_top"}}}

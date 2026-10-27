@@ -1,0 +1,100 @@
+{
+  "Reviewed": 8,
+  "TrunkSpecies": 7,
+  "LegacySpecies": 1,
+  "DirectionCases": 1920.0,
+  "RepresentedBlockStates": 22176.0,
+  "Findings": [],
+  "Trees": [
+    {
+      "Name": "jabuticaba",
+      "ChineseName": "嘉宝果",
+      "Legacy": false,
+      "Product": "tfcfarmingplus:food/jabuticaba",
+      "LeafLifecycle": "HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY",
+      "TrunkLifecycle": "DORMANT,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,FRUITING,FRUITING,HEALTHY,FLOWERING,FLOWERING,DORMANT",
+      "DirectionCases": 256,
+      "RepresentedBlockStates": 2836,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "soursop",
+      "ChineseName": "刺果番荔枝",
+      "Legacy": false,
+      "Product": "tfcfarmingplus:food/soursop",
+      "LeafLifecycle": "HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY",
+      "TrunkLifecycle": "HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING,FRUITING,HEALTHY,HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING",
+      "DirectionCases": 256,
+      "RepresentedBlockStates": 2836,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "mangosteen",
+      "ChineseName": "山竹",
+      "Legacy": false,
+      "Product": "tfcfarmingplus:food/mangosteen",
+      "LeafLifecycle": "HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY",
+      "TrunkLifecycle": "HEALTHY,HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FRUITING,FRUITING",
+      "DirectionCases": 256,
+      "RepresentedBlockStates": 2836,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "cupuacu",
+      "ChineseName": "大花可可",
+      "Legacy": false,
+      "Product": "firmalife:food/cocoa_beans",
+      "LeafLifecycle": "HEALTHY,HEALTHY,FLOWERING,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY",
+      "TrunkLifecycle": "HEALTHY,HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING,FRUITING,HEALTHY,HEALTHY,FLOWERING,FLOWERING,FRUITING",
+      "DirectionCases": 256,
+      "RepresentedBlockStates": 2836,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "bael",
+      "ChineseName": "木橘",
+      "Legacy": false,
+      "Product": "tfcfarmingplus:food/bael",
+      "LeafLifecycle": "DORMANT,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,HEALTHY,FLOWERING,HEALTHY,DORMANT",
+      "TrunkLifecycle": "DORMANT,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,FRUITING,FRUITING,HEALTHY,HEALTHY,FLOWERING,DORMANT",
+      "DirectionCases": 256,
+      "RepresentedBlockStates": 2836,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "canistel",
+      "ChineseName": "蛋黄果",
+      "Legacy": false,
+      "Product": "tfcfarmingplus:food/canistel",
+      "LeafLifecycle": "HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY",
+      "TrunkLifecycle": "HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,FRUITING,FRUITING,FRUITING,HEALTHY,FLOWERING,FLOWERING,HEALTHY",
+      "DirectionCases": 256,
+      "RepresentedBlockStates": 2836,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "black_pepper",
+      "ChineseName": "黑胡椒",
+      "Legacy": false,
+      "Product": "tfcfarmingplus:food/black_pepper",
+      "LeafLifecycle": "HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,HEALTHY,HEALTHY",
+      "TrunkLifecycle": "HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING,FRUITING,FRUITING,HEALTHY,FLOWERING,FLOWERING,FRUITING,FRUITING",
+      "DirectionCases": 256,
+      "RepresentedBlockStates": 2836,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "cocoa",
+      "ChineseName": "可可",
+      "Legacy": true,
+      "Product": "firmalife:food/cocoa_beans",
+      "LeafLifecycle": "HEALTHY,HEALTHY,FLOWERING,FLOWERING,HEALTHY,HEALTHY,HEALTHY,HEALTHY,HEALTHY,HEALTHY,FLOWERING,FLOWERING",
+      "TrunkLifecycle": "",
+      "DirectionCases": 128,
+      "RepresentedBlockStates": 2324,
+      "RuntimeVerified": false
+    }
+  ],
+  "Module": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus",
+  "RuntimeVerified": false
+}

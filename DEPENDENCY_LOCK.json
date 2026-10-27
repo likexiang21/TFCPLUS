@@ -1,0 +1,247 @@
+{
+  "Minecraft": "1.21.1",
+  "BuildJava": 21,
+  "BuildGradle": "8.13",
+  "RuntimeFilesNotBundled": [
+    {
+      "Filename": "afc-2.1.3-1.21.1.jar",
+      "Bytes": 6481449,
+      "SHA256": "7B41D3CEB01EDE983E4EAFEEDE37B9BEFD4CCB6E2D2D626C3054A86C87DB8320"
+    },
+    {
+      "Filename": "autowalk-1.21.1-1.5.jar",
+      "Bytes": 15306,
+      "SHA256": "24A83F756204A9AB34A2E651C7B10C63B8FF2C358930864CDE5F1AE5DF570D1A"
+    },
+    {
+      "Filename": "balm-neoforge-1.21.1-21.0.66.jar",
+      "Bytes": 783793,
+      "SHA256": "6BE660E1F6D169553BF44F66D4F78BB9E96A1D66CE108D9608819E3CE6BFBA34"
+    },
+    {
+      "Filename": "Barrels_2012-NeoForge-1.21.1-3.0.0.jar",
+      "Bytes": 32281,
+      "SHA256": "1B2296A2C7144E03242BD2CB4F52C957588361F258C8371F74CA2E1E5641E472"
+    },
+    {
+      "Filename": "better-advanced-tooltips-2101.1.0-build.5.jar",
+      "Bytes": 37653,
+      "SHA256": "0F76D46F2F18EB67E67C7974170D7B27DEB66473396461C8DC50D6949DE1449B"
+    },
+    {
+      "Filename": "chloride-NEOFORGE-mc1.21.1-v1.8.1.jar",
+      "Bytes": 527889,
+      "SHA256": "D0B0A80A241078F917AFB96E53821D7C70C38FAEBACA9ADEE0C86A9A8CB482C1"
+    },
+    {
+      "Filename": "Controlling-neoforge-1.21.1-19.0.5.jar",
+      "Bytes": 77555,
+      "SHA256": "CC525FB6B030D9E4D33176983F278919E17B33935E2CA568929BDFA98F2B44A0"
+    },
+    {
+      "Filename": "corpse-neoforge-1.21.1-1.1.13.jar",
+      "Bytes": 253695,
+      "SHA256": "F61E750EB2CB49867483D34D6630E02597A52E41680FC38D1C65ECE4EF36FD2B"
+    },
+    {
+      "Filename": "cupboard-1.21.1-4.2.jar",
+      "Bytes": 30517,
+      "SHA256": "5162922647FE07C7B9F446870915B57DDD0AE9DCF56B243611130FEA30F2F77A"
+    },
+    {
+      "Filename": "curios-neoforge-9.5.1+1.21.1.jar",
+      "Bytes": 410690,
+      "SHA256": "A45DF2125C26219974ABA7507FFC9AFE7B83ACC941A386AF3FAACB1CC0056FDE"
+    },
+    {
+      "Filename": "entity_model_features-3.3.9-1.21-neoforge.jar",
+      "Bytes": 641785,
+      "SHA256": "21881F096EB73D44F90120C07BF4CC5187D52115841A720785AC02F6C478E562"
+    },
+    {
+      "Filename": "entity_texture_features-7.2.4-1.21-neoforge.jar",
+      "Bytes": 790080,
+      "SHA256": "49DA793FE15A8AED2222CD42B12E87E2A09DF9890F773E179770B2F462D2988D"
+    },
+    {
+      "Filename": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
+      "Bytes": 270115,
+      "SHA256": "3C4152461540E3CCE8FE25C3E1A1FA8CE6982BBAD44DCA6D3B7E30A05AB2D531"
+    },
+    {
+      "Filename": "ferritecore-7.0.3-neoforge.jar",
+      "Bytes": 121559,
+      "SHA256": "D87EA28262715EBFF45B8A82D493E6B468E7A4521BC021DF5D88302196D030A8"
+    },
+    {
+      "Filename": "Firmalife-NeoForge-1.21.1-3.0.15.jar",
+      "Bytes": 4529084,
+      "SHA256": "EDDACA0112CE316D75E48F9F19A0E3E3489DDEAB3C4B3DAA05C6A4CD1BB013A7"
+    },
+    {
+      "Filename": "firmalifehardcore-neoforge-0.3.4-beta.jar",
+      "Bytes": 232563,
+      "SHA256": "70A1EB1121298D5140280BEC455FF0267889D802E47F4983D242B18061322524"
+    },
+    {
+      "Filename": "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
+      "Bytes": 5613421,
+      "SHA256": "56CB524BCBB2430113F586D4D58BA79BFD66F73684C019AACB528690C3D8D07D"
+    },
+    {
+      "Filename": "I18nUpdateMod-3.7.0-all.jar",
+      "Bytes": 49726,
+      "SHA256": "66FC7F6DEBCA5BFE6D7C6AA392F6E23A712DC018AE71CBB6E0B214FF6A28142D"
+    },
+    {
+      "Filename": "IMBlocker-5.6.1-neoforge+1.20.6-1.21.8.jar",
+      "Bytes": 222741,
+      "SHA256": "FCDB1755D5729AABC194CBFEC65FCB1233B780E44216B037684D3EDD256A8289"
+    },
+    {
+      "Filename": "ImmediatelyFast-NeoForge-1.6.14+1.21.1.jar",
+      "Bytes": 365195,
+      "SHA256": "15BF9BD6D8E3AE8AD35C5A4D90680424B534D9762D698C0A466965AFCAB5DD78"
+    },
+    {
+      "Filename": "invtweaks-1.21.1-1.3.2.jar",
+      "Bytes": 77127,
+      "SHA256": "CEB5B20A43CA1C5BD707F60BB5D5FA61099C7A7BA50B19F6BDDFE93F1CA0073C"
+    },
+    {
+      "Filename": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "Bytes": 2540723,
+      "SHA256": "60D5F8BF52F25E9986440F4A4270A6BD986D9CFF994510E1108AC1547063B314"
+    },
+    {
+      "Filename": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "Bytes": 726853,
+      "SHA256": "276F1F65A20D04F536989C4F311949D770B52C440C23C2B904A08860F3C93810"
+    },
+    {
+      "Filename": "jei-1.21.1-neoforge-19.57.0.449.jar",
+      "Bytes": 2252654,
+      "SHA256": "1BDD4471BC232BFBD8D262876593A9A9AC85F2E4966ADBFA4348795C47ECF63E"
+    },
+    {
+      "Filename": "keysmithing-2.1.0.jar",
+      "Bytes": 7370,
+      "SHA256": "005761BAFAC04A12FCA4578B0900451BCACFB773B3F38F63AEDD15BFBF4A1BE5"
+    },
+    {
+      "Filename": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "Bytes": 2294111,
+      "SHA256": "43B656BC2D4CE867141ABB828C9481F080A38585B99BCFA07E54732A4976A601"
+    },
+    {
+      "Filename": "kubejs_tfc-1.21.1-2.1.0.jar",
+      "Bytes": 782222,
+      "SHA256": "6836EBCF827D5FB193D3BE0C9AAD5AC0FE6297975025F5810C0C6472CAEC0F3C"
+    },
+    {
+      "Filename": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "Bytes": 774220,
+      "SHA256": "488F33216030C1CB0BAA33E59DE3D657D08D5795A6C2080C8C8BBBC133FC8757"
+    },
+    {
+      "Filename": "modernfix-neoforge-5.27.24+mc1.21.1.jar",
+      "Bytes": 604333,
+      "SHA256": "E6E9446890F0FEB3AAB3F6E73AE18CB17575C370F232179FEF7BAA30E61538FE"
+    },
+    {
+      "Filename": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "Bytes": 73938,
+      "SHA256": "68E6F4201C5DE97B77929A7215C9552495696CA6A3BF3AE4EACC34E135F6CC8B"
+    },
+    {
+      "Filename": "NoChatRestrictions-NeoForge-MC1.21.11-v1.0.2.jar",
+      "Bytes": 10508,
+      "SHA256": "8EE4F4D5D32864B2430EFEFD944B2621D26C30144BDCD2B126E22834B315B1FB"
+    },
+    {
+      "Filename": "Patchouli-1.21.1-93-NEOFORGE.jar",
+      "Bytes": 646777,
+      "SHA256": "959AF52ED6640C316C3A8469203420BE4AEEA11AD6603890BA83BF48F5D9F993"
+    },
+    {
+      "Filename": "ProbeJS-8.0.3.jar",
+      "Bytes": 3405057,
+      "SHA256": "AFB957CE00611CFC7DE4BB33AC1AC8EA1D880C741AC14B9C67876B207B1377E7"
+    },
+    {
+      "Filename": "rhino-2101.2.8-build.91.jar",
+      "Bytes": 980936,
+      "SHA256": "1D53D962AA4DAC54BCBB4F998C1845980CF194318F1D6B1580EA6AC15CCE5EF3"
+    },
+    {
+      "Filename": "seamless-loading-screen-2.2.1+1.21-neoforge.jar",
+      "Bytes": 258077,
+      "SHA256": "AB251F81080F4D0891D8576AB14B598F3E46B699A17BAF58FFAB7A9A2EFEB395"
+    },
+    {
+      "Filename": "Searchables-neoforge-1.21.1-1.0.2.jar",
+      "Bytes": 77326,
+      "SHA256": "CA193F0C69033D8F709F9E073A7C1EF4EA46714E5C2F94EB23ACE12781C6AA68"
+    },
+    {
+      "Filename": "SimpleBackups-1.21-4.0.30.jar",
+      "Bytes": 70269,
+      "SHA256": "0C322781B3C559F7D2C62AC87EB9D7CE459F3F3B5AB771A8794D009B42C729EC"
+    },
+    {
+      "Filename": "sodium-extra-neoforge-0.9.4+mc1.21.1.jar",
+      "Bytes": 472060,
+      "SHA256": "655B4A25D3D1CCC0F53D0589C676F0A86E46843AE537749048B4B0EDC33A0F6F"
+    },
+    {
+      "Filename": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "Bytes": 1292934,
+      "SHA256": "575D187B15328D7BDDD8A9B1BEE64333C22C14735F5780EC49EAC0CD5503C08D"
+    },
+    {
+      "Filename": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+      "Bytes": 299353,
+      "SHA256": "D78002D50865DB928FBF2C17C716FFCBBD6D33BFF88AA1F0F3A04152A2665E25"
+    },
+    {
+      "Filename": "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+      "Bytes": 65358988,
+      "SHA256": "1565EFA96F090BEC8E8C12F54AE222D3F9321EF7FAD2EA3AF752FB9198E803DF"
+    },
+    {
+      "Filename": "TFC Canes-1.21.1-3.0.0.jar",
+      "Bytes": 24695,
+      "SHA256": "B78709594CC91AA7512A899249EE0389852B88783716CE5005C3C6D192EA3464"
+    },
+    {
+      "Filename": "tfcgenviewer-1.21.1-2.1.2.jar",
+      "Bytes": 476499,
+      "SHA256": "70F75139FE4F447AFE041FE3EB30BB6530835D6754C280C2AD276EFF7E306DE3"
+    },
+    {
+      "Filename": "TFCGyres-OreHints-3.0.0.jar",
+      "Bytes": 106641,
+      "SHA256": "2D361B1C8605BF8CCC6DFBC0EA8B23431EBF03126FD2BDAD4F150ED6FE5EFD09"
+    },
+    {
+      "Filename": "Waterflasks-1.21.1-4.0.1-beta.jar",
+      "Bytes": 939816,
+      "SHA256": "AEEE21C6A51337A7C5EF2FCB043E7663EE3487360A48CC5F3C5F8B4DE40E8110"
+    },
+    {
+      "Filename": "xaerominimap-neoforge-1.21.1-26.5.0.jar",
+      "Bytes": 2185559,
+      "SHA256": "667105D8FDCA64B27B29D8E0B88E67E7342038D3FB4EDC4129BF452B601C6D20"
+    },
+    {
+      "Filename": "xaeroworldmap-neoforge-1.21.1-1.46.0.jar",
+      "Bytes": 1422680,
+      "SHA256": "A7F059E4C48211F6D5C962E7640F5179CC1636BCCC907EA77AB9E1865635CB24"
+    },
+    {
+      "Filename": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "Bytes": 1118651,
+      "SHA256": "B5C30321B46CFAA521645A04AFF89D2804D8167A25BB23AD4B1AE8DA73093A2F"
+    }
+  ]
+}

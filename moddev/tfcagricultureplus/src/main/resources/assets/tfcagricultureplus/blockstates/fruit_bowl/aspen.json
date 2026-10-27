@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/aspen"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/aspen"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/aspen"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/fruit_bowl/aspen"
+    }
+  }
+}

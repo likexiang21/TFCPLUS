@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/chive_patch","placement":[{"type":"tfc:climate","min_temperature":-10,"max_temperature":26,"min_groundwater":160,"max_groundwater":320},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

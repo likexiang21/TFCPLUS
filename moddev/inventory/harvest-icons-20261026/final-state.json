@@ -1,0 +1,47 @@
+{
+  "Slice": "AR4-P",
+  "ExpectedComplexity": "4/5",
+  "ActualComplexity": "4/5",
+  "BackupEntries": 9126,
+  "RuntimeModified": 3,
+  "RuntimeAdded": 0,
+  "RuntimeRemoved": 0,
+  "ToolContractsModified": 1,
+  "ToolCodeModified": 0,
+  "PNGChanges": 0,
+  "JavaChanges": 0,
+  "BChanges": 0,
+  "SourceFilesA": 5885,
+  "SourceFilesB": 3107,
+  "CurrentModelsReconciled": 229,
+  "ActuallyViewedNewSheets": 2,
+  "FixtureAndSafeCopyChecks": 14,
+  "SafeCopyFiles": 9,
+  "CrossNamespaceLedger": 418,
+  "AHash": "5687D75C1C46F3ADBE7223B3020EE4D9981AAA9D2D42FF2B0BC5185037C29281",
+  "BHash": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "GameLaunched": false,
+  "PCLArchiveRebuilt": false,
+  "NextSlice": "AR4-Q remaining leaf/stem vegetable harvest icons",
+  "NextExpectedComplexity": "5/5",
+  "Documents": [
+    {
+      "Path": "README.md",
+      "Sha256": "191C935801C5ED81973822AED9DC28292A3D1B0F6DED4ED27E3795F64DC2440B"
+    },
+    {
+      "Path": "moddev/docs/217-agriculture-repair-next-phase-plan-20261023.md",
+      "Sha256": "845553D27741F36813A15F92EDF0EF2F8EE90631AF6FFF451A5406412C1126A7"
+    },
+    {
+      "Path": "moddev/docs/218-agriculture-audit-baseline-20261023.md",
+      "Sha256": "83B7C25AF2A78D024725280A0A7D4C976BA4BB44732713ED6B919389E5446C23"
+    },
+    {
+      "Path": "moddev/docs/254-ar4p-asparagus-eggplant-okra-harvest-icons-20261026.md",
+      "Sha256": "BDEE99BE8210918815A208654C3D0FF9AEBD981C2AB43F15BED5DCDD60FC38D9"
+    }
+  ]
+}

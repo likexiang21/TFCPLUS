@@ -1,0 +1,16 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/rosewood"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:spice_rack/rosewood",
+    "count": 1
+  },
+  "pattern": [
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

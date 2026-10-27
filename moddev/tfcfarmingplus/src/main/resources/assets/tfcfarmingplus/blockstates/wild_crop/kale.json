@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "mature=true": {
+      "model": "tfcfarmingplus:block/wild_crop/kale"
+    },
+    "mature=false": {
+      "model": "tfcfarmingplus:block/wild_crop/kale_young"
+    }
+  }
+}

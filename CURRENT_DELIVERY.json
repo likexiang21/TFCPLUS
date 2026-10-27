@@ -1,0 +1,21 @@
+{
+  "AsOf": "2026-10-27",
+  "DevelopmentPaused": true,
+  "LatestSlice": "AR4-AG rhubarb / 271",
+  "ChecksPassed": 26,
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "NextPlanned": "AR4-AH asparagus; await explicit user resume",
+  "Artifacts": [
+    {
+      "Path": "deliverables/2026-10-27/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+      "SHA256": "F16EA3810174E3D529B604014DE19C8EC338240E2305CBC3BA473A2BE4FB65F6",
+      "Bytes": 2412676
+    },
+    {
+      "Path": "deliverables/2026-10-27/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+      "SHA256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "Bytes": 1402327
+    }
+  ]
+}

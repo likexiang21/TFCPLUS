@@ -1,0 +1,93 @@
+[
+  {
+    "Case": "valid",
+    "ExitCode": 0,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-bitter_melon",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-chayote",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-loofah",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-tomato-snake_gourd",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-bitter_melon",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-chayote",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-loofah",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-snake_gourd",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-bitter_melon",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-chayote",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-loofah",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-snake_gourd",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-food-id",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "b-shadows-art",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "prior-cowpea-regression",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "unprotected-32",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "safe-copy-twentythree-json-only",
+    "Files": 23,
+    "ByteIdentical": true,
+    "Passed": true
+  }
+]

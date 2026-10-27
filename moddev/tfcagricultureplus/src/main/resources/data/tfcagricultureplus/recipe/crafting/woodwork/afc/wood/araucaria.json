@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/log/araucaria"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bark/araucaria"
+    }
+  },
+  "result": {
+    "id": "afc:wood/wood/araucaria",
+    "count": 1
+  }
+}

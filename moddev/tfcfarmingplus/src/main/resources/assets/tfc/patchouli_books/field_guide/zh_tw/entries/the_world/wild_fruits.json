@@ -1,0 +1,3770 @@
+{
+  "name": "野生水果",
+  "category": "tfc:the_world",
+  "icon": "tfc:textures/item/food/elderberry.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "許多不同種類的野生水果生長在世界各地。可以直接吃掉它們，或用合適的工具來種植。通常來說，它們會以三種不同的形式出現：$(l:the_world/wild_fruits#fruit_trees)果樹$()、$(l:the_world/wild_fruits#tall_bushes)高大灌木$()、或$(l:the_world/wild_fruits#small_bushes)小型灌木$()。$(br2)所有會結果的植物都有屬於自己的生命週期。它們每年都會生長、開花、結果、然後休眠。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "果木的生長是有季節性的。在冬眠的季節中，它們會看上去像枯死了一般。而到了春天，它們則會長出翠綠的新枝，準備開花結果。每種水果的具體結果時間因樹而異。另外，果木也會因衰老、或處於不當的氣候環境中而死亡。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "fruit_trees",
+      "text": "$(thing)果樹$()會從一棵小樹苗長成高大的果樹。果樹的樹枝是它們最重要的部分，而且只要氣候環境合適就會持續生長。隨著果樹不斷成長，它們會在樹枝周圍長出$(thing)樹葉$()。樹葉會在合適的季節中開花結果。",
+      "title": "果樹"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/fruit_tree.png"
+      ],
+      "text": "一棵典型的果樹。",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fruit trees start out at $(thing)Saplings$(). Saplings will only start growing, placing their first piece of the tree, if it is not the dormant season for that fruit and the climate requirements for that tree are met. The size of the finished tree is loosely determined by how many saplings are in the original sapling block. More saplings means a bigger tree.$(br)More saplings can be added to a single block through $(thing)Splicing$(). To splice a sapling into another, just $(item)$(k:key.use)$() on it while holding a sapling and a $(thing)Knife$() in your off hand."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To get saplings from a fruit tree, break the 'elbow' blocks (branch blocks that are attached to a block on one side and above) tree with an $(thing)Axe$(). Saplings can also be placed on these 'elbow' sections, if they are not too high up in the tree. This allows one fruit tree to grow multiple fruits. Harvesting fruit is done with $(item)$(k:key.use)$() when the leaf block is bearing fruit. This will give one fruit, and revert the plant back to its growing stage, until it goes dormant for the winter."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The correct $(l:core_mechanics/climate#temperature)Temperature$() and $(l:food/hydration)Hydration$() are essential when planting fruit trees. Fruit trees will only grow and bear fruit if the Annual Average Temperature at the base of the tree (where the sapling is planted) is within that tree's range. Likewise, hydration is determined by the Average Annual Rainfall and water sources near to the base of the tree."
+    },
+    {
+      "type": "patchouli:empty"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cherry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-5.2) - $(cfg:temperature:14)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 100 - 350mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.cherry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.cherry.hydration)%$(br2)Cherry trees grow in the months of January through March, start flowering in April and May, and bear fruit in June.",
+      "title": "櫻桃樹"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example cherry tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "green_apple",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-10.6) - $(cfg:temperature:10.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 130 - 280mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.green_apple.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.green_apple.hydration)%$(br2)Green apple trees grow from March to July, start flowering in August and September, and bear fruit in October.",
+      "title": "Green Apple Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example green apple tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "lemon",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:7.4) - $(cfg:temperature:24.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 220 - 440mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.lemon.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.lemon.hydration)%$(br2)Lemon trees grow from February to May, start flowering in June and July, and bear fruit in August.",
+      "title": "Lemon Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example lemon tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "olive",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:2) - $(cfg:temperature:23)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 250 - 450mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.olive.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.olive.hydration)%$(br2)Olive trees grow from March to July, start flowering in August and September, and bear fruit in October.$(br2)Olives can be used to produce $(l:mechanics/lamps#olives)Olive Oil$(), which can be used as a fuel for lamps.",
+      "title": "Olive Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example olive tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "orange",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:9.2) - $(cfg:temperature:40)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 300 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.orange.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.orange.hydration)%$(br2)Orange trees grow from March to June, start flowering in July and August, and bear fruit in September.",
+      "title": "Orange Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example orange tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "peach",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-3.4) - $(cfg:temperature:15.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 180 - 470mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.peach.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.peach.hydration)%$(br2)Peach trees grow from December to March, start flowering in April and May, and bear fruit in June.",
+      "title": "Peach Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example peach tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "plum",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-7) - $(cfg:temperature:12.2)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 120 - 300mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.plum.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.plum.hydration)%$(br2)Plum trees grow from January to April, start flowering in May and June, and bear fruit in July.",
+      "title": "Plum Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example plum tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "red_apple",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-10.6) - $(cfg:temperature:10.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 190 - 310mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.red_apple.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.red_apple.hydration)%$(br2)Red Apple trees grow from March to July, start flowering in August and September, and bear fruit in October.",
+      "title": "Red Apple Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example red apple tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "banana",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:11) - $(cfg:temperature:40)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 280 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.banana.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.banana.hydration)%$(br2)Bananas grow only vertically, lack leaves, and only fruit at the topmost block. Saplings are dropped from the flowering part of the plant. Once a banana plant is harvested, it dies, and must be replanted in the spring.",
+      "title": "Banana Tree"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example banana tree.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=dormant]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=healthy]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=flowering]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=fruiting]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Jan"
+        },
+        {
+          "text": "Feb"
+        },
+        {
+          "text": "Mar"
+        },
+        {
+          "text": "Apr"
+        },
+        {
+          "text": "May"
+        },
+        {
+          "text": "Jun"
+        },
+        {
+          "text": "Jul"
+        },
+        {
+          "text": "Aug"
+        },
+        {
+          "text": "Sep"
+        },
+        {
+          "text": "Oct"
+        },
+        {
+          "text": "Nov"
+        },
+        {
+          "text": "Dec"
+        },
+        {
+          "text": "Cherry"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Apple"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Lemon"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Olive"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Orange"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Peach"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "text": "Plum"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Banana"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "The fruiting calendar for fruit trees.",
+      "title": "果樹",
+      "legend": [
+        {
+          "text": "Dormant",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Healthy",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Flowering",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Fruiting",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "tall_bushes",
+      "text": "某些水果會長在$(thing)大型灌木$()中。這種灌木可以向各個方向生長並擴散。它們既可以向上生長，也可以向四周生長出新的$(thing)藤條$()。藤條在一段時間之後也會變成新的灌木。灌木直到完全成熟之前都會試圖擴張。使用鋒利工具來破壞這些灌木有機率掉落一株灌木（破壞完全成熟的灌木則必定掉落）。",
+      "title": "大型灌木"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/berry_bush.png"
+      ],
+      "text": "A wild tall bush.",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "大型灌木必須在有方塊供其藤條紮根時才會擴張。換句話說，想讓它擴散，則必須在它周圍正下方放一塊實心方塊。最好還要把地整平，並清掉附近的雜草雜物。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bushes, like Fruit Trees, consider the base block of the plant when determining $(l:food/hydration)Hydration$() and $(l:core_mechanics/climate#temperature)Temperature$(), and grow as long as the Annual Average Rainfall and Temperature are correct. $(br)Any full bush block can grow berries, which are harvestable with $(item)$(k:key.use)$()."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blackberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-5.2) - $(cfg:temperature:19.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 200 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.blackberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.blackberry.hydration)%$(br2)Blackberry bushes grow from February to May, start flowering in June and July, and bear fruit in August.$(br2)They can be found in areas with few trees.",
+      "title": "黑莓灌木"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example blackberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "raspberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-10.6) - $(cfg:temperature:14)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 180 - 450mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.raspberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.raspberry.hydration)%$(br2)Raspberry bushes grow from April to July, start flowering in August and September, and bear fruit in October.$(br2)They can be found in areas with few trees.",
+      "title": "樹莓灌木"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example raspberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blueberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-8.8) - $(cfg:temperature:8.6)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 150 - 400mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.blueberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.blueberry.hydration)%$(br2)Blueberry bushes grow from February to May, start flowering in June and July, and bear fruit in August.$(br2)They can be found in areas with few trees.",
+      "title": "藍莓灌木"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example blueberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "elderberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-5.2) - $(cfg:temperature:15.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 120 - 380mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.elderberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.elderberry.hydration)%$(br2)Elderberry bushes grow from February to May, start flowering in June and July, and bear fruit in August.$(br2)They can be found in areas with few trees.",
+      "title": "接骨木灌木"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "An example elderberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Jan"
+        },
+        {
+          "text": "Feb"
+        },
+        {
+          "text": "Mar"
+        },
+        {
+          "text": "Apr"
+        },
+        {
+          "text": "May"
+        },
+        {
+          "text": "Jun"
+        },
+        {
+          "text": "Jul"
+        },
+        {
+          "text": "Aug"
+        },
+        {
+          "text": "Sep"
+        },
+        {
+          "text": "Oct"
+        },
+        {
+          "text": "Nov"
+        },
+        {
+          "text": "Dec"
+        },
+        {
+          "text": "Blackberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Raspberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Blueberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Elderberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "The fruiting calendar for large berry bushes.",
+      "title": "Large Berry Bushes",
+      "legend": [
+        {
+          "text": "Dormant",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Healthy",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Flowering",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Fruiting",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "small_bushes",
+      "text": "$(thing)Small Bushes$() are a kind of low lying fruit block that spawns in forests. Small bushes occasionally will spread to surrounding blocks, if there aren't too many other bushes nearby.$(br2)Small bushes will go through three sizes, and when grown, they are harvested just with $(item)$(k:key.use)$().",
+      "title": "小型灌木"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Three different sizes of a healthy small bush",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=1]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "bunchberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-14.2) - $(cfg:temperature:1.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 280 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.bunchberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.bunchberry.hydration)%$(br2)Bunchberry bushes grow from May to July, start flowering in August and September, and bear fruit in October.$(br2)They can be found in forests.",
+      "title": "Bunchberry Bush"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "The monthly stages of a bunchberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "gooseberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-7) - $(cfg:temperature:12.2)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 200 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.gooseberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.gooseberry.hydration)%$(br2)Gooseberry bushes grow from April to July, start flowering in August and September, and bear fruit in October.$(br2)They can be found in forests.",
+      "title": "Gooseberry Bush"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "The monthly stages of a gooseberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "snowberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-10.6) - $(cfg:temperature:5)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 200 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.snowberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.snowberry.hydration)%$(br2)Snowberry bushes grow from March to June, start flowering in July and August, and bear fruit in September.$(br2)They can be found in forests.",
+      "title": "Snowberry Bush"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "The monthly stages of a snowberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cloudberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-14.2) - $(cfg:temperature:6.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 80 - 320mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.cloudberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.cloudberry.hydration)%$(br2)Cloudberry bushes grow from February to May, start flowering in June to August, and bear fruit in September.$(br2)They can be found in forests.",
+      "title": "Cloudberry Bush"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "The monthly stages of a cloudberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "wintergreen_berry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-8.8) - $(cfg:temperature:6.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 100 - 370mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.wintergreen_berry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.wintergreen_berry.hydration)%$(br2)Wintergreen berry bushes grow from May to September, start flowering in October and November, and bear fruit in December.$(br2)They can be found in forests.",
+      "title": "Wintergreen Berry Bush"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "The monthly stages of a wintergreen berry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cranberry",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:-14.2) - $(cfg:temperature:8.6)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 250 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.cranberry.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.cranberry.hydration)%$(br2)Cranberry bushes grow from March to June, start flowering in July and August, and bear fruit in September.$(br2)They can be found in forests. Unlike most small bushes, cranberry bushes are grown underwater.",
+      "title": "Cranberry Bush"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "The monthly stages of a cranberry bush.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=dormant,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=healthy,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=flowering,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=fruiting,stage=2,fluid=water]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Jan"
+        },
+        {
+          "text": "Feb"
+        },
+        {
+          "text": "Mar"
+        },
+        {
+          "text": "Apr"
+        },
+        {
+          "text": "May"
+        },
+        {
+          "text": "Jun"
+        },
+        {
+          "text": "Jul"
+        },
+        {
+          "text": "Aug"
+        },
+        {
+          "text": "Sep"
+        },
+        {
+          "text": "Oct"
+        },
+        {
+          "text": "Nov"
+        },
+        {
+          "text": "Dec"
+        },
+        {
+          "text": "Bunchberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Gooseberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Snowberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Cloudberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Wintergreen"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "text": "Cranberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "The fruiting calendar for small berry bushes.",
+      "title": "Small Berry Bushes",
+      "legend": [
+        {
+          "text": "Dormant",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Healthy",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Flowering",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Fruiting",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4,
+  "extra_recipe_mappings": {
+    "tfc:food/cherry": 8,
+    "tfc:plant/cherry_sapling": 8,
+    "tfc:food/green_apple": 10,
+    "tfc:plant/green_apple_sapling": 10,
+    "tfc:food/lemon": 12,
+    "tfc:plant/lemon_sapling": 12,
+    "tfc:food/olive": 14,
+    "tfc:plant/olive_sapling": 14,
+    "tfc:food/orange": 16,
+    "tfc:plant/orange_sapling": 16,
+    "tfc:food/peach": 18,
+    "tfc:plant/peach_sapling": 18,
+    "tfc:food/plum": 20,
+    "tfc:plant/plum_sapling": 20,
+    "tfc:food/red_apple": 22,
+    "tfc:plant/red_apple_sapling": 22,
+    "tfc:food/banana": 24,
+    "tfc:plant/banana_sapling": 24,
+    "tfc:food/blackberry": 32,
+    "tfc:plant/blackberry_bush": 32,
+    "tfc:food/raspberry": 34,
+    "tfc:plant/raspberry_bush": 34,
+    "tfc:food/blueberry": 36,
+    "tfc:plant/blueberry_bush": 36,
+    "tfc:food/elderberry": 38,
+    "tfc:plant/elderberry_bush": 38,
+    "tfc:food/bunchberry": 44,
+    "tfc:plant/bunchberry_bush": 44,
+    "tfc:food/gooseberry": 46,
+    "tfc:plant/gooseberry_bush": 46,
+    "tfc:food/snowberry": 48,
+    "tfc:plant/snowberry_bush": 48,
+    "tfc:food/cloudberry": 50,
+    "tfc:plant/cloudberry_bush": 50,
+    "tfc:food/wintergreen_berry": 52,
+    "tfc:plant/wintergreen_berry_bush": 52,
+    "tfc:food/cranberry": 54,
+    "tfc:plant/cranberry_bush": 54
+  }
+}

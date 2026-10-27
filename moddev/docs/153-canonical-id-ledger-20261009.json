@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-09",
+  "status": "baseline",
+  "rules": {
+    "strawberry_bush": "suppress_natural_generation_only",
+    "cocoa_fermentation": "retain_using_firmalife_inputs",
+    "neighbor_tags": "append_only"
+  },
+  "canonical": {
+    "strawberry": {
+      "fruit": "tfc:food/strawberry",
+      "bush_block": "tfc:plant/strawberry_bush",
+      "project_crop_block": "tfcfarmingplus:crop/strawberry",
+      "project_wild_block": "tfcfarmingplus:wild_crop/strawberry",
+      "project_seed": "tfcfarmingplus:seeds/strawberry",
+      "natural_generation": "disabled_for_new_worlds_only",
+      "player_visible_entries": "hide_from_creative_jei_patchouli_but_keep_registry"
+    },
+    "soups": {
+      "input_tag": "c:foods/soup",
+      "known_items": [
+        "tfc:food/grain_soup",
+        "tfc:food/fruit_soup",
+        "tfc:food/vegetables_soup",
+        "tfc:food/protein_soup",
+        "tfc:food/dairy_soup"
+      ],
+      "seasoned_result": "copy_input_plus_tfcagricultureplus:seasoned"
+    },
+    "cocoa": {
+      "planting_harvest_authority": "existing_project_large_flowered_cocoa_tree_resolve_exact_registry_ids_before_edit",
+      "planting_tree_namespace": "tfcfarmingplus",
+      "firmalife_tree_ids": [
+        "firmalife:plant/cocoa_sapling",
+        "firmalife:plant/cocoa_branch",
+        "firmalife:plant/cocoa_leaves"
+      ],
+      "beans": "firmalife:food/cocoa_beans",
+      "roasted_beans": "firmalife:food/roasted_cocoa_beans",
+      "powder": "firmalife:food/cocoa_powder",
+      "butter": "firmalife:food/cocoa_butter",
+      "fermented_intermediate": "tfcagricultureplus:food/fermented_cocoa_beans",
+      "fermentation": "retained"
+    },
+    "drying": {
+      "recipe_type": "firmalife:drying",
+      "trait": "firmalife:dried",
+      "result": "tfc:copy_input_plus_firmalife:dried",
+      "runtime_api": "com.eerussianguy.firmalife.common.recipes.DryingRecipe.getRecipe"
+    },
+    "woodworking": {
+      "reference_namespace": "tfcwoodwork",
+      "tfc_wood_count": 20,
+      "project_rule": "one_authoritative_chain_per_wood_kind"
+    }
+  },
+  "to_remove_or_rewrite": {
+    "tfcfarmingplus:food/strawberry": "remove_active_registration_and_references",
+    "tfcagricultureplus:food/dried_strawberry": "remove_active_registration_and_references",
+    "tfcfarmingplus:food/cocoa": "replace_with_firmalife_cocoa_chain",
+    "tfcagricultureplus:food/cocoa_beans": "replace_with_firmalife_cocoa_beans",
+    "tfcagricultureplus:food/roasted_cocoa_beans": "replace_with_firmalife_roasted_cocoa_beans",
+    "tfcagricultureplus:food/cocoa_powder": "replace_with_firmalife_cocoa_powder",
+    "tfcagricultureplus:recipe/drying/*": "rewrite_to_firmalife_drying_semantics",
+    "tfcagricultureplus:recipe/in_world/tfc_wood_duplicates": "remove_or_disable_after_overlap_audit",
+    "tfc:plant/strawberry_bush": "keep_registry_remove_new_world_generation_only"
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "File": "AR4W-before-and-candidates-p1.png",
+    "SHA256": "8B0BDC97DB5AD964C55126084B79657ADF7495900F32AFF742D3205D4F9D7EC4",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "File": "AR4W-before-and-candidates-p2.png",
+    "SHA256": "D8BBCD2A525619B93D79DF1F0C0560D38E2C297AE69252B95F6ADFC13CDC3688",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "File": "AR4W-exported-nut-candidates.png",
+    "SHA256": "81761EF8D462708199F842876458EDD99C2EAC92E9A2C99A7E0C1AFC1EDD8768",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  },
+  {
+    "File": "AR4W-current-source-icons.png",
+    "SHA256": "C064A0680172DD59DD63C7248881F70DF437E98682A189227E87A9896B391CE9",
+    "ActuallyViewed": true,
+    "Scope": "Offline candidate/source food icon inspection, including native 16x16 and enlarged comparisons",
+    "VisualAccepted": false,
+    "RuntimeVerified": false
+  }
+]

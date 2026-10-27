@@ -1,0 +1,63 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mixins]]
+config = "tfcagricultureplus.mixins.json"
+
+[[mods]]
+modId = "${modId}"
+version = "${modVersion}"
+displayName = "TFC Agriculture Plus"
+authors = "dsh"
+description = '''TFC Agriculture Plus - the food processing overhaul layer built on top of TFC Farming Plus. Adds cooking utensils, moulds, kitchen furniture, seasoning and 12 new food categories.'''
+
+[[dependencies.${modId}]]
+    modId = "tfcfarmingplus"
+    type = "required"
+    versionRange = "${aVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "tfc"
+    type = "required"
+    versionRange = "${tfcVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "firmalife"
+    type = "required"
+    versionRange = "${firmalifeVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "patchouli"
+    type = "required"
+    versionRange = "${patchouliVersionRange}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "${neoForgeVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraftVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+# JEI is OPTIONAL -- same declaration style as TFC (type=optional, side=CLIENT).
+# Our mod must load fine without it.
+[[dependencies.${modId}]]
+    modId = "jei"
+    type = "optional"
+    versionRange = "[19.25.0.321,)"
+    ordering = "NONE"
+    side = "CLIENT"

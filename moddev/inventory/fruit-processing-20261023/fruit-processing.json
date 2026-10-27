@@ -1,0 +1,747 @@
+{
+  "RecipeFoodTagReferences": 27,
+  "DistinctFoodTags": 11,
+  "FruitDeclaredItems": 52,
+  "DoughDeclaredItems": 14,
+  "SweetenerDeclaredItems": 4,
+  "RecipeSerializer": "tfc:advanced_shaped_crafting",
+  "Findings": [],
+  "SourceInstance": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)",
+  "DependencyJarCount": 48,
+  "RuntimeVerified": false,
+  "EvidenceBoundary": "Installed mod tag declarations plus A/B source resources; no selected-world datapack order, recipe execution, JEI or player interaction has been verified.",
+  "IngredientContracts": [
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/jelly_block.json",
+      "RecipeType": "minecraft:crafting_shaped",
+      "IngredientPath": "$.key.J",
+      "Tag": "tfc:foods/jam",
+      "DeclaredItems": [
+        "firmalife:food/fig_jam",
+        "firmalife:food/pineapple_jam",
+        "firmalife:food/red_grapes_jam",
+        "firmalife:food/white_grapes_jam",
+        "tfc:banana_jam",
+        "tfc:blackberry_jam",
+        "tfc:blueberry_jam",
+        "tfc:bunchberry_jam",
+        "tfc:cherry_jam",
+        "tfc:cloudberry_jam",
+        "tfc:cranberry_jam",
+        "tfc:elderberry_jam",
+        "tfc:gooseberry_jam",
+        "tfc:green_apple_jam",
+        "tfc:lemon_jam",
+        "tfc:melon_slice_jam",
+        "tfc:olive_jam",
+        "tfc:orange_jam",
+        "tfc:peach_jam",
+        "tfc:plum_jam",
+        "tfc:raspberry_jam",
+        "tfc:red_apple_jam",
+        "tfc:snowberry_jam",
+        "tfc:strawberry_jam",
+        "tfc:wintergreen_berry_jam"
+      ],
+      "Providers": [
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/jam.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/jam.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/seasoned_vegetable_soup.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.ingredients[0].children[0]",
+      "Tag": "tfcagricultureplus:foods/seasonable_soups",
+      "DeclaredItems": [
+        "tfc:food/dairy_soup",
+        "tfc:food/fruit_soup",
+        "tfc:food/grain_soup",
+        "tfc:food/protein_soup",
+        "tfc:food/vegetables_soup"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\seasonable_soups.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/soup.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/seasoned_vegetable_soup.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.ingredients[1].children[0]",
+      "Tag": "tfcagricultureplus:foods/ground_spices",
+      "DeclaredItems": [
+        "tfcagricultureplus:food/ground_black_pepper",
+        "tfcagricultureplus:food/ground_ginger",
+        "tfcagricultureplus:food/ground_turmeric"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\ground_spices.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/seasoned_vegetable_soup.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.primary_ingredient.children[0]",
+      "Tag": "tfcagricultureplus:foods/seasonable_soups",
+      "DeclaredItems": [
+        "tfc:food/dairy_soup",
+        "tfc:food/fruit_soup",
+        "tfc:food/grain_soup",
+        "tfc:food/protein_soup",
+        "tfc:food/vegetables_soup"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\seasonable_soups.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/soup.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/sugar_block.json",
+      "RecipeType": "minecraft:crafting_shaped",
+      "IngredientPath": "$.key.S",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/whole_cheese.json",
+      "RecipeType": "minecraft:crafting_shaped",
+      "IngredientPath": "$.key.C",
+      "Tag": "firmalife:foods/cheeses",
+      "DeclaredItems": [
+        "firmalife:food/blue_cheese",
+        "firmalife:food/cheddar",
+        "firmalife:food/chevre",
+        "firmalife:food/feta",
+        "firmalife:food/gouda",
+        "firmalife:food/mozzarella",
+        "firmalife:food/rajya_metok",
+        "firmalife:food/ricotta",
+        "firmalife:food/shosha"
+      ],
+      "Providers": [
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/firmalife/tags/item/foods/aged_cheeses.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/firmalife/tags/item/foods/cheeses.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/whole_pie.json",
+      "RecipeType": "tfc:advanced_shaped_crafting",
+      "IngredientPath": "$.key.F.children[0]",
+      "Tag": "c:foods/fruit",
+      "DeclaredItems": [
+        "firmalife:food/fig",
+        "firmalife:food/pineapple",
+        "firmalife:food/red_grapes",
+        "firmalife:food/white_grapes",
+        "tfc:food/banana",
+        "tfc:food/blackberry",
+        "tfc:food/blueberry",
+        "tfc:food/bunchberry",
+        "tfc:food/cherry",
+        "tfc:food/cloudberry",
+        "tfc:food/cranberry",
+        "tfc:food/elderberry",
+        "tfc:food/gooseberry",
+        "tfc:food/green_apple",
+        "tfc:food/lemon",
+        "tfc:food/melon_slice",
+        "tfc:food/olive",
+        "tfc:food/orange",
+        "tfc:food/peach",
+        "tfc:food/plum",
+        "tfc:food/raspberry",
+        "tfc:food/red_apple",
+        "tfc:food/snowberry",
+        "tfc:food/strawberry",
+        "tfc:food/wintergreen_berry",
+        "tfcfarmingplus:food/apricot",
+        "tfcfarmingplus:food/aronia",
+        "tfcfarmingplus:food/bearberry",
+        "tfcfarmingplus:food/bilberry",
+        "tfcfarmingplus:food/blackcurrant",
+        "tfcfarmingplus:food/bottle_gourd_slice",
+        "tfcfarmingplus:food/cantaloupe_slice",
+        "tfcfarmingplus:food/cornelian_cherry",
+        "tfcfarmingplus:food/crabapple",
+        "tfcfarmingplus:food/crowberry",
+        "tfcfarmingplus:food/goji",
+        "tfcfarmingplus:food/haskap",
+        "tfcfarmingplus:food/hawthorn",
+        "tfcfarmingplus:food/jujube",
+        "tfcfarmingplus:food/lingonberry",
+        "tfcfarmingplus:food/loquat",
+        "tfcfarmingplus:food/medlar",
+        "tfcfarmingplus:food/mulberry",
+        "tfcfarmingplus:food/pawpaw",
+        "tfcfarmingplus:food/pear",
+        "tfcfarmingplus:food/persimmon",
+        "tfcfarmingplus:food/pomegranate",
+        "tfcfarmingplus:food/quince",
+        "tfcfarmingplus:food/redcurrant",
+        "tfcfarmingplus:food/serviceberry",
+        "tfcfarmingplus:food/sorb",
+        "tfcfarmingplus:food/winter_melon_slice"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\data\\c\\tags\\item\\foods\\fruit.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/c/tags/item/foods/fruit.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/fruit.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/whole_pie.json",
+      "RecipeType": "tfc:advanced_shaped_crafting",
+      "IngredientPath": "$.key.S.children[0]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/whole_pie.json",
+      "RecipeType": "tfc:advanced_shaped_crafting",
+      "IngredientPath": "$.key.D.children[0]",
+      "Tag": "c:foods/dough",
+      "DeclaredItems": [
+        "firmalife:food/barley_dough",
+        "firmalife:food/maize_dough",
+        "firmalife:food/oat_dough",
+        "firmalife:food/rice_dough",
+        "firmalife:food/rye_dough",
+        "firmalife:food/wheat_dough",
+        "tfc:food/barley_dough",
+        "tfc:food/maize_dough",
+        "tfc:food/oat_dough",
+        "tfc:food/rice_dough",
+        "tfc:food/rye_dough",
+        "tfc:food/wheat_dough",
+        "tfcagricultureplus:food/cake_dough",
+        "tfcagricultureplus:sawdust_dough"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\c\\tags\\item\\foods\\dough.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/c/tags/item/foods/dough.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/dough.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/woodwork/sawdust_dough.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.ingredients[1].children[0]",
+      "Tag": "c:foods/flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/maize_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rice_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/woodwork/sawdust_dough.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.ingredients[2].children[0]",
+      "Tag": "c:foods/flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/maize_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rice_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/woodwork/sawdust_dough.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.ingredients[3].children[0]",
+      "Tag": "c:foods/flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/maize_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rice_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/woodwork/sawdust_dough.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.ingredients[4].children[0]",
+      "Tag": "c:foods/flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/maize_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rice_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/crafting/woodwork/sawdust_dough.json",
+      "RecipeType": "tfc:advanced_shapeless_crafting",
+      "IngredientPath": "$.ingredients[5].children[0]",
+      "Tag": "c:foods/flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/maize_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rice_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/c/tags/item/foods/flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/barley_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[1]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/cake_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[0].children[0]",
+      "Tag": "tfcagricultureplus:foods/cake_flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\cake_flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/cake_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[1].children[0]",
+      "Tag": "tfcagricultureplus:foods/cake_flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\cake_flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/cake_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[2].children[0]",
+      "Tag": "tfcagricultureplus:foods/cake_flour",
+      "DeclaredItems": [
+        "tfc:food/barley_flour",
+        "tfc:food/oat_flour",
+        "tfc:food/rye_flour",
+        "tfc:food/wheat_flour"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\cake_flour.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/cake_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[3]",
+      "Tag": "firmalife:foods/raw_eggs",
+      "DeclaredItems": [
+        "minecraft:egg"
+      ],
+      "Providers": [
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/firmalife/tags/item/foods/raw_eggs.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/cake_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[4]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/maize_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[1]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/oat_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[1]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/rice_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[1]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/rye_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[1]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/mixing_bowl/wheat_dough.json",
+      "RecipeType": "firmalife:mixing_bowl",
+      "IngredientPath": "$.item_ingredients[1]",
+      "Tag": "tfc:foods/sweeteners",
+      "DeclaredItems": [
+        "afc:birch_sugar",
+        "afc:maple_sugar",
+        "firmalife:food/raw_honey",
+        "minecraft:sugar"
+      ],
+      "Providers": [
+        "afc-2.1.3-1.21.1.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "Firmalife-NeoForge-1.21.1-3.0.15.jar!/data/tfc/tags/item/foods/sweeteners.json",
+        "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/data/tfc/tags/item/foods/sweeteners.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/pan/seasoned_vegetable_pan.json",
+      "RecipeType": "tfcagricultureplus:pan",
+      "IngredientPath": "$.food",
+      "Tag": "tfcagricultureplus:foods/pan_inputs",
+      "DeclaredItems": [
+        "tfc:food/fruit_soup",
+        "tfc:food/grain_soup",
+        "tfc:food/vegetables_soup"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\pan_inputs.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    },
+    {
+      "Owner": "B",
+      "Recipe": "data/tfcagricultureplus/recipe/pan/seasoned_vegetable_pan.json",
+      "RecipeType": "tfcagricultureplus:pan",
+      "IngredientPath": "$.spice",
+      "Tag": "tfcagricultureplus:foods/ground_spices",
+      "DeclaredItems": [
+        "tfcagricultureplus:food/ground_black_pepper",
+        "tfcagricultureplus:food/ground_ginger",
+        "tfcagricultureplus:food/ground_turmeric"
+      ],
+      "Providers": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\src\\main\\resources\\data\\tfcagricultureplus\\tags\\item\\foods\\ground_spices.json"
+      ],
+      "Missing": [],
+      "Warnings": [],
+      "StaticReady": true,
+      "RuntimeVerified": false
+    }
+  ],
+  "FruitCandidates": [
+    "firmalife:food/fig",
+    "firmalife:food/pineapple",
+    "firmalife:food/red_grapes",
+    "firmalife:food/white_grapes",
+    "tfc:food/banana",
+    "tfc:food/blackberry",
+    "tfc:food/blueberry",
+    "tfc:food/bunchberry",
+    "tfc:food/cherry",
+    "tfc:food/cloudberry",
+    "tfc:food/cranberry",
+    "tfc:food/elderberry",
+    "tfc:food/gooseberry",
+    "tfc:food/green_apple",
+    "tfc:food/lemon",
+    "tfc:food/melon_slice",
+    "tfc:food/olive",
+    "tfc:food/orange",
+    "tfc:food/peach",
+    "tfc:food/plum",
+    "tfc:food/raspberry",
+    "tfc:food/red_apple",
+    "tfc:food/snowberry",
+    "tfc:food/strawberry",
+    "tfc:food/wintergreen_berry",
+    "tfcfarmingplus:food/apricot",
+    "tfcfarmingplus:food/aronia",
+    "tfcfarmingplus:food/bearberry",
+    "tfcfarmingplus:food/bilberry",
+    "tfcfarmingplus:food/blackcurrant",
+    "tfcfarmingplus:food/bottle_gourd_slice",
+    "tfcfarmingplus:food/cantaloupe_slice",
+    "tfcfarmingplus:food/cornelian_cherry",
+    "tfcfarmingplus:food/crabapple",
+    "tfcfarmingplus:food/crowberry",
+    "tfcfarmingplus:food/goji",
+    "tfcfarmingplus:food/haskap",
+    "tfcfarmingplus:food/hawthorn",
+    "tfcfarmingplus:food/jujube",
+    "tfcfarmingplus:food/lingonberry",
+    "tfcfarmingplus:food/loquat",
+    "tfcfarmingplus:food/medlar",
+    "tfcfarmingplus:food/mulberry",
+    "tfcfarmingplus:food/pawpaw",
+    "tfcfarmingplus:food/pear",
+    "tfcfarmingplus:food/persimmon",
+    "tfcfarmingplus:food/pomegranate",
+    "tfcfarmingplus:food/quince",
+    "tfcfarmingplus:food/redcurrant",
+    "tfcfarmingplus:food/serviceberry",
+    "tfcfarmingplus:food/sorb",
+    "tfcfarmingplus:food/winter_melon_slice"
+  ],
+  "DoughCandidates": [
+    "firmalife:food/barley_dough",
+    "firmalife:food/maize_dough",
+    "firmalife:food/oat_dough",
+    "firmalife:food/rice_dough",
+    "firmalife:food/rye_dough",
+    "firmalife:food/wheat_dough",
+    "tfc:food/barley_dough",
+    "tfc:food/maize_dough",
+    "tfc:food/oat_dough",
+    "tfc:food/rice_dough",
+    "tfc:food/rye_dough",
+    "tfc:food/wheat_dough",
+    "tfcagricultureplus:food/cake_dough",
+    "tfcagricultureplus:sawdust_dough"
+  ],
+  "SweetenerCandidates": [
+    "afc:birch_sugar",
+    "afc:maple_sugar",
+    "firmalife:food/raw_honey",
+    "minecraft:sugar"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "afc:wood/planks/mahogany"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:sink_cabinet/mahogany",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

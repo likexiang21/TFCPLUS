@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/wax_apple_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/wax_apple_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/wax_apple_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/wax_apple_fruiting_leaves"}}}

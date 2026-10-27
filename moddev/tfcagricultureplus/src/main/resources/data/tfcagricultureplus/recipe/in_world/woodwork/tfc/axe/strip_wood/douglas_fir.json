@@ -1,0 +1,35 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "tfc:wood/wood/douglas_fir"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bark/douglas_fir"
+      }
+    },
+    {
+      "action": "drop_above",
+      "item": {
+        "count": 2,
+        "id": "tfcagricultureplus:bark/douglas_fir"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfc:wood/stripped_wood/douglas_fir",
+    "Properties": {
+      "axis": "y",
+      "branch_direction": "none"
+    }
+  },
+  "sound": {
+    "sound": "minecraft:item.axe.strip",
+    "volume": 1.0,
+    "pitch": 1.0
+  }
+}

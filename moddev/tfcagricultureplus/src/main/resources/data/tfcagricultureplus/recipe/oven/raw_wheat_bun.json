@@ -1,0 +1,1 @@
+{"type":"firmalife:oven","duration":600,"temperature":400.0,"ingredient":{"type":"tfc:and","children":[{"item":"tfcagricultureplus:food/raw_wheat_bun"},{"type":"tfc:not_rotten"}]},"result":{"count":1,"id":"tfcagricultureplus:food/wheat_bun"}}

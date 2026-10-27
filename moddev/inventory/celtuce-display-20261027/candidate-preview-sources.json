@@ -1,0 +1,124 @@
+{
+  "Sources": {
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_0.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\celtuce_age_0.json",
+      "Sha256": "80712466A12631FEF9A7BB768579A28ED01FCFEB142279357C0FB2A89F1504AE"
+    },
+    "assets/minecraft/models/block/crop.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/crop.json",
+      "Sha256": "D078DE149252E74DDBFA19C80300F9E627A44913266664A1B08DD25D3F558F18"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_0_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\celtuce_age_0_stem_v1.png",
+      "Sha256": "AC6890F11FE093FC0A962AFA40331EB06F78C03B394113D5944F9D01F6F6D53D"
+    },
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_1.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\celtuce_age_1.json",
+      "Sha256": "6EB6043E9C58A3527177EC007B0AFE83720C4BEAB473A5A364A5114B83EE94AD"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_1_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\celtuce_age_1_stem_v1.png",
+      "Sha256": "913DEB4D600A4F8CA0EFA5ED2440100D4B8C954F6F65654FF72C6A5A9DC20BFB"
+    },
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_2.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\celtuce_age_2.json",
+      "Sha256": "AF5F9A251BCDE578FF2DA5B5C06792D65F487C21F0E47671D3ACB61162C9425B"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_2_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\celtuce_age_2_stem_v1.png",
+      "Sha256": "3D035358247354EC60CFF8FE9D5FB2810B6CC055D897B08ABCAF8015DB8CE442"
+    },
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_3.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\celtuce_age_3.json",
+      "Sha256": "2A9A93A5BDE0F39793F934758B5145ED1804FC3C31D3CB799E0E2DDAAF6659EF"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_3_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\celtuce_age_3_stem_v1.png",
+      "Sha256": "04600C56BF6412A715354BC78BBDE79F03624BD50588E7186169D678BC6D45CE"
+    },
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_4.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\celtuce_age_4.json",
+      "Sha256": "E78B0459FDD9D58491DC2C6D5CD55A260BDD78F7DF158D4F2545917C066DC05C"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_4_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\celtuce_age_4_stem_v1.png",
+      "Sha256": "52F8776214A57BCCD4C9C227A9F2CFE8B60058EB9883C13E3375A266407799DB"
+    },
+    "assets/tfcfarmingplus/models/block/crop/celtuce_age_5.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\crop\\celtuce_age_5.json",
+      "Sha256": "5F6C5F591E8B5A720D65F8E85A9F9560F09C7CC643364505B5CC9545EDBAFB5E"
+    },
+    "assets/tfcfarmingplus/textures/block/crop/celtuce_age_5_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\celtuce_age_5_stem_v1.png",
+      "Sha256": "5B58BBF98A8FC0D3CC29A102791F4EB4D36A71E4B82B015C368E27E098F6191D"
+    },
+    "assets/tfcfarmingplus/models/block/wild_crop/celtuce.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\celtuce.json",
+      "Sha256": "3DAEB4EDC2BCB6395934FA7FFDB0E20BA73CA9E199D1988DB1EB79402D68DAC5"
+    },
+    "assets/tfc/models/block/wild_crop/crop.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/wild_crop/crop.json",
+      "Sha256": "8EF33918260610034C01AD995C1470AE20E5866C70965D7C6CD9AA7B076DB605"
+    },
+    "assets/minecraft/models/block/block.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/block.json",
+      "Sha256": "3EF6C442F1AB55D2A57FA58E28BB831268159052659F12B453B637B31DED1DA8"
+    },
+    "assets/tfc/textures/block/crop/wild_crop_grass.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/wild_crop_grass.png",
+      "Sha256": "F1AA771D097BD9504FA432A535A74F10135752FC99388CC306ADDE85D536D1CB"
+    },
+    "assets/tfcfarmingplus/models/block/wild_crop/celtuce_young.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\celtuce_young.json",
+      "Sha256": "4B7E3CD7C371A0908B828B814A63DFA97C8ED79473C23CDD874B4591D8BECF6B"
+    },
+    "assets/tfcfarmingplus/models/block/dead_crop/celtuce.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\celtuce.json",
+      "Sha256": "423E7AA57326222F3D3CE9E3AEB93EFC6949C058475F2C32AAB1E9F97B10BB0C"
+    },
+    "assets/tfcfarmingplus/textures/block/dead_crop/celtuce_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\celtuce_stem_v1.png",
+      "Sha256": "1520072F9F695F10A8929C4EFC3F862D2BF37B086FE25E54A4B5D0424AE2BC3E"
+    },
+    "assets/tfcfarmingplus/models/block/dead_crop/celtuce_young.json": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\celtuce_young.json",
+      "Sha256": "5CB62E02D15EAB7908EA3106A41F506598684007D7745B77F6EBC1C10F3950F0"
+    },
+    "assets/tfcfarmingplus/textures/block/dead_crop/celtuce_young_stem_v1.png": {
+      "Origin": "D:\\TFC\u519c\u4e1a\u91cd\u7f6e\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\celtuce-display-20261027\\candidate-v2-resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\celtuce_young_stem_v1.png",
+      "Sha256": "CDD8FA5F18F8056D4A9E4977B66394C321CC4985548D20FC373EC0D7C55F4947"
+    }
+  },
+  "Planter": {
+    "crop": {
+      "count": 1,
+      "id": "tfcfarmingplus:food/celtuce"
+    },
+    "ingredient": {
+      "item": "tfcfarmingplus:seeds/celtuce"
+    },
+    "nutrient": {
+      "nitrogen": 0.6,
+      "phosphorous": -0.2,
+      "potassium": -0.2
+    },
+    "planter": "quad",
+    "seed": {
+      "count": 1,
+      "id": "tfcfarmingplus:seeds/celtuce"
+    },
+    "specials": [],
+    "stages": 5,
+    "textures": [
+      "tfcfarmingplus:block/crop/celtuce_age_0_stem_v1",
+      "tfcfarmingplus:block/crop/celtuce_age_1_stem_v1",
+      "tfcfarmingplus:block/crop/celtuce_age_2_stem_v1",
+      "tfcfarmingplus:block/crop/celtuce_age_3_stem_v1",
+      "tfcfarmingplus:block/crop/celtuce_age_4_stem_v1",
+      "tfcfarmingplus:block/crop/celtuce_age_5_stem_v1"
+    ]
+  },
+  "PlanterBaseOmitted": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

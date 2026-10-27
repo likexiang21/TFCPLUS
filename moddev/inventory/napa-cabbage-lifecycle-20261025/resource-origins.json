@@ -1,0 +1,192 @@
+{
+  "BeforePreview": {
+    "tfcfarmingplus/models/block/wild_crop/napa_cabbage.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\wild_crop\\napa_cabbage.json",
+      "sha256": "79791aad6f54786e9e1134dc5f0e4fef0a8c9c757a7951c4a36e81e4128c8bca"
+    },
+    "tfc/textures/block/crop/cabbage_wild.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/cabbage_wild.png",
+      "sha256": "9185512b22b25de4a9ddea2f1c5f96ba9cde1158d4d9c4a98ca186a1b0e332cf"
+    },
+    "tfc/models/block/wild_crop/crop.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/wild_crop/crop.json",
+      "sha256": "8ef33918260610034c01ad995c1470ae20e5866c70965d7c6cd9aa7b076db605"
+    },
+    "tfc/textures/block/crop/wild_crop_grass.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/wild_crop_grass.png",
+      "sha256": "f1aa771d097bd9504fa432a535a74f10135752fc99388cc306adde85d536d1cb"
+    },
+    "minecraft/models/block/block.json": {
+      "origin": "D:\\TFC农业重置\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/block.json",
+      "sha256": "3ef6c442f1ab55d2a57fa58e28bb831268159052659f12b453b637b31ded1da8"
+    },
+    "tfc/models/block/dead_crop/cabbage_young.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/models/block/dead_crop/cabbage_young.json",
+      "sha256": "1fd912733a989b95c74c53d893d36a4d88f61e35e8a954ba5705fb72dce04be6"
+    },
+    "tfc/textures/block/crop/cabbage_dead_young.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/cabbage_dead_young.png",
+      "sha256": "6cf3836db57b6e65eb29e60c3f837147be580725ed0b2e38483c5e73a52f40b3"
+    },
+    "minecraft/models/block/crop.json": {
+      "origin": "D:\\TFC农业重置\\.tooling\\game\\versions\\1.21.1\\1.21.1.jar!/assets/minecraft/models/block/crop.json",
+      "sha256": "d078de149252e74ddbfa19c80300f9e627a44913266664a1b08dd25d3f558f18"
+    },
+    "tfcfarmingplus/models/block/dead_crop/napa_cabbage.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\napa_cabbage.json",
+      "sha256": "76b03661d307af49845d29d4d5fcc753d6284bc1aaf2e677476a8e921630ff3b"
+    },
+    "tfc/textures/block/crop/cabbage_dead.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar!/assets/tfc/textures/block/crop/cabbage_dead.png",
+      "sha256": "2c34ee3e82d16b6b87f58dbab6a76c41db8d17361326b749211ce5fed2b91199"
+    },
+    "tfcfarmingplus/models/block/dead_crop/napa_cabbage_young.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\dead_crop\\napa_cabbage_young.json",
+      "sha256": "1fd912733a989b95c74c53d893d36a4d88f61e35e8a954ba5705fb72dce04be6"
+    },
+    "tfcfarmingplus/models/block/crop/napa_cabbage_age_0.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\napa_cabbage_age_0.json",
+      "sha256": "0001ce11526920a252a458b73020ab63ccdcefb91bd9b2cdbd1f09b89d80fa9b"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_0.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_0.png",
+      "sha256": "7a7f4a754b11a223f56070166e1ae46ca63d64f34a84ca94c86716f337b506fe"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_0.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_0.json",
+      "sha256": "f90d5db309ffde2acea85349700f67b473f081e0813f3cd1249c6e4473ef5921"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_0.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_0.png",
+      "sha256": "b5305c5caf5e1c624fab335741f58fb5aaf1394e0b25bb63704dc8b8df203bf6"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_head.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_head.png",
+      "sha256": "ad4785d7927027ed9af43e7196017ae492e96ac89256ef4305e7b85d31edaa81"
+    },
+    "tfcfarmingplus/models/block/crop/napa_cabbage_age_1.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\napa_cabbage_age_1.json",
+      "sha256": "3f52c044e8a7e62f594b0922a193d23fd9e8ed34ac83f5292cfcd83ebc8adfc0"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_1.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_1.png",
+      "sha256": "e1a9760a377ac29a5eb573c26f784b649e9b92da78e166f59e37c3ff76fa2c2b"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_1.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_1.json",
+      "sha256": "b6206b8e08aae55b1dc44c6362d5e408629af66a4b61cc555c25de0d4549a743"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_1.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_1.png",
+      "sha256": "7f0e52fddf737b3430abac4fe4dcb2b17df31ceda17a93f33d0a101745dcb884"
+    },
+    "tfcfarmingplus/models/block/crop/napa_cabbage_age_2.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\napa_cabbage_age_2.json",
+      "sha256": "224a21e102ea2e0ca402ee9afdd8c787713cd4073a9b17a650205aa93442fb08"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_2.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_2.png",
+      "sha256": "b4494185bdf6d914379cb0d2770a768a26fe931e35b79b7b661254e1a3e40e62"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_head_top.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_head_top.png",
+      "sha256": "61159c1bafee510d17a84e98bed74c0741616f8f44be46a6d405e8c9a36fb2fd"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_head.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_head.png",
+      "sha256": "f6001159b4073c6e8cd1403b925470b384134cb3e7fe8390ae8baf7c86d49af3"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_2.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_2.json",
+      "sha256": "84c1a76c327c2cc066e9e3cd03e842c937b793b4cef61639945e1400359ca37e"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_2.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_2.png",
+      "sha256": "598661aa6ffe96d49a860640e7b2f019c50edabf0e94177130815ec5018c0311"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_head_top.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_head_top.png",
+      "sha256": "ad4785d7927027ed9af43e7196017ae492e96ac89256ef4305e7b85d31edaa81"
+    },
+    "tfcfarmingplus/models/block/crop/napa_cabbage_age_3.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\napa_cabbage_age_3.json",
+      "sha256": "f376801583d1f684884fac953ff2eec2c9ee6098c308ac1b617bf18930e3944a"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_3.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_3.png",
+      "sha256": "45a4b34979bbca51d06eff122bea439d4bea6a46e3da982c347838ffa4734145"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_3.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_3.json",
+      "sha256": "da91f999de291fce34d249b8248c91f1fdcea488a8134fe87a85ef2cda2c89f3"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_3.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_3.png",
+      "sha256": "ef8d764174b42946c89ad23ed3e5dac7c20c7e709ef52364f1abfa6f5af79b17"
+    },
+    "tfcfarmingplus/models/block/crop/napa_cabbage_age_4.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\napa_cabbage_age_4.json",
+      "sha256": "8ab03d4cfd230ad6b22ca06544f0cc9a16c87340e05e943c2aad850f9a8df914"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_4.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_4.png",
+      "sha256": "02ed2deef18a5d7014c08140d0e72b69364a3667e77aea0b549ecb9f89fe1637"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_4.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_4.json",
+      "sha256": "d8d7aeede6405535af51f021330710fc4ffcc4435e6b7e675551374e6c8c698e"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_4.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_4.png",
+      "sha256": "cae4175035b32f9f32c2836a875a13bc37e480a2e7b88d434aae6b3dbef4fad7"
+    },
+    "tfcfarmingplus/models/block/crop/napa_cabbage_age_5.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\napa_cabbage_age_5.json",
+      "sha256": "38b65d18b836aef3d3cefbc7afbd9766035959241c3ceb17e13c16a8824c44d8"
+    },
+    "tfcfarmingplus/textures/block/crop/napa_cabbage_leafball_5.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_5.png",
+      "sha256": "8ab1b935bae1e7079fac6092635cdcf6cca99b1aa7cd422dd8bb71810c0acf31"
+    },
+    "tfcfarmingplus/models/block/crop/leafball_age_5.json": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\block\\crop\\leafball_age_5.json",
+      "sha256": "68124edf070fb2be2e2e2faf6967ce347070c83cb67b6c7659622e58beb5afdd"
+    },
+    "tfcfarmingplus/textures/block/crop/leafball_5.png": {
+      "origin": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\backups\\ar4i-napa-cabbage-lifecycle-20261025\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\leafball_5.png",
+      "sha256": "5a6777afe23b3ddd13ebf8a74af93fcc42f0e1c826ec98480d4b01ceec4d25d3"
+    }
+  },
+  "CandidateJSON": {
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/blockstates/wild_crop/napa_cabbage.json": "4AEFA51F8CDEE0C7A47137EF641C947F9F9E41C57A953A39DAE2C836FCABE66A",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/napa_cabbage_age_0.json": "54F3AA7A56F3DF0274E4C6052DA07B1F2BA8D5BB350E8F4F96C8170BE748FF6A",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/napa_cabbage_age_1.json": "3BF9A01BFB61297BF7F0076DE1265B1E5BF8EB72DA111BA48B14D617A30AE081",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/napa_cabbage_age_2.json": "8D8765D7C13D4A37B903D00FDB9DD05F53F1E061471E6CB6FAF32441966AACC6",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/napa_cabbage_age_3.json": "39D4B4708D0EC911C0FCC93ADEF86ECD7CC7D499C0F7E0433B4617BA56CF6AE3",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/napa_cabbage_age_4.json": "C43028E2ADFE1667BBF13D852F584CF98CD7686AD324A73DF68DB2C75BBD1096",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/napa_cabbage_age_5.json": "4D6B4A93404E2C768C40C1851EF5035EEB564AC35CB9DD503AC4AC7A3EB8A88F",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/napa_cabbage.json": "410784D61783D80CE2D9E86C873ABF8F88354B24ED833D41CD08F83DC11DAF34",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/napa_cabbage_young.json": "461ABA440C0D26AC9EE11EE6DFFBDF3938D3B0A7BCDB4C8BFCF4FD35665E1B26",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/napa_cabbage.json": "556ECC485B8B5267179BBDBEF401462E073EE50C55F45422B8A747A1E4F2035C",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/napa_cabbage_young.json": "89BE34BB607EE2C8C0E32D03FB3B9B6886728DA16546A51F90487067177E7778"
+  },
+  "OriginalSpeciesSprites": {
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_age_0.png": "9FE3AE5459BECFDA3C6AB260F1367C8418DF5367FB2EAF23EEF5565F31C12E25",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_age_1.png": "7E8943C70E481EF15886A301098E0DBEF873ECD81D9CD3C7939B328268B8DAC6",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_age_2.png": "EF43D38437CF08B5E37CF0C5429EC099AD573D471C5B8A177642EADE06646FCF",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_age_3.png": "E65B66C0AC1FC33FE79844FE2F61CFDFC012F0F698A1CABD2049F098716E5AC7",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_age_4.png": "B7C06D08B40142F065A13AC62EED6B41A72C9F17F535E96D249E1E459B17D1F8",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_age_5.png": "7674711E24E95BB6845862E667E4AA2CBA2450EB103AAAACC2EC79CB6B3164E3",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_0.png": "7A7F4A754B11A223F56070166E1AE46CA63D64F34A84CA94C86716F337B506FE",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_1.png": "E1A9760A377AC29A5EB573C26F784B649E9B92DA78E166F59E37C3FF76FA2C2B",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_2.png": "B4494185BDF6D914379CB0D2770A768A26FE931E35B79B7B661254E1A3E40E62",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_3.png": "45A4B34979BBCA51D06EFF122BEA439D4BEA6A46E3DA982C347838FFA4734145",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_4.png": "02ED2DEEF18A5D7014C08140D0E72B69364A3667E77AEA0B549ECB9F89FE1637",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_5.png": "8AB1B935BAE1E7079FAC6092635CDCF6CCA99B1AA7CD422DD8BB71810C0ACF31",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_head.png": "F6001159B4073C6E8CD1403B925470B384134CB3E7FE8390AE8BAF7C86D49AF3",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\crop\\napa_cabbage_leafball_head_top.png": "61159C1BAFEE510D17A84E98BED74C0741616F8F44BE46A6D405E8C9A36FB2FD",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\napa_cabbage.png": "5C33DAD4C18431F8968BBF9D1D73206B868D1FEEB8F0F11590BC0C4D62DC24EF",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\dead_crop\\napa_cabbage_young.png": "CF68F2D7D4239583CEC1DA667256F23B4C9C361D0728BD8129E0F5A6CD9C6426",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\block\\wild_crop\\napa_cabbage.png": "37C0683B364ECF57B1A8918E273C4A67E8E2EA5CAB8E95D2C0F952BE212B1BF6"
+  }
+}

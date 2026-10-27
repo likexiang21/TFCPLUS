@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["JJ", "JJ"],
+  "key": { "J": { "tag": "tfc:foods/jam" } },
+  "result": { "id": "tfcagricultureplus:jelly_block", "count": 1 }
+}

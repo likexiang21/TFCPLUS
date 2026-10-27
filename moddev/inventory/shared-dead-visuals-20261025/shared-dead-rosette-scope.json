@@ -1,0 +1,283 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-F/G five sources, ten logical death cases, two shared model states with per-face UV checks",
+  "Findings": [],
+  "StateCases": [
+    {
+      "Species": "agave",
+      "LiveBlock": "tfcfarmingplus:crop/agave",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "false",
+      "Model": "tfcfarmingplus:block/dead_rosette_young",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "agave",
+      "LiveBlock": "tfcfarmingplus:crop/agave",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "true",
+      "Model": "tfcfarmingplus:block/dead_rosette",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "LiveBlock": "tfcfarmingplus:crop/cardoon",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "false",
+      "Model": "tfcfarmingplus:block/dead_rosette_young",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "cardoon",
+      "LiveBlock": "tfcfarmingplus:crop/cardoon",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "true",
+      "Model": "tfcfarmingplus:block/dead_rosette",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "LiveBlock": "tfcfarmingplus:crop/kale",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "false",
+      "Model": "tfcfarmingplus:block/dead_rosette_young",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "kale",
+      "LiveBlock": "tfcfarmingplus:crop/kale",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "true",
+      "Model": "tfcfarmingplus:block/dead_rosette",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "LiveBlock": "tfcfarmingplus:crop/purslane",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "false",
+      "Model": "tfcfarmingplus:block/dead_rosette_young",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "purslane",
+      "LiveBlock": "tfcfarmingplus:crop/purslane",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "true",
+      "Model": "tfcfarmingplus:block/dead_rosette",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "LiveBlock": "tfcfarmingplus:crop/sisal",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "false",
+      "Model": "tfcfarmingplus:block/dead_rosette_young",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Species": "sisal",
+      "LiveBlock": "tfcfarmingplus:crop/sisal",
+      "DeadBlock": "tfcfarmingplus:dead_rosette",
+      "Mature": "true",
+      "Model": "tfcfarmingplus:block/dead_rosette",
+      "SpeciesRetained": false,
+      "SeedReturn": "during successful server-side death transition",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "ModelCases": [
+    {
+      "Model": "tfcfarmingplus:block/crop/rosette_dead",
+      "Mature": true,
+      "FaceCount": 8,
+      "NonemptyFaces": 8,
+      "FaceSamples": [
+        {
+          "Face": "north",
+          "UV": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "OpaqueSamples": 44
+        },
+        {
+          "Face": "south",
+          "UV": [
+            8,
+            0,
+            0,
+            16
+          ],
+          "OpaqueSamples": 44
+        },
+        {
+          "Face": "north",
+          "UV": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "OpaqueSamples": 44
+        },
+        {
+          "Face": "south",
+          "UV": [
+            8,
+            0,
+            0,
+            16
+          ],
+          "OpaqueSamples": 44
+        },
+        {
+          "Face": "east",
+          "UV": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "OpaqueSamples": 52
+        },
+        {
+          "Face": "west",
+          "UV": [
+            16,
+            0,
+            8,
+            16
+          ],
+          "OpaqueSamples": 52
+        },
+        {
+          "Face": "east",
+          "UV": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "OpaqueSamples": 52
+        },
+        {
+          "Face": "west",
+          "UV": [
+            16,
+            0,
+            8,
+            16
+          ],
+          "OpaqueSamples": 52
+        }
+      ],
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Model": "tfcfarmingplus:block/crop/rosette_dead_young",
+      "Mature": false,
+      "FaceCount": 4,
+      "NonemptyFaces": 4,
+      "FaceSamples": [
+        {
+          "Face": "north",
+          "UV": [
+            0,
+            8,
+            8,
+            16
+          ],
+          "OpaqueSamples": 20
+        },
+        {
+          "Face": "south",
+          "UV": [
+            8,
+            8,
+            0,
+            16
+          ],
+          "OpaqueSamples": 20
+        },
+        {
+          "Face": "east",
+          "UV": [
+            0,
+            8,
+            8,
+            16
+          ],
+          "OpaqueSamples": 20
+        },
+        {
+          "Face": "west",
+          "UV": [
+            8,
+            8,
+            0,
+            16
+          ],
+          "OpaqueSamples": 20
+        }
+      ],
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "DirectJava": [
+    "moddev/tfcfarmingplus/src/main/java/com/example/tfcfarmingplus/client/TFCFarmingPlusClient.java",
+    "moddev/tfcfarmingplus/src/main/java/com/example/tfcfarmingplus/common/MyCrops.java"
+  ],
+  "BlockstateConsumers": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/blockstates/dead_rosette.json"
+  ],
+  "ModelConsumers": [
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_rosette_young.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_rosette.json"
+  ],
+  "SharedResourceHashes": {
+    "assets/tfcfarmingplus/models/block/crop/rosette_dead_young.json": "5C9697E7F28E662C93E0FC48DD2718AA5459F89BC8AE09A531EEE56C1784E395",
+    "assets/tfcfarmingplus/models/block/crop/rosette_dead.json": "CF3E6F30AAFC7ED7A3401D7122D9C63AD73E983E9C66D8FB289D8C81FA3AE008",
+    "assets/tfcfarmingplus/textures/block/crop/rosette_dead.png": "9711B057BEFE300CFCA40887B325202471F2B6086BC2C3C684AD7E3077DC5CB8",
+    "assets/tfcfarmingplus/textures/block/crop/rosette_dead_young.png": "B6A18F7064FA7EC77747FA6A5EAD1B0C9FD38C1AF0061AE7F223D4C71C71B95B",
+    "assets/tfcfarmingplus/blockstates/dead_rosette.json": "6B6E40D1A56D383A7D1101F1D5231FDAC794DDEE106C069F19659B40E4C925D9",
+    "data/tfcfarmingplus/loot_table/blocks/dead_rosette.json": "98F75DA64CE6A505F6F3DDB33824424C7225CCEB8228823D167F9C71396E6E81",
+    "assets/tfcfarmingplus/models/block/dead_rosette_young.json": "63AE2EA9726AB1D1A323A04725606DF471BB0493E8D7DD80D1976160F8B0F293",
+    "assets/tfcfarmingplus/models/block/dead_rosette.json": "76F65EB409B0635E496DDE1656E16F9760383E596801B90017CA578375D65258"
+  },
+  "SpeciesRetained": false,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

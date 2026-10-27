@@ -1,0 +1,24 @@
+{
+  "type": "tfcagricultureplus:food_mixing_bowl",
+  "fluid_ingredients": {
+    "amount": 100,
+    "fluid": "minecraft:water"
+  },
+  "item_ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "tfc:food/maize_flour"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    }
+  ],
+  "result_item": {
+    "count": 1,
+    "id": "tfc:food/maize_dough"
+  }
+}

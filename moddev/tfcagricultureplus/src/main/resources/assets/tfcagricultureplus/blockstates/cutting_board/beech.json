@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/cutting_board/beech"},"facing=east":{"model":"tfcagricultureplus:block/cutting_board/beech","y":90},"facing=south":{"model":"tfcagricultureplus:block/cutting_board/beech","y":180},"facing=west":{"model":"tfcagricultureplus:block/cutting_board/beech","y":270}}}

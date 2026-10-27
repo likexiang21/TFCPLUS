@@ -1,0 +1,13 @@
+{
+  "type": "tfc:loom",
+  "ingredient": {
+    "tag": "tfcfarmingplus:materials/plant_fibers",
+    "count": 12
+  },
+  "result": {
+    "id": "tfc:burlap_cloth",
+    "count": 1
+  },
+  "steps": 12,
+  "texture": "tfc:block/burlap"
+}

@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/durian_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/durian_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/durian_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/durian_fruiting_leaves"}}}

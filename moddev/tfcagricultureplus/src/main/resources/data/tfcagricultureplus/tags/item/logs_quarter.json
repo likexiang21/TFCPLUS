@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfcagricultureplus:debarked_quarter/acacia",
+    "tfcagricultureplus:debarked_quarter/ash",
+    "tfcagricultureplus:debarked_quarter/aspen",
+    "tfcagricultureplus:debarked_quarter/birch",
+    "tfcagricultureplus:debarked_quarter/blackwood",
+    "tfcagricultureplus:debarked_quarter/chestnut",
+    "tfcagricultureplus:debarked_quarter/douglas_fir",
+    "tfcagricultureplus:debarked_quarter/hickory",
+    "tfcagricultureplus:debarked_quarter/kapok",
+    "tfcagricultureplus:debarked_quarter/mangrove",
+    "tfcagricultureplus:debarked_quarter/maple",
+    "tfcagricultureplus:debarked_quarter/oak",
+    "tfcagricultureplus:debarked_quarter/palm",
+    "tfcagricultureplus:debarked_quarter/pine",
+    "tfcagricultureplus:debarked_quarter/rosewood",
+    "tfcagricultureplus:debarked_quarter/sequoia",
+    "tfcagricultureplus:debarked_quarter/spruce",
+    "tfcagricultureplus:debarked_quarter/sycamore",
+    "tfcagricultureplus:debarked_quarter/white_cedar",
+    "tfcagricultureplus:debarked_quarter/willow"
+  ]
+}

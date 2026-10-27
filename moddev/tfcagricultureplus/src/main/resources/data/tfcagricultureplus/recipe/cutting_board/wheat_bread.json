@@ -1,0 +1,17 @@
+{
+  "type": "tfcagricultureplus:cutting_board",
+  "ingredient": {
+    "item": "tfc:food/wheat_bread"
+  },
+  "result": {
+    "modifiers": [
+      {
+        "type": "tfc:copy_food"
+      }
+    ],
+    "stack": {
+      "count": 2,
+      "id": "firmalife:food/wheat_slice"
+    }
+  }
+}

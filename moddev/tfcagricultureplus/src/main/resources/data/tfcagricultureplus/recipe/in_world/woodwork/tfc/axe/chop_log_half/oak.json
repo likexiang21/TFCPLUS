@@ -1,0 +1,24 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "tfcagricultureplus:debarked_half/oak"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "shoot_as_block",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:debarked_quarter/oak"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "minecraft:air"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_chop",
+    "volume": 0.6,
+    "pitch": 1.0
+  }
+}

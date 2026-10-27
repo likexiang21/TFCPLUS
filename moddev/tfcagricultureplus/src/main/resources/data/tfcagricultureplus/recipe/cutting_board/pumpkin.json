@@ -1,0 +1,17 @@
+{
+  "ingredient": {
+    "item": "tfc:pumpkin"
+  },
+  "type": "tfcagricultureplus:cutting_board",
+  "result": {
+    "modifiers": [
+      {
+        "type": "tfc:copy_food"
+      }
+    ],
+    "stack": {
+      "count": 4,
+      "id": "tfc:food/pumpkin_chunks"
+    }
+  }
+}

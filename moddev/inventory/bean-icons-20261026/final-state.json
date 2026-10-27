@@ -1,0 +1,68 @@
+{
+  "Slice": "AR4-R",
+  "ExpectedComplexity": "5/5",
+  "ActualComplexity": "5/5",
+  "BackupEntries": 9130,
+  "RuntimeModified": 4,
+  "RuntimeAdded": 4,
+  "RuntimeRemoved": 0,
+  "ToolContractsModified": 1,
+  "ToolCodeModified": 1,
+  "ExistingPNGsModified": 0,
+  "NewPNGs": 4,
+  "JavaChanges": 0,
+  "BChanges": 0,
+  "SourceFilesA": 5891,
+  "SourceFilesB": 3107,
+  "CurrentModelsReconciled": 229,
+  "FoodSeedPNGsSizeCheckedInSource": 233,
+  "FoodSeedPNGsSizeCheckedInJAR": 233,
+  "AllItemPNGs16x16": true,
+  "ActuallyViewedComparisonSheets": 5,
+  "ViewedGeneratedOriginals": 5,
+  "FixtureAndSafeCopyChecks": 20,
+  "SafeCopyFiles": 19,
+  "CrossNamespaceLedger": 418,
+  "AHash": "6A9C897D60FBCF16AA6FCB942A741C953A4D1B6B971141986AE335F4D4766004",
+  "BHash": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "GameLaunched": false,
+  "PCLArchiveRebuilt": false,
+  "ImageGenerationTool": "built-in image_gen",
+  "GeneratedAssetPaths": [
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\common_bean_pod_v1.png",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\cowpea_pod_v2.png",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\pea_pod_v1.png",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\winged_bean_pod_v1.png"
+  ],
+  "Prompts": [
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\bean-icons-20261026\\imagegen-prompts.json",
+    "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\bean-icons-20261026\\imagegen-cowpea-retry-prompt.json"
+  ],
+  "RejectedArt": "cowpea first candidate lost continuity at 16x16; retained but never adopted",
+  "NextSlice": "AR4-S bitter melon/chayote/loofah/snake gourd harvest icons",
+  "NextExpectedComplexity": "5/5",
+  "Documents": [
+    {
+      "Path": "README.md",
+      "Sha256": "BD28FEF272B18F5DF629C335CB969FCDC7C5435BB95567D5D1929FAA461830B8"
+    },
+    {
+      "Path": "DEVELOPMENT_RULES.md",
+      "Sha256": "8E2BE505BACE75A38B3D85E5D856B3E7BC54C14E41E72A900CCDBB79625BC9F0"
+    },
+    {
+      "Path": "moddev/docs/217-agriculture-repair-next-phase-plan-20261023.md",
+      "Sha256": "49D8E2A451FC56894883F2DE4DAFE3FB9BEDD8A99E11A37D890E40BA4EBE6BCA"
+    },
+    {
+      "Path": "moddev/docs/218-agriculture-audit-baseline-20261023.md",
+      "Sha256": "B923469B644E7BAA0917849EFA95C9F683C09628F6F9F4749A6C6A8CA89D6F39"
+    },
+    {
+      "Path": "moddev/docs/256-ar4r-bean-harvest-icons-and-size-guard-20261026.md",
+      "Sha256": "3774D4BA7966A973B9AAD84711F6E252625A83958426120FA2E9349490710097"
+    }
+  ]
+}

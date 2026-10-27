@@ -1,0 +1,9 @@
+{
+  "parent": "tfcagricultureplus:block/timber/debarked_log",
+  "textures": {
+    "side": "tfc:block/wood/stripped_log/rosewood",
+    "top": "tfc:block/wood/stripped_log_top/rosewood",
+    "inner": "tfc:block/wood/stripped_log/rosewood",
+    "particle": "tfc:block/wood/stripped_log/rosewood"
+  }
+}

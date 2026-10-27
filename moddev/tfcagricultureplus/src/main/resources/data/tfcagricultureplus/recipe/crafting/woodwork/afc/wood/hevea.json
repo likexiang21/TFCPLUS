@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/log/hevea"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bark/hevea"
+    }
+  },
+  "result": {
+    "id": "afc:wood/wood/hevea",
+    "count": 1
+  }
+}

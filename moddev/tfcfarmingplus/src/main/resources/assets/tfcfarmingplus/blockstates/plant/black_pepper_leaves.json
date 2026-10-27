@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/black_pepper_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/black_pepper_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/black_pepper_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/black_pepper_fruiting_leaves"}}}

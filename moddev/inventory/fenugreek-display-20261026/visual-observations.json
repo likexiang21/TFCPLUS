@@ -1,0 +1,24 @@
+{
+  "SheetsViewed": [
+    "AR4M-existing-textures.png",
+    "AR4M-before-p28.png",
+    "AR4M-before-p5.png",
+    "AR4M-before-p70.png",
+    "AR4M-candidate-p28.png",
+    "AR4M-candidate-p5.png",
+    "AR4M-candidate-p70.png",
+    "AR4M-final-p28.png",
+    "AR4M-final-p5.png",
+    "AR4M-final-p70.png"
+  ],
+  "Observed": [
+    "修改前三角度中栽培葫芦巴显示兵豆叶丛，野生幼株是黄色枯株。",
+    "保存版六龄从少量绿芽、细茎分枝到较密叶丛和浅色细长部分；保留全部原PNG，未宣称龄间过渡及株型已获最终验收。",
+    "第一版野生成熟候选为紧凑绿团，与成熟栽培株差异明显，没有采用；原wild_crop/fenugreek图保留原字节，未接入最终模型。",
+    "最终野生成熟态继承自有age5，幼态继承age1；成熟死株为褐黄细枝和浅色部分，幼死株为小型褐枝。",
+    "既有种子图是散落棕色颗粒，食品图是浅棕小簇，已查看后接引用。"
+  ],
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "Limitations": "十张实际查看图为离线证据；野生成熟图保留不用，PNG未编辑。实际种植、采收、盆栽、粒子、地面与光影待实机。"
+}

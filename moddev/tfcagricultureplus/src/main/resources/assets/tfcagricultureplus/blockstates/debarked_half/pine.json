@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tfcagricultureplus:block/debarked_half/pine",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "tfcagricultureplus:block/debarked_half/pine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tfcagricultureplus:block/debarked_half/pine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tfcagricultureplus:block/debarked_half/pine",
+      "y": 270
+    }
+  }
+}

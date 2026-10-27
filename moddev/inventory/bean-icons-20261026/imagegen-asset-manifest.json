@@ -1,0 +1,136 @@
+[
+  {
+    "Name": "common_bean",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-cb96996e-4387-45a2-b50f-6cbc0c6556d1.png",
+    "PreservedSource": "moddev\\inventory\\bean-icons-20261026\\imagegen-source\\common_bean.png",
+    "OriginalSize": [
+      1254,
+      1254
+    ],
+    "GeneratedSha256": "E7ACE1B1CDE78853B7407DB2E1DAD7FC5BECBAA599B568028C5008904346EC32",
+    "Export": "moddev\\inventory\\bean-icons-20261026\\exported-candidates\\common_bean_pod_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "3245B6F98B4F244B5B7502DCA9A498E31D823951F105B9A9BB0FF946FE5CBA6D",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\common_bean_pod_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\common_bean.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\bean-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "cowpea",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-674cb553-0d6b-4b86-8d40-c1bd8e9aa94c.png",
+    "PreservedSource": "moddev\\inventory\\bean-icons-20261026\\imagegen-source\\cowpea-v2.png",
+    "OriginalSize": [
+      1254,
+      1254
+    ],
+    "GeneratedSha256": "76B22C5D9252D313C95A34ED37F7D6C20E2476B25829A83A7985D7DEF9F292CD",
+    "Export": "moddev\\inventory\\bean-icons-20261026\\exported-candidates\\cowpea_pod_v2.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "2D7BEB20C0E19AA23B737BA501CEDB54B75942921FEAD0CF711C5544FA49187E",
+    "AlphaRange": [
+      0,
+      255
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "RejectedCandidate": {
+      "Name": "cowpea",
+      "Tool": "built-in image_gen",
+      "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-866326cf-e5a0-43e2-82a7-7b0217484c90.png",
+      "PreservedSource": "moddev\\inventory\\bean-icons-20261026\\imagegen-source\\cowpea.png",
+      "OriginalSize": [
+        1254,
+        1254
+      ],
+      "GeneratedSha256": "0DE5D05B7AEB55969506266A2F021CBF062D177C3C66116ACB42E8865F7DDA2D",
+      "Export": "moddev\\inventory\\bean-icons-20261026\\exported-candidates\\cowpea_pod_v1.png",
+      "ExportSize": [
+        16,
+        16
+      ],
+      "ExportSha256": "6A45D6BE1F57B3953AAA5EF874B82EE74EA06D3706FED82CE80C004657B50F9E",
+      "AlphaRange": [
+        0,
+        255
+      ],
+      "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    "RejectionReason": "One pod lost continuity after 16x16 export; rejected before source adoption",
+    "RetryPrompt": "moddev\\inventory\\bean-icons-20261026\\imagegen-cowpea-retry-prompt.json",
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\cowpea_pod_v2.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\cowpea.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\bean-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "pea",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-cb4e8144-77fe-4ca5-be92-ce9c88ec24db.png",
+    "PreservedSource": "moddev\\inventory\\bean-icons-20261026\\imagegen-source\\pea.png",
+    "OriginalSize": [
+      1312,
+      1199
+    ],
+    "GeneratedSha256": "41A95CA70DDC748C6F71F4151511B9E1F1DE4BFD55BA2D091E7F03D958CC4BA4",
+    "Export": "moddev\\inventory\\bean-icons-20261026\\exported-candidates\\pea_pod_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "80369013458EC64C974EB1A8B5D494237565F617F110CB66AB26EC9036EC7240",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\pea_pod_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\pea.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\bean-icons-20261026\\imagegen-prompts.json"
+  },
+  {
+    "Name": "winged_bean",
+    "Tool": "built-in image_gen",
+    "OriginalGeneratedPath": "C:\\Users\\asus\\.codex\\generated_images\\01a10f79-2f78-7943-a187-88601096d4bf\\exec-5d1ac058-2769-430b-acaa-9987080fdef3.png",
+    "PreservedSource": "moddev\\inventory\\bean-icons-20261026\\imagegen-source\\winged_bean.png",
+    "OriginalSize": [
+      1254,
+      1254
+    ],
+    "GeneratedSha256": "8C960EECB1959F286F265432BDE3E2CE259057EB20C475CF658B43088B7E361A",
+    "Export": "moddev\\inventory\\bean-icons-20261026\\exported-candidates\\winged_bean_pod_v1.png",
+    "ExportSize": [
+      16,
+      16
+    ],
+    "ExportSha256": "3529FFFE556BB1DDB17609AEEF2534F1C4D069A4559A5264D264D391B218225F",
+    "AlphaRange": [
+      0,
+      254
+    ],
+    "ExportMethod": "Nearest-neighbor contain to 16x16, preserve aspect ratio and alpha, center on transparent canvas; no recolor or repaint",
+    "VisualAccepted": false,
+    "RuntimeVerified": false,
+    "AdoptedSourcePath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\textures\\item\\food\\winged_bean_pod_v1.png",
+    "ModelPath": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\src\\main\\resources\\assets\\tfcfarmingplus\\models\\item\\food\\winged_bean.json",
+    "PromptSet": "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\inventory\\bean-icons-20261026\\imagegen-prompts.json"
+  }
+]

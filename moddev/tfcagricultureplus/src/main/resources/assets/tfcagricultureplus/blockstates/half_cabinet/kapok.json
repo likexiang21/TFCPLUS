@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/kapok"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/kapok"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/kapok"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/half_cabinet/kapok"
+    }
+  }
+}

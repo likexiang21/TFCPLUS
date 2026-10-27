@@ -1,0 +1,31 @@
+{
+  "ModelsReconciled": 229,
+  "CurrentTFCTextureModels": 148,
+  "CurrentOwnTextureModels": 81,
+  "TFCSeedTextureModels": 85,
+  "ChangedFoodModels": 6,
+  "ChangedSeedModels": 0,
+  "NewTexturePNGs": 2,
+  "OldPNGsModified": 0,
+  "StatusCounts": {
+    "待专用美术复核": 96,
+    "产物定义与形态需进一步核对": 3,
+    "产物形态定义待核": 5,
+    "当前显示需修复；保存图另审": 20,
+    "AR4-O共享替代已接线，实机/独立美术未验": 6,
+    "AR4-P接回既有本物种食品图，最终美术/实机未验": 3,
+    "AR4-Q新增茎菜v1图标，实机/最终美术未验": 2,
+    "前片接线保留": 2,
+    "保护既有流程，不在本批更改": 3,
+    "AR4-Q临时共享叶束，专用美术/实机未验": 4,
+    "共享替代已接线，最终美术待验": 1,
+    "可复用粒形，专用美术待审": 57,
+    "供体辨识待改善": 18,
+    "候选另审": 6,
+    "保护既有流程，图标辨识另审": 1,
+    "繁殖材料语义待核": 2
+  },
+  "EarlierReviews": "AR4-O 26 pages and AR4-P 2 pages, not re-viewed wholesale in Q",
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

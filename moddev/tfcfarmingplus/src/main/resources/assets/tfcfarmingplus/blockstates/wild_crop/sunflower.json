@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "mature=false": {
+      "model": "tfcfarmingplus:block/wild_crop/sunflower_young"
+    },
+    "mature=true": {
+      "model": "tfcfarmingplus:block/wild_crop/sunflower"
+    }
+  }
+}

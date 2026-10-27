@@ -1,0 +1,97 @@
+{
+  "Status": "completed-static-delivery",
+  "BackupEntriesVerified": 9211,
+  "ExistingChanges": [
+    "README.md",
+    "moddev/docs/217-agriculture-repair-next-phase-plan-20261023.md",
+    "moddev/docs/218-agriculture-audit-baseline-20261023.md",
+    "moddev/tfcfarmingplus/build/libs/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/blockstates/wild_crop/celtuce.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_0.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_1.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_2.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_3.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_4.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_5.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/celtuce.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/celtuce_young.json",
+    "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/celtuce.json",
+    "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/celtuce.json",
+    "moddev/tfcfarmingplus/tools/gen-crops.ps1",
+    "moddev/tfcfarmingplus/tools/verify.ps1",
+    "mods/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+    "pcl-mods/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar"
+  ],
+  "SourceDiff": {
+    "Modified": [
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/blockstates/wild_crop/celtuce.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_0.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_1.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_2.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_3.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_4.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/crop/celtuce_age_5.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/celtuce.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/dead_crop/celtuce_young.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/celtuce.json",
+      "moddev/tfcfarmingplus/src/main/resources/data/firmalife/firmalife/plantable/celtuce.json",
+      "moddev/tfcfarmingplus/tools/gen-crops.ps1",
+      "moddev/tfcfarmingplus/tools/verify.ps1"
+    ],
+    "Added": [
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/models/block/wild_crop/celtuce_young.json",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celtuce_age_0_stem_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celtuce_age_1_stem_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celtuce_age_2_stem_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celtuce_age_3_stem_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celtuce_age_4_stem_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/crop/celtuce_age_5_stem_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/dead_crop/celtuce_stem_v1.png",
+      "moddev/tfcfarmingplus/src/main/resources/assets/tfcfarmingplus/textures/block/dead_crop/celtuce_young_stem_v1.png",
+      "moddev/tfcfarmingplus/tools/audit-celtuce-display.ps1",
+      "moddev/tfcfarmingplus/tools/celtuce-display-contract.json",
+      "moddev/tfcfarmingplus/tools/celtuce-display-files.json"
+    ],
+    "Removed": [],
+    "AllOtherABSourceAndToolsUnchanged": true
+  },
+  "SourceCounts": {
+    "tfcfarmingplus/src": 5952,
+    "tfcfarmingplus/tools": 113,
+    "tfcagricultureplus/src": 3107,
+    "tfcagricultureplus/tools": 19
+  },
+  "Packages": [
+    {
+      "Module": "tfcfarmingplus",
+      "SHA256": "D2CBDD1E3AF217E62EC6738A2A09D05D6F557282D518555BABFC0D98CBC51F6B",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcfarmingplus\\build\\libs\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    },
+    {
+      "Module": "tfcagricultureplus",
+      "SHA256": "EC9B98AD52DB334DA6E7E7CED3C89943800B0B1DC1EDC8FE4279BFF7B0CECDE3",
+      "Files": [
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\moddev\\tfcagricultureplus\\build\\libs\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\Essential TerraFirmaCraft (TFC)\\Essential TerraFirmaCraft (TFC)\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar",
+        "D:\\TFC农业重置\\PCL_TFC\\mods\\TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar"
+      ]
+    }
+  ],
+  "ChecksPassed": 24,
+  "FormalNewSprites": 8,
+  "Native16": true,
+  "Workspace64Only": true,
+  "AIProposalsAdopted": false,
+  "VisualAccepted": false,
+  "RuntimeVerified": false,
+  "GameLaunched": false,
+  "PCLZipCreated": false,
+  "AgricultureFullyComplete": false,
+  "ActualComplexity": "5/5",
+  "NextStep": "AR4-AG 大黄完整显示链",
+  "NextComplexity": "5/5"
+}

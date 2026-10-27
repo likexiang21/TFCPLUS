@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/food_display/cypress"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/food_display/cypress"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/food_display/cypress"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/food_display/cypress"
+    }
+  }
+}

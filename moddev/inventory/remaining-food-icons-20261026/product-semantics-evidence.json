@@ -1,0 +1,797 @@
+[
+  {
+    "Name": "brussels_sprouts",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/onion"
+      }
+    },
+    "Food": {
+      "decay_modifier": 0.6,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/brussels_sprouts"
+      },
+      "saturation": 1,
+      "vegetables": 2
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/brussels_sprouts",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/brussels_sprouts",
+                  "properties": {
+                    "age": "6"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/brussels_sprouts"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "chive",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rye"
+      }
+    },
+    "Food": {
+      "decay_modifier": 4.5,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/chive"
+      },
+      "saturation": 2,
+      "vegetables": 1.6
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/chive",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/chive",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/chive"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "malabar_spinach",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/tomato"
+      }
+    },
+    "Food": {
+      "decay_modifier": 1.2,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/malabar_spinach"
+      },
+      "saturation": 1,
+      "vegetables": 1.8,
+      "water": 3
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/malabar_spinach",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/malabar_spinach",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/malabar_spinach",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/malabar_spinach"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            },
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "tfcfarmingplus:crop/malabar_spinach",
+              "properties": {
+                "part": "bottom"
+              }
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/malabar_spinach",
+                  "properties": {
+                    "part": "bottom",
+                    "stick": "true"
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "water_dropwort",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    },
+    "Food": {
+      "decay_modifier": 1.5,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/water_dropwort"
+      },
+      "saturation": 1,
+      "vegetables": 1.8,
+      "water": 4
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/water_dropwort",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/water_dropwort",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/water_dropwort"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "water_caltrop",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    },
+    "Food": {
+      "decay_modifier": 3,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/water_caltrop"
+      },
+      "saturation": 1,
+      "vegetables": 0.6,
+      "grain": 0.4
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/water_caltrop",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/water_caltrop",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/water_caltrop"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "water_chestnut",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    },
+    "Food": {
+      "decay_modifier": 3.5,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/water_chestnut"
+      },
+      "saturation": 1,
+      "vegetables": 1.2
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/water_chestnut",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/water_chestnut",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/water_chestnut"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "water_shield",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    },
+    "Food": {
+      "decay_modifier": 1,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/water_shield"
+      },
+      "saturation": 1,
+      "vegetables": 1,
+      "water": 5
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/water_shield",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/water_shield",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/water_shield"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "water_spinach",
+    "Model": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tfc:item/food/rice"
+      }
+    },
+    "Food": {
+      "decay_modifier": 1.2,
+      "hunger": 4,
+      "ingredient": {
+        "item": "tfcfarmingplus:food/water_spinach"
+      },
+      "saturation": 1,
+      "vegetables": 2,
+      "water": 4
+    },
+    "CropLoot": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:food/water_spinach",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tfcfarmingplus:crop/water_spinach",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "tfc:crop_yield_uniform",
+                    "min": 0,
+                    "max": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        },
+        {
+          "name": "loot_pool",
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "tfcfarmingplus:seeds/water_spinach"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "芽甘蓝",
+      "anchor": "brussels_sprouts",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -6°C - 22°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 45 - 85 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 80 $(bold)$(6)磷$(): 30 $(bold)$(d)钾$(): 40$()$(br2)芽甘蓝是单格作物。茎上结满小球，耐寒，冬前采收最甜。$(br2)芽甘蓝种子可以种植在$(l:tfc:food/farmland)农田$()上，成熟后收割可以得到$(thing)芽甘蓝$()和$(thing)芽甘蓝种子$()。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "韭菜",
+      "anchor": "chive",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -10°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 80 %$(br)$(bold)类别$(): 可采摘蔬菜$(br2)$(bold)$(3)氮$(): 60 $(bold)$(6)磷$(): +20 $(bold)$(d)钾$(): +20$()$(br2)韭菜是$(thing)可采摘蔬菜$()。气味辛香，割下叶子后很快又长齐。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，生长后期空手右键采摘可保留植株；左键破坏会拔除植株。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "荸荠",
+      "anchor": "water_chestnut",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 14°C - 34°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 60 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 40 $(bold)$(6)磷$(): 30 $(bold)$(d)钾$(): 60$()$(br2)荸荠是单格作物。球茎脆甜，生吃炒菜都行。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "菱角",
+      "anchor": "water_caltrop",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 15°C - 35°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 70 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 35 $(bold)$(6)磷$(): 30 $(bold)$(d)钾$(): 55$()$(br2)菱角是单格作物。两角尖尖的坚果，煮粉了最好吃。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "水芹",
+      "anchor": "water_dropwort",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 5°C - 25°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 70 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 50 $(bold)$(6)磷$(): 30 $(bold)$(d)钾$(): 40$()$(br2)水芹是单格作物。水边丛生的香芹，越冷越嫩。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "空心菜",
+      "anchor": "water_spinach",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 18°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 65 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 80 $(bold)$(6)磷$(): +20 $(bold)$(d)钾$(): +20$()$(br2)空心菜是单格作物。茎中空的速生叶菜，割了又发。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "木耳菜",
+      "anchor": "malabar_spinach",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 18°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 45 - 90 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 70 $(bold)$(6)磷$(): +20 $(bold)$(d)钾$(): +20$()$(br2)木耳菜是$(thing)攀爬性作物$()。叶片肥厚发黏，越热越旺。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空，用木棍右键下半株搭架才能继续长高。完全成熟后破坏任意半株收获并返种、返棍，各结算一次；空手右键不采摘。$(br2)"
+    }
+  },
+  {
+    "Language": "zh_cn",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "莼菜",
+      "anchor": "water_shield",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 10°C - 30°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 80 - 100 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 40 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 30$()$(br2)莼菜是单格作物。裹着透明胶质的嫩叶，最娇气。$(br2)先开垦$(l:tfc:food/farmland)农田$()，再在上方备好一格深淡水水源，最后对水下农田播种。完全成熟后破坏收获食材和种子。$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Brussels Sprouts",
+      "anchor": "brussels_sprouts",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -6°C - 22°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 45 - 85 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 80 $(bold)$(6)Phosphorous$(): 30 $(bold)$(d)Potassium$(): 40$()$(br2)Brussels Sprouts is a single block crop: little cabbages along a tall stem.$(br2)Brussels Sprouts seeds can be planted on $(l:tfc:food/farmland)farmland$(), and once ripe the harvest gives $(thing)Brussels Sprouts$() and $(thing)Brussels Sprouts Seeds$().$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Chive",
+      "anchor": "chive",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -10°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 80 %$(br)$(bold)Category$(): Pickable Vegetable$(br2)$(bold)$(3)Nitrogen$(): 60 $(bold)$(6)Phosphorous$(): +20 $(bold)$(d)Potassium$(): +20$()$(br2)Chive is a $(thing)pickable vegetable$(): pungent leaves that soon grow back after cutting.$(br2)Its seeds are sown on $(l:tfc:food/farmland)farmland$(); late in growth, right-click with an empty hand to harvest and regrow; breaking removes it.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Water Chestnut",
+      "anchor": "water_chestnut",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 14°C - 34°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 60 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 40 $(bold)$(6)Phosphorous$(): 30 $(bold)$(d)Potassium$(): 60$()$(br2)Water Chestnut is a single block crop: a crisp, sweet corm.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Water Caltrop",
+      "anchor": "water_caltrop",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 15°C - 35°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 70 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 35 $(bold)$(6)Phosphorous$(): 30 $(bold)$(d)Potassium$(): 55$()$(br2)Water Caltrop is a single block crop: a two horned nut, best boiled soft.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Water Dropwort",
+      "anchor": "water_dropwort",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 5°C - 25°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 70 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 50 $(bold)$(6)Phosphorous$(): 30 $(bold)$(d)Potassium$(): 40$()$(br2)Water Dropwort is a single block crop: a fragrant celery relative that prefers the cold.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Water Spinach",
+      "anchor": "water_spinach",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 18°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 65 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 80 $(bold)$(6)Phosphorous$(): +20 $(bold)$(d)Potassium$(): +20$()$(br2)Water Spinach is a single block crop: a fast hollow stemmed green.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Malabar Spinach",
+      "anchor": "malabar_spinach",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 18°C - 38°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 45 - 90 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 70 $(bold)$(6)Phosphorous$(): +20 $(bold)$(d)Potassium$(): +20$()$(br2)Malabar Spinach is a $(thing)climbing crop$(): thick, mucilaginous leaves that love the heat.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above. To grow tall, right-click the lower plant with a wooden stick. Once fully grown, break either half to harvest and return seeds and the stick once. Empty-hand right-click does not harvest.$(br2)"
+    }
+  },
+  {
+    "Language": "en_us",
+    "Page": {
+      "type": "patchouli:text",
+      "title": "Water Shield",
+      "anchor": "water_shield",
+      "text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 10°C - 30°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 80 - 100 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 40 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 30$()$(br2)Water Shield is a single block crop: tender leaves in a clear jelly.$(br2)Prepare $(l:tfc:food/farmland)farmland$(), cover it with a one-block-deep fresh water source, then sow on the submerged farmland. Once fully grown, break the crop to harvest food and seeds.$(br2)"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-10",
+  "phase": "2-P1",
+  "scope": ["cutting_board", "knife_block", "mortar", "drying_rack"],
+  "status": "built_and_deployed_waiting_manual_test",
+  "tfc_base_classes": ["InventoryBlockEntity", "TickableInventoryBlockEntity"],
+  "capability": "Capabilities.ItemHandler.BLOCK",
+  "firmalife_drying_api": "cocoa path uses DryingRecipe.getRecipe and FLConfig.SERVER.dryingTicks; legacy B recipes remain fallback",
+  "legacy_nbt_migration": ["on_board", "content", "uses_left", "grind_progress", "progress", "finished"],
+  "removal_drop_guard": ["cutting_board", "knife_block", "mortar"],
+  "minecraft_test": false,
+  "build": {
+    "attempted": true,
+    "result": "A_and_B_clean_build_success",
+    "jar_deployed": true,
+    "gradle_heap": "-Xmx1G"
+  },
+  "next": [
+    "audit automation and break/drop paths",
+    "design silkworm rack with the same TFC container interface"
+  ]
+}

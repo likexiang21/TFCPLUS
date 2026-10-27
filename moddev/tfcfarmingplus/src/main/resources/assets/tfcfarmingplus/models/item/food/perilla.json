@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tfcfarmingplus:item/food/perilla_harvest_v1"
+  }
+}

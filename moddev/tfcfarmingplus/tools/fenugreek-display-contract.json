@@ -1,0 +1,42 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-M display-only fenugreek contract; no gameplay or final visual acceptance",
+  "ProtectedTextureSha256": {
+    "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_0.png": "261641761CA76EAC44DFC25FFA1D532F4AFC63DF9143B5800843789A7718F57C",
+    "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_1.png": "E6768972F9B0277AC9E8A1A00CAEDB315936E679CF6FB8900635AE4B6C26AE66",
+    "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_2.png": "A36ACD4F9B43B88EB7A3CB1A95E44421C5B8C1D3CE74BE143B15E239B867C054",
+    "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_3.png": "E2266F1226DF798968B20FCE4183AFF6C480997EBF477F15EC76798F4699F341",
+    "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_4.png": "C8B7545A9C5F23C098F9E8E6BB9F564C6DFED894E25C902C26D9AA743E45308B",
+    "assets/tfcfarmingplus/textures/block/crop/fenugreek_age_5.png": "AA914C0C63E86914B6E5A80A7FB41B478D84939CDC1A2ED96563ABA530753921",
+    "assets/tfcfarmingplus/textures/block/wild_crop/fenugreek.png": "0FFAF05E214E42DA34220F9ED6F5FA13652AD7FB9FD07B40C13D922280ED7092",
+    "assets/tfcfarmingplus/textures/block/dead_crop/fenugreek.png": "818712694D5B083335A49D752F29A2FF525B55EEF9CF9110E5C3A9F0D415047A",
+    "assets/tfcfarmingplus/textures/block/dead_crop/fenugreek_young.png": "5BE60C4DDD6437EB09669965DBEF683DCB70E06E97A87138205DA5D0B8EB2EF5",
+    "assets/tfcfarmingplus/textures/item/seeds/fenugreek.png": "4FBDE9CD7B9DD8F6E5BD6A8CC0B2816B86BE5537EE685E6993BBF40DB18F7361",
+    "assets/tfcfarmingplus/textures/item/food/fenugreek.png": "594AD61C1D516FDCA5DAA0652BAAEC897501D14AED3EED059524D96B5347B6F4"
+  },
+  "PlanterFieldsExceptTextures": {
+    "crop": {
+      "count": 1,
+      "id": "tfcfarmingplus:food/fenugreek"
+    },
+    "ingredient": {
+      "item": "tfcfarmingplus:seeds/fenugreek"
+    },
+    "nutrient": {
+      "nitrogen": -0.7,
+      "phosphorous": 0.2,
+      "potassium": 0.3
+    },
+    "planter": "quad",
+    "seed": {
+      "count": 1,
+      "id": "tfcfarmingplus:seeds/fenugreek"
+    },
+    "specials": [],
+    "stages": 5
+  },
+  "WildMatureUsesCropAge5": true,
+  "ReviewedOffline": true,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

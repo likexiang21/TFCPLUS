@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/stripped_log/eucalyptus"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bast/eucalyptus"
+    }
+  },
+  "result": {
+    "id": "afc:wood/stripped_wood/eucalyptus",
+    "count": 1
+  }
+}

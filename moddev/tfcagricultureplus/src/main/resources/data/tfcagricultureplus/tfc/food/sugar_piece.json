@@ -1,0 +1,6 @@
+{
+  "decay_modifier": 0.95,
+  "hunger": 1,
+  "saturation": 0.2,
+  "ingredient": { "item": "tfcagricultureplus:food/sugar_piece" }
+}

@@ -1,0 +1,3770 @@
+{
+  "name": "Yabani Meyveler",
+  "category": "tfc:the_world",
+  "icon": "tfc:textures/item/food/elderberry.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dünyada yetişen birçok farklı yabani meyve çeşidi bulunabilir. Bunlar toplanıp yenebilir veya doğru ekipmanla tarımı yapılabilir. Bu meyveler çeşitli çalı veya ağaç türlerinde bulunabilir. Genel olarak meyveler üç tür bitkide bulunabilir: $(l:the_world/wild_fruits#fruit_trees)Meyve Ağaçları$(), $(l:the_world/wild_fruits#tall_bushes)Uzun Çalılar$() ve $(l:the_world/wild_fruits#small_bushes)Küçük Çalılar$().$(br2)Tüm meyve veren bitkilerin ortak bir yaşam döngüsü vardır. Yıllık bir döngü içinde büyürler, çiçek açarlar, meyve verirler ve ardından uyku dönemine girerler."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Meyve bitkileri mevsimseldir. Soğuk mevsimlerinde bu bitkiler kahverengi ve cansız görünürler. İlkbaharda ise yeşil ve sağlıklı bir hale gelerek meyve vermeye ve büyümeye hazırlanırlar. Bunun gerçekleştiği kesin zamanlar meyveye göre değişiklik gösterir. Meyve bitkileri ayrıca yaşlılıktan veya uygun olmayan iklim koşullarından dolayı ölebilirler."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "fruit_trees",
+      "text": "$(thing)Meyve ağaçları$(), minik fidanlardan büyük, çiçek açan ağaçlara dönüşürler. Meyve ağaçlarının dalları onların kalbidir ve iklim koşulları uygun olduğu sürece büyümeye devam ederler. Meyve ağaçları olgunlaştıkça, dallarının her tarafında $(thing)yapraklar$() büyür. Bu yapraklar mevsime bağlı olarak çiçek açabilir ve meyve verebilir.",
+      "title": "Meyve Ağaçları"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/fruit_tree.png"
+      ],
+      "text": "Tipik bir meyve ağacı.",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Meyve ağaçları $(thing)Fidan$() olarak başlar. Fidanlar, yalnızca o meyve için uyku mevsimi değilse ve ağaç için gerekli iklim koşulları karşılanıyorsa büyümeye başlar ve ağacın ilk parçasını yerleştirir. Tamamlanmış ağacın boyutu, orijinal fidan bloğunda kaç fidan olduğuna bağlı olarak kabaca belirlenir. Daha fazla fidan, daha büyük bir ağaç anlamına gelir.$(br)Tek bir bloğa $(thing)Aşılama$() yoluyla daha fazla fidan eklenebilir. Bir fidanı diğerine aşılamak için, elinizde bir fidan ve diğer elinizde bir $(thing)Bıçak$() tutarken üzerine $(item)$(k:key.use)$() yapmanız yeterlidir."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bir meyve ağacından fidan elde etmek için, bir $(thing)Balta$() ile ağacın 'dirsek' bloklarını (bir tarafında ve üzerinde başka bir bloğa bağlı olan dal blokları) kırın. Fidanlar, ağacın çok yüksek kısımlarında olmadıkları sürece bu 'dirsek' bölümlerine de yerleştirilebilir. Bu, tek bir meyve ağacının birden fazla meyve vermesini sağlar. Meyve hasadı, yaprak bloğu meyve verdiğinde $(item)$(k:key.use)$() ile yapılır. Bu işlem bir adet meyve verir ve bitkiyi kış uykusuna yatana kadar tekrar büyüme evresine döndürür."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Meyve ağaçları dikerken doğru $(l:core_mechanics/climate#temperature)Sıcaklık$() ve $(l:food/hydration)Hidrasyon$() seviyeleri esastır. Meyve ağaçları, yalnızca ağacın tabanındaki (fidanın dikildiği yer) Yıllık Ortalama Sıcaklık o ağacın aralığı içindeyse büyür ve meyve verir. Aynı şekilde, hidrasyon da Yıllık Ortalama Yağış miktarı ve ağacın tabanına yakın su kaynakları tarafından belirlenir."
+    },
+    {
+      "type": "patchouli:empty"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cherry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-5.2) - $(cfg:temperature:14)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 100 - 350mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.cherry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.cherry.hydration)%$(br2)Kiraz ağaçları Ocak'tan Mart'a kadar olan aylarda büyür, Nisan ve Mayıs aylarında çiçek açmaya başlar ve Haziran ayında meyve verir.",
+      "title": "Kiraz Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir kiraz ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/cherry_branch[down=true,up=true]",
+            "1": "tfc:plant/cherry_branch[down=true,up=true]",
+            "2": "tfc:plant/cherry_branch[down=true,west=true]",
+            "3": "tfc:plant/cherry_branch[east=true,up=true]",
+            "L": "tfc:plant/cherry_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "green_apple",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-10.6) - $(cfg:temperature:10.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 130 - 280mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.green_apple.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.green_apple.hydration)%$(br2)Yeşil elma ağaçları Mart'tan Temmuz'a kadar büyür, Ağustos ve Eylül aylarında çiçek açmaya başlar ve Ekim ayında meyve verir.",
+      "title": "Yeşil Elma Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir yeşil elma ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/green_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/green_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/green_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/green_apple_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "lemon",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:7.4) - $(cfg:temperature:24.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 220 - 440mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.lemon.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.lemon.hydration)%$(br2)Limon ağaçları Şubat'tan Mayıs'a kadar büyür, Haziran ve Temmuz aylarında çiçek açmaya başlar ve Ağustos ayında meyve verir.",
+      "title": "Limon Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir limon ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/lemon_branch[down=true,up=true]",
+            "1": "tfc:plant/lemon_branch[down=true,up=true]",
+            "2": "tfc:plant/lemon_branch[down=true,west=true]",
+            "3": "tfc:plant/lemon_branch[east=true,up=true]",
+            "L": "tfc:plant/lemon_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "olive",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:2) - $(cfg:temperature:23)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 250 - 450mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.olive.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.olive.hydration)%$(br2)Zeytin ağaçları Mart'tan Temmuz'a kadar büyür, Ağustos ve Eylül aylarında çiçek açmaya başlar ve Ekim ayında meyve verir.$(br2)Zeytinler, lambalarda yakıt olarak kullanılabilen $(l:mechanics/lamps#olives)Zeytinyağı$() üretmek için kullanılabilir.",
+      "title": "Zeytin Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir zeytin ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/olive_branch[down=true,up=true]",
+            "1": "tfc:plant/olive_branch[down=true,up=true]",
+            "2": "tfc:plant/olive_branch[down=true,west=true]",
+            "3": "tfc:plant/olive_branch[east=true,up=true]",
+            "L": "tfc:plant/olive_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "orange",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:9.2) - $(cfg:temperature:40)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 300 - 500mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.orange.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.orange.hydration)%$(br2)Portakal ağaçları Mart'tan Haziran'a kadar büyür, Temmuz ve Ağustos aylarında çiçek açmaya başlar ve Eylül ayında meyve verir.",
+      "title": "Portakal Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir portakal ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/orange_branch[down=true,up=true]",
+            "1": "tfc:plant/orange_branch[down=true,up=true]",
+            "2": "tfc:plant/orange_branch[down=true,west=true]",
+            "3": "tfc:plant/orange_branch[east=true,up=true]",
+            "L": "tfc:plant/orange_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "peach",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-3.4) - $(cfg:temperature:15.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 180 - 470mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.peach.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.peach.hydration)%$(br2)Şeftali ağaçları Aralık'tan Mart'a kadar büyür, Nisan ve Mayıs aylarında çiçek açmaya başlar ve Haziran ayında meyve verir.",
+      "title": "Şeftali Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir şeftali ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/peach_branch[down=true,up=true]",
+            "1": "tfc:plant/peach_branch[down=true,up=true]",
+            "2": "tfc:plant/peach_branch[down=true,west=true]",
+            "3": "tfc:plant/peach_branch[east=true,up=true]",
+            "L": "tfc:plant/peach_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "plum",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-7) - $(cfg:temperature:12.2)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 120 - 300mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.plum.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.plum.hydration)%$(br2)Erik ağaçları Ocak'tan Nisan'a kadar büyür, Mayıs ve Haziran aylarında çiçek açmaya başlar ve Temmuz ayında meyve verir.",
+      "title": "Erik Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir erik ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/plum_branch[down=true,up=true]",
+            "1": "tfc:plant/plum_branch[down=true,up=true]",
+            "2": "tfc:plant/plum_branch[down=true,west=true]",
+            "3": "tfc:plant/plum_branch[east=true,up=true]",
+            "L": "tfc:plant/plum_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "red_apple",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-10.6) - $(cfg:temperature:10.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 190 - 310mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.red_apple.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.red_apple.hydration)%$(br2)Kırmızı elma ağaçları Mart'tan Temmuz'a kadar büyür, Ağustos ve Eylül aylarında çiçek açmaya başlar ve Ekim ayında meyve verir.",
+      "title": "Kırmızı Elma Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir kırmızı elma ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "     ",
+              "  L  ",
+              "     ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L1L ",
+              "  L  ",
+              "     ",
+              "     "
+            ],
+            [
+              "  L  ",
+              " L3L ",
+              " L2L ",
+              "  L  ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  0  ",
+              "     ",
+              "     "
+            ],
+            [
+              "     ",
+              "     ",
+              "  1  ",
+              "     ",
+              "     "
+            ]
+          ],
+          "mapping": {
+            "0": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "1": "tfc:plant/red_apple_branch[down=true,up=true]",
+            "2": "tfc:plant/red_apple_branch[down=true,west=true]",
+            "3": "tfc:plant/red_apple_branch[east=true,up=true]",
+            "L": "tfc:plant/red_apple_leaves[lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "banana",
+      "text": "Can be found in regions with: $(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:temperature:11) - $(cfg:temperature:40)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Rainfall$(): 280 - 500mm$(br2)Conditions required for growth:$(br)$(bold)$(l:core_mechanics/climate#temperature)Temperature$(): $(cfg:climate.banana.temperature)$(br)$(bold)$(l:food/hydration)Hydration$(): $(cfg:climate.banana.hydration)%$(br2)Bananas grow only vertically, lack leaves, and only fruit at the topmost block. Saplings are dropped from the flowering part of the plant. Once a banana plant is harvested, it dies, and must be replanted in the spring.",
+      "title": "Muz Ağacı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir muz ağacı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=dormant]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=healthy]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=flowering]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "Y"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "Y": "tfc:plant/banana_plant[stage=2,lifecycle=fruiting]",
+            "X": "tfc:plant/banana_plant[stage=1]",
+            "0": "tfc:plant/banana_plant[stage=0]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Jan"
+        },
+        {
+          "text": "Feb"
+        },
+        {
+          "text": "Mar"
+        },
+        {
+          "text": "Apr"
+        },
+        {
+          "text": "May"
+        },
+        {
+          "text": "Jun"
+        },
+        {
+          "text": "Jul"
+        },
+        {
+          "text": "Aug"
+        },
+        {
+          "text": "Sep"
+        },
+        {
+          "text": "Oct"
+        },
+        {
+          "text": "Nov"
+        },
+        {
+          "text": "Dec"
+        },
+        {
+          "text": "Cherry"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Apple"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Lemon"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Olive"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Orange"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Peach"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "text": "Plum"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Banana"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "Meyve ağaçları için meyve verme takvimi.",
+      "title": "Meyve Ağaçları",
+      "legend": [
+        {
+          "text": "Dormant",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Healthy",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Flowering",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Fruiting",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "tall_bushes",
+      "text": "$(thing)Uzun Çalılar$(), her yöne büyüyebilen ve yayılabilen meyve bloklarıdır. Bunu ya doğrudan yukarıya doğru üç blok yüksekliğe kadar büyüyerek ya da yanlarına, tam çalı bloklarına dönüşebilen $(thing)kamışlar$() yerleştirerek yaparlar. Bir süre sonra çalılar yayılmayı durdurur ve olgunluğa erişir. Bu çalıları keskin bir aletle hasat etmek, yeni bir çalı düşürme şansı sağlar. Tamamen olgunlaşmış çalılar her zaman kendilerini düşürürler.",
+      "title": "Uzun Çalılar"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/berry_bush.png"
+      ],
+      "text": "Yabani bir uzun çalı.",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Uzun çalılar, kamışlarının kök salabileceği bir yer olduğunda yayılabilirler. Pratik olarak bu, yeni bir çalı yerleştirmek için altlarında sağlam bir blok olması gerektiği anlamına gelir. Çimen veya diğer kalıntılardan arındırılmış düz, açık bir alan sağlamak, büyümeleri için onlara en iyi şansı verir."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Çalılar, Meyve Ağaçları gibi, $(l:food/hydration)Hidrasyon$() ve $(l:core_mechanics/climate#temperature)Sıcaklık$() değerlerini belirlerken bitkinin taban bloğunu dikkate alırlar ve Yıllık Ortalama Yağış ve Sıcaklık doğru olduğu sürece büyürler. $(br)Herhangi bir tam çalı bloğu, $(item)$(k:key.use)$() ile hasat edilebilen meyveler verebilir."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blackberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-5.2) - $(cfg:temperature:19.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 200 - 500mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.blackberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.blackberry.hydration)%$(br2)Böğürtlen çalıları Şubat'tan Mayıs'a kadar büyür, Haziran ve Temmuz aylarında çiçek açmaya başlar ve Ağustos ayında meyve verir.$(br2)Az ağaçlı alanlarda bulunabilirler.",
+      "title": "Böğürtlen Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir böğürtlen çalısı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blackberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/blackberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/blackberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/blackberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "raspberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-10.6) - $(cfg:temperature:14)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 180 - 450mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.raspberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.raspberry.hydration)%$(br2)Ahududu çalıları Nisan'dan Temmuz'a kadar büyür, Ağustos ve Eylül aylarında çiçek açmaya başlar ve Ekim ayında meyve verir.$(br2)Az ağaçlı alanlarda bulunabilirler.",
+      "title": "Ahududu Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir ahududu çalısı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/raspberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/raspberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/raspberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/raspberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "blueberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-8.8) - $(cfg:temperature:8.6)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 150 - 400mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.blueberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.blueberry.hydration)%$(br2)Yaban mersini çalıları Şubat'tan Mayıs'a kadar büyür, Haziran ve Temmuz aylarında çiçek açmaya başlar ve Ağustos ayında meyve verir.$(br2)Az ağaçlı alanlarda bulunabilirler.",
+      "title": "Yaban Mersini Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir yaban mersini çalısı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/blueberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/blueberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/blueberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/blueberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "elderberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-5.2) - $(cfg:temperature:15.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 120 - 380mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.elderberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.elderberry.hydration)%$(br2)Mürver çalıları Şubat'tan Mayıs'a kadar büyür, Haziran ve Temmuz aylarında çiçek açmaya başlar ve Ağustos ayında meyve verir.$(br2)Az ağaçlı alanlarda bulunabilirler.",
+      "title": "Mürver Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Örnek bir mürver çalısı.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=dormant]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=dormant]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=dormant,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=dormant]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=healthy]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=healthy]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=healthy,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=healthy]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=flowering]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=flowering]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=flowering,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=flowering]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X "
+            ],
+            [
+              "YZ"
+            ],
+            [
+              "AZ"
+            ],
+            [
+              "0 "
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/elderberry_bush[stage=0,lifecycle=fruiting]",
+            "Y": "tfc:plant/elderberry_bush[stage=1,lifecycle=fruiting]",
+            "Z": "tfc:plant/elderberry_bush_cane[stage=0,lifecycle=fruiting,facing=south]",
+            "A": "tfc:plant/elderberry_bush[stage=2,lifecycle=fruiting]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Jan"
+        },
+        {
+          "text": "Feb"
+        },
+        {
+          "text": "Mar"
+        },
+        {
+          "text": "Apr"
+        },
+        {
+          "text": "May"
+        },
+        {
+          "text": "Jun"
+        },
+        {
+          "text": "Jul"
+        },
+        {
+          "text": "Aug"
+        },
+        {
+          "text": "Sep"
+        },
+        {
+          "text": "Oct"
+        },
+        {
+          "text": "Nov"
+        },
+        {
+          "text": "Dec"
+        },
+        {
+          "text": "Blackberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Raspberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Blueberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Elderberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "Büyük meyve çalıları için meyve verme takvimi.",
+      "title": "Büyük Meyve Çalıları",
+      "legend": [
+        {
+          "text": "Dormant",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Healthy",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Flowering",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Fruiting",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "small_bushes",
+      "text": "$(thing)Küçük Çalılar$(), ormanlarda ortaya çıkan bir tür alçak meyve bloğudur. Küçük çalılar, yakınlarda çok fazla başka çalı yoksa zaman zaman çevre bloklara yayılır.$(br2)Küçük çalılar üç boyuttan geçer ve büyüdüklerinde sadece $(item)$(k:key.use)$() ile hasat edilirler.",
+      "title": "Küçük Çalılar"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Sağlıklı bir küçük çalının üç farklı boyutu",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=0]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=1]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "bunchberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-14.2) - $(cfg:temperature:1.4)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 280 - 500mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.bunchberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.bunchberry.hydration)%$(br2)Bunchberry çalıları Mayıs'tan Temmuz'a kadar büyür, Ağustos ve Eylül aylarında çiçek açmaya başlar ve Ekim ayında meyve verir.$(br2)Ormanlarda bulunabilirler.",
+      "title": "Bunchberry Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Bir bunchberry çalısının aylık evreleri.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/bunchberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "gooseberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-7) - $(cfg:temperature:12.2)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 200 - 500mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.gooseberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.gooseberry.hydration)%$(br2)Bektaşi üzümü çalıları Nisan'dan Temmuz'a kadar büyür, Ağustos ve Eylül aylarında çiçek açmaya başlar ve Ekim ayında meyve verir.$(br2)Ormanlarda bulunabilirler.",
+      "title": "Bektaşi Üzümü Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Bir bektaşi üzümü çalısının aylık evreleri.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/gooseberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "snowberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-10.6) - $(cfg:temperature:5)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 200 - 500mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.snowberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.snowberry.hydration)%$(br2)Kar yemişi çalıları Mart'tan Haziran'a kadar büyür, Temmuz ve Ağustos aylarında çiçek açmaya başlar ve Eylül ayında meyve verir.$(br2)Ormanlarda bulunabilirler.",
+      "title": "Kar Yemişi Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Bir kar yemişi çalısının aylık evreleri.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/snowberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cloudberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-14.2) - $(cfg:temperature:6.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 80 - 320mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.cloudberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.cloudberry.hydration)%$(br2)Dut çalısı (Cloudberry) Şubat'tan Mayıs'a kadar büyür, Haziran'dan Ağustos'a kadar çiçek açmaya başlar ve Eylül ayında meyve verir.$(br2)Ormanlarda bulunabilirler.",
+      "title": "Dut Çalısı (Cloudberry)"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Bir dut çalısının (cloudberry) aylık evreleri.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cloudberry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "wintergreen_berry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-8.8) - $(cfg:temperature:6.8)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 100 - 370mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.wintergreen_berry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.wintergreen_berry.hydration)%$(br2)Wintergreen (keklik üzümü) çalıları Mayıs'tan Eylül'e kadar büyür, Ekim ve Kasım aylarında çiçek açmaya başlar ve Aralık ayında meyve verir.$(br2)Ormanlarda bulunabilirler.",
+      "title": "Wintergreen (Keklik Üzümü) Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Bir Wintergreen (keklik üzümü) çalısının aylık evreleri.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=dormant,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=healthy,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=flowering,stage=2]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/wintergreen_berry_bush[lifecycle=fruiting,stage=2]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "cranberry",
+      "text": "Şu özelliklere sahip bölgelerde bulunabilir: $(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:temperature:-14.2) - $(cfg:temperature:8.6)$(br)$(bold)$(l:core_mechanics/climate#rainfall)Yağış$(): 250 - 500mm$(br2)Büyüme için gereken koşullar:$(br)$(bold)$(l:core_mechanics/climate#temperature)Sıcaklık$(): $(cfg:climate.cranberry.temperature)$(br)$(bold)$(l:food/hydration)Hidrasyon$(): $(cfg:climate.cranberry.hydration)%$(br2)Turna yemişi (cranberry) çalıları Mart'tan Haziran'a kadar büyür, Temmuz ve Ağustos aylarında çiçek açmaya başlar ve Eylül ayında meyve verir.$(br2)Ormanlarda bulunabilirler. Çoğu küçük çalının aksine, turna yemişi çalıları su altında yetiştirilir.",
+      "title": "Turna Yemişi Çalısı"
+    },
+    {
+      "type": "tfc:multimultiblock",
+      "text": "Bir turna yemişi çalısının aylık evreleri.",
+      "multiblocks": [
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=dormant,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=healthy,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=flowering,stage=2,fluid=water]"
+          }
+        },
+        {
+          "pattern": [
+            [
+              "X"
+            ],
+            [
+              "0"
+            ]
+          ],
+          "mapping": {
+            "X": "tfc:plant/cranberry_bush[lifecycle=fruiting,stage=2,fluid=water]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Jan"
+        },
+        {
+          "text": "Feb"
+        },
+        {
+          "text": "Mar"
+        },
+        {
+          "text": "Apr"
+        },
+        {
+          "text": "May"
+        },
+        {
+          "text": "Jun"
+        },
+        {
+          "text": "Jul"
+        },
+        {
+          "text": "Aug"
+        },
+        {
+          "text": "Sep"
+        },
+        {
+          "text": "Oct"
+        },
+        {
+          "text": "Nov"
+        },
+        {
+          "text": "Dec"
+        },
+        {
+          "text": "Bunchberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Gooseberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Snowberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Cloudberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Wintergreen"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "text": "Cranberry"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "Küçük meyve çalıları için meyve verme takvimi.",
+      "title": "Küçük Meyve Çalıları",
+      "legend": [
+        {
+          "text": "Dormant",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Healthy",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Flowering",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Fruiting",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4,
+  "extra_recipe_mappings": {
+    "tfc:food/cherry": 8,
+    "tfc:plant/cherry_sapling": 8,
+    "tfc:food/green_apple": 10,
+    "tfc:plant/green_apple_sapling": 10,
+    "tfc:food/lemon": 12,
+    "tfc:plant/lemon_sapling": 12,
+    "tfc:food/olive": 14,
+    "tfc:plant/olive_sapling": 14,
+    "tfc:food/orange": 16,
+    "tfc:plant/orange_sapling": 16,
+    "tfc:food/peach": 18,
+    "tfc:plant/peach_sapling": 18,
+    "tfc:food/plum": 20,
+    "tfc:plant/plum_sapling": 20,
+    "tfc:food/red_apple": 22,
+    "tfc:plant/red_apple_sapling": 22,
+    "tfc:food/banana": 24,
+    "tfc:plant/banana_sapling": 24,
+    "tfc:food/blackberry": 32,
+    "tfc:plant/blackberry_bush": 32,
+    "tfc:food/raspberry": 34,
+    "tfc:plant/raspberry_bush": 34,
+    "tfc:food/blueberry": 36,
+    "tfc:plant/blueberry_bush": 36,
+    "tfc:food/elderberry": 38,
+    "tfc:plant/elderberry_bush": 38,
+    "tfc:food/bunchberry": 44,
+    "tfc:plant/bunchberry_bush": 44,
+    "tfc:food/gooseberry": 46,
+    "tfc:plant/gooseberry_bush": 46,
+    "tfc:food/snowberry": 48,
+    "tfc:plant/snowberry_bush": 48,
+    "tfc:food/cloudberry": 50,
+    "tfc:plant/cloudberry_bush": 50,
+    "tfc:food/wintergreen_berry": 52,
+    "tfc:plant/wintergreen_berry_bush": 52,
+    "tfc:food/cranberry": 54,
+    "tfc:plant/cranberry_bush": 54
+  }
+}

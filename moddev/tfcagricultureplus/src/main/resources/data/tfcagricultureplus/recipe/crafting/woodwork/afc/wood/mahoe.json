@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/log/mahoe"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bark/mahoe"
+    }
+  },
+  "result": {
+    "id": "afc:wood/wood/mahoe",
+    "count": 1
+  }
+}

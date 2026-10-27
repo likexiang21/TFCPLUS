@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "y": 270,
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/tualang"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/tualang"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/tualang"
+    },
+    "facing=north": {
+      "model": "tfcagricultureplus:block/kitchen_storage/spice_rack/tualang"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item":"tfcagricultureplus:silkworm_egg"}
+  ],
+  "result": {"id":"tfcagricultureplus:silkworm","count":1}
+}

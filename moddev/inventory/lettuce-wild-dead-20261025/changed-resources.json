@@ -1,0 +1,7 @@
+[
+  "models/block/wild_crop/lettuce.json",
+  "models/block/wild_crop/lettuce_young.json",
+  "models/block/dead_crop/lettuce.json",
+  "models/block/dead_crop/lettuce_young.json",
+  "blockstates/wild_crop/lettuce.json"
+]

@@ -1,0 +1,15 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/palm"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:half_cabinet/palm",
+    "count": 1
+  },
+  "pattern": [
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

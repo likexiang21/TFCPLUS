@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/sorb_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/sorb_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/sorb_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/sorb_fruiting_leaves"}}}

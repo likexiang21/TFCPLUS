@@ -1,0 +1,16 @@
+{
+  "PriorNativeOnlyCropSpecies": 75,
+  "CurrentNativeOnlyCropSpecies": 74,
+  "PriorNativeSeedModelCount": 85,
+  "CurrentNativeSeedModelCount": 85,
+  "Derivation": "251号历史基线及本片精确差异；菠菜种子仍复用TFC散粒素材，不能虚减原生图标计数。",
+  "StoredSpinachIconsAdopted": false,
+  "FoodTexture": "tfcfarmingplus:item/food/kale",
+  "SeedTexture": "tfc:item/seeds/lentil",
+  "PlanterLastTwoStagesShareTexture": true,
+  "UniqueSpinachIconsAndMaturePlanterArt": "pending",
+  "PNGEdits": 0,
+  "GameplayChanges": 0,
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

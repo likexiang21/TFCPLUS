@@ -1,0 +1,143 @@
+[
+  {
+    "Case": "valid",
+    "ExitCode": 0,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-brussels_sprouts",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-chive",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-malabar_spinach",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-water_dropwort",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-water_caltrop",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-water_chestnut",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-water_shield",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-supplier-water_spinach",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-brussels_sprouts",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-malabar_spinach",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-water_dropwort",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-water_chestnut",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-water_shield",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wrong-stored-water_spinach",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-brussels_sprouts",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-chive",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-malabar_spinach",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-water_dropwort",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-water_caltrop",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-water_chestnut",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-water_shield",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-art-water_spinach",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "b-shadows-art",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "water-caltrop-nutrition",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "prior-lotus-regression",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "unprotected-32",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "safe-copy-thirtyfive-json-only",
+    "Files": 35,
+    "ByteIdentical": true,
+    "Passed": true
+  }
+]

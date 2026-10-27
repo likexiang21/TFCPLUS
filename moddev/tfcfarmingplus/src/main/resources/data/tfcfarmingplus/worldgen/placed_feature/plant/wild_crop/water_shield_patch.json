@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/water_shield_patch","placement":[{"type":"tfc:climate","min_temperature":10,"max_temperature":30,"min_groundwater":320,"max_groundwater":400},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

@@ -1,0 +1,6 @@
+{
+  "parent": "tfcagricultureplus:block/kitchen_storage/spice_rack",
+  "textures": {
+    "all": "tfc:block/wood/planks/aspen"
+  }
+}

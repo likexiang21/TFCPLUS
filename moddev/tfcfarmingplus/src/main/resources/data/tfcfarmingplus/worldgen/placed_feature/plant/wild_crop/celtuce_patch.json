@@ -1,0 +1,1 @@
+{"feature":"tfcfarmingplus:plant/wild_crop/celtuce_patch","placement":[{"type":"tfc:climate","min_temperature":5,"max_temperature":24,"min_groundwater":200,"max_groundwater":360},{"type":"minecraft:in_square"},{"type":"minecraft:rarity_filter","chance":90}]}

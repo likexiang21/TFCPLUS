@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+    modId = "${modId}"
+    version = "${modVersion}"
+    displayName = "TFC Farming Plus"
+    authors = "dsh"
+    # ⚠️ 这里必须保持纯 ASCII：该文件要经过 Gradle 的 expand 处理，
+    #    而 ProcessResources 的 filteringCharset 默认是【平台编码】而非 UTF-8，
+    #    写中文会被按 GBK 解码再写出，产物里出现非法 UTF-8 字节，
+    #    FML 会直接报 "is not a valid mod file / MalformedInputException" 拒收整个 jar。
+    #    中文名（TFC农业+）放在 assets/tfcfarmingplus/lang/*.json 里，游戏内显示。
+    description = '''TFC Farming Plus (TFC农业+) - farming expansion for TerraFirmaCraft: berry bushes, leafy crops, wild crops and an in-game handbook.'''
+
+[[dependencies.${modId}]]
+    modId = "tfc"
+    type = "required"
+    versionRange = "${tfcVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "patchouli"
+    type = "required"
+    versionRange = "${patchouliVersionRange}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "${neoForgeVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraftVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"

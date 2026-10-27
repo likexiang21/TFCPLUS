@@ -1,0 +1,15 @@
+{
+  "key": {
+    "P": {
+      "item": "afc:wood/planks/ironwood"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:half_cabinet/ironwood",
+    "count": 1
+  },
+  "pattern": [
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

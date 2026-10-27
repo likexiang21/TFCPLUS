@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "afc:wood/stripped_log/teak"
+    },
+    "Y": {
+      "item": "tfcagricultureplus:bast/teak"
+    }
+  },
+  "result": {
+    "id": "afc:wood/stripped_wood/teak",
+    "count": 1
+  }
+}

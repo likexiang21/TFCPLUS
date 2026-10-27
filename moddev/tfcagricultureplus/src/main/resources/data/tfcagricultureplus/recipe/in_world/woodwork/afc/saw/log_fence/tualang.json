@@ -1,0 +1,40 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "acceptableStates": [
+      {
+        "Name": "afc:wood/log/tualang",
+        "Properties": {
+          "axis": "y",
+          "branch_direction": "none"
+        }
+      }
+    ],
+    "block": "afc:wood/log/tualang"
+  },
+  "tool": "saw",
+  "result_items": [
+    {
+      "action": "drop_center",
+      "item": {
+        "count": 4,
+        "id": "afc:wood/log_fence/tualang"
+      }
+    },
+    {
+      "action": "drop_center",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:sawdust"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "minecraft:air"
+  },
+  "sound": {
+    "sound": "tfcagricultureplus:wood_sawed",
+    "volume": 0.6,
+    "pitch": 1.0
+  }
+}

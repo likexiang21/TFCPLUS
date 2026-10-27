@@ -1,0 +1,16 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/birch"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:spice_rack/birch",
+    "count": 1
+  },
+  "pattern": [
+    "P P",
+    "PPP"
+  ],
+  "type": "minecraft:crafting_shaped"
+}

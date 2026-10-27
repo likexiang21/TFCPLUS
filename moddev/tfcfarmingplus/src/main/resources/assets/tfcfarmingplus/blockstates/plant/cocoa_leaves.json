@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/cocoa_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/cocoa_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/cocoa_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/cocoa_fruiting_leaves"}}}

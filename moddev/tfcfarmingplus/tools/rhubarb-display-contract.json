@@ -1,0 +1,84 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-AG native16 rhubarb complete display; artwork/runtime approval pending",
+  "ReviewedJsonSha256": {
+    "assets/tfcfarmingplus/blockstates/crop/rhubarb.json": "800C7975750BAA85092B59FDD469943F3D30CFE9DEE6A7C2696E8DD50E86FC69",
+    "assets/tfcfarmingplus/blockstates/dead_crop/rhubarb.json": "D9968DA12F0EC06ACB22ACE026953A23A990FDD9AF3A6AE97FC6DF08DDDB0441",
+    "assets/tfcfarmingplus/blockstates/wild_crop/rhubarb.json": "54B19F1D251877E618E8A4CCECB2475A30239E97CCF3085E0A56A9A97D10D1A2",
+    "assets/tfcfarmingplus/models/block/crop/rhubarb_age_0.json": "65657B34C64148B92962FD65FB03A229FC429327042F71F681710BD1437D11AF",
+    "assets/tfcfarmingplus/models/block/crop/rhubarb_age_1.json": "9BD3CEBF4D630928EB46C15AC6932E37D277E9C17F3580868A368D3A07919ABD",
+    "assets/tfcfarmingplus/models/block/crop/rhubarb_age_2.json": "0B62C17969ADA749157547218DC82E1A0D7E3927146264668030116B79B1319A",
+    "assets/tfcfarmingplus/models/block/crop/rhubarb_age_3.json": "73A3B4A242FCF84A01AB3B5E13A50878C8DE290EBFFB33DB724DCE0AB31EC61B",
+    "assets/tfcfarmingplus/models/block/crop/rhubarb_age_4.json": "B8D160F738105AA326386D6C9C5051926335988B9E0F432F8B85C9CF4D63CC6F",
+    "assets/tfcfarmingplus/models/block/crop/rhubarb_age_5.json": "7D324F1FD36503B809C08F4682143DE8E57CAB11F9D01D4B329FF8E5AC7A963A",
+    "assets/tfcfarmingplus/models/block/dead_crop/rhubarb.json": "BA472BBA6C2A5EDF415CE9F73CB61CE82F3BD2D3BC48BB449C67672B7C70903A",
+    "assets/tfcfarmingplus/models/block/dead_crop/rhubarb_young.json": "CB4BBF92005CED2AA3AB7515E0AC129195650CCD23F4FC31DDF45ACAF66AC0B8",
+    "assets/tfcfarmingplus/models/block/wild_crop/rhubarb.json": "764125D5485E04EFD28F339941AABD912199230E1988311D457871FE37E5A8EF",
+    "assets/tfcfarmingplus/models/block/wild_crop/rhubarb_young.json": "063DB200BA754ECE0BBA4649FA2CC703BAB4E0AF2A0D341FB43BF5C2E9D380AB",
+    "assets/tfcfarmingplus/models/item/food/rhubarb.json": "BB13A7485714334FD8C4D2B482FBB74FB84B4D4F12B1D1A69BB7FDCE7F13A10A",
+    "assets/tfcfarmingplus/models/item/seeds/rhubarb.json": "00DA24AEC521ABA1CC0A08E5653A46C6DE6BE4612EEE55554C9C1E972D692F30",
+    "assets/tfcfarmingplus/models/item/wild_crop/rhubarb.json": "718FC44912B16836FE27D8DCFFDCEADC8F62633F60414B290C2A800B6D940E04",
+    "data/firmalife/firmalife/plantable/rhubarb.json": "43AEE33044250A34128C0AAA326259306D268B024E7B021E2F23C61F10502D2C"
+  },
+  "ProtectedTextureSha256": {
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_0.png": "D02FFAD5B3623FAD4FD95A39FBC89C8D4614F1B56E12047DEDC4F61C4F87DBCC",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_0_petioles_v1.png": "F36F88397BDF2A810E392CE71000853FCE6863EA9D44AEA4588DCFDBA50F3D03",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_1.png": "2E963445CE58F4CEB254AFF516EDFB8E26FF2BEA7177F3B86D8F1290CB8F6134",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_1_petioles_v1.png": "3EBA5D887E75A7A9F199A79823E0EBBBE6552E9621E31EAF65950CBB771B69F4",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_2.png": "70291DAA1BDB359B1B9DC561BC2459DA5434A014B7E732B9EF18F029541738D7",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_2_petioles_v1.png": "84787354217325EE1BED80C3B8FA9B589613185137B7C47D2E35CC3153F848BE",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_3.png": "FDAA9BC1499A2A6E3B4B06095BB4E7E128A8D2710D8106CD1D2C1B1B10264ED4",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_3_petioles_v1.png": "E575A3CD08AD6EC004AB4B8DE0F5335A924C7436834DC2946371947E355CF430",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_4.png": "E73E6F686435D1117250DF2B4CF9E8B49D766908462CECAA163E416597432501",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_4_petioles_v1.png": "87AA94FD1D86097510AD469EB377F150F59D7B000621209AD9D09B8FB22E86A1",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_5.png": "4CA56ED7F802F6E994DFA0D77EC5FF8F206D6EA67D91BCACB87A7C5D1C5B82F0",
+    "assets/tfcfarmingplus/textures/block/crop/rhubarb_age_5_petioles_v1.png": "36581088C043F562E6D62BEEE854C0E4CF095C46E62B860477720800A2ABC98D",
+    "assets/tfcfarmingplus/textures/block/dead_crop/rhubarb.png": "A2D6131002CE42B69622C3EACF1E200B271F9104E3659FFEE0DB194B273407AB",
+    "assets/tfcfarmingplus/textures/block/dead_crop/rhubarb_petioles_v1.png": "C4D7F1C0EF61528A3862EBF166D64EBE57DAC2BC2C509E92FC2FBDE8A94C94AA",
+    "assets/tfcfarmingplus/textures/block/dead_crop/rhubarb_young.png": "9460BB0E0875B7D16E2E6CA21015074EEF8D50174EC21DDD5C251F4C57151651",
+    "assets/tfcfarmingplus/textures/block/dead_crop/rhubarb_young_petioles_v1.png": "6F86FC5DC8E78C41A354DF7C96275E9D80D26B6B9F6C0CF3E7490CABC81B12DD",
+    "assets/tfcfarmingplus/textures/block/wild_crop/rhubarb.png": "BBE30D8FA33991E3C5945CC1C3F8A91B76AF5DA9C9B89D6C92CF8184520983CE",
+    "assets/tfcfarmingplus/textures/item/food/rhubarb.png": "D3A8086EE93DB7E70D3DFC3AD64C045DB6E3E0F94D690A600C51501A98B19CE6",
+    "assets/tfcfarmingplus/textures/item/food/rhubarb_harvest_v2.png": "47C8C27A9CDAC4E07D7DFDDBA9D182638BA3F0D9977305CEE62AFEC814859E66",
+    "assets/tfcfarmingplus/textures/item/seeds/rhubarb.png": "0EAA7C2A5C1241FEE428965F146E09F06ABEF5F20E483FC6454B030ECD4E389C"
+  },
+  "ProtectedGameplaySha256": {
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/rhubarb.json": "AA21AA3CAC34809CAC52F0D95756BFE473A182213C29170324A6A8CC40A6849B",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/dead_crop/rhubarb.json": "5420A9FA2350F9BC5FC8220E8CE21D4D1B9AC21F083EB2EED19CCCD0CB192883",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/rhubarb.json": "0300941C0CCDE14159278503388A13156C887CEE6D0086DBC90F3FC1AFF4F08D",
+    "src/main/resources/data/tfcfarmingplus/tfc/climate_range/crop/rhubarb.json": "B762C30526D0DF0268718F87E1CD8EC837C470DE5077C65D45A88664551800DD",
+    "src/main/resources/data/tfcfarmingplus/tfc/food/rhubarb.json": "B7C6B37AB69AED4B37A49768EE0ED508A8D2CC5CF23D8ED27CDA8B6CC1D7E6C5",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/rhubarb.json": "490469C89B91EDA51742F87A69C27AFC502876348CF2B1313314D84726E20C12",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/rhubarb_patch.json": "DADB01A2C4081245820F01FB2CF652BDBFE96714237FD3F518B1580AF7D4C17B",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/rhubarb.json": "C1FDD50099D5FB3FDC1F873146B12D6BDC3E8F007F32CF058D23B6F07F412423",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/rhubarb_patch.json": "0F2F0FE6D3AD3FC367C815AC2A853EF38CD7E7BC291D97E690BE01B9857CF885",
+    "src/main/java/com/example/tfcfarmingplus/common/MyCrops.java": "C0C7D9738E3D5AD0157CF8D0D2D40C8909F2F2C781E7265DA5F8B0A3E8FFCD70",
+    "src/main/java/com/example/tfcfarmingplus/common/MyWildCrops.java": "0CCEA1ADEE8D1C534A2DE45E057E93D78B6191A443F0FE51FC68B50933239B2D",
+    "src/main/java/com/example/tfcfarmingplus/common/blocks/MyCropBlock.java": "AE9786D90DB5AE09772BBD35F800E5250B8F044CD6B66A1A66E9159BE8190DDF",
+    "src/main/java/com/example/tfcfarmingplus/common/blocks/MyPickableCropBlock.java": "AD3A29455E29BBB233261A3897B154204EC633F975CB99DBC7807FF52E6BDAEC"
+  },
+  "PlanterStageTextures": [
+    "tfcfarmingplus:block/crop/rhubarb_age_0_petioles_v1",
+    "tfcfarmingplus:block/crop/rhubarb_age_1_petioles_v1",
+    "tfcfarmingplus:block/crop/rhubarb_age_2_petioles_v1",
+    "tfcfarmingplus:block/crop/rhubarb_age_3_petioles_v1",
+    "tfcfarmingplus:block/crop/rhubarb_age_4_petioles_v1",
+    "tfcfarmingplus:block/crop/rhubarb_age_5_petioles_v1"
+  ],
+  "NativeDependency": {
+    "Jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Files": [
+      {
+        "Path": "assets/tfc/models/block/wild_crop/crop.json",
+        "SHA256": "8EF33918260610034C01AD995C1470AE20E5866C70965D7C6CD9AA7B076DB605"
+      },
+      {
+        "Path": "assets/tfc/textures/block/crop/wild_crop_grass.png",
+        "SHA256": "F1AA771D097BD9504FA432A535A74F10135752FC99388CC306ADDE85D536D1CB"
+      }
+    ]
+  },
+  "PixelSourceRule": "Eight explicit 16x16 grids;64 is exact4x nearest preview,workspace only.",
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

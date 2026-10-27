@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"tfcagricultureplus:block/knife_block/willow"},"facing=east":{"model":"tfcagricultureplus:block/knife_block/willow","y":90},"facing=south":{"model":"tfcagricultureplus:block/knife_block/willow","y":180},"facing=west":{"model":"tfcagricultureplus:block/knife_block/willow","y":270}}}

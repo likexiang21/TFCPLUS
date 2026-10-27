@@ -1,0 +1,9 @@
+{
+  "parent": "tfcfarmingplus:block/crop/leafball_age_3",
+  "textures": {
+    "0": "tfcfarmingplus:block/crop/cauliflower_leafball_3",
+    "1": "tfcfarmingplus:block/crop/cauliflower_leafball_head_top",
+    "2": "tfcfarmingplus:block/crop/cauliflower_leafball_head",
+    "particle": "#0"
+  }
+}

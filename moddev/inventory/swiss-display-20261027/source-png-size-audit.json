@@ -1,0 +1,22 @@
+{
+  "Counts": {
+    "tfcfarmingplus": {
+      "(16, 16)": 1785
+    },
+    "tfcagricultureplus": {
+      "(18, 18)": 1,
+      "(16, 16)": 57
+    }
+  },
+  "Non16": [
+    {
+      "Module": "tfcagricultureplus",
+      "Path": "assets/tfcagricultureplus/textures/gui/silkworm_slot.png",
+      "Size": [
+        18,
+        18
+      ]
+    }
+  ],
+  "Scope": "All A/B source PNGs; GUI/atlases distinguished from single crop sprites; no resizing applied"
+}

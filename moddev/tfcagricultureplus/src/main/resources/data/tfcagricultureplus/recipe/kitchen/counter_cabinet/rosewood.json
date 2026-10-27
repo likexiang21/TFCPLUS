@@ -1,0 +1,17 @@
+{
+  "key": {
+    "P": {
+      "item": "tfc:wood/planks/rosewood"
+    }
+  },
+  "result": {
+    "id": "tfcagricultureplus:counter_cabinet/rosewood",
+    "count": 1
+  },
+  "pattern": [
+    "PPP",
+    "PPP",
+    "   "
+  ],
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "Case": "valid",
+    "ExitCode": 0,
+    "Passed": true
+  },
+  {
+    "Case": "borrowed-mature",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-head",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "head-occlusion",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "third-part",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "dead-maize",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wild-barley",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "wild-grass-override",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "planter-barley",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "planter-reward",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "missing-flower-png",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "changed-unused-art",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "old-food-icon",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "seed-route",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "b-shadow",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "java-age",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "invalid-rotation",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "degenerate-face",
+    "ExitCode": 1,
+    "Passed": true
+  },
+  {
+    "Case": "safe-sunflower",
+    "Files": 21,
+    "ByteIdentical": true,
+    "Passed": true
+  },
+  {
+    "Case": "safe-spinach",
+    "Files": 17,
+    "ByteIdentical": true,
+    "Passed": true
+  },
+  {
+    "Case": "safe-icons",
+    "Files": 44,
+    "ByteIdentical": true,
+    "Passed": true
+  }
+]

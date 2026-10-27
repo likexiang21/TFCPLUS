@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/hazelnut_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/hazelnut_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/hazelnut_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/hazelnut_fruiting_leaves"}}}

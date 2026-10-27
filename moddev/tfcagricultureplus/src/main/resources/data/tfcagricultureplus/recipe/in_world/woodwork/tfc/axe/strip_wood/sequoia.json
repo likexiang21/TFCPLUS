@@ -1,0 +1,35 @@
+{
+  "type": "tfcagricultureplus:in_world",
+  "input_state": {
+    "block": "tfc:wood/wood/sequoia"
+  },
+  "tool": "axe",
+  "result_items": [
+    {
+      "action": "drop_cardinal",
+      "item": {
+        "count": 1,
+        "id": "tfcagricultureplus:bark/sequoia"
+      }
+    },
+    {
+      "action": "drop_above",
+      "item": {
+        "count": 2,
+        "id": "tfcagricultureplus:bark/sequoia"
+      }
+    }
+  ],
+  "result_state": {
+    "Name": "tfc:wood/stripped_wood/sequoia",
+    "Properties": {
+      "axis": "y",
+      "branch_direction": "none"
+    }
+  },
+  "sound": {
+    "sound": "minecraft:item.axe.strip",
+    "volume": 1.0,
+    "pitch": 1.0
+  }
+}

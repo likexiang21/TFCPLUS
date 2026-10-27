@@ -1,0 +1,9 @@
+{
+  "decay_modifier": 3.5,
+  "hunger": 2.5,
+  "ingredient": {
+    "item": "tfcagricultureplus:sawdust_soup"
+  },
+  "saturation": 1.5,
+  "water": 2
+}

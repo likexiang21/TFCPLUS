@@ -1,0 +1,1 @@
+{"variants":{"lifecycle=healthy":{"model":"tfcfarmingplus:block/plant/avocado_leaves"},"lifecycle=dormant":{"model":"tfcfarmingplus:block/plant/avocado_dry_leaves"},"lifecycle=flowering":{"model":"tfcfarmingplus:block/plant/avocado_flowering_leaves"},"lifecycle=fruiting":{"model":"tfcfarmingplus:block/plant/avocado_fruiting_leaves"}}}
