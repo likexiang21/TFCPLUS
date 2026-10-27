@@ -1,9 +1,9 @@
 # 273 命名与文件结构整理需求
 
 > 记录日期：2026-10-27
-> 状态：**需求与执行计划**；本文只定义整理要求，尚未迁移源码、资源、工具或历史目录。
-> 新树执行记录：[274 号重构记录](274-rebuild-log-20261027.md)。本目录中的 273 是重构前需求，实际 Java/包结构已按本要求执行；变量级清理与资源路径分层仍未完成。
-> 关联：[233 号可读性计划](233-final-code-readability-and-structure-plan-20261024.md)、[271 号大黄交接](271-ar4ag-rhubarb-native16-display-20261027.md)、[272 号暂停记录](272-github-snapshot-and-development-pause-20261027.md)、[CURRENT_DELIVERY.json](../../CURRENT_DELIVERY.json)。
+> 状态：**需求与执行计划**；本文定义整理要求；实际 Java/包结构、变量清理和资源路径分层已按 274/275 执行一部分，剩余项以 279 和 273 §验收为准。
+> 新树执行记录：[274 号重构记录](274-rebuild-log-20261027.md)、[275 号资源分层](275-resource-path-taxonomy-20261027.md)、[279 号协议/代码修复](279-protocol-code-fixes-20261028.md)。本目录中的 273 是重构前需求；`_vN`、INDEX/STATUS 和验收脚本仍未全部完成。
+> 关联：[233 号可读性计划](233-final-code-readability-and-structure-plan-20261024.md)、[271 号大黄交接](271-ar4ag-rhubarb-native16-display-20261027.md)、[272 号暂停记录](272-github-snapshot-and-development-pause-20261027.md)、工作区根 `CURRENT_DELIVERY.json`（不在本分支）。
 > 适用范围：A `tfcfarmingplus`、B `tfcagricultureplus`、资源、`tools`、`docs`、`inventory`、根级交接文件。
 > 硬边界：**mod id、注册 ID、资源标识符、NBT/序列化字段、旧存档兼容不因整理而改变**。
 > ⚠️ 资源目录修正：**blockstate 文件路径与注册 ID 绑定**，不能仅按目录重排；§3.4 中的 blockstates 分类是模型/贴图的目标分类，blockstates 迁移必须与注册 ID 迁移一起设计，当前新树未执行。

@@ -38,7 +38,7 @@ import net.minecraft.world.phys.BlockHitResult;
  * 它们会像 TFC 黑莓那样向相邻方块蔓延出藤蔓（{@code companion} 即配套的 {@code *_bush_cane} 方块），
  * 长满 {@code maxHeight} 格后停止，果实结在藤蔓上。
  * <p>
- * 构造器照抄 TFC {@code FruitBlocks.SpreadingBush.createBush()} 的参数顺序：
+ * 构造器参数顺序参考 TFC {@code FruitBlocks.SpreadingBush.createBush()} 的公开 API 约定：
  * {@code (properties, productItem, stages, companion, maxHeight, climateRange)}。
  * <p>
  * 覆写 {@link #getDeadState} 的理由与 {@link FarmingBerryBushBlock} 完全相同：

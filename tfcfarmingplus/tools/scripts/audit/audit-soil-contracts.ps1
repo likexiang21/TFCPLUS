@@ -18,7 +18,7 @@ Check ($seeds.Count -eq 87 -and $blocks.Count -eq 87) 'Expected 87 seed/block nu
 $byName=@{};foreach($b in $blocks){$byName[$b.Groups[2].Value]=$b}
 Check ($byName.Count -eq 87 -and @(Compare-Object @($byName.Keys|Sort-Object) @($manifest.crops.name|Sort-Object)).Count -eq 0) 'Nutrient scope must match 87 registered crop forms.'
 $templates=@{};foreach($tool in @('gen-crops.ps1','gen-patchouli-book.ps1')){
-    $s=Get-Content -LiteralPath (Join-Path $module "tools/$tool") -Raw -Encoding UTF8;$table=@{}
+    $s=Get-Content -LiteralPath (Join-Path $module "tools/scripts/generate/$tool") -Raw -Encoding UTF8;$table=@{}
     foreach($m in [regex]::Matches($s,"n='([a-z_]+)'[^\r\n]*?npk='([^']+)'")){$table[$m.Groups[1].Value]=@($m.Groups[2].Value -split '/'|ForEach-Object{[double]::Parse($_.Trim(),[Globalization.CultureInfo]::InvariantCulture)})};$templates[$tool]=$table
 }
 $seedCode=Get-Content -LiteralPath (Join-Path $common 'item/FarmingSeedItem.java') -Raw -Encoding UTF8

@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"tfcagricultureplus:whole_pie"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

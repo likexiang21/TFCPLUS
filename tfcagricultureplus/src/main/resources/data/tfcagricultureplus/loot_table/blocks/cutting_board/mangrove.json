@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"tfcagricultureplus:cutting_board/mangrove"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

@@ -7,17 +7,32 @@ val modVersion = "0.1.0"
 val minecraftVersion = "1.21.1"
 val neoForgeVersion = "21.1.233"
 
-// 本机 mods 目录（离线依赖方案：直接引用发行 jar，类名为 mojmap 可直接编译）。
-// 从项目位置解析，避免迁移电脑后仍指向旧工作区。
-val modsDir = rootProject.projectDir.resolve("../../mods").canonicalPath
+// 本机 mods 目录（支持工作区旧布局、分支根布局或显式 TFC_MODS_DIR）。
+val modsDir = System.getenv("TFC_MODS_DIR")
+    ?: listOf(
+        rootProject.projectDir.resolve("../../mods"),
+        rootProject.projectDir.resolve("../mods"),
+        rootProject.projectDir.resolve("mods"),
+    ).map { it.canonicalFile }.firstOrNull { it.isDirectory }?.path
+    ?: error("[tfcfarmingplus] no mods directory found; set TFC_MODS_DIR or place mods/ next to the repo")
 
-// 🆕 2026-09-28 整理：改为「自动取最新版」
-//   ⚠️ 旧版硬编码 `TerraFirmaCraft-...-4.2.10.jar`，而 mods 目录里早已是 4.2.11
-//      ⇒ `files()` 指向不存在的文件不报错，但**编译期会因找不到 `net.dries007.tfc.*` 而失败**（已实测）。
-//   规则：取以指定前缀开头的 jar 中**文件名最大**的那个（版本号字典序 = 语义序）。
+// 版本按数字段排序，避免 4.2.9 被文件名字典序误判为大于 4.2.11。
+fun versionKey(name: String): List<Int> =
+    Regex("\\d+").findAll(name).map { it.value.toIntOrNull() ?: 0 }.toList()
+
+fun compareJarNames(left: String, right: String): Int {
+    val a = versionKey(left)
+    val b = versionKey(right)
+    for (i in 0 until maxOf(a.size, b.size)) {
+        val result = a.getOrElse(i) { 0 }.compareTo(b.getOrElse(i) { 0 })
+        if (result != 0) return result
+    }
+    return left.compareTo(right)
+}
+
 fun latestJar(prefix: String): String {
     val jar = File(modsDir).listFiles { f -> f.name.startsWith(prefix) && f.name.endsWith(".jar") }
-        ?.maxByOrNull { it.name }
+        ?.maxWithOrNull(Comparator { a, b -> compareJarNames(a.name, b.name) })
         ?: error("[tfcfarmingplus] no jar starting with '$prefix' found in: $modsDir")
     // NOTE: keep this message ASCII-only — the Gradle console here is GBK, CJK comes out garbled.
     logger.lifecycle("[tfcfarmingplus] using dependency: ${jar.name}")

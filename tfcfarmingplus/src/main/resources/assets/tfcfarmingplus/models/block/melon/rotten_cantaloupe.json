@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/melon"}
+{"parent":"minecraft:block/melon","textures":{"side":"tfcfarmingplus:block/melon/rotten_cantaloupe_fruit_side","end":"tfcfarmingplus:block/melon/rotten_cantaloupe_fruit_top","particle":"tfcfarmingplus:block/melon/rotten_cantaloupe_fruit_side"}}

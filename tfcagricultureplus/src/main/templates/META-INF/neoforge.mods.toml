@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-license = "MIT"
+license = "EUPL-1.2"
 
 [[mixins]]
 config = "tfcagricultureplus.mixins.json"
@@ -9,7 +9,7 @@ config = "tfcagricultureplus.mixins.json"
 modId = "${modId}"
 version = "${modVersion}"
 displayName = "TFC Agriculture Plus"
-authors = "dsh"
+authors = "likexiang21"
 description = '''TFC Agriculture Plus - the food processing overhaul layer built on top of TFC Farming Plus. Adds cooking utensils, moulds, kitchen furniture, seasoning and 12 new food categories.'''
 
 [[dependencies.${modId}]]
@@ -30,6 +30,13 @@ description = '''TFC Agriculture Plus - the food processing overhaul layer built
     modId = "firmalife"
     type = "required"
     versionRange = "${firmalifeVersionRange}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${modId}]]
+    modId = "afc"
+    type = "required"
+    versionRange = "[2.1.3,)"
     ordering = "AFTER"
     side = "BOTH"
 

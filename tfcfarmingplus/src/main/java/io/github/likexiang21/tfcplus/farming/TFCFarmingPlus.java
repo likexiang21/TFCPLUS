@@ -28,7 +28,7 @@ import org.slf4j.Logger;
 /**
  * TFC Flora —— TerraFirmaCraft 作物扩展模组。
  * <p>
- * 注册体系完全照抄 TFC 的形态：所有 DeferredRegister 在 {@code @Mod} 构造器内注册到模组总线。
+ * 注册体系参考 TFC 的公开注册形态，由本项目独立实现：所有 DeferredRegister 在 {@code @Mod} 构造器内注册到模组总线。
  * 详见文档 {@code moddev/docs/70-crop-implementation-plan.md}。
  */
 @Mod(TFCFarmingPlus.MOD_ID)

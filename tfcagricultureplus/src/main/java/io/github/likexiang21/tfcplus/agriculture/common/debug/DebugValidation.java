@@ -55,7 +55,7 @@ public final class DebugValidation {
             level.setBlockAndUpdate(pos.below(),Blocks.SEA_LANTERN.defaultBlockState());
             level.removeBlock(pos,false); level.removeBlock(pos.above(),false);
             var recipes=level.getRecipeManager().getAllRecipesFor(AgricultureRecipeTypes.CUTTING_BOARD.get());
-            require(recipes.size()==12,"12 cutting recipes loaded");
+            require(recipes.size()==15,"15 cutting recipes loaded");
             for(var holder:recipes) {
                 level.removeBlock(pos,false);
                 simulatePlace(player,pos,createItemStack("tfcagricultureplus:cutting_board/oak"));

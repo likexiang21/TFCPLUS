@@ -1,12 +1,12 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-license = "MIT"
+license = "EUPL-1.2"
 
 [[mods]]
     modId = "${modId}"
     version = "${modVersion}"
     displayName = "TFC Farming Plus"
-    authors = "dsh"
+    authors = "likexiang21"
     # ⚠️ 这里必须保持纯 ASCII：该文件要经过 Gradle 的 expand 处理，
     #    而 ProcessResources 的 filteringCharset 默认是【平台编码】而非 UTF-8，
     #    写中文会被按 GBK 解码再写出，产物里出现非法 UTF-8 字节，

@@ -8,7 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.items.ItemHandlerHelper;
 
-/** B-owned copy of the licensed sawdust soup bowl return behavior. */
+/** B-owned implementation of the bowl-return behavior; provenance is recorded in docs/CODE-PROVENANCE.md. */
 public final class SawdustSoupBowlItem extends Item {
     public SawdustSoupBowlItem(Properties properties) { super(properties); }
 

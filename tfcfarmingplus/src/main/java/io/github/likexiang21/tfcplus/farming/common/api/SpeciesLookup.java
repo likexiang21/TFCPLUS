@@ -16,13 +16,16 @@ import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 /**
- * 【给 B 层的稳定只读接口】—— {@code tfcagricultureplus} 依赖本类。
+ * 【可选的稳定只读查询 API】——供外部附属模组查询 A 的物种/代表方块。
  *
- * <h2>🛑 本类是整个拆包中「唯一一处要改 A 的地方」（126 §2.3）</h2>
+ * <p>当前 {@code tfcagricultureplus} 不对本类做 Java import；B 的运行时依赖由
+ * {@code mods.toml} 声明。本类保留为公共 API，不代表 B 已经接入。
+ *
+ * <h2>🛑 契约（改动前必须读）</h2>
  *
  * <p>契约（改动前必须读）：
  * <ol>
- *   <li>🛑 <b>只增不改</b>：新增方法可以，<b>改签名 / 删方法会让 B 编译失败</b></li>
+ *   <li>🛑 <b>只增不改</b>：新增方法可以，<b>改签名 / 删方法会让外部调用方编译失败</b></li>
  *   <li>🛑 <b>只读</b>：不做任何注册、不持有可变状态、不参与 tick</li>
  *   <li>🛑 <b>A 单独运行时存在感为零</b>：不改变任何现有行为</li>
  * </ol>

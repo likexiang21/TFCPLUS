@@ -1,0 +1,35 @@
+path,category,scope,files,size_mb,recommendation,risk,notes
+.probe/texture-design/px,texture-preview,workspace,26924,654.72,delete-after-reference-snapshot,low,generated 2D/3D previews; not source or branch artifact
+.probe/texture-design/out,texture-preview,workspace,322,6.31,archive-selected-then-delete,low,historical render output
+.probe/skill-review,texture-review,workspace,1242,7.54,archive-then-delete,low,review artifacts
+.probe/gen-crops-ab,generated-output,workspace,6401,2.44,delete,low,old generated output
+.probe/texture-design/backup-*,texture-backup,workspace,multiple,~2,keep-final-version-delete-rest,medium,AGENTS protects bak-src-20260927 and bak-lab-20260927 specifically
+.probe/ref-tfc,reference,workspace,1351,7.79,keep-until-redraw-complete,low,TFC style reference
+.probe/lab-assets,reference,workspace,1999,0.54,keep,low,AGENTS protected
+.probe/lab-old,reference,workspace,3059,0.69,keep,low,AGENTS protected
+.probe/lab-new,reference,workspace,3349,0.74,keep,low,AGENTS protected
+de_moddev/demo-mymod,old-demo,workspace,75,78.64,delete,low,unrelated demo project
+de_moddev/backups,old-backup,workspace,20,7.74,delete,low,historical backups
+de_moddev/inventory,old-evidence,workspace,17,6.25,archive-then-delete,low,old evidence
+de_moddev/src-ref,decompiled-source,workspace,~8173,21.51,keep-until-license-register-done,medium,needed for license/provenance review
+de_moddev/jar-extract,jar-extract,workspace,17708,16.07,keep-until-license-register-done,medium,dependency extraction for provenance/license
+de_moddev/tfcfarmingplus,old-build,workspace,11665,136.84,archive-then-delete-after-branch-stable,medium,old build/resources
+de_moddev/tfcagricultureplus,old-build,workspace,1126,75.14,archive-then-delete-after-branch-stable,medium,old build/resources
+moddev,old-tree,workspace,10185,45.5,keep-for-rollback-then-archive,high,old working tree; inventory 32.5MB and docs 6.2MB
+simplebackups,game-saves,workspace,5,331.51,do-not-delete-without-user-confirmation,high,game worlds not project backups
+deliverables,old-delivery,workspace,2,3.64,keep-rollback,medium,old delivery JAR
+mod_rebuild/docs/audit,audit-evidence,local,63,14.49,keep-reports-delete-detail-after-final,low,D1-D3/276/277 reports keep; d2-index/CSVs/scripts delete
+mod_rebuild/docs/archive,historical-docs,branch,245,6.21,keep-or-move-external,low,historical evidence not garbage
+mod_rebuild/_refactor,refactor-scripts,local,21,0.12,archive-after-refactor,low,one-off refactor scripts
+mod_rebuild/tfcfarmingplus/tools,dev-tools,branch,169,1.25,mixed-see-cleanup-doc,medium,wrappers 49; historical generators; contracts/data keep
+mod_rebuild/tfcagricultureplus/tools,dev-tools,branch,38,0.11,mixed-see-cleanup-doc,medium,wrappers 17; verify scripts keep
+tfcfarmingplus/tools/_tags-baseline,dead-tool-data,branch,14,<0.01,delete,low,zero references tree-wide
+tfcfarmingplus/tools/data/texture-jobs-*,dead-tool-data,branch,~7,<0.01,delete-after-review,low,zero references; keep texture-jobs.json/items/trees if referenced
+tfcfarmingplus/tools/archive,historical-tool,branch,1,<0.01,archive-then-delete,low,historical generator
+tfcfarmingplus/tools/java/TextureAverage.java,dead-helper,branch,1,<0.01,delete,low,no script reference
+tfcfarmingplus/tools/java/TextureStats.java,dead-helper,branch,1,<0.01,delete,low,no script reference
+wrappers,compatibility-layer,branch,66,~0.1,delete-after-call-migration,medium,49 A + 17 B wrappers
+A textures unreferenced,dead-placeholder-texture,branch,1130,0.24,only-after-redraw-cleanup,high,965 block + 165 item; 949 old-jar assets are reference not final
+B textures item,placeholder-texture,branch,57,0.02,keep-until-redraw,high,all referenced but unqualified/pending redraw
+A dead models,dead-model,branch,3,<0.01,archive-then-delete,low,branch_fruit/cocoa branch fruit models
+A/B dead lang,dead-lang,branch,~9,<0.01,fix-or-delete,low,5 A orphan + B empty/missing

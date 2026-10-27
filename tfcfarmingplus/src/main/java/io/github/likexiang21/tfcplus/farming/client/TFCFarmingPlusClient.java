@@ -25,7 +25,7 @@ import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 /**
- * 客户端注册 —— 全部照抄 TFC 的 {@code net.dries007.tfc.client.ClientEventHandler}。
+ * 客户端注册 —— 参考 TFC 的 {@code net.dries007.tfc.client.ClientEventHandler} 公开行为；本项目独立实现。
  * <p>
  * <b>为什么附属模组的植物必须做这两件事：</b>
  * <ol>

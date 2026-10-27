@@ -20,7 +20,7 @@ Check ($growing -match 'super.grow\(state, level, pos, random, cyclesLeft\)' -an
 Check ($code -match 'depth < 64' -and $code -match 'level.hasChunkAt\(below\)' -and $code -match 'counter.getStemPos\(\).equals\(pos\)') 'Legacy root repair must be bounded and preserve explicit roots.'
 Check ($code -match 'counter.getLastUpdateTick\(\) == UNINITIALIZED_TICK' -and $code -match 'Math.min\(2 - current.ordinal\(\), elapsed / interval\)' -and $code -match 'counter.setLastUpdateTick\(counter.getLastUpdateTick\(\) \+ steps \* interval\)') 'Fruit stages need sentinel recovery, bounded elapsed stages and fractional time.'
 $harvest=$code.Substring($code.IndexOf('protected ItemInteractionResult useItemOn'))
-Check ($harvest -match 'now.getValue\(FRUIT\) != FruitState.RIPE' -and $harvest.IndexOf('if (!level.setBlock') -ge 0 -and $harvest.IndexOf('if (!level.setBlock') -lt $harvest.IndexOf('giveItemToPlayer') -and $harvest -match 'counter.resetLastPickedCounter\(\)') 'Harvest must commit fruit removal before reward and reset the instance counters.'
+Check ($harvest -match '(?:now|currentState).getValue\(FRUIT\) != FruitState.RIPE' -and $harvest.IndexOf('if (!level.setBlock') -ge 0 -and $harvest.IndexOf('if (!level.setBlock') -lt $harvest.IndexOf('giveItemToPlayer') -and $harvest -match 'counter.resetLastPickedCounter\(\)') 'Harvest must commit fruit removal before reward and reset the instance counters.'
 Check ($code -match 'defaultBlockState\(\).setValue\(FRUIT, FruitState.NONE\)') 'Trunk fruit default must explicitly be none.'
 $fruits=(Read-Data 'data/c/tags/item/foods/fruit.json').values
 $world=(Read-Data 'data/tfc/tags/worldgen/placed_feature/feature/fruit_trees.json').values

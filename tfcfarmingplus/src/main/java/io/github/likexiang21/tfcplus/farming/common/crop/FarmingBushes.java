@@ -193,7 +193,7 @@ public final class FarmingBushes {
     /**
      * 注册一个**矮丛**浆果灌木（含方块物品，使其可被搬运）。
      * <p>
-     * 属性完全照抄 TFC 的 {@code FruitBlocks.StationaryBush.create()}：
+     * 属性组合参考 TFC {@code FruitBlocks.StationaryBush.create()} 的公开行为，由本项目独立实现：
      * 绑 {@code TFCBlockEntities.BERRY_BUSH}（存采摘计时与 stemPos），可燃性同树叶。
      * <p>
      * 用 {@link RegistrationHelpers#registerBlock} 一次注册方块 + 方块物品 —— 这是 TFC 的做法，

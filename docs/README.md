@@ -8,6 +8,13 @@
 |---|---|
 | [274-rebuild-log-20261027.md](274-rebuild-log-20261027.md) | 本次从旧树复制到 `mod_rebuild` 的重构记录、已完成项、检查结果和剩余批次 |
 | [275-resource-path-taxonomy-20261027.md](275-resource-path-taxonomy-20261027.md) | A/B `models/block`、`textures/block` 分层结果与 blockstate ID 约束 |
+| [276-full-content-audit-20261028.md](276-full-content-audit-20261028.md) | 全量内容审查：死内容/占位、协议缺口、计划偏差与开发状态总结 |
+| [277-plan-implementation-and-license-compliance-20261028.md](277-plan-implementation-and-license-compliance-20261028.md) | 计划实现与开源协议履行专项审查（本地报告，待修改后随修改一起推送） |
+| [278-cleanup-inventory-20261028.md](278-cleanup-inventory-20261028.md) | 工作区无用内容归类与清理清单（已执行第一批；结果见 §9） |
+| [279-protocol-code-fixes-20261028.md](279-protocol-code-fixes-20261028.md) | 本轮协议/代码修复记录与新产物哈希 |
+| [THIRD-PARTY-ASSETS.md](THIRD-PARTY-ASSETS.md) | 第三方资源逐项来源登记 |
+| [CODE-PROVENANCE.md](CODE-PROVENANCE.md) | 源码来源/相似度与独立实现说明 |
+| [TEXTURE-REDRAW-PLAN.md](TEXTURE-REDRAW-PLAN.md) | 贴图全面重绘计划与“旧完成声明作废”记录 |
 | [273-naming-and-file-structure-requirements-20261027.md](273-naming-and-file-structure-requirements-20261027.md) | 严格命名与文件结构要求、全量改名映射、门禁规则 |
 | [272-github-snapshot-and-development-pause-20261027.md](272-github-snapshot-and-development-pause-20261027.md) | 重构前的暂停/上传记录 |
 | [271-ar4ag-rhubarb-native16-display-20261027.md](271-ar4ag-rhubarb-native16-display-20261027.md) | 重构前最后一片功能交接 |
@@ -20,8 +27,9 @@
 
 | 索引 | 内容 |
 |---|---|
-| [ARCHIVE-INDEX.md](ARCHIVE-INDEX.md) | `moddev/docs` 完整归档副本的分类索引（226 个文件） |
+| [ARCHIVE-INDEX.md](ARCHIVE-INDEX.md) | `moddev/docs` 完整归档副本的分类索引（226 个顶层文件；18 个 `_research/_work` 嵌套文件见归档目录） |
 | [INVENTORY.md](INVENTORY.md) | 旧 `moddev/inventory` 53 个证据目录的文件数/大小索引；证据本体仍在旧树 |
+| [audit/README.md](audit/README.md) | 2026-10-28 全量内容审查的专项报告入口 |
 
 归档目录 [archive/](archive/) 是 `moddev/docs` 的字节级副本，用于保留历史上下文。归档文档中的旧类名、旧路径和相对链接未逐篇重写；**当前规范以根目录 273/274 和本索引为准**。
 
@@ -30,7 +38,7 @@
 - 状态：**Java/包/文件结构重构完成静态检查，A/B 均已构建成功；未实机、未视觉验收**。
 - 当前根包：A `io.github.likexiang21.tfcplus.farming`，B `io.github.likexiang21.tfcplus.agriculture`。
 - A/B jar 在 `../artifacts/`。
-- 资源目录当前为原样复制，资源 ID 未改；资源路径分层仍待单独批次。
+- 资源目录已按 275 做 `models/block`/`textures/block` 分层；blockstate 路径未动，注册 ID/资源 ID 未改。
 - 旧树 `../../moddev/` 保持原样，用于回滚和差异对照。
 
 ## 后续文档要求

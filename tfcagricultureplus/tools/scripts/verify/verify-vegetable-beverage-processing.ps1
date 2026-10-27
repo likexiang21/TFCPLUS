@@ -9,7 +9,7 @@ $ar=Join-Path $a 'src/main/resources';$br=Join-Path $b 'src/main/resources'
 $errors=New-Object 'System.Collections.Generic.List[string]'
 function Check([bool]$condition,[string]$message){if(-not $condition){$errors.Add($message)}}
 function Read-Json([string]$path){if(Test-Path -LiteralPath $path){Get-Content -LiteralPath $path -Raw -Encoding UTF8|ConvertFrom-Json}}
-$manifest=Read-Json (Join-Path $a 'tools/crops-manifest.json')
+$manifest=Read-Json (Join-Path $a 'tools/contracts/crops-manifest.json')
 $earlier=@('millet','foxtail_millet','buckwheat','fonio','spelt','emmer','einkorn','pearl_millet','amaranth','quinoa','finger_millet','jobs_tears','sorghum','chickpea','faba_bean','lupin','adzuki','bambara_nut','fenugreek','pea','cowpea','common_bean','winged_bean','pigeon_pea','sesame','safflower','sunflower','flax','hemp','ramie','sisal','cotton','hops','winter_melon','cantaloupe','bottle_gourd','strawberry')
 $crops=@($manifest.crops|Where-Object{$_.name -notin $earlier}|ForEach-Object{$_.name})
 Check ($crops.Count -eq 50 -and $manifest.crops.Count -eq 87) 'Crop audit scope changed; review the remaining-crop inventory.'
@@ -47,8 +47,8 @@ try{
             $plant=if($name -eq 'tea_leaf'){'tea'}else{'coffee'}
             $source=Get-Content -LiteralPath (Join-Path $a 'src/main/java/io/github/likexiang21/tfcplus/farming/common/crop/FarmingBushes.java') -Raw -Encoding UTF8
             $symbol=$name.ToUpperInvariant()
-            $items=Get-Content -LiteralPath (Join-Path $a 'src/main/java/io/github/likexiang21/tfcplus/farming/common/registry\AgricultureItems.java') -Raw -Encoding UTF8
-            Check ($source.Contains('highBush("'+$plant+'", AgricultureItems.'+$symbol) -and $source.Contains('highCane("'+$plant+'", AgricultureItems.'+$symbol) -and $items.Contains($symbol+' = food("'+$name+'")')) "Bush canonical harvest registration missing: $name"
+            $items=Get-Content -LiteralPath (Join-Path $a 'src/main/java/io/github/likexiang21/tfcplus/farming/common/registry/FarmingItems.java') -Raw -Encoding UTF8
+            Check ($source.Contains('highBush("'+$plant+'", FarmingItems.'+$symbol) -and $source.Contains('highCane("'+$plant+'", FarmingItems.'+$symbol) -and $items.Contains($symbol+' = food("'+$name+'")')) "Bush canonical harvest registration missing: $name"
             $planter=Read-Json (Join-Path $ar "data/firmalife/firmalife/plantable/$plant.json")
             Check ($planter.crop.id -eq $id) "Bush planter harvest identity differs: $name"
             Check (Test-Path -LiteralPath (Join-Path $ar "data/tfcfarmingplus/loot_table/blocks/plant/${plant}_bush.json")) "Bush loot missing: $plant"

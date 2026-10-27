@@ -37,7 +37,7 @@ $books=@{};foreach($lang in @('zh_cn','en_us')){foreach($kind in @('bushes','bus
     foreach($word in $(if($lang -eq 'zh_cn'){@('计时','右键','冷却','锋利','南半球','新生成')}else{@('settings','right-click','cooldown','Sharp','south','newly generated')})) {Check ($book.pages[0].text.Contains($word)) "Missing operation guidance: $lang/$kind/$word"}
 }}
 foreach($tool in @('gen-wild-injection.ps1','gen-dead-and-wild-bushes.ps1')){
-    $template=Get-Content -LiteralPath (Join-Path $module "tools/$tool") -Raw -Encoding UTF8
+    $template=Get-Content -LiteralPath (Join-Path $module "tools/scripts/generate/$tool") -Raw -Encoding UTF8
     Check ($template -match 'Resolve-LegacyGeneratorOutput \$OutputRoot' -and $template -match "remove = @\('tfc:plant/strawberry_bush_patch'\)") "Generator must require scratch output and retain targeted strawberry removal: $tool"
 }
 $template=Get-Content -LiteralPath (Join-Path $module 'tools/scripts/generate/gen-wild-injection.ps1') -Raw -Encoding UTF8

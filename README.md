@@ -4,11 +4,23 @@
 > 状态：**重构进行中，A/B 均已构建成功，旧文档库已完整归档**。本目录是与 `moddev/` 并行的新版开发树；`moddev/` 旧树保持原样，未移动、未删除。
 > 目标：把命名称呼、Java 包结构、构建配置和新工具引用整理成可直接继续开发的新版本。
 
+## 0. 许可证与第三方来源
+
+- 项目代码/原创资源：**EUPL-1.2**（根目录 `LICENSE`，全文 `LICENSES/EUPL-1.2.txt`）；
+- A/B 的 `neoforge.mods.toml` 与 JAR 内 `META-INF/licenses/` 均已同步为 EUPL-1.2；
+- 第三方来源、许可证与修改说明：`THIRD_PARTY_NOTICES.md`；
+- 第三方资源登记：`docs/THIRD-PARTY-ASSETS.md`；
+- 代码来源/相似度审查：`docs/CODE-PROVENANCE.md`；
+- 许可证门禁：`tools/check-license-compliance.ps1`（校验 LICENSE、模板、JAR 内许可与第三方通知一致）。
+
 ## 1. 当前包含什么
 
 ```text
 mod_rebuild/
 ├── README.md                 # 本文件
+├── LICENSE                   # EUPL-1.2
+├── LICENSES/                 # EUPL-1.2 与第三方 MIT 文本
+├── THIRD_PARTY_NOTICES.md    # 第三方来源/许可登记
 ├── DEVELOPMENT_RULES.md      # 从旧工作区复制
 ├── docs/                     # 当前入口 + archive/ 完整旧文档 + 索引
 ├── tools/                    # 共享启动/验证/参考工具
@@ -19,14 +31,14 @@ mod_rebuild/
 │   ├── gradle.properties
 │   ├── settings.gradle
 │   ├── src/main/java/        # 已重构为新包名与新目录
-│   ├── src/main/resources/   # 当前原样复制，资源 ID 未动
+│   ├── src/main/resources/   # models/textures 已按 275 分层；blockstate/资源 ID 未动
 │   └── tools/                # 原工具复制并更新旧路径/类名
 └── tfcagricultureplus/       # B：木工/养蚕/厨具/加工
     ├── build.gradle.kts
     ├── gradle.properties
     ├── settings.gradle
     ├── src/main/java/        # 已重构为新包名与新目录
-    ├── src/main/resources/   # 当前原样复制，资源 ID 未动
+    ├── src/main/resources/   # models/textures 已按 275 分层；blockstate/资源 ID 未动
     ├── tools/                # 原工具复制并更新旧路径/类名
     └── OVERRIDE-REGISTRY.md  # 跨命名空间台账，类名引用已更新
 ```
@@ -115,22 +127,24 @@ python _refactor/check_java.py
 
 检查内容：文件/类型名一致、包声明与目录一致、无旧 `com.example`、无旧 `My*` 标识符、项目 import 目标存在、工具合同源码哈希与当前新源码一致。
 
-**构建结果（2026-10-27）**：Gradle 已自动提供 JDK 21（`%USERPROFILE%\.gradle\jdks\eclipse_adoptium-21-amd64-windows.2`），A、B 均已构建成功：
+**构建结果（2026-10-28）**：A、B 均已构建成功；A/B 各自带 `gradlew`，无需 B 先构建 A：
 
 ```text
-A: artifacts/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar   2,416,956 bytes
-B: artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar 1,407,338 bytes
+A: artifacts/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar        2,425,696 bytes
+   SHA-256 A860974F40B559A7967AC3C1469D78A34DA904D697426068FB6FA3A9AC49BA94
+B: artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar    1,552,859 bytes
+   SHA-256 E6986C57475618B9651DE5BD213D3D518030E264006E4F9A80E00A914171C6B1
 ```
 
 ```text
 cd mod_rebuild\tfcfarmingplus
-gradle build --console=plain --offline
+.\gradlew.bat build --console=plain --offline   # 或 gradle build ...
 
 cd ..\tfcagricultureplus
-gradle build --console=plain --offline
+.\gradlew.bat build --console=plain --offline
 ```
 
-A 构建成功后才构建 B（B 依赖 `../tfcfarmingplus/build/libs`）。未启动游戏、未做视觉/实机验收；B 的 `verify-container-contract`、`verify-grain-food-processing`、`verify-in-world-codec`、`check-boundaries`、`verify-kitchenware-ledger`、`verify-drying-batch`、`verify-silkworm-chain`、`verify-silkworm-lifecycle` 已通过；A 的 `audit-crop-contracts`、`audit-rosette-dead-consumers` 已通过。A 的 `verify.ps1` 需要 PowerShell 7 和 workspace tooling 的 Minecraft client asset jar，当前 Windows PowerShell 5.1 + 缺 asset jar 会在审计阶段报错。
+依赖目录由 `TFC_MODS_DIR` 指定；未设置时自动尝试 `../../mods`、`../mods`、`mods/`。B 不再依赖 A 的 `build/libs`（B 对 A 没有 Java import）；A 仍是 B 的运行时必需依赖（`mods.toml` 声明）。未启动游戏、未做视觉/实机验收；B 的 `verify-container-contract`、`verify-grain-food-processing`、`verify-in-world-codec`、`check-boundaries`、`verify-kitchenware-ledger`、`verify-drying-batch`、`verify-silkworm-chain`、`verify-silkworm-lifecycle` 已通过；A 的 `audit-crop-contracts`、`audit-rosette-dead-consumers` 已通过。A 的 `verify.ps1` 需要 PowerShell 7 和 workspace tooling 的 Minecraft client asset jar，当前 Windows PowerShell 5.1 + 缺 asset jar 会在审计阶段报错。
 
 ## 5. 尚未完成的批次
 
@@ -138,7 +152,7 @@ A 构建成功后才构建 B（B 依赖 `../tfcfarmingplus/build/libs`）。未�
 2. **资源路径分层**：A 顶层 `models/block` 已归入 `melon/`、`plant/`，顶层 `textures/block` 已归入 `melon/`；B 顶层 18 个方块模型已归入各自族目录。**blockstate 文件路径与注册 ID 绑定**，仍保持原路径；资源引用检查 0 缺失；详见 [275 号](docs/275-resource-path-taxonomy-20261027.md)；
 3. **工具文件名/目录分组**：已完成 `gen-batch2` / `gen-batch2x-wild` / `fix-batch1` / `fix-wild-single-placed` / `finalize` / `polish-book` / `TexAvg` 的语义化重命名，以及 `java/`、`archive/`、`contracts/`、`data/`、`scripts/{generate,audit,verify}` 分组；根目录保留同名兼容 wrapper；
 4. **共享 `tools` 的参考生成脚本**：仍按新根目录路径更新，但 `inventory`/`src-ref` 未复制，属于可选的参考材料；
-5. **文档/证据目录迁移**：`mod_rebuild/docs` 已包含当前入口、`archive/` 完整旧文档（226 个）和 `INVENTORY.md` 旧证据索引；证据本体仍在 `moddev/inventory`；
+5. **文档/证据目录迁移**：`mod_rebuild/docs` 已包含当前入口、`archive/` 完整旧文档（244 份 + README）和 `INVENTORY.md` 旧证据索引；证据本体仍在 `moddev/inventory`；
 6. **实机/视觉验收**：A/B 已构建成功，但未启动游戏、未做视觉/实机验收，不能把本树当成已验收版本；A 的 `verify.ps1` 需要 PowerShell 7。
 
 ## 6. 与旧树的关系
@@ -153,6 +167,13 @@ A 构建成功后才构建 B（B 依赖 `../tfcfarmingplus/build/libs`）。未�
 - [273 号：命名与文件结构整理需求](docs/273-naming-and-file-structure-requirements-20261027.md)
 - [274 号：本次重构记录](docs/274-rebuild-log-20261027.md)
 - [275 号：资源路径分层](docs/275-resource-path-taxonomy-20261027.md)
+- [276 号：全量内容审查报告](docs/276-full-content-audit-20261028.md)
+- [277 号：计划实现与开源协议审查](docs/277-plan-implementation-and-license-compliance-20261028.md)
+- [278 号：工作区清理清单](docs/278-cleanup-inventory-20261028.md)
+- [279 号：协议/代码修复记录](docs/279-protocol-code-fixes-20261028.md)
+- [第三方资源登记](docs/THIRD-PARTY-ASSETS.md)
+- [代码来源审查](docs/CODE-PROVENANCE.md)
+- [贴图全面重绘计划](docs/TEXTURE-REDRAW-PLAN.md)
 - [旧文档归档索引](docs/ARCHIVE-INDEX.md)
 - [旧证据 inventory 索引](docs/INVENTORY.md)
 - [233 号：工程可读性计划](docs/233-final-code-readability-and-structure-plan-20261024.md)
