@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "#tfcagricultureplus:foods/pan_raw_meats",
+    "#tfcagricultureplus:foods/pan_raw_fish",
+    "#tfcagricultureplus:foods/pan_vegetables",
     "tfc:food/vegetables_soup",
     "tfc:food/grain_soup",
     "tfc:food/fruit_soup"

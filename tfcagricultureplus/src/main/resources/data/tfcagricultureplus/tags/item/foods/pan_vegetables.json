@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:food/carrot",
+    "tfc:food/cabbage",
+    "tfc:food/onion",
+    "tfc:food/potato",
+    "tfc:food/tomato"
+  ]
+}

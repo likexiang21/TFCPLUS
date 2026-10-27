@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:food/beef",
+    "tfc:food/pork",
+    "tfc:food/chicken",
+    "tfc:food/mutton",
+    "tfc:food/venison",
+    "tfc:food/bison",
+    "tfc:food/rabbit",
+    "tfc:food/duck"
+  ]
+}
