@@ -1,4 +1,0 @@
-tfcfarmingplus:block/wild_crop/cauliflower
-tfcfarmingplus:block/wild_crop/cauliflower_young
-tfcfarmingplus:block/dead_crop/cauliflower
-tfcfarmingplus:block/dead_crop/cauliflower_young

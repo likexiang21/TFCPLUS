@@ -1,4 +1,0 @@
-tfcfarmingplus:block/crop/broccoli_age_2
-tfcfarmingplus:block/crop/lettuce_age_2
-tfcfarmingplus:block/crop/cauliflower_age_2
-tfcfarmingplus:block/crop/napa_cabbage_age_2

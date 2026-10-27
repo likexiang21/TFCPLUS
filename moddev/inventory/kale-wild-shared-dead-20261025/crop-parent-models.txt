@@ -1,4 +1,0 @@
-tfcfarmingplus:block/wild_crop/kale
-tfcfarmingplus:block/wild_crop/kale_young
-tfcfarmingplus:block/dead_rosette
-tfcfarmingplus:block/dead_rosette_young

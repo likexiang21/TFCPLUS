@@ -1,0 +1,807 @@
+{
+  "Version": 12,
+  "Purpose": "Reviewed food/seed icon routes and provisional species art; preserve gameplay, original assets and 16x16 item size; final art/runtime acceptance pending.",
+  "Routes": [
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/arugula.json",
+      "Texture": "tfcfarmingplus:item/food/arugula_harvest_v1",
+      "Name": "arugula",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/seeds/arugula.json",
+      "Texture": "tfc:item/seeds/lentil",
+      "Name": "arugula",
+      "Family": "seeds"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/mustard_greens.json",
+      "Texture": "tfcfarmingplus:item/food/mustard_greens_harvest_v1",
+      "Name": "mustard_greens",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/seeds/mustard_greens.json",
+      "Texture": "tfc:item/seeds/lentil",
+      "Name": "mustard_greens",
+      "Family": "seeds"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/swiss_chard.json",
+      "Texture": "tfcfarmingplus:item/food/swiss_chard_harvest_v1",
+      "Name": "swiss_chard",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/seeds/swiss_chard.json",
+      "Texture": "tfc:item/seeds/lentil",
+      "Name": "swiss_chard",
+      "Family": "seeds"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/asparagus.json",
+      "Texture": "tfcfarmingplus:item/food/asparagus",
+      "Name": "asparagus",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/eggplant.json",
+      "Texture": "tfcfarmingplus:item/food/eggplant",
+      "Name": "eggplant",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/okra.json",
+      "Texture": "tfcfarmingplus:item/food/okra",
+      "Name": "okra",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/lettuce.json",
+      "Texture": "tfcfarmingplus:item/food/lettuce_harvest_v1",
+      "Name": "lettuce",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/celery.json",
+      "Texture": "tfcfarmingplus:item/food/celery_stalks_v1",
+      "Name": "celery",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/celtuce.json",
+      "Texture": "tfcfarmingplus:item/food/celtuce_stem_v1",
+      "Name": "celtuce",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/garland_chrysanthemum.json",
+      "Texture": "tfcfarmingplus:item/food/garland_chrysanthemum_harvest_v1",
+      "Name": "garland_chrysanthemum",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/perilla.json",
+      "Texture": "tfcfarmingplus:item/food/perilla_harvest_v1",
+      "Name": "perilla",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/purslane.json",
+      "Texture": "tfcfarmingplus:item/food/purslane_harvest_v1",
+      "Name": "purslane",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/common_bean.json",
+      "Texture": "tfcfarmingplus:item/food/common_bean_pod_v1",
+      "Name": "common_bean",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/cowpea.json",
+      "Texture": "tfcfarmingplus:item/food/cowpea_pod_v2",
+      "Name": "cowpea",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/pea.json",
+      "Texture": "tfcfarmingplus:item/food/pea_pod_v1",
+      "Name": "pea",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/winged_bean.json",
+      "Texture": "tfcfarmingplus:item/food/winged_bean_pod_v1",
+      "Name": "winged_bean",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/bitter_melon.json",
+      "Texture": "tfcfarmingplus:item/food/bitter_melon_fruit_v1",
+      "Name": "bitter_melon",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/chayote.json",
+      "Texture": "tfcfarmingplus:item/food/chayote_fruit_v1",
+      "Name": "chayote",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/loofah.json",
+      "Texture": "tfcfarmingplus:item/food/loofah_fruit_v1",
+      "Name": "loofah",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/snake_gourd.json",
+      "Texture": "tfcfarmingplus:item/food/snake_gourd_fruit_v1",
+      "Name": "snake_gourd",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/taro.json",
+      "Texture": "tfcfarmingplus:item/food/taro_harvest_v1",
+      "Name": "taro",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/yam.json",
+      "Texture": "tfcfarmingplus:item/food/yam_harvest_v1",
+      "Name": "yam",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/lotus.json",
+      "Texture": "tfcfarmingplus:item/food/lotus_harvest_v1",
+      "Name": "lotus",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/arrowhead.json",
+      "Texture": "tfcfarmingplus:item/food/arrowhead_harvest_v1",
+      "Name": "arrowhead",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/brussels_sprouts.json",
+      "Texture": "tfcfarmingplus:item/food/brussels_sprouts_harvest_v1",
+      "Name": "brussels_sprouts",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/chive.json",
+      "Texture": "tfcfarmingplus:item/food/chive",
+      "Name": "chive",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/malabar_spinach.json",
+      "Texture": "tfcfarmingplus:item/food/malabar_spinach_harvest_v1",
+      "Name": "malabar_spinach",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/water_dropwort.json",
+      "Texture": "tfcfarmingplus:item/food/water_dropwort_harvest_v1",
+      "Name": "water_dropwort",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/water_caltrop.json",
+      "Texture": "tfcfarmingplus:item/food/water_caltrop",
+      "Name": "water_caltrop",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/water_chestnut.json",
+      "Texture": "tfcfarmingplus:item/food/water_chestnut_harvest_v1",
+      "Name": "water_chestnut",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/water_shield.json",
+      "Texture": "tfcfarmingplus:item/food/water_shield_harvest_v2",
+      "Name": "water_shield",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/water_spinach.json",
+      "Texture": "tfcfarmingplus:item/food/water_spinach_harvest_v1",
+      "Name": "water_spinach",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/almond.json",
+      "Texture": "tfcfarmingplus:item/food/almond_harvest_v1",
+      "Name": "almond",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/hazelnut.json",
+      "Texture": "tfcfarmingplus:item/food/hazelnut_harvest_v1",
+      "Name": "hazelnut",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/macadamia.json",
+      "Texture": "tfcfarmingplus:item/food/macadamia_harvest_v1",
+      "Name": "macadamia",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/pecan.json",
+      "Texture": "tfcfarmingplus:item/food/pecan_harvest_v1",
+      "Name": "pecan",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/walnut.json",
+      "Texture": "tfcfarmingplus:item/food/walnut_harvest_v1",
+      "Name": "walnut",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/rhubarb.json",
+      "Texture": "tfcfarmingplus:item/food/rhubarb_harvest_v2",
+      "Name": "rhubarb",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/sunflower.json",
+      "Texture": "tfcfarmingplus:item/food/sunflower_harvest_v2",
+      "Name": "sunflower",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/agave.json",
+      "Texture": "tfcfarmingplus:item/food/agave_harvest_v1",
+      "Name": "agave",
+      "Family": "food"
+    },
+    {
+      "Path": "assets/tfcfarmingplus/models/item/food/spinach.json",
+      "Texture": "tfcfarmingplus:item/food/spinach_harvest_v1",
+      "Name": "spinach",
+      "Family": "food"
+    }
+  ],
+  "ProtectedTextureSha256": {
+    "assets/tfcfarmingplus/textures/item/food/arugula.png": "D14B0E13E09B3A1B9B2BC1A3D2F3CF5525224D71CA667A95BE3416A8FB6DDB05",
+    "assets/tfcfarmingplus/textures/item/seeds/arugula.png": "EECAC1095DCFC39454BE7DF7B9A105496C20CEC460C0BD2FE17E64FE622976BA",
+    "assets/tfcfarmingplus/textures/item/food/mustard_greens.png": "DD68DCF2126048CCBDBA7A56068CCE47DC530EC0DED62A655BBB98C66F1109B5",
+    "assets/tfcfarmingplus/textures/item/seeds/mustard_greens.png": "FE321078F18E8EAEA4FE529352C302493DEE62974C35C5C0890CC879446198C1",
+    "assets/tfcfarmingplus/textures/item/food/swiss_chard.png": "0200B0B160CAA8AB2A6173B990B1BFF98351EAA43D250F471270838FC11CFC14",
+    "assets/tfcfarmingplus/textures/item/seeds/swiss_chard.png": "12D25A90F8F91D6373910C729D95459B6D2C76D81A504EFF2373B877482E26FC",
+    "assets/tfcfarmingplus/textures/item/food/kale.png": "FB939C2DDC44ACB72345C4E6BFDDAC74A0FB333CB1062FBAA0FC020D8281196D",
+    "assets/tfcfarmingplus/textures/item/food/asparagus.png": "1B56A49A1D316DBCF0F4495BE2B6BC58A8D83F16693BC3A6FE9D5C25B90F295D",
+    "assets/tfcfarmingplus/textures/item/food/eggplant.png": "68DEC4BDCC4595FC68ED9BA126CC5E8086DADB28B384FBD91AD04B61D5348536",
+    "assets/tfcfarmingplus/textures/item/food/okra.png": "A32B5FBFB583FB09558BEB69AFAAF6F061ED11DAE0ED58892A00DA64DD555D9A",
+    "assets/tfcfarmingplus/textures/item/food/celery_stalks_v1.png": "CAEE8CB1AC8B1CEBCC295958C8B16FEA3302BB5E6B2FBE9EB8393E4CFE2169D6",
+    "assets/tfcfarmingplus/textures/item/food/celtuce_stem_v1.png": "43F617780957BE4D30FA3B0833CC86847F5EB18ECEBCCB692098D03D38C71554",
+    "assets/tfcfarmingplus/textures/item/food/lettuce.png": "6B48C14E6CAA975E865AC6BD36A44BE9D9F5086FF488177F582945B756F169CF",
+    "assets/tfcfarmingplus/textures/item/food/celery.png": "7B3F84AB536736A2371A64737327A5E64B666A0190BF1F6BBB6C809C7B9E32AC",
+    "assets/tfcfarmingplus/textures/item/food/celtuce.png": "F3FE249B4FAC048462A07B3B67D95E91329CA432C2E902747035C06D013792E6",
+    "assets/tfcfarmingplus/textures/item/food/garland_chrysanthemum.png": "9A4E914896AF123BD69C7AE52BB11E19DC792DA5A1615C44C5BC3AF71CB4B2D5",
+    "assets/tfcfarmingplus/textures/item/food/perilla.png": "F9D588CAC6E4091B5C4867188F515BB2DCBD9F8E7E416B6D3361B05958DD7239",
+    "assets/tfcfarmingplus/textures/item/food/purslane.png": "F4EA9D228FA8635D3DB05D132F033F6B2FF1371A2F1B7AC902B0E9CA3D002FF3",
+    "assets/tfcfarmingplus/textures/item/food/common_bean.png": "6CD47AAE7A8DECC7C286D98D363CC1401F5FA9F9438F3BBAE25C1D9A4887CF47",
+    "assets/tfcfarmingplus/textures/item/food/common_bean_pod_v1.png": "3245B6F98B4F244B5B7502DCA9A498E31D823951F105B9A9BB0FF946FE5CBA6D",
+    "assets/tfcfarmingplus/textures/item/food/cowpea.png": "E388BC73E7B4D755FD8774D4FC5E9123A5EA60F7F1B487C3E40E536ECBC58EDE",
+    "assets/tfcfarmingplus/textures/item/food/cowpea_pod_v2.png": "2D7BEB20C0E19AA23B737BA501CEDB54B75942921FEAD0CF711C5544FA49187E",
+    "assets/tfcfarmingplus/textures/item/food/pea.png": "0A27B7754A85EB77F01C748F345B664C30DAD29BBD16F434F8D785DB7F9826F0",
+    "assets/tfcfarmingplus/textures/item/food/pea_pod_v1.png": "80369013458EC64C974EB1A8B5D494237565F617F110CB66AB26EC9036EC7240",
+    "assets/tfcfarmingplus/textures/item/food/winged_bean.png": "6B39E9945E13B5B845C0DCCF2EF6AEF9821E89873EBDB65CECE225A34300FC9A",
+    "assets/tfcfarmingplus/textures/item/food/winged_bean_pod_v1.png": "3529FFFE556BB1DDB17609AEEF2534F1C4D069A4559A5264D264D391B218225F",
+    "assets/tfcfarmingplus/textures/item/food/bitter_melon.png": "F1CEACA3C198AF72623F5AD577B4C1160A7EA78D75FA5625DD6A07529A848FAE",
+    "assets/tfcfarmingplus/textures/item/food/bitter_melon_fruit_v1.png": "759E9D41F487C747294D24AC66A837B45B37A8622509EF7D351B92F97E6965A1",
+    "assets/tfcfarmingplus/textures/item/food/chayote.png": "7FAFB93284D0886EB670DCB1A7BF97D6372F321312A6E21BF1BD7E0BBC1FAD1F",
+    "assets/tfcfarmingplus/textures/item/food/chayote_fruit_v1.png": "9FE22CAF2902E7566762CD05D02B3242090BDF4A38B0F63E9571DE26DF456767",
+    "assets/tfcfarmingplus/textures/item/food/loofah.png": "222E5C4B3C2438A228E68D88EB141418AAFD5FA50AB4401E95F9459023441D81",
+    "assets/tfcfarmingplus/textures/item/food/loofah_fruit_v1.png": "ABB144CC5B998D5BFAA92D63F941F300CD410F92A9D1F0C96DD3E22610BC7BD2",
+    "assets/tfcfarmingplus/textures/item/food/snake_gourd.png": "86CBC19FF58B618278C21E53B2B833E9F4794FA6ADAF1C19382EBDE65FE39D05",
+    "assets/tfcfarmingplus/textures/item/food/snake_gourd_fruit_v1.png": "0ADC410609EA2EDCE93EE8DA9AEEDC48621D09317403726CFD0EB664FE44B56C",
+    "assets/tfcfarmingplus/textures/item/food/taro.png": "4B1596D02528FDEA83AAFB143F0A8C13883830AFCB7D4AE782CD8119921967EF",
+    "assets/tfcfarmingplus/textures/item/food/taro_harvest_v1.png": "6F35582F451B9D29BF11436858F4E0C3299EEAF02E861F6E0F59AD5D3C34668C",
+    "assets/tfcfarmingplus/textures/item/food/yam.png": "D2746BDFBB41A558783C4A02045ECFD3EB424B282B7EE521731884445CCD4315",
+    "assets/tfcfarmingplus/textures/item/food/yam_harvest_v1.png": "0038FF62534AE14BED433B7A72EB30BFC28132BCEA066A77D7BCFA3DB1E703DE",
+    "assets/tfcfarmingplus/textures/item/food/lotus.png": "4AC501408AA13FC0F53750017EF1A8FCFF4CB3C76BD4ED3A940B62B67029DA4E",
+    "assets/tfcfarmingplus/textures/item/food/lotus_harvest_v1.png": "AE5E4A2C4FABF1D82845B438D8C8ED5D708E5A83CAA96E7B3FAE04E9E8B600E0",
+    "assets/tfcfarmingplus/textures/item/food/arrowhead.png": "757343794C0EED0DC24AB4DB3D06D8DB743EE1994C9E3BE32F889B3BEEE31648",
+    "assets/tfcfarmingplus/textures/item/food/arrowhead_harvest_v1.png": "C61B2E54D5EA8CAA221D961F15E430F66874BB9183D2F3C5BA2F051D42C38D88",
+    "assets/tfcfarmingplus/textures/item/food/brussels_sprouts_harvest_v1.png": "F0608E60AC182F8782BFE65646C6C9F4C3C310CF48831DEB575C3331401BA712",
+    "assets/tfcfarmingplus/textures/item/food/brussels_sprouts.png": "012E5404620F32A29EBA7AE4940CF6D58ECB519C946BADF5A9180FE0C1FFDC8E",
+    "assets/tfcfarmingplus/textures/item/food/chive.png": "F0A442C1D929C46F1FE2902BF51B10ACCD14D418ADA0DEAB14B950B0395A18FC",
+    "assets/tfcfarmingplus/textures/item/food/malabar_spinach_harvest_v1.png": "F0720586D915D5EFBD60BDB60C8408FC115B0CD3385A151E0FF5449B0452F90B",
+    "assets/tfcfarmingplus/textures/item/food/malabar_spinach.png": "5673F9FC46DF0EE0417F011B4DF17A1DB08896F0458D9B899AEC484AB32AFA92",
+    "assets/tfcfarmingplus/textures/item/food/water_dropwort_harvest_v1.png": "4A709BED50F04E438A11966D90E3468A750DF15347C5DB05DFC8B744F1BF3F3D",
+    "assets/tfcfarmingplus/textures/item/food/water_dropwort.png": "D916E7019F74873A6EE231979E314676F5AA4844C5625FC0306DD5DB96F7C42C",
+    "assets/tfcfarmingplus/textures/item/food/water_caltrop.png": "77EAE06DCEBFB7326182E422A2F30419F8320EEB6EC2D2F28D9A1A28532FEC31",
+    "assets/tfcfarmingplus/textures/item/food/water_chestnut_harvest_v1.png": "01BF98B0F590E41E5C81F43C45618C60D3D06F6E125332834856C0F4B32879CE",
+    "assets/tfcfarmingplus/textures/item/food/water_chestnut.png": "F9DAF577B6DE027800DDCA853CDE50FEE7920B228F73B50F4F0E16E3FF17D172",
+    "assets/tfcfarmingplus/textures/item/food/water_shield_harvest_v2.png": "1F0C62B3E51A159E9E65BCACD4566F4B3AD5A89C1E12C36352B46B1C7A25726B",
+    "assets/tfcfarmingplus/textures/item/food/water_shield.png": "83ADD8E97EE140A1A88461FEBD881E5F9520C485026200B722F08F96E1744EAD",
+    "assets/tfcfarmingplus/textures/item/food/water_spinach_harvest_v1.png": "59D6990D0114619164AE8FF9DE9325728CCEB56F4A0696727B6EAAD7212F0479",
+    "assets/tfcfarmingplus/textures/item/food/water_spinach.png": "21DCDD40B4764FA6DB8FAEC4045335A3816639001F42B834D6DEC3E74A6DE79B",
+    "assets/tfcfarmingplus/textures/item/food/almond.png": "D063E60107A50F8D108EFEEDE358F462340E84427A6063AD70ED37C82F414AA0",
+    "assets/tfcfarmingplus/textures/item/food/almond_harvest_v1.png": "95434F828B3DA46761E3EA35B555C4B0AF1B45AD43DE56861F30D568FAECA170",
+    "assets/tfcfarmingplus/textures/item/food/hazelnut.png": "3A3B05B80CD90E641767AB5F66915273F7CA3CFBF5B180214B2B7342E574B580",
+    "assets/tfcfarmingplus/textures/item/food/hazelnut_harvest_v1.png": "933D24B80F449643A39B1C37D302371A33EF39B3D05ED91E23C0215221B1324D",
+    "assets/tfcfarmingplus/textures/item/food/macadamia.png": "EB1D9CE39E0D9555AE5C7C751C2C4B8AF2E9F19419CF43E17A24F1747C79317D",
+    "assets/tfcfarmingplus/textures/item/food/macadamia_harvest_v1.png": "F83A92D99384B3A509344E974E9667C7F686996B0C621D2AE7CE8A0A482AAE49",
+    "assets/tfcfarmingplus/textures/item/food/pecan.png": "243005B82386DF133159BC3D00295BF7884A3D52D8F62A43A579134A98A8CE01",
+    "assets/tfcfarmingplus/textures/item/food/pecan_harvest_v1.png": "8424B485FE12E1CD2B1A9D09F9B938EE38B6F1EDBFB8AF48DDD27207E37E448D",
+    "assets/tfcfarmingplus/textures/item/food/walnut.png": "C590493797A4B009FD3C702E248D60E040ECF5AA1ADA0FFF03905680F7DE19AC",
+    "assets/tfcfarmingplus/textures/item/food/walnut_harvest_v1.png": "99EE535F3DD8E89A08F523EBC31501562E578D651267FE0D033AD4F7393A44F0",
+    "assets/tfcfarmingplus/textures/item/food/rhubarb.png": "D3A8086EE93DB7E70D3DFC3AD64C045DB6E3E0F94D690A600C51501A98B19CE6",
+    "assets/tfcfarmingplus/textures/item/food/rhubarb_harvest_v2.png": "47C8C27A9CDAC4E07D7DFDDBA9D182638BA3F0D9977305CEE62AFEC814859E66",
+    "assets/tfcfarmingplus/textures/item/food/sunflower.png": "428A23BF0D04939FE5B5AF336254C8727BA919D6A2E8A3A3E3F3DBC8AA7C20D4",
+    "assets/tfcfarmingplus/textures/item/food/sunflower_harvest_v2.png": "BF54D99747372047750DF91E33F7417ED8175076E49B535E73FDBECBAF39EF90",
+    "assets/tfcfarmingplus/textures/item/food/agave.png": "7B93E1441F6AC3085DCC797BC598F2183403EDC15AF78AA1EAA9285AEB40B9F9",
+    "assets/tfcfarmingplus/textures/item/food/agave_harvest_v1.png": "3ADB1FD67E049E210C152DC6F454E975C26F79129E097FDDFBF9DA2467AC8B58",
+    "assets/tfcfarmingplus/textures/item/food/arugula_harvest_v1.png": "62261205A6AECFFB7DE7928BB82CF80D127A0E5977674591B8B8766868234323",
+    "assets/tfcfarmingplus/textures/item/food/garland_chrysanthemum_harvest_v1.png": "D9A6B4BDD5736F8603B6B0C596EF0CE7EDE6B84A76417F329504C6983300871A",
+    "assets/tfcfarmingplus/textures/item/food/mustard_greens_harvest_v1.png": "25AF8491488B88C68E038BC0EE1E2FC8FE7518D9B66C0F45224E955A65F8A141",
+    "assets/tfcfarmingplus/textures/item/food/perilla_harvest_v1.png": "F220DFCF8D5F1660CE366B787C7102F2C4C3E6E07D991CF6DCB618E4190D6046",
+    "assets/tfcfarmingplus/textures/item/food/lettuce_harvest_v1.png": "022600D5568BAB5A0DF57FA0C0ADBCE65078CAE9F236D9F9DF0B706D9C05BDF6",
+    "assets/tfcfarmingplus/textures/item/food/spinach.png": "73FB6E75C6A04A5871A3CC293E90089D997D315A8381356EB2A7F5A78D59C5FF",
+    "assets/tfcfarmingplus/textures/item/food/spinach_harvest_v1.png": "F18462CBD923BFA6AB71146CDF144BEEBF0B7D2082D32A93373780A4021A2843",
+    "assets/tfcfarmingplus/textures/item/food/swiss_chard_harvest_v1.png": "AE7C61367AC2BA4D64CDA9D5074042441154F36A30FD96F20CD70B51F4B837CC",
+    "assets/tfcfarmingplus/textures/item/food/purslane_harvest_v1.png": "D76394CA610368373650954C2928CCA4D6AE1187FFFA480778F20B31B827F9BC"
+  },
+  "FoodDataSha256": {
+    "data/tfcfarmingplus/tfc/food/arugula.json": "1F6C29CEF798608757749B1A425FC9F28A993DC0547DE016D5E8ACC1375A565A",
+    "data/tfcfarmingplus/tfc/food/mustard_greens.json": "5F700EA07DABCB0880E9B83DE911AD9D7C2528FBCE69A6A8A2155E156BF938F2",
+    "data/tfcfarmingplus/tfc/food/swiss_chard.json": "D09BB209D6575D922DEF60427E2A674F7F34C8A3A2EBB0D11B5EBC91A53194EE",
+    "data/tfcfarmingplus/tfc/food/asparagus.json": "BFD62984A07AAA0441E4115341AADE7A2AF02272572A965AC5E09ABBA1A80298",
+    "data/tfcfarmingplus/tfc/food/eggplant.json": "4CED5955FE0DB3B25DF2915202253A938A5325AFD7568936C89397914B1BAA60",
+    "data/tfcfarmingplus/tfc/food/okra.json": "FC42017934174317BFC6AB9DB2C5CD88906435C7027750645D10E3C9DDA1B3FF",
+    "data/tfcfarmingplus/tfc/food/lettuce.json": "5B53C19E93E9B2A77181E738A3FBC0D4A94F4722AB919A746D47581C85E228C6",
+    "data/tfcfarmingplus/tfc/food/celery.json": "DECA868B1B913DD27A81CA7EF8F25ACA3B7CDC2A9EE82B94FEBB2526F92DFF33",
+    "data/tfcfarmingplus/tfc/food/celtuce.json": "7D1F50DA63FC5561FF9AAA79E13DC70A7A17E717737FFC5CBC9EAB0A0CC84CBC",
+    "data/tfcfarmingplus/tfc/food/garland_chrysanthemum.json": "9DD3F4D4DD3605B50B351E076432F2D6D0460ED66A14E90357C91C9E838AD208",
+    "data/tfcfarmingplus/tfc/food/perilla.json": "66EBAFE21927F1DF690A1946F8AED0A130E019D9DB70B62F88BA96556A9CC123",
+    "data/tfcfarmingplus/tfc/food/purslane.json": "B1C725F440E183CB04C315FBFFBEE024FE3C9375C912CB731C48BB9A84BADADB",
+    "data/tfcfarmingplus/tfc/food/common_bean.json": "E1E0B6ED8F006CD1F0663A1B0115FFA3EF2549FE268E3EEF5AE3329FC363AEB1",
+    "data/tfcfarmingplus/tfc/food/cowpea.json": "F58F89627ABB8B9D274F283F286F3F5C2E61B790A51C9BE6851DF6ED12CC75D6",
+    "data/tfcfarmingplus/tfc/food/pea.json": "AE05A2E20E6B1F7298E99725C99926D2309F3F0B982A0CC898003BDF2D247C21",
+    "data/tfcfarmingplus/tfc/food/winged_bean.json": "0D299D3C72C90E19F8ADD74C30B316DA70FF1B8B3F06481443566685C75C65ED",
+    "data/tfcfarmingplus/tfc/food/bitter_melon.json": "801DB6B2B1AB13D704D6F698076DE5819F435042E486021E067A103FF5449725",
+    "data/tfcfarmingplus/tfc/food/chayote.json": "5DA9F57CFDBF86682F73A24608AE28CD44A1C8C2A5823FBDB01A886CDB6C90E6",
+    "data/tfcfarmingplus/tfc/food/loofah.json": "491E5759A045962EB678B82062267D8C58CF228BA890BF2D6086B048672C5693",
+    "data/tfcfarmingplus/tfc/food/snake_gourd.json": "0262F497F2D336529F2FBFA29511326384DDEFE8782386012550DFC47E1F92E9",
+    "data/tfcfarmingplus/tfc/food/taro.json": "ED18CB5530B040803FC68CFAF22CFEFC1AC553DD7B8D0977A57B748BAAAD8254",
+    "data/tfcfarmingplus/tfc/food/yam.json": "32BDC6376A38BEEFF2099CE54EDC5BFD015918ACCAFA11D147AF75767556F156",
+    "data/tfcfarmingplus/tfc/food/lotus.json": "D3483C5AB3D0A6DF0E1773754A094031BB18A4ED4980591B2F3A3D11DE109973",
+    "data/tfcfarmingplus/tfc/food/arrowhead.json": "B0E333A12BB6B6D4618E56E08EBB6DBF15C33F800A0065A084B5356EAE7940F4",
+    "data/tfcfarmingplus/tfc/food/brussels_sprouts.json": "DF83A2FECBB851A34E3D3663ACE8E3182F49B648CDC42954A64D2E3B95DD0F20",
+    "data/tfcfarmingplus/tfc/food/chive.json": "E4C6DD54AE376D9692CC87B9AD463ACE53BCB135B6C081937D24BF9A928F6C4F",
+    "data/tfcfarmingplus/tfc/food/malabar_spinach.json": "AA8163D62850F50A42024FB0A84480AE14E6C66A78C1915AF01FE95DB8643D41",
+    "data/tfcfarmingplus/tfc/food/water_dropwort.json": "C56FF793F8C865DD3567435248E6DD3CC08C6691193165889B942532A8BDB965",
+    "data/tfcfarmingplus/tfc/food/water_caltrop.json": "8EFACB181BF678C92AE125A02C2998CE11767C8F702A1D4288AADAADDA5990BA",
+    "data/tfcfarmingplus/tfc/food/water_chestnut.json": "DDF8D4DA61AE3BCB7D6F3BB18EB453B5BF4C3808EF194B1FA267ABB8C18F307E",
+    "data/tfcfarmingplus/tfc/food/water_shield.json": "C13385DA1970818A2F999472769E5DF4E90C082CECC506794B7BF13F5DF8ECAE",
+    "data/tfcfarmingplus/tfc/food/water_spinach.json": "C5031E343A30C2BBA8929ADA4A1DF8A277A050495892588B263C0D4D3089B130",
+    "data/tfcfarmingplus/tfc/food/almond.json": "ADABD7D496FBF7276E0DCC1B7AF177FF1156475411BA503F7198C374285AB844",
+    "data/tfcfarmingplus/tfc/food/hazelnut.json": "77E02E10EFB7400230A0FBD57ADDE2C65CB6488228F87D4C6143BA5CA979EC58",
+    "data/tfcfarmingplus/tfc/food/macadamia.json": "75EB91B7FFB00CC9D0D9FA99DA283CE0F185FB8A7501387A626373239C1287A0",
+    "data/tfcfarmingplus/tfc/food/pecan.json": "A299E7032CF154DFAF6F0BB6DAE7A8176E78B6DC19833B76AC79F13FBEEE9318",
+    "data/tfcfarmingplus/tfc/food/walnut.json": "C4D643FD35166F58751CC149CC030E22528B085393DEE04460B92D91756177AC",
+    "data/tfcfarmingplus/tfc/food/rhubarb.json": "B7C6B37AB69AED4B37A49768EE0ED508A8D2CC5CF23D8ED27CDA8B6CC1D7E6C5",
+    "data/tfcfarmingplus/tfc/food/sunflower.json": "DD6F9B5ED77A407DEEF0CC8D0AE26F1015B51032BE4B1FDBB41FD9FB93C2B5FF",
+    "data/tfcfarmingplus/tfc/food/agave.json": "B8C4A8F091647719021BCB579D689D9B4E6D9472B1512A4E39D7141B3FF9EA26",
+    "data/tfcfarmingplus/tfc/food/spinach.json": "1BC17796EFEFC0D3116B1D733CC2C2B325D15A04857C11745767D94FE5838800"
+  },
+  "NativeTexture": {
+    "Path": "assets/tfc/textures/item/seeds/lentil.png",
+    "Sha256": "3F2A9C7F804DC37FE8581E0BB8D36BAED318EE90B7A96B3ECEEA4B9FA8040254",
+    "Jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar"
+  },
+  "AR4QArtReview": [
+    {
+      "Name": "lettuce",
+      "Texture": "tfcfarmingplus:item/food/kale",
+      "Status": "temporary shared leafy icon; species-specific art pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "celery",
+      "Texture": "tfcfarmingplus:item/food/celery_stalks_v1",
+      "Status": "generated stem v1; final art unaccepted",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "celtuce",
+      "Texture": "tfcfarmingplus:item/food/celtuce_stem_v1",
+      "Status": "generated stem v1; final art unaccepted",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "garland_chrysanthemum",
+      "Texture": "tfcfarmingplus:item/food/kale",
+      "Status": "temporary shared leafy icon; species-specific art pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "perilla",
+      "Texture": "tfcfarmingplus:item/food/kale",
+      "Status": "temporary shared leafy icon; species-specific art pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "purslane",
+      "Texture": "tfcfarmingplus:item/food/kale",
+      "Status": "temporary shared leafy icon; species-specific art pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "RequiredItemTextureSize": [
+    16,
+    16
+  ],
+  "AR4RArtReview": [
+    {
+      "Name": "common_bean",
+      "Texture": "tfcfarmingplus:item/food/common_bean_pod_v1",
+      "Status": "generated fresh pod v1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "cowpea",
+      "Texture": "tfcfarmingplus:item/food/cowpea_pod_v2",
+      "Status": "generated paired pod v2; first candidate rejected",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "pea",
+      "Texture": "tfcfarmingplus:item/food/pea_pod_v1",
+      "Status": "generated fresh pod v1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "winged_bean",
+      "Texture": "tfcfarmingplus:item/food/winged_bean_pod_v1",
+      "Status": "generated fresh pod v1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "AR4SArtReview": [
+    {
+      "Name": "bitter_melon",
+      "Texture": "tfcfarmingplus:item/food/bitter_melon_fruit_v1",
+      "Status": "generated whole edible climbing-gourd fruit v1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "chayote",
+      "Texture": "tfcfarmingplus:item/food/chayote_fruit_v1",
+      "Status": "generated whole edible climbing-gourd fruit v1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "loofah",
+      "Texture": "tfcfarmingplus:item/food/loofah_fruit_v1",
+      "Status": "generated whole edible climbing-gourd fruit v1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "snake_gourd",
+      "Texture": "tfcfarmingplus:item/food/snake_gourd_fruit_v1",
+      "Status": "generated whole edible climbing-gourd fruit v1",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "AR4TArtReview": [
+    {
+      "Name": "taro",
+      "Texture": "tfcfarmingplus:item/food/taro_harvest_v1",
+      "Status": "generated underground edible harvest v1; no gameplay processing change",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "yam",
+      "Texture": "tfcfarmingplus:item/food/yam_harvest_v1",
+      "Status": "generated underground edible harvest v1; no gameplay processing change",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "lotus",
+      "Texture": "tfcfarmingplus:item/food/lotus_harvest_v1",
+      "Status": "generated underground edible harvest v1; no gameplay processing change",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "arrowhead",
+      "Texture": "tfcfarmingplus:item/food/arrowhead_harvest_v1",
+      "Status": "generated underground edible harvest v1; no gameplay processing change",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "AR4UArtReview": [
+    {
+      "Name": "brussels_sprouts",
+      "Origin": "built-in image_gen candidate export",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "chive",
+      "Origin": "existing project PNG",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "malabar_spinach",
+      "Origin": "built-in image_gen candidate export",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "water_dropwort",
+      "Origin": "built-in image_gen candidate export",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "water_caltrop",
+      "Origin": "existing project PNG",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "water_chestnut",
+      "Origin": "built-in image_gen candidate export",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "water_shield",
+      "Origin": "built-in image_gen candidate export",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "water_spinach",
+      "Origin": "built-in image_gen candidate export",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "AR4WArtReview": [
+    {
+      "Name": "almond",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "hazelnut",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "macadamia",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "pecan",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "walnut",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "GuidePages": [
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+      "Name": "rhubarb",
+      "Locale": "zh_cn",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -12°C - 24°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 45 - 85 %$(br)$(bold)类别$(): 可采摘蔬菜$(br2)$(bold)$(3)氮$(): 50 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 30$()$(br2)大黄是$(thing)可采摘蔬菜$()。叶柄是食材，叶片不用于食用。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，生长后期空手右键采摘可保留植株；左键破坏会拔除植株。$(br2)叶柄可直接食用或用于原生汤、沙拉和三明治；使用未腐烂原料。"
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+      "Name": "sunflower",
+      "Locale": "zh_cn",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 5°C - 30°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 20 - 70 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 80 $(bold)$(6)磷$(): +30 $(bold)$(d)钾$(): +40$()$(br2)向日葵是双格作物。收获食用葵花籽，播种种子单独保留。$(br2)种子播在$(l:tfc:food/farmland)农田$()上，上方留空供植株长高。完全成熟后破坏任意半株收获并返种，只结算一次。$(br2)食用籽可直接食用或用于原生餐食；当前没有专属榨油配方。"
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+      "Name": "agave",
+      "Locale": "zh_cn",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): 12°C - 40°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 5 - 45 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 30 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 50$()$(br2)种子（侧芽）播在$(l:tfc:food/farmland)农田$()上。莲座分六龄生长，完全成熟并显现中心结果态后，破坏整株采收并返还1至2份侧芽；空手右键不采摘。枯死时在原地返还1份对应侧芽，应及时拾取；之后破坏共享死株不再掉落。$(br2)食材是龙舌兰心，侧芽用于播种。当前没有专属烤制或榨汁配方。"
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+      "Name": "rhubarb",
+      "Locale": "en_us",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -12°C - 24°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 45 - 85 %$(br)$(bold)Category$(): Pickable Vegetable$(br2)$(bold)$(3)Nitrogen$(): 50 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 30$()$(br2)Rhubarb is a $(thing)pickable vegetable$(): the stalks are food, while leaves are not harvested as food.$(br2)Its seeds are sown on $(l:tfc:food/farmland)farmland$(); late in growth, right-click with an empty hand to harvest and regrow; breaking removes it.$(br2)Eat the stalks or use them in native soup, salads and sandwiches; use unrotten ingredients."
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+      "Name": "sunflower",
+      "Locale": "en_us",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 5°C - 30°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 20 - 70 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 80 $(bold)$(6)Phosphorous$(): +30 $(bold)$(d)Potassium$(): +40$()$(br2)Sunflower is a two-block crop: harvests edible sunflower seeds, separate from seeds used for planting.$(br2)Sow on $(l:tfc:food/farmland)farmland$() with space above for the upper plant. Once fully grown, break either half to harvest and return seeds once.$(br2)Eat the food seeds or use them in native meals. Dedicated oil extraction is not connected."
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+      "Name": "agave",
+      "Locale": "en_us",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): 12°C - 40°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 5 - 45 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 30 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 50$()$(br2)Sow seeds (sidebuds) on $(l:tfc:food/farmland)farmland$(). This rosette has six leaf stages. Once fully grown with a ripe centre, break the whole plant to harvest and receive one to two sidebuds; an empty-hand right-click does not harvest. When it dies, one species sidebud drops immediately: collect it promptly. Breaking the shared dead plant gives nothing further.$(br2)The harvested food is the agave heart; sidebuds are for planting. No dedicated roasting or juice recipe is connected."
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/zh_cn/entries/farming_plus/crops.json",
+      "Name": "swiss_chard",
+      "Locale": "zh_cn",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)温度$(): -5°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)湿度$(): 40 - 80 %$(br)$(bold)类别$(): 蔬菜类$(br2)$(bold)$(3)氮$(): 60 $(bold)$(6)磷$(): 20 $(bold)$(d)钾$(): 40$()$(br2)牛皮菜是单格作物。叶柄肥厚、叶片宽大；成熟后破坏整株收获，之后需要重新播种。$(br2)牛皮菜种子可以种植在$(l:tfc:food/farmland)农田$()上，成熟后收割可以得到$(thing)牛皮菜$()和$(thing)牛皮菜种子$()。$(br2)"
+    },
+    {
+      "Path": "assets/tfc/patchouli_books/field_guide/en_us/entries/farming_plus/crops.json",
+      "Name": "swiss_chard",
+      "Locale": "en_us",
+      "Text": "$(bold)$(l:tfc:core_mechanics/climate#temperature)Temperature$(): -5°C - 26°C$(br)$(bold)$(l:tfc:food/hydration)Hydration$(): 40 - 80 %$(br)$(bold)Category$(): Vegetable$(br2)$(bold)$(3)Nitrogen$(): 60 $(bold)$(6)Phosphorous$(): 20 $(bold)$(d)Potassium$(): 40$()$(br2)Swiss Chard is a single block crop: thick stalks and broad leaves; break the mature plant to harvest, then sow seeds again.$(br2)Swiss Chard seeds can be planted on $(l:tfc:food/farmland)farmland$(), and once ripe the harvest gives $(thing)Swiss Chard$() and $(thing)Swiss Chard Seeds$().$(br2)"
+    }
+  ],
+  "ReviewedTemplateRows": [
+    {
+      "Path": "tools/gen-patchouli-book.ps1",
+      "Name": "rhubarb",
+      "LineSha256": "3E047F3C48B66DE2571F9F60011F88666B86857DA1F93A9A979E104F037F2323"
+    },
+    {
+      "Path": "tools/gen-patchouli-book.ps1",
+      "Name": "sunflower",
+      "LineSha256": "2619D1439D036B01C3194884FCBA18624EE678ACCDE295473606F5CCD73AC1BB"
+    },
+    {
+      "Path": "tools/gen-patchouli-book.ps1",
+      "Name": "agave",
+      "LineSha256": "7460DE042A0B7175669E6BBC0892D40702FAC2824C2FD535413FA48391E01739"
+    },
+    {
+      "Path": "tools/gen-crops.ps1",
+      "Name": "rhubarb",
+      "LineSha256": "38869029CD9A46B5787AFB46C807BF3CFF512CF5EB25EAE8181A40C17734B3EB"
+    },
+    {
+      "Path": "tools/gen-crops.ps1",
+      "Name": "sunflower",
+      "LineSha256": "2FF2C66FCD80F84A0B8C42C87D1D5E16E8712942B4B6EE6BDBEAA5DD81F77349"
+    },
+    {
+      "Path": "tools/gen-crops.ps1",
+      "Name": "agave",
+      "LineSha256": "3D827E5CDE65D7F41B81350C4D40782C68409226EC69A62190F2DFE138D62C7A"
+    },
+    {
+      "Path": "tools/gen-crops.ps1",
+      "Name": "swiss_chard",
+      "LineSha256": "5CA14955E0C6D45E5DD6B67EF77E6A71AAAE59D3A5FCC918665BEA9012909D48"
+    },
+    {
+      "Path": "tools/gen-patchouli-book.ps1",
+      "Name": "swiss_chard",
+      "LineSha256": "55F54B5DAC1170F1FC848E3D3BBB1394CDA428323E2903869B9C8C092FD8F50D"
+    }
+  ],
+  "AR4XArtReview": [
+    {
+      "Name": "rhubarb",
+      "Origin": "built-in image_gen 16x16 export",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "sunflower",
+      "Origin": "built-in image_gen 16x16 export",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "agave",
+      "Origin": "built-in image_gen 16x16 export",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "AR4YArtReview": [
+    {
+      "Name": "arugula",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "garland_chrysanthemum",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "mustard_greens",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "perilla",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "AR4ZArtReview": [
+    {
+      "Name": "lettuce",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "spinach",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "swiss_chard",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    },
+    {
+      "Name": "purslane",
+      "Origin": "built-in image_gen candidate, exported to 16x16",
+      "Status": "reviewed offline; final art and runtime acceptance pending",
+      "VisualAccepted": false,
+      "RuntimeVerified": false
+    }
+  ],
+  "HarvestGuideRevision": "AR4-AC swiss chard ordinary whole-plant harvest; pages and generator rows protected; no gameplay change"
+}

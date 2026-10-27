@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "tfcagricultureplus:block/cooking_pan" },
-    "facing=east": { "model": "tfcagricultureplus:block/cooking_pan", "y": 90 },
-    "facing=south": { "model": "tfcagricultureplus:block/cooking_pan", "y": 180 },
-    "facing=west": { "model": "tfcagricultureplus:block/cooking_pan", "y": 270 }
-  }
-}

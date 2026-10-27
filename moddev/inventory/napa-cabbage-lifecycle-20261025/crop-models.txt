@@ -1,6 +1,0 @@
-tfcfarmingplus:block/crop/napa_cabbage_age_0
-tfcfarmingplus:block/crop/napa_cabbage_age_1
-tfcfarmingplus:block/crop/napa_cabbage_age_2
-tfcfarmingplus:block/crop/napa_cabbage_age_3
-tfcfarmingplus:block/crop/napa_cabbage_age_4
-tfcfarmingplus:block/crop/napa_cabbage_age_5

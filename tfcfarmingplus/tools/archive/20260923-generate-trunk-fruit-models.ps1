@@ -1,0 +1,214 @@
+﻿# ⚠️ 已废弃（2026-09-23）—— 不要运行！
+# 本脚本生成的是**旧的独立树干果实方块**资源（plant/<n>_trunk_fruit 的 blockstate / 模型 / 掉落表 / lang）。
+# 那套方块已被删除：果实现在是枝干的 blockstate 属性（fruit=unripe/ripe），由 gen-branch-fruits.ps1 生成。
+# 跑本脚本会把已删除的资源重新写回 src，造成「资源有、方块没注册」的不一致。保留仅为历史参考。
+
+# ============================================================
+# gen-trunk-fruits.ps1 —— 树干果实（批次 10）的【方块侧】资源生成器
+# ============================================================
+# 机制在 Java 侧：common/blocks/TrunkFruitBlock.java。
+#
+# ⚠️ 该方块**继承 TFC 的 SeasonalPlantBlock**（与浆果丛、果树树叶同一套原生机制），
+#    因此方块状态是 TFC 的 **stage(0~2) + lifecycle(dormant/healthy/flowering/fruiting)**，
+#    再加上本模组自己的 facing(4 向) —— **没有 age 属性**。
+#    早期版本自创 age=0~2 且全年可采（不尊重 TFC 物候），已废弃。
+#
+# ⚠️⚠️ 本脚本**只生成方块侧资源**，产物物品 / 食物数据 / lang 一律**不生成** ——
+#      这 6 个物种**同时是果树**（已进 gen-fruit-trees.ps1 的 $trees 表），
+#      产物物品 food/<n>、tfc/food/<n>.json、item.food.<n> 语言键
+#      全部由**果树管线**产出。
+#      早期版本在这里重复生成/注册，导致游戏启动即崩：
+#        IllegalArgumentException: Duplicate registration food/jabuticaba
+#      教训（AGENTS.md 硬约束 12/13）：新机制若依附已有体系，产物与数据要复用那条管线。
+#
+# 本脚本产出：
+#   [1] blockstates/plant/<n>_trunk_fruit.json                48 变体（4 朝向 × 3 阶段 × 4 物候）
+#   [2] models/block/plant/<n>_trunk_fruit_{unripe,ripe}_stage<i>.json   6 个阶段模型（自有几何）
+#   [3] models/item/plant/<n>_trunk_fruit.json                方块物品模型（⚠️ 路径必须带 plant/）
+#   [4] loot_table/blocks/plant/<n>_trunk_fruit.json          stage=2 且 fruiting 才掉果实
+#   [5] textures/block/plant/<n>_trunk_fruit_{unripe,ripe}.png        2 张贴图（程序化球体果实）
+#   [6] lang：仅 block.<ns>.plant.<n>_trunk_fruit 一条
+#
+# 朝向：几何按「朝北（z 小、向北突出）」建模，blockstate 用 y 旋转出其余三向，
+#       与 TrunkFruitBlock 的 FACING 一一对应。
+#
+# 物候 → 贴图：dormant/healthy/flowering 用**未熟（青绿）**贴图，
+#       fruiting 用**成熟（物种本色）**贴图 —— 玩家一眼能看出「现在能不能采」。
+# ============================================================
+$ErrorActionPreference = 'Stop'
+
+$root   = Join-Path $PSScriptRoot '..\src\main\resources'
+$NS     = 'tfcfarmingplus'
+$java   = 'C:\Users\Lenovo\.gradle\jdks\eclipse_adoptium-21-amd64-windows.2\bin\java.exe'
+$utf8   = New-Object System.Text.UTF8Encoding($false)
+
+Add-Type -AssemblyName System.Web.Extensions | Out-Null
+$ser = New-Object System.Web.Script.Serialization.JavaScriptSerializer
+$ser.MaxJsonLength = [int]::MaxValue
+
+function Save-Json([string]$rel, $obj) {
+    $path = Join-Path $root $rel
+    $dir  = Split-Path $path -Parent
+    if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Force -Path $dir | Out-Null }
+    [System.IO.File]::WriteAllText($path, $ser.Serialize($obj), $utf8)
+}
+
+# ------------------------------------------------------------
+# 物种表 —— 必须与 MyTrunkFruits.SPECIES **及** MyFruitTrees.TREES 一致
+#   n=名字  zh=中文  r/g/b=成熟果实本体颜色（供 GenFruitTexture 程序化生成方块纹理）
+#   ⚠️ 早先用 donor 借 TFC 的 item/food 图标当方块贴图 —— 那是物品栏小图标
+#      （比如 cherry 是"两颗樱桃加梗"），贴到方块六面完全不对。现改为自己画球体果实。
+# ------------------------------------------------------------
+$fruits = @(
+    [ordered]@{ n='jabuticaba'; zh='嘉宝果';     r= 58; g= 26; b= 72 }   # 深紫黑
+    [ordered]@{ n='soursop';    zh='刺果番荔枝'; r= 74; g=104; b= 48 }   # 深绿
+    [ordered]@{ n='mangosteen'; zh='山竹';       r=112; g= 36; b= 78 }   # 紫红
+    [ordered]@{ n='cupuacu';    zh='大花可可';   r=124; g= 88; b= 58 }   # 棕褐
+    [ordered]@{ n='bael';       zh='木橘';       r=184; g=132; b= 46 }   # 橙黄
+    [ordered]@{ n='canistel';   zh='蛋黄果';     r=214; g=176; b= 72 }   # 蛋黄
+)
+
+Write-Host "树干果实表: $($fruits.Count) 种"
+
+# 物候分组：前三个共用「未熟」外观，fruiting 用「成熟」外观
+$unripeLifecycles = @('dormant', 'healthy', 'flowering')
+
+$jobs = New-Object System.Collections.ArrayList
+
+foreach ($f in $fruits) {
+    $n = $f['n']
+
+    # ---------- [1] 方块状态：4 朝向 × 3 阶段 × 4 物候 = 48 变体 ----------
+    $variants = [ordered]@{}
+    $rot = @{ north = 0; east = 90; south = 180; west = 270 }
+    foreach ($face in @('north', 'east', 'south', 'west')) {
+        for ($stage = 0; $stage -le 2; $stage++) {
+            foreach ($lc in @('dormant', 'healthy', 'flowering', 'fruiting')) {
+                $kind = if ($unripeLifecycles -contains $lc) { 'unripe' } else { 'ripe' }
+                $apply = [ordered]@{ model = "${NS}:block/plant/${n}_trunk_fruit_${kind}_stage$stage" }
+                if ($rot[$face] -ne 0) { $apply['y'] = $rot[$face] }
+                $variants["facing=$face,stage=$stage,lifecycle=$lc"] = $apply
+            }
+        }
+    }
+    Save-Json "assets/$NS/blockstates/plant/${n}_trunk_fruit.json" ([ordered]@{ variants = $variants })
+
+    # ---------- [2] 阶段模型（自有几何，逐阶段变大） ----------
+    # 与 TrunkFruitBlock 的 SHAPE_NORTH = Block.box(3,3,0, 13,13, 5) 对应：
+    # 成熟阶段正好等于轮廓形状，前两阶段略小。
+    $boxes = @(
+        @{ from = @(5, 5, 1);  to = @(11, 11, 4) },   # stage0 幼果
+        @{ from = @(4, 4, 0);  to = @(12, 12, 5) },   # stage1 半熟
+        @{ from = @(3, 3, 0);  to = @(13, 13, 6) }    # stage2 成熟
+    )
+    foreach ($kind in @('unripe', 'ripe')) {
+        for ($stage = 0; $stage -le 2; $stage++) {
+            $b = $boxes[$stage]
+            $texKey = "${NS}:block/plant/${n}_trunk_fruit_$kind"
+            $faces = [ordered]@{
+                north = [ordered]@{ uv = @(0, 0, 16, 16); texture = '#0' }
+                east  = [ordered]@{ uv = @(0, 0, 16, 16); texture = '#0' }
+                south = [ordered]@{ uv = @(0, 0, 16, 16); texture = '#0' }
+                west  = [ordered]@{ uv = @(0, 0, 16, 16); texture = '#0' }
+                up    = [ordered]@{ uv = @(0, 0, 16, 16); texture = '#0' }
+                down  = [ordered]@{ uv = @(0, 0, 16, 16); texture = '#0' }
+            }
+            Save-Json "assets/$NS/models/block/plant/${n}_trunk_fruit_${kind}_stage$stage.json" ([ordered]@{
+                credit   = 'TFC Farming Plus - 树干果实（自有几何）'
+                textures = [ordered]@{ '0' = $texKey; particle = $texKey }
+                elements = @([ordered]@{ from = $b.from; to = $b.to; faces = $faces })
+            })
+        }
+    }
+
+    # ---------- [3] 方块物品模型 ----------
+    #    ⚠️ 路径**必须**带 plant/ 前缀（方块注册名是 plant/<n>_trunk_fruit），
+    #       否则 verify.ps1 报「已注册物品缺少物品模型」。
+    #    创造栏图标用**成熟**外观（玩家拿到的是能种出来的那个果实）。
+    Save-Json "assets/$NS/models/item/plant/${n}_trunk_fruit.json" ([ordered]@{
+        parent = 'item/generated'
+        textures = [ordered]@{ layer0 = "${NS}:block/plant/${n}_trunk_fruit_ripe" }
+    })
+
+    # ---------- [4] 掉落表 ----------
+    #    只有「长到 stage=2 且处于结果期（fruiting）」才掉果实，
+    #    与 TrunkFruitBlock 的采收判据（SeasonalPlantBlock.useItemOn 要求 LIFECYCLE==FRUITING）一致；
+    #    其余阶段被破坏只掉 1 个（未熟果不能白拿）。
+    Save-Json "data/$NS/loot_table/blocks/plant/${n}_trunk_fruit.json" ([ordered]@{
+        type = 'minecraft:block'
+        pools = @(
+            [ordered]@{
+                name = 'loot_pool'; rolls = 1
+                entries = @(
+                    [ordered]@{ type='minecraft:item'; name="${NS}:food/$n"
+                        conditions=@([ordered]@{ condition='minecraft:block_state_property'
+                                                 block="${NS}:plant/${n}_trunk_fruit"
+                                                 properties=[ordered]@{ stage='2'; lifecycle='fruiting' } })
+                        functions=@([ordered]@{ function='minecraft:set_count'
+                                                count=[ordered]@{ type='minecraft:uniform'; min=1; max=3 } }) }
+                    [ordered]@{ type='minecraft:item'; name="${NS}:food/$n"
+                        conditions=@([ordered]@{ condition='minecraft:block_state_property'
+                                                 block="${NS}:plant/${n}_trunk_fruit"
+                                                 properties=[ordered]@{ stage='2'; lifecycle='healthy' } }) }
+                )
+                conditions = @([ordered]@{ condition = 'minecraft:survives_explosion' })
+            }
+        )
+    })
+
+    # ---------- [5] 贴图：用 GenFruitTexture **程序化画一颗球体果实** ----------
+    #    每个物种 2 张：未熟（青绿化处理）+ 成熟（物种本色，半径 6）。
+    #    阶段大小由**几何**体现，不再靠贴图区分，所以每套只需 1 张。
+    $ur = [Math]::Min(255, [int]($f['r'] * 0.45) + 30)
+    $ug = [Math]::Min(255, [int]($f['g'] * 0.55) + 70)
+    $ub = [Math]::Min(255, [int]($f['b'] * 0.45) + 30)
+    [void]$jobs.Add([ordered]@{
+        out = "$root\assets\$NS\textures\block\plant\${n}_trunk_fruit_unripe.png"
+        r = $ur; g = $ug; b = $ub; radius = 6
+    })
+    [void]$jobs.Add([ordered]@{
+        out = "$root\assets\$NS\textures\block\plant\${n}_trunk_fruit_ripe.png"
+        r = [int]$f['r']; g = [int]$f['g']; b = [int]$f['b']; radius = 6
+    })
+}
+
+# ---------- 清理上一版（age/stage 单一外观）的孤儿资源 ----------
+# ⚠️ 从 src/main/resources 删除文件后**必须** gradle clean build，否则旧副本仍会进 jar。
+$stale = New-Object System.Collections.ArrayList
+foreach ($f in $fruits) {
+    $n = $f['n']
+    for ($stage = 0; $stage -le 2; $stage++) {
+        [void]$stale.Add("$root\assets\$NS\models\block\plant\${n}_trunk_fruit_stage$stage.json")
+        [void]$stale.Add("$root\assets\$NS\textures\block\plant\${n}_trunk_fruit_stage$stage.png")
+    }
+}
+$removed = 0
+foreach ($p in $stale) {
+    if (Test-Path $p) { Remove-Item -Force $p; $removed++ }
+}
+Write-Host "  清理旧版资源: $removed 个"
+
+# ---------- [6] lang：只写方块名（产物物品的语言键由果树管线负责） ----------
+foreach ($lang in @('en_us', 'zh_cn')) {
+    $p = Join-Path $root "assets/$NS/lang/$lang.json"
+    $d = $ser.DeserializeObject([System.IO.File]::ReadAllText($p, $utf8))
+    $out = [ordered]@{}
+    foreach ($k in $d.Keys) { $out[$k] = $d[$k] }
+    foreach ($f in $fruits) {
+        $n = $f['n']
+        $out["block.$NS.plant.${n}_trunk_fruit"] =
+            if ($lang -eq 'zh_cn') { "$($f['zh'])（树干果实）" } else { "$n (Trunk Fruit)" }
+    }
+    [System.IO.File]::WriteAllText($p, $ser.Serialize($out), $utf8)
+    Write-Host "  lang $lang : $($out.Keys.Count) 条"
+}
+
+# ---------- 生成贴图（GenFruitTexture：程序化画球体果实） ----------
+$jobFile = Join-Path (Split-Path $PSScriptRoot -Parent) 'data/fruit-texture-jobs.json'
+[System.IO.File]::WriteAllText($jobFile,
+    (([ordered]@{ jobs = $jobs }) | ConvertTo-Json -Depth 5 -Compress), $utf8)
+
+& $java (Join-Path $PSScriptRoot 'GenFruitTexture.java') $jobFile
+if ($LASTEXITCODE -ne 0) { Write-Host '✘ 果实纹理生成失败'; exit 1 }
+
+Write-Host "树干果实方块资源生成完成：$($fruits.Count) 种（每物种 48 变体 / 6 模型 / 2 贴图）"

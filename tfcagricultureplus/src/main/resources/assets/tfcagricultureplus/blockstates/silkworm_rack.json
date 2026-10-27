@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,stage=0": {"model":"tfcagricultureplus:block/silkworm_rack/stage0"},
+    "facing=east,stage=0": {"model":"tfcagricultureplus:block/silkworm_rack/stage0","y":90},
+    "facing=south,stage=0": {"model":"tfcagricultureplus:block/silkworm_rack/stage0","y":180},
+    "facing=west,stage=0": {"model":"tfcagricultureplus:block/silkworm_rack/stage0","y":270},
+    "facing=north,stage=1": {"model":"tfcagricultureplus:block/silkworm_rack/stage1"},
+    "facing=east,stage=1": {"model":"tfcagricultureplus:block/silkworm_rack/stage1","y":90},
+    "facing=south,stage=1": {"model":"tfcagricultureplus:block/silkworm_rack/stage1","y":180},
+    "facing=west,stage=1": {"model":"tfcagricultureplus:block/silkworm_rack/stage1","y":270},
+    "facing=north,stage=2": {"model":"tfcagricultureplus:block/silkworm_rack/stage2"},
+    "facing=east,stage=2": {"model":"tfcagricultureplus:block/silkworm_rack/stage2","y":90},
+    "facing=south,stage=2": {"model":"tfcagricultureplus:block/silkworm_rack/stage2","y":180},
+    "facing=west,stage=2": {"model":"tfcagricultureplus:block/silkworm_rack/stage2","y":270}
+  }
+}

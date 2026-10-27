@@ -1,0 +1,83 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-AE native16 celery complete display; artwork/runtime approval pending",
+  "ReviewedJsonSha256": {
+    "assets/tfcfarmingplus/blockstates/crop/celery.json": "A3E52AD1577FC502813020631990AD40E22DB0C78ECE8C6B60A3129A02CFA236",
+    "assets/tfcfarmingplus/blockstates/dead_crop/celery.json": "AE4D62F7FA4CC7D45F9726935311397C95C28049AAC46F51FE6AAD221AC0FA59",
+    "assets/tfcfarmingplus/blockstates/wild_crop/celery.json": "A1084D1062645C7418E1AD4F67586436F339E9A2D6BC490EC3DF0B14A3519579",
+    "assets/tfcfarmingplus/models/block/crop/celery_age_0.json": "8D7297A47A06FF006EC0F72E1B3E5CFFB2C77F5303FC9FD34AE7F82611EFB2C0",
+    "assets/tfcfarmingplus/models/block/crop/celery_age_1.json": "67D56F5AF96C4C2C71E53D84EB4134A1E2147494AAC1408F9CDF2C93B64F15EA",
+    "assets/tfcfarmingplus/models/block/crop/celery_age_2.json": "EB65572E7016F728005A7C3E90659E3E2B52C90917F3B603DC6B8C5D384B5ADD",
+    "assets/tfcfarmingplus/models/block/crop/celery_age_3.json": "505D3EAF6B5017D89EBA2F677E66D58FE054AC2248DAAB8E9C629D0C15649C70",
+    "assets/tfcfarmingplus/models/block/crop/celery_age_4.json": "F26DDA9661A4CFF2DB46FED5ECA3B8A6DF88B533CF0E64D89F53781222FAB9DB",
+    "assets/tfcfarmingplus/models/block/crop/celery_age_5.json": "2B8780852A35162FE590A14DFFF855136E845245177C7598E24472B6B9525D0B",
+    "assets/tfcfarmingplus/models/block/dead_crop/celery.json": "CCAB284CD5E1AEFFDD34316900996BAEDB73C147E76F83C7114725ACBE1DB8FF",
+    "assets/tfcfarmingplus/models/block/dead_crop/celery_young.json": "F851B5666A99FABCBF77AE88FAE3FEC9ABF4BFF3FDA58381FFF37B69049E8132",
+    "assets/tfcfarmingplus/models/block/wild_crop/celery.json": "E0D0A12E1CA108A3B6662ADC125EF453196AC1E269C48CDAE5DAB66AC389D371",
+    "assets/tfcfarmingplus/models/block/wild_crop/celery_young.json": "A270529E213F14F5B3E99F29F9771117516DB61C18469BEC8CE9D34C0BE3C41C",
+    "assets/tfcfarmingplus/models/item/food/celery.json": "2B2A1AE5D4750031BF4EC6341D4F2D85496BFD81E743EFF5709FAAF574973662",
+    "assets/tfcfarmingplus/models/item/seeds/celery.json": "A6931B5922877A587199343E80C5A5FD4F2CBD5C6B5FFF0D7AA1BEA74AFCEDAD",
+    "assets/tfcfarmingplus/models/item/wild_crop/celery.json": "F140798EE6CAEEB0C039F27CADF6C93ED5A651141CC5C27DEA02ECB4ED0EACA2",
+    "data/firmalife/firmalife/plantable/celery.json": "28CF88239C4D11255FDE0F09A326A7BA73EAC87992536B733B3326237AE345D5"
+  },
+  "ProtectedTextureSha256": {
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_0.png": "695AB3BAFCC818583B522E5246EC07DE5EC2DB4D467D8B0DEC25812C3F012E11",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_0_stalks_v1.png": "477156E06060FA26DBFF144B7D1B96AF68ECA5B2178A0EA5F959DC20046CECB0",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_1.png": "C2930DC82448D73A697E001ADE5B0A0296F0AE1F78AD2876D83D1BF75862BB60",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_1_stalks_v1.png": "0080D1448EDFD7C77E3FF4051931CD94CD462B90C8147FB0167FAFB5ACCDDEB8",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_2.png": "30264D2A781385F529D921208C89CA46EC13FAD0D69397B7D731A23B68710749",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_2_stalks_v1.png": "B2BFCAAFE12D8183E0393924766390B3A8E670ABD989139A39E4FB2E864D5C0F",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_3.png": "C41083AD8FC65220D92CE8414DB2FD42A1F60C49F4829E45A509DF020D7DB7B1",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_3_stalks_v1.png": "DBBCAAA9C614E0D91A65DFA7FC11CFDDFB33E7929B6249D3C865C30A9FFD4015",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_4.png": "01B7F73913AD17CAF2976B8BE13D6B30D7CCE64CF31BEF69DFD0D7D93EAF4D29",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_4_stalks_v1.png": "9760F31637F81DA8746C627C9850ABE9D43215D62687B67669D891DBFE2091DE",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_5.png": "BBCFD4BC4BDB4AE68A834B1803DB882956EDABFF9E2F088FFDFC72987858F2DD",
+    "assets/tfcfarmingplus/textures/block/crop/celery_age_5_stalks_v1.png": "3E799AD47F8F2C5C973B8DD0DAFEEF9C153765116DC1A21EE90BB95450714784",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celery.png": "CCB9C7964D9EA87D1365767BB9753D43A9D0598E03B973325705B760F9A4104D",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celery_stalks_v1.png": "91D31889CE1BAEF46DEC83231EF643F66C4C60E866441FD611B0470E50B7305C",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celery_young.png": "101C9BF921F25911B115CE82ED623B00B88003D56AAEFA12DEBE5D5CBFD65C5C",
+    "assets/tfcfarmingplus/textures/block/dead_crop/celery_young_stalks_v1.png": "03287998357FFE85494C791EAA5EAB031BC59F0329FD33D2B07880E3C704A7C7",
+    "assets/tfcfarmingplus/textures/block/wild_crop/celery.png": "95DDA2ABB94F859815DB4ADA974DFE46F655F5F49EA27605A48DC5387C17FAA8",
+    "assets/tfcfarmingplus/textures/item/food/celery.png": "7B3F84AB536736A2371A64737327A5E64B666A0190BF1F6BBB6C809C7B9E32AC",
+    "assets/tfcfarmingplus/textures/item/food/celery_stalks_v1.png": "CAEE8CB1AC8B1CEBCC295958C8B16FEA3302BB5E6B2FBE9EB8393E4CFE2169D6",
+    "assets/tfcfarmingplus/textures/item/seeds/celery.png": "78DBDD1DB66A7A1021126335BEBD9109ECA7E154F6AF081F36A5E99F65A382BC"
+  },
+  "ProtectedGameplaySha256": {
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/celery.json": "E67D625E779047C7453A0FCD4D452E96637767DD14C3AB0B83CCE6520CC712C7",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/dead_crop/celery.json": "2E5AF8EE8548690E50978D4E1F1BF4A9CDE1E0C8DB65C8DBA776619CC9BED63D",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/celery.json": "E852FD885C43C7444D9A48423EEF6F24F0A2E9D0B6895D016E5B9D870DEB66C9",
+    "src/main/resources/data/tfcfarmingplus/tfc/climate_range/crop/celery.json": "3A54DDBF767803E928BBCF77DD1DF0569DC173C2C2A05BAAF7EBC2CE3B59C809",
+    "src/main/resources/data/tfcfarmingplus/tfc/food/celery.json": "DECA868B1B913DD27A81CA7EF8F25ACA3B7CDC2A9EE82B94FEBB2526F92DFF33",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/celery.json": "AD73135A239EDF68E6CAF36266A19B29EE16D6F5BB47EEF2F9F4959720379017",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/celery_patch.json": "EFA5CF317AC56ACF3D8EDDAA23BDDDFA00FDDF5360DA0F8F66771C6C01EC77A6",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/celery.json": "7E416EDFC936F48BB681F5F938711E50DEF82165199517FCE20482BC3B833DE3",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/celery_patch.json": "00E53D496C48C14D921311F65D3A6EE6287FA2F5819A9B814D31DA3BF849D688",
+    "src/main/java/io/github/likexiang21/tfcplus/farming/common/crop/FarmingCrops.java": "AE4D1076A2044DFE602723B7B962AB9DBF3626D9FF49FCDFA87CA1384F842443",
+    "src/main/java/io/github/likexiang21/tfcplus/farming/common/crop/FarmingWildCrops.java": "67CF6F35C2363FC144F80C1E2432BC12AD2ADE31F0E1B2323749BAEE205A1372",
+    "src/main/java/io/github/likexiang21/tfcplus/farming/common/block/FarmingCropBlock.java": "A9D0266BC2A74F44B81341FC922B6B7CD5792D699B30D7C5196ABCC0E0F157FE"
+  },
+  "PlanterStageTextures": [
+    "tfcfarmingplus:block/crop/celery_age_0_stalks_v1",
+    "tfcfarmingplus:block/crop/celery_age_1_stalks_v1",
+    "tfcfarmingplus:block/crop/celery_age_2_stalks_v1",
+    "tfcfarmingplus:block/crop/celery_age_3_stalks_v1",
+    "tfcfarmingplus:block/crop/celery_age_4_stalks_v1",
+    "tfcfarmingplus:block/crop/celery_age_5_stalks_v1"
+  ],
+  "NativeDependency": {
+    "Jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Files": [
+      {
+        "Path": "assets/tfc/models/block/wild_crop/crop.json",
+        "SHA256": "8EF33918260610034C01AD995C1470AE20E5866C70965D7C6CD9AA7B076DB605"
+      },
+      {
+        "Path": "assets/tfc/textures/block/crop/wild_crop_grass.png",
+        "SHA256": "F1AA771D097BD9504FA432A535A74F10135752FC99388CC306ADDE85D536D1CB"
+      }
+    ]
+  },
+  "PixelSourceRule": "Eight explicit 16x16 grids;64 is exact4x nearest preview,workspace only.",
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

@@ -1,0 +1,787 @@
+{
+  "crops": [
+    {
+      "name": "spinach",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "lettuce",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "celery",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "kale",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": true
+    },
+    {
+      "name": "napa_cabbage",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "mustard_greens",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "broccoli",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "cauliflower",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "brussels_sprouts",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "swiss_chard",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "celtuce",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "garland_chrysanthemum",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "perilla",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "arugula",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "turnip",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "parsnip",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "sunchoke",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "shallot",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "celeriac",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "salsify",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "ginger",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "turmeric",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "yacon",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "chicory_root",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "millet",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "foxtail_millet",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "buckwheat",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "fonio",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "spelt",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "emmer",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "einkorn",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "pearl_millet",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "amaranth",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "quinoa",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "finger_millet",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "jobs_tears",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "chickpea",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "faba_bean",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "lupin",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "adzuki",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "bambara_nut",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "fenugreek",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "flax",
+      "noFood": true,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "sesame",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "safflower",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "ramie",
+      "noFood": true,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "chili",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "eggplant",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "okra",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "cotton",
+      "noFood": true,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "asparagus",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "chive",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "rhubarb",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "artichoke",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "taro",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "water_chestnut",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "water_caltrop",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "wild_rice_stem",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "lotus",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "water_dropwort",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "water_spinach",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "arrowhead",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "gorgon_nut",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "winter_melon",
+      "noFood": true,
+      "double": false,
+      "spread": true,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "hops",
+      "noFood": true,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "loofah",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "bitter_melon",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "snake_gourd",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "yam",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "malabar_spinach",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "chayote",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "bottle_gourd",
+      "noFood": true,
+      "double": false,
+      "spread": true,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "cantaloupe",
+      "noFood": true,
+      "double": false,
+      "spread": true,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "water_shield",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": true,
+      "rosette": false
+    },
+    {
+      "name": "cardoon",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": true
+    },
+    {
+      "name": "agave",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": true
+    },
+    {
+      "name": "purslane",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": true
+    },
+    {
+      "name": "pea",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "cowpea",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "common_bean",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "winged_bean",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": true,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "pigeon_pea",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "sunflower",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "hemp",
+      "noFood": true,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "sorghum",
+      "noFood": false,
+      "double": true,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    },
+    {
+      "name": "sisal",
+      "noFood": true,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": true
+    },
+    {
+      "name": "strawberry",
+      "noFood": false,
+      "double": false,
+      "spread": false,
+      "climb": false,
+      "flooded": false,
+      "rosette": false
+    }
+  ]
+}

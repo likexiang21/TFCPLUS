@@ -1,4 +1,0 @@
-tfcfarmingplus:block/wild_crop/broccoli
-tfcfarmingplus:block/wild_crop/broccoli_young
-tfcfarmingplus:block/dead_crop/broccoli
-tfcfarmingplus:block/dead_crop/broccoli_young

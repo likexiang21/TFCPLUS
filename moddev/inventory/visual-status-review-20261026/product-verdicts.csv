@@ -1,9 +1,0 @@
-﻿编号,物种,名称,物品ID,当前纹理,图像观察,产物语义与动作,状态,下一批,保留,本片修改游戏资源,实机通过
-VF-almond,almond,杏仁,tfcfarmingplus:food/almond,tfcfarmingplus:item/food/almond,当前图像呈桃形，不是杏仁辨识,沿用现有food/almond可食用坚果产物；新图表现杏仁，不增加去壳状态,确认图像内容错配；待独立美术,AR4-W,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False
-VF-hazelnut,hazelnut,榛子,tfcfarmingplus:food/hazelnut,tfcfarmingplus:item/food/hazelnut,当前图像呈双樱桃形，不是榛子辨识,沿用现有food/hazelnut；新图表现榛子,确认图像内容错配；待独立美术,AR4-W,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False
-VF-macadamia,macadamia,夏威夷果,tfcfarmingplus:food/macadamia,tfcfarmingplus:item/food/macadamia,当前图像呈柠檬形，不是夏威夷果辨识,沿用现有food/macadamia；新图表现夏威夷果,确认图像内容错配；待独立美术,AR4-W,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False
-VF-pecan,pecan,碧根果,tfcfarmingplus:food/pecan,tfcfarmingplus:item/food/pecan,当前图像呈橙子形，不是碧根果辨识,沿用现有food/pecan；新图表现碧根果,确认图像内容错配；待独立美术,AR4-W,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False
-VF-walnut,walnut,核桃,tfcfarmingplus:food/walnut,tfcfarmingplus:item/food/walnut,当前图像呈绿苹果形，不是核桃辨识,沿用现有food/walnut；新图表现核桃,确认图像内容错配；待独立美术,AR4-W,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False
-VF-agave,agave,龙舌兰,tfcfarmingplus:food/agave,tfc:item/food/beet,当前为甜菜，保存图仍红色根形；不适合直接接回,历史70号产物为agave_heart，当前ID/成熟结果态及模板仍支持中心收获物方向；绘制龙舌兰心候选，不创建新ID或擅加榨汁配方,确认图像内容错配；待独立美术,后续三项特殊产物图标,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False
-VF-sunflower,sunflower,向日葵,tfcfarmingplus:food/sunflower,tfc:item/food/barley,当前大麦穗，保存图为完整花盘；食品与播种种子为不同ID,70号明确sunflower_seed，现说明籽，按可食用葵花籽表现food/sunflower；保留seeds/sunflower播种用途，不画成整朵花或擅改食品数值,确认图像内容错配；待独立美术,后续三项特殊产物图标,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False
-VF-rhubarb,rhubarb,大黄,tfcfarmingplus:food/rhubarb,tfc:item/food/soybean,当前黄豆荚，保存图为泛黄细长形；未表现手册明确的叶柄,当前中英文手册明确食用叶柄；采用红绿叶柄候选，不表现可食叶片，不改现有采摘行为,确认图像内容错配；待独立美术,后续三项特殊产物图标,ID、原PNG、食品/腐烂值、成熟收获与现有用途,False,False

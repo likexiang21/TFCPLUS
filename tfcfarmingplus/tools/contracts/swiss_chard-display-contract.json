@@ -1,0 +1,83 @@
+{
+  "Schema": 1,
+  "Scope": "AR4-AD native16 Swiss chard complete display; player artwork/runtime approval pending",
+  "ReviewedJsonSha256": {
+    "assets/tfcfarmingplus/blockstates/crop/swiss_chard.json": "89DAC510E3B75B1931FD38D72BB3905360F3EE9B874F0D0764A859FE543C92D3",
+    "assets/tfcfarmingplus/blockstates/dead_crop/swiss_chard.json": "9AA5CB8D133416CE545694496423A0BD6E6CB9141EE45B0D2F52FDC44269EFF3",
+    "assets/tfcfarmingplus/blockstates/wild_crop/swiss_chard.json": "F22119969E81AAC0B32149516F86D6B837A5A4A801A3F1E5F9890A97D2C01114",
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_0.json": "5421285A9A375C8E1817731D0CB88932780B4793A8925884DC62824EDBB93F0E",
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_1.json": "65C1863F2E7237BE372B4EA88FCC41D2618CFC2280C58E7E9F0E992746D491B2",
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_2.json": "C8C559E95C607CF672E1753CC6936E956C69711F74DCDAF2EAADDB9D33951383",
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_3.json": "A1E00ADA228A22655333F2165E45A50640DE5FB14BA72DE5E3385CFB2D09683F",
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_4.json": "E36559646D30E831BB21A9B36F2FA063592FF6CEDDEA67325052D026949A5ADF",
+    "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_5.json": "DC4A7B0857C312504279D6884BDD1D9B6248471DB0B82ADEE9B0BD4E6C6DB11F",
+    "assets/tfcfarmingplus/models/block/dead_crop/swiss_chard.json": "1743BE9FAA9A41103EFD876310AD14CF9F51B75E8BDFB72A92D08F0B815D7B27",
+    "assets/tfcfarmingplus/models/block/dead_crop/swiss_chard_young.json": "F61C94C418790B5BE8D5F6815A5E75BD45BCEBEF43D2F2D1D0C993176DE4A25B",
+    "assets/tfcfarmingplus/models/block/wild_crop/swiss_chard.json": "37ED0A716C3D94AA55EE40C5DD5BCD7993B412831F1F807D4DFBB0233B6CCCFF",
+    "assets/tfcfarmingplus/models/block/wild_crop/swiss_chard_young.json": "5FF9DAD59FEF118A458B27FA197313F8DA2EF7296842D78B09EA3C55B5E9820D",
+    "assets/tfcfarmingplus/models/item/food/swiss_chard.json": "BD469D2A7F0BB8D1B8084F35D4E727EB2E29266D1030483BF1D32C4302525A0B",
+    "assets/tfcfarmingplus/models/item/seeds/swiss_chard.json": "B7C99951E62D302395680B0A66CF8F79EE6C0D29234BC1C9BBECB903C0C25551",
+    "assets/tfcfarmingplus/models/item/wild_crop/swiss_chard.json": "833F953A3624EEDE2170D09996BFB5E5B5CA52572575ED808044BFF03D644729",
+    "data/firmalife/firmalife/plantable/swiss_chard.json": "745F2E22BC72419F9FD9C2506EE81C02FD1C2E37BC9F8FA9F01A93CBD9F2F135"
+  },
+  "ProtectedTextureSha256": {
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_0.png": "C2797F5CA0839DA3504C6DA1B12A5C55D3F9C038E797FAA3675CE46C9EBF22D8",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_0_leafy_v2.png": "BBC1C4653CB1E2F6B8380D6D4507C142EF591C9DD675A1356EEC69E6F29A7508",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_1.png": "1CD37F85B65EA5DC72DB301C2B9A2298E827665BD5F1C1E4B91A8C2CC977955B",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_1_leafy_v2.png": "25A93B4F5194B0E6881D24391A81198705DCB94939827CFE6B9DA72E99804443",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_2.png": "DFC864370E24CF118B88830716814A38D4ED30C47307D8373138B504DD12DC32",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_2_leafy_v2.png": "AC8556734ADC79B1A6A42D2CD101996DB6B96DEAE6950E39CB25590BF7B5FFE8",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_3.png": "8C9F1A462AE4678A0CB8197C2C4B532535A8A69F5A7774D250B7CDDA0A17C48D",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_3_leafy_v2.png": "CBF12D2196E00EBD6730A6DE48EED1E8B04D195B9BF5EE4E03D29FE3A322B61D",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_4.png": "A3303F89A07D4C94C77E1F8C3CD5A054B6F95663FDB4142E6B28C73435F2403B",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_4_leafy_v2.png": "B78F873DBD08A3B074CEB4F2BDD802899050BD0D4F5F6FB7BD17633079159ED2",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_5.png": "744AFA856BC43D227E75FFE4AD6FF683053E8E07D086C8B0E1D292BFFD5A6618",
+    "assets/tfcfarmingplus/textures/block/crop/swiss_chard_age_5_leafy_v2.png": "78E4591731D49F450006B19F19D44AC01AE9CA00CBAA74405321104F7FF994B5",
+    "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard.png": "F1C4D0CF0F9A963AD3E5C545E69CE8B76C24D94902B828A1E1887E24F0444C7B",
+    "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard_leafy_v2.png": "8B07E50FE7ACF5F322A4A025BA8F65E9C1D80D707FFD6B5F84F1B33507C1BB21",
+    "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard_young.png": "34AEFA6779A46A7382271B188899FB18F769B91B8D055DDA06B6A04A3E366440",
+    "assets/tfcfarmingplus/textures/block/dead_crop/swiss_chard_young_leafy_v2.png": "864F99DB89545D0FFFC19D1EF689771FEF1C5144E3FC826D65F54F36BEBFCAAD",
+    "assets/tfcfarmingplus/textures/block/wild_crop/swiss_chard.png": "5117DE108B15C929F12937FE9628D4CFB2FE6614B40B8A84BB8DE756AE0A5086",
+    "assets/tfcfarmingplus/textures/item/food/swiss_chard.png": "0200B0B160CAA8AB2A6173B990B1BFF98351EAA43D250F471270838FC11CFC14",
+    "assets/tfcfarmingplus/textures/item/food/swiss_chard_harvest_v1.png": "AE7C61367AC2BA4D64CDA9D5074042441154F36A30FD96F20CD70B51F4B837CC",
+    "assets/tfcfarmingplus/textures/item/seeds/swiss_chard.png": "12D25A90F8F91D6373910C729D95459B6D2C76D81A504EFF2373B877482E26FC"
+  },
+  "ProtectedGameplaySha256": {
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/crop/swiss_chard.json": "8B900A9FF514BE043CF380FAD9629252CA2E82B4BC7007011C151060EE87E118",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/dead_crop/swiss_chard.json": "BC2364D03CB22C79E287EB5483B1DC5F1AC2047DECA1203CAC40F91FF55D89F5",
+    "src/main/resources/data/tfcfarmingplus/loot_table/blocks/wild_crop/swiss_chard.json": "5AE45579DA4476EAC9C6E1B674492B59DEC5E42B9C1BA1DFBB73ED836E41F941",
+    "src/main/resources/data/tfcfarmingplus/tfc/climate_range/crop/swiss_chard.json": "A456CAD5728C98A29F9AFF4AE5AC9524E1673DCE217EEBCA9939DF5010D26CA4",
+    "src/main/resources/data/tfcfarmingplus/tfc/food/swiss_chard.json": "D09BB209D6575D922DEF60427E2A674F7F34C8A3A2EBB0D11B5EBC91A53194EE",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/swiss_chard.json": "58190EE847B332C0BD119DD22FB4E3D82482BD1FC8637C9E2E4AF64535B5379A",
+    "src/main/resources/data/tfcfarmingplus/worldgen/configured_feature/plant/wild_crop/swiss_chard_patch.json": "81588F717A91FCD3FFDEAB7B43FCF04D56BF34440DAF363B2281D11C9F3D8B98",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/swiss_chard.json": "A19957C8822798C071184E7C80E7B91B6943ACBE3364DD0B7A37ED0509D5BC8A",
+    "src/main/resources/data/tfcfarmingplus/worldgen/placed_feature/plant/wild_crop/swiss_chard_patch.json": "713287F5E24AEDD6B67C220C93916C04F522BBBAC0C301A5187D8F71FCFE2CC8",
+    "src/main/java/io/github/likexiang21/tfcplus/farming/common/crop/FarmingCrops.java": "AE4D1076A2044DFE602723B7B962AB9DBF3626D9FF49FCDFA87CA1384F842443",
+    "src/main/java/io/github/likexiang21/tfcplus/farming/common/crop/FarmingWildCrops.java": "67CF6F35C2363FC144F80C1E2432BC12AD2ADE31F0E1B2323749BAEE205A1372",
+    "src/main/java/io/github/likexiang21/tfcplus/farming/common/block/FarmingCropBlock.java": "A9D0266BC2A74F44B81341FC922B6B7CD5792D699B30D7C5196ABCC0E0F157FE"
+  },
+  "PlanterStageTextures": [
+    "tfcfarmingplus:block/crop/swiss_chard_age_0_leafy_v2",
+    "tfcfarmingplus:block/crop/swiss_chard_age_1_leafy_v2",
+    "tfcfarmingplus:block/crop/swiss_chard_age_2_leafy_v2",
+    "tfcfarmingplus:block/crop/swiss_chard_age_3_leafy_v2",
+    "tfcfarmingplus:block/crop/swiss_chard_age_4_leafy_v2",
+    "tfcfarmingplus:block/crop/swiss_chard_age_5_leafy_v2"
+  ],
+  "NativeDependency": {
+    "Jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+    "Files": [
+      {
+        "Path": "assets/tfc/models/block/wild_crop/crop.json",
+        "SHA256": "8EF33918260610034C01AD995C1470AE20E5866C70965D7C6CD9AA7B076DB605"
+      },
+      {
+        "Path": "assets/tfc/textures/block/crop/wild_crop_grass.png",
+        "SHA256": "F1AA771D097BD9504FA432A535A74F10135752FC99388CC306ADDE85D536D1CB"
+      }
+    ]
+  },
+  "PixelSourceRule": "Eight 16-row x16-column editable sources; 64 previews are exact 4x nearest-neighbor and workspace-only. AI drafts not adopted.",
+  "VisualAccepted": false,
+  "RuntimeVerified": false
+}

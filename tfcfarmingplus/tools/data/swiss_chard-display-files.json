@@ -1,0 +1,19 @@
+[
+  "assets/tfcfarmingplus/blockstates/crop/swiss_chard.json",
+  "assets/tfcfarmingplus/blockstates/dead_crop/swiss_chard.json",
+  "assets/tfcfarmingplus/blockstates/wild_crop/swiss_chard.json",
+  "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_0.json",
+  "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_1.json",
+  "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_2.json",
+  "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_3.json",
+  "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_4.json",
+  "assets/tfcfarmingplus/models/block/crop/swiss_chard_age_5.json",
+  "assets/tfcfarmingplus/models/block/dead_crop/swiss_chard.json",
+  "assets/tfcfarmingplus/models/block/dead_crop/swiss_chard_young.json",
+  "assets/tfcfarmingplus/models/block/wild_crop/swiss_chard.json",
+  "assets/tfcfarmingplus/models/block/wild_crop/swiss_chard_young.json",
+  "assets/tfcfarmingplus/models/item/food/swiss_chard.json",
+  "assets/tfcfarmingplus/models/item/seeds/swiss_chard.json",
+  "assets/tfcfarmingplus/models/item/wild_crop/swiss_chard.json",
+  "data/firmalife/firmalife/plantable/swiss_chard.json"
+]

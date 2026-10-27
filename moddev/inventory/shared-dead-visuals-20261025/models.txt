@@ -1,2 +1,0 @@
-tfcfarmingplus:block/dead_rosette
-tfcfarmingplus:block/dead_rosette_young

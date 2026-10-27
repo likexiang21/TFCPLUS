@@ -1,34 +1,161 @@
-# TFCPLUS：农业与生活系统开发工作区
+# mod_rebuild — 新版模组开发树
 
-这是当前项目的源码、资源、开发记录及构建产物快照。2026年10月27日，用户要求暂停功能开发，先整理并上传GitHub。当前完成至 **AR4-AG 大黄显示链**，下一片芦笋仍在计划中，等待用户明确恢复。
+> 记录日期：2026-10-27
+> 状态：**重构进行中，A/B 均已构建成功，旧文档库已完整归档**。本目录是与 `moddev/` 并行的新版开发树；`moddev/` 旧树保持原样，未移动、未删除。
+> 目标：把命名称呼、Java 包结构、构建配置和新工具引用整理成可直接继续开发的新版本。
 
-## 从哪里阅读
+## 1. 当前包含什么
 
-- [当前状态与本项目构建产物](CURRENT_DELIVERY.json)
-- [最新交接：大黄显示链与待验限制](moddev/docs/271-ar4ag-rhubarb-native16-display-20261027.md)
-- [暂停开发与此次上传范围](moddev/docs/272-github-snapshot-and-development-pause-20261027.md)
-- [农业总体计划](moddev/docs/217-agriculture-repair-next-phase-plan-20261023.md)与[农业审计台账](moddev/docs/218-agriculture-audit-baseline-20261023.md)
-- [工作区原始总入口及历史记录](WORKSPACE_README.md)
-- [开发规则](DEVELOPMENT_RULES.md)
+```text
+mod_rebuild/
+├── README.md                 # 本文件
+├── DEVELOPMENT_RULES.md      # 从旧工作区复制
+├── docs/                     # 当前入口 + archive/ 完整旧文档 + 索引
+├── tools/                    # 共享启动/验证/参考工具
+├── artifacts/                # 已构建的 A/B 模组 jar
+├── _refactor/                # 重构脚本、旧→新映射、检查脚本
+├── tfcfarmingplus/           # A：农业作物/果树/资源
+│   ├── build.gradle.kts
+│   ├── gradle.properties
+│   ├── settings.gradle
+│   ├── src/main/java/        # 已重构为新包名与新目录
+│   ├── src/main/resources/   # 当前原样复制，资源 ID 未动
+│   └── tools/                # 原工具复制并更新旧路径/类名
+└── tfcagricultureplus/       # B：木工/养蚕/厨具/加工
+    ├── build.gradle.kts
+    ├── gradle.properties
+    ├── settings.gradle
+    ├── src/main/java/        # 已重构为新包名与新目录
+    ├── src/main/resources/   # 当前原样复制，资源 ID 未动
+    ├── tools/                # 原工具复制并更新旧路径/类名
+    └── OVERRIDE-REGISTRY.md  # 跨命名空间台账，类名引用已更新
+```
 
-## 当前包含的内容
+## 2. 新包名（临时决策）
 
-`moddev/tfcfarmingplus`是A模块的源码与资源，负责农业植物、食物及相关种植/采收内容。`moddev/tfcagricultureplus`是B模块，包含木工、养蚕和厨具等扩展系统，依赖A。
+`com.example.*` 和 B 的 `com.example.tfcfarmingplus.expansion.*` 已移除。当前使用：
 
-`moddev/docs`保留开发计划、实机反馈、修复记录与交接；`moddev/inventory`保留结构化检查证据、复现脚本和近期16格可编辑像素稿。已有第三方来源说明和木工许可随源码保留。
+```text
+A: io.github.likexiang21.tfcplus.farming
+B: io.github.likexiang21.tfcplus.agriculture
+```
 
-近期农业新图均从16×16实际网格绘制；64×64仅供本机预览，不作为游戏资源。近期显示链已构建并通过静态检查，但最终美术与游戏操作验收仍待用户完成。大黄正侧视叶柄叠影等限制详见271号，不能把静态检查当作实机验收。
+该根包是**临时选择**（按 GitHub 用户名反推），可在后续统一替换为项目正式域名；替换时只需要改包声明、import、`build.gradle.kts` 的 `group` 和 mixin 配置，mod id 不变。
 
-## 构建
+**没有改变的内容**：
 
-使用Java 21与Gradle 8.13，Minecraft目标版本为1.21.1。把编译依赖放在仓库根目录的`mods/`：A需要TerraFirmaCraft、Patchouli；B还需要Firmalife、ArborFirmaCraft和JEI，并读取A的构建产物。[依赖锁定清单](DEPENDENCY_LOCK.json)记录本机当前版本文件名和校验值，第三方JAR需另行取得。
+- mod id：`tfcfarmingplus` / `tfcagricultureplus`
+- 方块/物品/配方/数据包 ID
+- 资源命名空间
+- NBT/序列化字段
+- 旧存档兼容
 
-先在`moddev/tfcfarmingplus`运行`gradle assemble`，再在`moddev/tfcagricultureplus`运行同一命令。首次构建需要下载Gradle插件及其依赖；`--offline`只适用于已有缓存的环境。仓库副本未进行全新机器构建验收，现有本机产物与验证记录已保留。
+## 3. Java 结构调整摘要
 
-两份本项目当前构建产物位于`deliverables/2026-10-27/`，配套现有游戏环境使用，其SHA256见CURRENT_DELIVERY.json。原有PCL打包规则见215号文档，后续打包时必须先读，不应直接压缩整个开发工作区。
+A：
 
-## 版本保存约定
+```text
+io.github.likexiang21.tfcplus.farming
+├── TFCFarmingPlus.java
+├── client/
+└── common/
+    ├── api/
+    ├── block/
+    ├── blockentity/
+    ├── crop/
+    ├── debug/
+    ├── item/
+    ├── registry/
+    ├── support/
+    └── tree/
+```
 
-原客户端、第三方模组、游戏运行库、存档、缓存、日志、反编译参考、历史备份及视觉验证临时目录留在本机。原始文件没有因此次整理被删除或迁移。SOURCE_MANIFEST.json记录本次纳入的原始文件及SHA256。
+B：
 
-部分保护工具按文件字节校验，所以`.gitattributes`关闭自动换行转换，保留原始换行和PowerShell脚本BOM。全局命名、目录结构与代码风格整理仍在233号后置计划中，此次没有提前开展。
+```text
+io.github.likexiang21.tfcplus.agriculture
+├── TFCAgriculturePlus.java
+├── client/{renderer,screen}/
+├── common/
+│   ├── block/
+│   ├── blockentity/
+│   ├── debug/
+│   ├── interaction/
+│   ├── item/
+│   ├── kitchen/
+│   ├── menu/
+│   ├── recipe/
+│   ├── recipe/inworld/
+│   ├── registry/
+│   ├── silkworm/
+│   └── timber/
+├── compat/jei/
+└── mixin/
+```
+
+已完成：
+
+- 43 个 `My*` 类/文件全部改名（A 32 / B 11）；
+- `KnifeBlockBlock`/`KnifeBlockBlockEntity` → `KnifeRackBlock`/`KnifeRackBlockEntity`；
+- `SawdustSoupBowl` → `SawdustSoupBowlItem`；
+- B 的 `MyBlocks` 内嵌 `KnifeBlockBlock` 已同步改名；
+- 泛化类型 `Tree`/`Kind`/`Input`/`Action`/`Motion`/`SoundInstance` 已改为 `FruitTreeDefinition`/`StorageKind`/`CuttingBoardInput`/`MeltingInput`/`PanInput`/`InWorldInput`/`InWorldAction`/`InWorldMotion`/`SoundSpec`；
+- 包声明、import、B mixin 配置、`build.gradle.kts` 的 `group` 已同步；
+- A/B tools 中指向旧 Java 路径/旧类名的引用已批量更新；
+- 工具合同 JSON 中的源码路径和源码哈希已按新文件重新基线。
+
+## 4. 静态检查结果
+
+在 `mod_rebuild` 上执行的静态检查：
+
+```text
+python _refactor/check_java.py
+=> errors = 0, warnings = 0
+```
+
+检查内容：文件/类型名一致、包声明与目录一致、无旧 `com.example`、无旧 `My*` 标识符、项目 import 目标存在、工具合同源码哈希与当前新源码一致。
+
+**构建结果（2026-10-27）**：Gradle 已自动提供 JDK 21（`%USERPROFILE%\.gradle\jdks\eclipse_adoptium-21-amd64-windows.2`），A、B 均已构建成功：
+
+```text
+A: artifacts/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar   2,416,956 bytes
+B: artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar 1,407,338 bytes
+```
+
+```text
+cd mod_rebuild\tfcfarmingplus
+gradle build --console=plain --offline
+
+cd ..\tfcagricultureplus
+gradle build --console=plain --offline
+```
+
+A 构建成功后才构建 B（B 依赖 `../tfcfarmingplus/build/libs`）。未启动游戏、未做视觉/实机验收；B 的 `verify-container-contract`、`verify-grain-food-processing`、`verify-in-world-codec`、`check-boundaries`、`verify-kitchenware-ledger`、`verify-drying-batch`、`verify-silkworm-chain`、`verify-silkworm-lifecycle` 已通过；A 的 `audit-crop-contracts`、`audit-rosette-dead-consumers` 已通过。A 的 `verify.ps1` 需要 PowerShell 7 和 workspace tooling 的 Minecraft client asset jar，当前 Windows PowerShell 5.1 + 缺 asset jar 会在审计阶段报错。
+
+## 5. 尚未完成的批次
+
+1. **变量级命名清理**：已完成多批高置信度改名，`DebugValidation` 已清理；剩余少量脚本局部短变量，按 [273 号需求](docs/273-naming-and-file-structure-requirements-20261027.md) §4 继续；
+2. **资源路径分层**：A 顶层 `models/block` 已归入 `melon/`、`plant/`，顶层 `textures/block` 已归入 `melon/`；B 顶层 18 个方块模型已归入各自族目录。**blockstate 文件路径与注册 ID 绑定**，仍保持原路径；资源引用检查 0 缺失；详见 [275 号](docs/275-resource-path-taxonomy-20261027.md)；
+3. **工具文件名/目录分组**：已完成 `gen-batch2` / `gen-batch2x-wild` / `fix-batch1` / `fix-wild-single-placed` / `finalize` / `polish-book` / `TexAvg` 的语义化重命名，以及 `java/`、`archive/`、`contracts/`、`data/`、`scripts/{generate,audit,verify}` 分组；根目录保留同名兼容 wrapper；
+4. **共享 `tools` 的参考生成脚本**：仍按新根目录路径更新，但 `inventory`/`src-ref` 未复制，属于可选的参考材料；
+5. **文档/证据目录迁移**：`mod_rebuild/docs` 已包含当前入口、`archive/` 完整旧文档（226 个）和 `INVENTORY.md` 旧证据索引；证据本体仍在 `moddev/inventory`；
+6. **实机/视觉验收**：A/B 已构建成功，但未启动游戏、未做视觉/实机验收，不能把本树当成已验收版本；A 的 `verify.ps1` 需要 PowerShell 7。
+
+## 6. 与旧树的关系
+
+- `moddev/` 是重构前的旧树，保持原样，作为回滚和差异对照；
+- `mod_rebuild/` 是新树，修改只发生在这里；
+- 两边资源目录当前内容相同；Java/工具路径不同；
+- 后续要比较时，用 `_refactor/java-mapping.csv` 对照旧→新类/路径。
+
+## 7. 入口文档
+
+- [273 号：命名与文件结构整理需求](docs/273-naming-and-file-structure-requirements-20261027.md)
+- [274 号：本次重构记录](docs/274-rebuild-log-20261027.md)
+- [275 号：资源路径分层](docs/275-resource-path-taxonomy-20261027.md)
+- [旧文档归档索引](docs/ARCHIVE-INDEX.md)
+- [旧证据 inventory 索引](docs/INVENTORY.md)
+- [233 号：工程可读性计划](docs/233-final-code-readability-and-structure-plan-20261024.md)
+- [A 的 build 配置](tfcfarmingplus/build.gradle.kts)
+- [B 的 build 配置](tfcagricultureplus/build.gradle.kts)
+- [重构脚本目录](_refactor/)

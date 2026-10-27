@@ -27,7 +27,7 @@
 *.7z
 *.class
 *.jar
-!deliverables/2026-10-27/*.jar
+!artifacts/*.jar
 .env
 .env.*
 *.pem

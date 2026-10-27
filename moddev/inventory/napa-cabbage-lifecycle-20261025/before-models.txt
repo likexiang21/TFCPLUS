@@ -1,4 +1,0 @@
-tfcfarmingplus:block/wild_crop/napa_cabbage
-tfc:block/dead_crop/cabbage_young
-tfcfarmingplus:block/dead_crop/napa_cabbage
-tfcfarmingplus:block/dead_crop/napa_cabbage_young

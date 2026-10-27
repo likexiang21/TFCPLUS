@@ -1,0 +1,94 @@
+{
+  "jobs": [
+    {
+      "src": "item/food/cherry.png",
+      "dst": "block/plant/jabuticaba_trunk_fruit_stage0.png",
+      "seed": "jabuticaba_stage0"
+    },
+    {
+      "src": "item/food/cherry.png",
+      "dst": "block/plant/jabuticaba_trunk_fruit_stage1.png",
+      "seed": "jabuticaba_stage1"
+    },
+    {
+      "src": "item/food/cherry.png",
+      "dst": "block/plant/jabuticaba_trunk_fruit_stage2.png",
+      "seed": "jabuticaba_stage2"
+    },
+    {
+      "src": "item/food/green_apple.png",
+      "dst": "block/plant/soursop_trunk_fruit_stage0.png",
+      "seed": "soursop_stage0"
+    },
+    {
+      "src": "item/food/green_apple.png",
+      "dst": "block/plant/soursop_trunk_fruit_stage1.png",
+      "seed": "soursop_stage1"
+    },
+    {
+      "src": "item/food/green_apple.png",
+      "dst": "block/plant/soursop_trunk_fruit_stage2.png",
+      "seed": "soursop_stage2"
+    },
+    {
+      "src": "item/food/red_apple.png",
+      "dst": "block/plant/mangosteen_trunk_fruit_stage0.png",
+      "seed": "mangosteen_stage0"
+    },
+    {
+      "src": "item/food/red_apple.png",
+      "dst": "block/plant/mangosteen_trunk_fruit_stage1.png",
+      "seed": "mangosteen_stage1"
+    },
+    {
+      "src": "item/food/red_apple.png",
+      "dst": "block/plant/mangosteen_trunk_fruit_stage2.png",
+      "seed": "mangosteen_stage2"
+    },
+    {
+      "src": "item/food/orange.png",
+      "dst": "block/plant/cupuacu_trunk_fruit_stage0.png",
+      "seed": "cupuacu_stage0"
+    },
+    {
+      "src": "item/food/orange.png",
+      "dst": "block/plant/cupuacu_trunk_fruit_stage1.png",
+      "seed": "cupuacu_stage1"
+    },
+    {
+      "src": "item/food/orange.png",
+      "dst": "block/plant/cupuacu_trunk_fruit_stage2.png",
+      "seed": "cupuacu_stage2"
+    },
+    {
+      "src": "item/food/orange.png",
+      "dst": "block/plant/bael_trunk_fruit_stage0.png",
+      "seed": "bael_stage0"
+    },
+    {
+      "src": "item/food/orange.png",
+      "dst": "block/plant/bael_trunk_fruit_stage1.png",
+      "seed": "bael_stage1"
+    },
+    {
+      "src": "item/food/orange.png",
+      "dst": "block/plant/bael_trunk_fruit_stage2.png",
+      "seed": "bael_stage2"
+    },
+    {
+      "src": "item/food/peach.png",
+      "dst": "block/plant/canistel_trunk_fruit_stage0.png",
+      "seed": "canistel_stage0"
+    },
+    {
+      "src": "item/food/peach.png",
+      "dst": "block/plant/canistel_trunk_fruit_stage1.png",
+      "seed": "canistel_stage1"
+    },
+    {
+      "src": "item/food/peach.png",
+      "dst": "block/plant/canistel_trunk_fruit_stage2.png",
+      "seed": "canistel_stage2"
+    }
+  ]
+}

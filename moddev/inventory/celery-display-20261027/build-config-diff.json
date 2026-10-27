@@ -1,7 +1,0 @@
-{
-  "Path": "moddev/tfcfarmingplus/build.gradle.kts",
-  "BeforeSHA256": "B0538997872C6268FF927A92BF706E46EB0258CB25678D8D101CD58B37E25B53",
-  "AfterSHA256": "56B88B66554B6067EDE1C803F7377F2B894C42FFDD49A7DF66805AC1D6D866FC",
-  "SourceArchiveRetainedUnchanged": true,
-  "ArchiveExcludedFromJar": true
-}

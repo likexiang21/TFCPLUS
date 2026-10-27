@@ -1,0 +1,19 @@
+[
+  "assets/tfcfarmingplus/blockstates/crop/celtuce.json",
+  "assets/tfcfarmingplus/blockstates/dead_crop/celtuce.json",
+  "assets/tfcfarmingplus/blockstates/wild_crop/celtuce.json",
+  "assets/tfcfarmingplus/models/block/crop/celtuce_age_0.json",
+  "assets/tfcfarmingplus/models/block/crop/celtuce_age_1.json",
+  "assets/tfcfarmingplus/models/block/crop/celtuce_age_2.json",
+  "assets/tfcfarmingplus/models/block/crop/celtuce_age_3.json",
+  "assets/tfcfarmingplus/models/block/crop/celtuce_age_4.json",
+  "assets/tfcfarmingplus/models/block/crop/celtuce_age_5.json",
+  "assets/tfcfarmingplus/models/block/dead_crop/celtuce.json",
+  "assets/tfcfarmingplus/models/block/dead_crop/celtuce_young.json",
+  "assets/tfcfarmingplus/models/block/wild_crop/celtuce.json",
+  "assets/tfcfarmingplus/models/block/wild_crop/celtuce_young.json",
+  "assets/tfcfarmingplus/models/item/food/celtuce.json",
+  "assets/tfcfarmingplus/models/item/seeds/celtuce.json",
+  "assets/tfcfarmingplus/models/item/wild_crop/celtuce.json",
+  "data/firmalife/firmalife/plantable/celtuce.json"
+]

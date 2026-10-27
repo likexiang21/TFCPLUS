@@ -1,0 +1,22 @@
+{
+  "source_jar": "TerraFirmaCraft-NeoForge-1.21.1-4.2.11.jar",
+  "source_sha256": "1565EFA96F090BEC8E8C12F54AE222D3F9321EF7FAD2EA3AF752FB9198E803DF",
+  "languages": [
+    "en_us",
+    "zh_cn",
+    "tr_tr",
+    "ja_jp",
+    "uk_ua",
+    "ru_ru",
+    "zh_hk",
+    "ko_kr",
+    "pt_br",
+    "zh_tw"
+  ],
+  "entry": "entries/the_world/wild_fruits.json",
+  "removed_anchor": "strawberry",
+  "removed_block": "tfc:plant/strawberry_bush",
+  "fruit": "tfc:food/strawberry",
+  "crop_entry": "entries/farming_plus/strawberry.json",
+  "record": "mod_rebuild/docs/219-ar1a-strawberry-guide-20261023.md"
+}

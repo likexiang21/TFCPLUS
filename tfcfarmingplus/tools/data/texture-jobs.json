@@ -1,0 +1,4259 @@
+{
+  "jobs": [
+    {
+      "src": "crop/soybean_0.png",
+      "dst": "crop/adzuki_0.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/soybean_1.png",
+      "dst": "crop/adzuki_1.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/soybean_2.png",
+      "dst": "crop/adzuki_2.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/soybean_3.png",
+      "dst": "crop/adzuki_3.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/soybean_4.png",
+      "dst": "crop/adzuki_4.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/soybean_5.png",
+      "dst": "crop/adzuki_5.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/agave_0.png",
+      "seed": "agave"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/agave_0_fruiting.png",
+      "seed": "agave_fruiting"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/agave_1.png",
+      "seed": "agave"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/agave_1_fruiting.png",
+      "seed": "agave_fruiting"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/agave_2.png",
+      "seed": "agave"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/agave_2_fruiting.png",
+      "seed": "agave_fruiting"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/agave_3.png",
+      "seed": "agave"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/agave_3_fruiting.png",
+      "seed": "agave_fruiting"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/agave_4.png",
+      "seed": "agave"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/agave_4_fruiting.png",
+      "seed": "agave_fruiting"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/agave_5.png",
+      "seed": "agave"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/agave_5_fruiting.png",
+      "seed": "agave_fruiting"
+    },
+    {
+      "src": "crop/oat_0.png",
+      "dst": "crop/amaranth_0.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/oat_1.png",
+      "dst": "crop/amaranth_1.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/oat_2.png",
+      "dst": "crop/amaranth_2.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/oat_3.png",
+      "dst": "crop/amaranth_3.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/amaranth_4_bottom.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/amaranth_4_top.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/amaranth_5_bottom.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/amaranth_5_top.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/amaranth_6_bottom.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/amaranth_6_top.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/amaranth_7_bottom.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/amaranth_7_top.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/arrowhead_0.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/arrowhead_1.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/arrowhead_2.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/arrowhead_3.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/arrowhead_4.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/arrowhead_5.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/lentil_0.png",
+      "dst": "crop/artichoke_0.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/lentil_1.png",
+      "dst": "crop/artichoke_1.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/lentil_2.png",
+      "dst": "crop/artichoke_2.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/lentil_3.png",
+      "dst": "crop/artichoke_3.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/lentil_4.png",
+      "dst": "crop/artichoke_4.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/lentil_5.png",
+      "dst": "crop/artichoke_5.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/arugula_0.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/arugula_1.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/arugula_2.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/arugula_3.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/arugula_4.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/arugula_5.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/barley_0.png",
+      "dst": "crop/asparagus_0.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/barley_1.png",
+      "dst": "crop/asparagus_1.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/barley_2.png",
+      "dst": "crop/asparagus_2.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/barley_3.png",
+      "dst": "crop/asparagus_3.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/barley_4.png",
+      "dst": "crop/asparagus_4.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/barley_5.png",
+      "dst": "crop/asparagus_5.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/peanut_0.png",
+      "dst": "crop/bambara_nut_0.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/peanut_1.png",
+      "dst": "crop/bambara_nut_1.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/peanut_2.png",
+      "dst": "crop/bambara_nut_2.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/peanut_3.png",
+      "dst": "crop/bambara_nut_3.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/peanut_4.png",
+      "dst": "crop/bambara_nut_4.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/peanut_5.png",
+      "dst": "crop/bambara_nut_5.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/tomato_0.png",
+      "dst": "crop/bitter_melon_0.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_0_stick.png",
+      "dst": "crop/bitter_melon_0_stick.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_1.png",
+      "dst": "crop/bitter_melon_1.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_1_stick.png",
+      "dst": "crop/bitter_melon_1_stick.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_2.png",
+      "dst": "crop/bitter_melon_2.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_2_stick.png",
+      "dst": "crop/bitter_melon_2_stick.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_3.png",
+      "dst": "crop/bitter_melon_3.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_3_stick.png",
+      "dst": "crop/bitter_melon_3_stick.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_4_bottom.png",
+      "dst": "crop/bitter_melon_4_bottom.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_4_top.png",
+      "dst": "crop/bitter_melon_4_top.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_5_bottom.png",
+      "dst": "crop/bitter_melon_5_bottom.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_5_top.png",
+      "dst": "crop/bitter_melon_5_top.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_6_bottom.png",
+      "dst": "crop/bitter_melon_6_bottom.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_6_top.png",
+      "dst": "crop/bitter_melon_6_top.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_7_bottom.png",
+      "dst": "crop/bitter_melon_7_bottom.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_7_top.png",
+      "dst": "crop/bitter_melon_7_top.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/melon_0.png",
+      "dst": "crop/bottle_gourd_0.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/melon_1.png",
+      "dst": "crop/bottle_gourd_1.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/melon_2.png",
+      "dst": "crop/bottle_gourd_2.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/melon_3.png",
+      "dst": "crop/bottle_gourd_3.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/melon_4.png",
+      "dst": "crop/bottle_gourd_4.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/melon_5.png",
+      "dst": "crop/bottle_gourd_5.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/melon_side.png",
+      "dst": "crop/bottle_gourd_side.png",
+      "seed": "bottle_gourd_side"
+    },
+    {
+      "src": "crop/cabbage_0.png",
+      "dst": "crop/broccoli_0.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/cabbage_1.png",
+      "dst": "crop/broccoli_1.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/cabbage_2.png",
+      "dst": "crop/broccoli_2.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/cabbage_3.png",
+      "dst": "crop/broccoli_3.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/cabbage_4.png",
+      "dst": "crop/broccoli_4.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/cabbage_5.png",
+      "dst": "crop/broccoli_5.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/onion_0.png",
+      "dst": "crop/brussels_sprouts_0.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/onion_1.png",
+      "dst": "crop/brussels_sprouts_1.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/onion_2.png",
+      "dst": "crop/brussels_sprouts_2.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/onion_3.png",
+      "dst": "crop/brussels_sprouts_3.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/onion_4.png",
+      "dst": "crop/brussels_sprouts_4.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/onion_5.png",
+      "dst": "crop/brussels_sprouts_5.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/onion_6.png",
+      "dst": "crop/brussels_sprouts_6.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/rye_0.png",
+      "dst": "crop/buckwheat_0.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_1.png",
+      "dst": "crop/buckwheat_1.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_2.png",
+      "dst": "crop/buckwheat_2.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_3.png",
+      "dst": "crop/buckwheat_3.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_4.png",
+      "dst": "crop/buckwheat_4.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_5.png",
+      "dst": "crop/buckwheat_5.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_6.png",
+      "dst": "crop/buckwheat_6.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_7.png",
+      "dst": "crop/buckwheat_7.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/melon_0.png",
+      "dst": "crop/cantaloupe_0.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/melon_1.png",
+      "dst": "crop/cantaloupe_1.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/melon_2.png",
+      "dst": "crop/cantaloupe_2.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/melon_3.png",
+      "dst": "crop/cantaloupe_3.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/melon_4.png",
+      "dst": "crop/cantaloupe_4.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/melon_5.png",
+      "dst": "crop/cantaloupe_5.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/melon_side.png",
+      "dst": "crop/cantaloupe_side.png",
+      "seed": "cantaloupe_side"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/cardoon_0.png",
+      "seed": "cardoon"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/cardoon_0_fruiting.png",
+      "seed": "cardoon_fruiting"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/cardoon_1.png",
+      "seed": "cardoon"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/cardoon_1_fruiting.png",
+      "seed": "cardoon_fruiting"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/cardoon_2.png",
+      "seed": "cardoon"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/cardoon_2_fruiting.png",
+      "seed": "cardoon_fruiting"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/cardoon_3.png",
+      "seed": "cardoon"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/cardoon_3_fruiting.png",
+      "seed": "cardoon_fruiting"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/cardoon_4.png",
+      "seed": "cardoon"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/cardoon_4_fruiting.png",
+      "seed": "cardoon_fruiting"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/cardoon_5.png",
+      "seed": "cardoon"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/cardoon_5_fruiting.png",
+      "seed": "cardoon_fruiting"
+    },
+    {
+      "src": "crop/cabbage_0.png",
+      "dst": "crop/cauliflower_0.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/cabbage_1.png",
+      "dst": "crop/cauliflower_1.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/cabbage_2.png",
+      "dst": "crop/cauliflower_2.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/cabbage_3.png",
+      "dst": "crop/cauliflower_3.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/cabbage_4.png",
+      "dst": "crop/cauliflower_4.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/cabbage_5.png",
+      "dst": "crop/cauliflower_5.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/celeriac_0.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/celeriac_1.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/celeriac_2.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/celeriac_3.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/celeriac_4.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/celeriac_5.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/onion_0.png",
+      "dst": "crop/celery_0.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_1.png",
+      "dst": "crop/celery_1.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_2.png",
+      "dst": "crop/celery_2.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_3.png",
+      "dst": "crop/celery_3.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_4.png",
+      "dst": "crop/celery_4.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_5.png",
+      "dst": "crop/celery_5.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_0.png",
+      "dst": "crop/celtuce_0.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/onion_1.png",
+      "dst": "crop/celtuce_1.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/onion_2.png",
+      "dst": "crop/celtuce_2.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/onion_3.png",
+      "dst": "crop/celtuce_3.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/onion_4.png",
+      "dst": "crop/celtuce_4.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/onion_5.png",
+      "dst": "crop/celtuce_5.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/tomato_0.png",
+      "dst": "crop/chayote_0.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_0_stick.png",
+      "dst": "crop/chayote_0_stick.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_1.png",
+      "dst": "crop/chayote_1.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_1_stick.png",
+      "dst": "crop/chayote_1_stick.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_2.png",
+      "dst": "crop/chayote_2.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_2_stick.png",
+      "dst": "crop/chayote_2_stick.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_3.png",
+      "dst": "crop/chayote_3.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_3_stick.png",
+      "dst": "crop/chayote_3_stick.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_4_bottom.png",
+      "dst": "crop/chayote_4_bottom.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_4_top.png",
+      "dst": "crop/chayote_4_top.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_5_bottom.png",
+      "dst": "crop/chayote_5_bottom.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_5_top.png",
+      "dst": "crop/chayote_5_top.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_6_bottom.png",
+      "dst": "crop/chayote_6_bottom.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_6_top.png",
+      "dst": "crop/chayote_6_top.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_7_bottom.png",
+      "dst": "crop/chayote_7_bottom.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_7_top.png",
+      "dst": "crop/chayote_7_top.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/soybean_0.png",
+      "dst": "crop/chickpea_0.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/soybean_1.png",
+      "dst": "crop/chickpea_1.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/soybean_2.png",
+      "dst": "crop/chickpea_2.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/soybean_3.png",
+      "dst": "crop/chickpea_3.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/soybean_4.png",
+      "dst": "crop/chickpea_4.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/soybean_5.png",
+      "dst": "crop/chickpea_5.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/chicory_root_0.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/chicory_root_1.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/chicory_root_2.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/chicory_root_3.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/chicory_root_4.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/chicory_root_5.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/chili_0.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/chili_1.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/chili_2.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/chili_3.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/chili_4.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/chili_5.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rye_0.png",
+      "dst": "crop/chive_0.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/rye_1.png",
+      "dst": "crop/chive_1.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/rye_2.png",
+      "dst": "crop/chive_2.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/rye_3.png",
+      "dst": "crop/chive_3.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/rye_4.png",
+      "dst": "crop/chive_4.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/rye_5.png",
+      "dst": "crop/chive_5.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/canola_0.png",
+      "dst": "crop/cotton_0.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/canola_1.png",
+      "dst": "crop/cotton_1.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/canola_2.png",
+      "dst": "crop/cotton_2.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/maize_3_bottom.png",
+      "dst": "crop/cotton_3_bottom.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/maize_3_top.png",
+      "dst": "crop/cotton_3_top.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/maize_4_bottom.png",
+      "dst": "crop/cotton_4_bottom.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/maize_4_top.png",
+      "dst": "crop/cotton_4_top.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/maize_5_bottom.png",
+      "dst": "crop/cotton_5_bottom.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/maize_5_top.png",
+      "dst": "crop/cotton_5_top.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/wheat_0.png",
+      "dst": "crop/eggplant_0.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/wheat_1.png",
+      "dst": "crop/eggplant_1.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/wheat_2.png",
+      "dst": "crop/eggplant_2.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/wheat_3.png",
+      "dst": "crop/eggplant_3.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/wheat_4.png",
+      "dst": "crop/eggplant_4.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/wheat_5.png",
+      "dst": "crop/eggplant_5.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/barley_0.png",
+      "dst": "crop/einkorn_0.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_1.png",
+      "dst": "crop/einkorn_1.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_2.png",
+      "dst": "crop/einkorn_2.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_3.png",
+      "dst": "crop/einkorn_3.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_4.png",
+      "dst": "crop/einkorn_4.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_5.png",
+      "dst": "crop/einkorn_5.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_6.png",
+      "dst": "crop/einkorn_6.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_7.png",
+      "dst": "crop/einkorn_7.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/wheat_0.png",
+      "dst": "crop/emmer_0.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/wheat_1.png",
+      "dst": "crop/emmer_1.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/wheat_2.png",
+      "dst": "crop/emmer_2.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/wheat_3.png",
+      "dst": "crop/emmer_3.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/emmer_4_bottom.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/emmer_4_top.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/emmer_5_bottom.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/emmer_5_top.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/emmer_6_bottom.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/emmer_6_top.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/emmer_7_bottom.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/emmer_7_top.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/soybean_0.png",
+      "dst": "crop/faba_bean_0.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/soybean_1.png",
+      "dst": "crop/faba_bean_1.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/soybean_2.png",
+      "dst": "crop/faba_bean_2.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/maize_3_bottom.png",
+      "dst": "crop/faba_bean_3_bottom.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/maize_3_top.png",
+      "dst": "crop/faba_bean_3_top.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/maize_4_bottom.png",
+      "dst": "crop/faba_bean_4_bottom.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/maize_4_top.png",
+      "dst": "crop/faba_bean_4_top.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/maize_5_bottom.png",
+      "dst": "crop/faba_bean_5_bottom.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/maize_5_top.png",
+      "dst": "crop/faba_bean_5_top.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/lentil_0.png",
+      "dst": "crop/fenugreek_0.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/lentil_1.png",
+      "dst": "crop/fenugreek_1.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/lentil_2.png",
+      "dst": "crop/fenugreek_2.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/lentil_3.png",
+      "dst": "crop/fenugreek_3.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/lentil_4.png",
+      "dst": "crop/fenugreek_4.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/lentil_5.png",
+      "dst": "crop/fenugreek_5.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/finger_millet_0.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/finger_millet_1.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/finger_millet_2.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/finger_millet_3.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/finger_millet_4.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/finger_millet_5.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_6.png",
+      "dst": "crop/finger_millet_6.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_7.png",
+      "dst": "crop/finger_millet_7.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/canola_0.png",
+      "dst": "crop/flax_0.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/canola_1.png",
+      "dst": "crop/flax_1.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/canola_2.png",
+      "dst": "crop/flax_2.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/canola_3.png",
+      "dst": "crop/flax_3.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/canola_4.png",
+      "dst": "crop/flax_4.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/canola_5.png",
+      "dst": "crop/flax_5.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/fonio_0.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/fonio_1.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/fonio_2.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/fonio_3.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/fonio_4.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/fonio_5.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_6.png",
+      "dst": "crop/fonio_6.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_7.png",
+      "dst": "crop/fonio_7.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/wheat_0.png",
+      "dst": "crop/foxtail_millet_0.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/wheat_1.png",
+      "dst": "crop/foxtail_millet_1.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/wheat_2.png",
+      "dst": "crop/foxtail_millet_2.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/wheat_3.png",
+      "dst": "crop/foxtail_millet_3.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/foxtail_millet_4_bottom.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/foxtail_millet_4_top.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/foxtail_millet_5_bottom.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/foxtail_millet_5_top.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/foxtail_millet_6_bottom.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/foxtail_millet_6_top.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/foxtail_millet_7_bottom.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/foxtail_millet_7_top.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/garland_chrysanthemum_0.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/garland_chrysanthemum_1.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/garland_chrysanthemum_2.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/garland_chrysanthemum_3.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/garland_chrysanthemum_4.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/garland_chrysanthemum_5.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/ginger_0.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/ginger_1.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/ginger_2.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/ginger_3.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/ginger_4.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/ginger_5.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/gorgon_nut_0.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/gorgon_nut_1.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/gorgon_nut_2.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/gorgon_nut_3.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/gorgon_nut_4.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/gorgon_nut_5.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/tomato_0.png",
+      "dst": "crop/hops_0.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_0_stick.png",
+      "dst": "crop/hops_0_stick.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_1.png",
+      "dst": "crop/hops_1.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_1_stick.png",
+      "dst": "crop/hops_1_stick.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_2.png",
+      "dst": "crop/hops_2.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_2_stick.png",
+      "dst": "crop/hops_2_stick.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_3.png",
+      "dst": "crop/hops_3.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_3_stick.png",
+      "dst": "crop/hops_3_stick.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_4_bottom.png",
+      "dst": "crop/hops_4_bottom.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_4_top.png",
+      "dst": "crop/hops_4_top.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_5_bottom.png",
+      "dst": "crop/hops_5_bottom.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_5_top.png",
+      "dst": "crop/hops_5_top.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_6_bottom.png",
+      "dst": "crop/hops_6_bottom.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_6_top.png",
+      "dst": "crop/hops_6_top.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_7_bottom.png",
+      "dst": "crop/hops_7_bottom.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_7_top.png",
+      "dst": "crop/hops_7_top.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/jobs_tears_0.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/jobs_tears_1.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/jobs_tears_2.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/jobs_tears_3.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/jobs_tears_4_bottom.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/jobs_tears_4_top.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/jobs_tears_5_bottom.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/jobs_tears_5_top.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/jobs_tears_6_bottom.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/jobs_tears_6_top.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/jobs_tears_7_bottom.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/jobs_tears_7_top.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/cabbage_0.png",
+      "dst": "crop/kale_0.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/cabbage_1.png",
+      "dst": "crop/kale_1.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/cabbage_2.png",
+      "dst": "crop/kale_2.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/cabbage_3.png",
+      "dst": "crop/kale_3.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/cabbage_4.png",
+      "dst": "crop/kale_4.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/cabbage_5.png",
+      "dst": "crop/kale_5.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/onion_0.png",
+      "dst": "crop/lettuce_0.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/onion_1.png",
+      "dst": "crop/lettuce_1.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/onion_2.png",
+      "dst": "crop/lettuce_2.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/onion_3.png",
+      "dst": "crop/lettuce_3.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/onion_4.png",
+      "dst": "crop/lettuce_4.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/onion_5.png",
+      "dst": "crop/lettuce_5.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/tomato_0.png",
+      "dst": "crop/loofah_0.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_0_stick.png",
+      "dst": "crop/loofah_0_stick.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_1.png",
+      "dst": "crop/loofah_1.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_1_stick.png",
+      "dst": "crop/loofah_1_stick.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_2.png",
+      "dst": "crop/loofah_2.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_2_stick.png",
+      "dst": "crop/loofah_2_stick.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_3.png",
+      "dst": "crop/loofah_3.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_3_stick.png",
+      "dst": "crop/loofah_3_stick.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_4_bottom.png",
+      "dst": "crop/loofah_4_bottom.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_4_top.png",
+      "dst": "crop/loofah_4_top.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_5_bottom.png",
+      "dst": "crop/loofah_5_bottom.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_5_top.png",
+      "dst": "crop/loofah_5_top.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_6_bottom.png",
+      "dst": "crop/loofah_6_bottom.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_6_top.png",
+      "dst": "crop/loofah_6_top.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_7_bottom.png",
+      "dst": "crop/loofah_7_bottom.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_7_top.png",
+      "dst": "crop/loofah_7_top.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/lotus_0.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/lotus_1.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/lotus_2.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/lotus_3.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/lotus_4.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/lotus_5.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_6.png",
+      "dst": "crop/lotus_6.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_7.png",
+      "dst": "crop/lotus_7.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/soybean_0.png",
+      "dst": "crop/lupin_0.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/soybean_1.png",
+      "dst": "crop/lupin_1.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/soybean_2.png",
+      "dst": "crop/lupin_2.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/soybean_3.png",
+      "dst": "crop/lupin_3.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/soybean_4.png",
+      "dst": "crop/lupin_4.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/soybean_5.png",
+      "dst": "crop/lupin_5.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/tomato_0.png",
+      "dst": "crop/malabar_spinach_0.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_0_stick.png",
+      "dst": "crop/malabar_spinach_0_stick.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_1.png",
+      "dst": "crop/malabar_spinach_1.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_1_stick.png",
+      "dst": "crop/malabar_spinach_1_stick.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_2.png",
+      "dst": "crop/malabar_spinach_2.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_2_stick.png",
+      "dst": "crop/malabar_spinach_2_stick.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_3.png",
+      "dst": "crop/malabar_spinach_3.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_3_stick.png",
+      "dst": "crop/malabar_spinach_3_stick.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_4_bottom.png",
+      "dst": "crop/malabar_spinach_4_bottom.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_4_top.png",
+      "dst": "crop/malabar_spinach_4_top.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_5_bottom.png",
+      "dst": "crop/malabar_spinach_5_bottom.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_5_top.png",
+      "dst": "crop/malabar_spinach_5_top.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_6_bottom.png",
+      "dst": "crop/malabar_spinach_6_bottom.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_6_top.png",
+      "dst": "crop/malabar_spinach_6_top.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_7_bottom.png",
+      "dst": "crop/malabar_spinach_7_bottom.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_7_top.png",
+      "dst": "crop/malabar_spinach_7_top.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/barley_0.png",
+      "dst": "crop/millet_0.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/barley_1.png",
+      "dst": "crop/millet_1.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/barley_2.png",
+      "dst": "crop/millet_2.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/barley_3.png",
+      "dst": "crop/millet_3.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/millet_4_bottom.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/millet_4_top.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/millet_5_bottom.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/millet_5_top.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/millet_6_bottom.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/millet_6_top.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/millet_7_bottom.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/millet_7_top.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/mustard_greens_0.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/mustard_greens_1.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/mustard_greens_2.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/mustard_greens_3.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/mustard_greens_4.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/mustard_greens_5.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/cabbage_0.png",
+      "dst": "crop/napa_cabbage_0.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/cabbage_1.png",
+      "dst": "crop/napa_cabbage_1.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/cabbage_2.png",
+      "dst": "crop/napa_cabbage_2.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/cabbage_3.png",
+      "dst": "crop/napa_cabbage_3.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/cabbage_4.png",
+      "dst": "crop/napa_cabbage_4.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/cabbage_5.png",
+      "dst": "crop/napa_cabbage_5.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/oat_0.png",
+      "dst": "crop/okra_0.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/oat_1.png",
+      "dst": "crop/okra_1.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/oat_2.png",
+      "dst": "crop/okra_2.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/oat_3.png",
+      "dst": "crop/okra_3.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/oat_4.png",
+      "dst": "crop/okra_4.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/oat_5.png",
+      "dst": "crop/okra_5.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/parsnip_0.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/parsnip_1.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/parsnip_2.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/parsnip_3.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/parsnip_4.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/parsnip_5.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/rye_0.png",
+      "dst": "crop/pearl_millet_0.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/rye_1.png",
+      "dst": "crop/pearl_millet_1.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/rye_2.png",
+      "dst": "crop/pearl_millet_2.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/rye_3.png",
+      "dst": "crop/pearl_millet_3.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/pearl_millet_4_bottom.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/pearl_millet_4_top.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/pearl_millet_5_bottom.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/pearl_millet_5_top.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/pearl_millet_6_bottom.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/pearl_millet_6_top.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/pearl_millet_7_bottom.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/pearl_millet_7_top.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/perilla_0.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/perilla_1.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/perilla_2.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/perilla_3.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/perilla_4.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/perilla_5.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/purslane_0.png",
+      "seed": "purslane"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/purslane_0_fruiting.png",
+      "seed": "purslane_fruiting"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/purslane_1.png",
+      "seed": "purslane"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/purslane_1_fruiting.png",
+      "seed": "purslane_fruiting"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/purslane_2.png",
+      "seed": "purslane"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/purslane_2_fruiting.png",
+      "seed": "purslane_fruiting"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/purslane_3.png",
+      "seed": "purslane"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/purslane_3_fruiting.png",
+      "seed": "purslane_fruiting"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/purslane_4.png",
+      "seed": "purslane"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/purslane_4_fruiting.png",
+      "seed": "purslane_fruiting"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/purslane_5.png",
+      "seed": "purslane"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/purslane_5_fruiting.png",
+      "seed": "purslane_fruiting"
+    },
+    {
+      "src": "crop/oat_0.png",
+      "dst": "crop/quinoa_0.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/oat_1.png",
+      "dst": "crop/quinoa_1.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/oat_2.png",
+      "dst": "crop/quinoa_2.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/oat_3.png",
+      "dst": "crop/quinoa_3.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/quinoa_4_bottom.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/quinoa_4_top.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/quinoa_5_bottom.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/quinoa_5_top.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/quinoa_6_bottom.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/quinoa_6_top.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/quinoa_7_bottom.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/quinoa_7_top.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/canola_0.png",
+      "dst": "crop/ramie_0.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/canola_1.png",
+      "dst": "crop/ramie_1.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/canola_2.png",
+      "dst": "crop/ramie_2.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/maize_3_bottom.png",
+      "dst": "crop/ramie_3_bottom.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/maize_3_top.png",
+      "dst": "crop/ramie_3_top.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/maize_4_bottom.png",
+      "dst": "crop/ramie_4_bottom.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/maize_4_top.png",
+      "dst": "crop/ramie_4_top.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/maize_5_bottom.png",
+      "dst": "crop/ramie_5_bottom.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/maize_5_top.png",
+      "dst": "crop/ramie_5_top.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/soybean_0.png",
+      "dst": "crop/rhubarb_0.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/soybean_1.png",
+      "dst": "crop/rhubarb_1.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/soybean_2.png",
+      "dst": "crop/rhubarb_2.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/soybean_3.png",
+      "dst": "crop/rhubarb_3.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/soybean_4.png",
+      "dst": "crop/rhubarb_4.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/soybean_5.png",
+      "dst": "crop/rhubarb_5.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/canola_0.png",
+      "dst": "crop/safflower_0.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/canola_1.png",
+      "dst": "crop/safflower_1.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/canola_2.png",
+      "dst": "crop/safflower_2.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/canola_3.png",
+      "dst": "crop/safflower_3.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/canola_4.png",
+      "dst": "crop/safflower_4.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/canola_5.png",
+      "dst": "crop/safflower_5.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/salsify_0.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/salsify_1.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/salsify_2.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/salsify_3.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/salsify_4.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/salsify_5.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/canola_0.png",
+      "dst": "crop/sesame_0.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/canola_1.png",
+      "dst": "crop/sesame_1.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/canola_2.png",
+      "dst": "crop/sesame_2.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/canola_3.png",
+      "dst": "crop/sesame_3.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/canola_4.png",
+      "dst": "crop/sesame_4.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/canola_5.png",
+      "dst": "crop/sesame_5.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/onion_0.png",
+      "dst": "crop/shallot_0.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/onion_1.png",
+      "dst": "crop/shallot_1.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/onion_2.png",
+      "dst": "crop/shallot_2.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/onion_3.png",
+      "dst": "crop/shallot_3.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/onion_4.png",
+      "dst": "crop/shallot_4.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/onion_5.png",
+      "dst": "crop/shallot_5.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/tomato_0.png",
+      "dst": "crop/snake_gourd_0.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_0_stick.png",
+      "dst": "crop/snake_gourd_0_stick.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_1.png",
+      "dst": "crop/snake_gourd_1.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_1_stick.png",
+      "dst": "crop/snake_gourd_1_stick.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_2.png",
+      "dst": "crop/snake_gourd_2.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_2_stick.png",
+      "dst": "crop/snake_gourd_2_stick.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_3.png",
+      "dst": "crop/snake_gourd_3.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_3_stick.png",
+      "dst": "crop/snake_gourd_3_stick.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_4_bottom.png",
+      "dst": "crop/snake_gourd_4_bottom.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_4_top.png",
+      "dst": "crop/snake_gourd_4_top.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_5_bottom.png",
+      "dst": "crop/snake_gourd_5_bottom.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_5_top.png",
+      "dst": "crop/snake_gourd_5_top.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_6_bottom.png",
+      "dst": "crop/snake_gourd_6_bottom.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_6_top.png",
+      "dst": "crop/snake_gourd_6_top.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_7_bottom.png",
+      "dst": "crop/snake_gourd_7_bottom.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_7_top.png",
+      "dst": "crop/snake_gourd_7_top.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/wheat_0.png",
+      "dst": "crop/spelt_0.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/wheat_1.png",
+      "dst": "crop/spelt_1.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/wheat_2.png",
+      "dst": "crop/spelt_2.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/wheat_3.png",
+      "dst": "crop/spelt_3.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_4_bottom.png",
+      "dst": "crop/spelt_4_bottom.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_4_top.png",
+      "dst": "crop/spelt_4_top.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_5_bottom.png",
+      "dst": "crop/spelt_5_bottom.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_5_top.png",
+      "dst": "crop/spelt_5_top.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_6_bottom.png",
+      "dst": "crop/spelt_6_bottom.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_6_top.png",
+      "dst": "crop/spelt_6_top.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_7_bottom.png",
+      "dst": "crop/spelt_7_bottom.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/sugarcane_7_top.png",
+      "dst": "crop/spelt_7_top.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/spinach_0.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/spinach_1.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/spinach_2.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/spinach_3.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/spinach_4.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/spinach_5.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/potato_0.png",
+      "dst": "crop/sunchoke_0.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/potato_1.png",
+      "dst": "crop/sunchoke_1.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/potato_2.png",
+      "dst": "crop/sunchoke_2.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/maize_3_bottom.png",
+      "dst": "crop/sunchoke_3_bottom.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/maize_3_top.png",
+      "dst": "crop/sunchoke_3_top.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/maize_4_bottom.png",
+      "dst": "crop/sunchoke_4_bottom.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/maize_4_top.png",
+      "dst": "crop/sunchoke_4_top.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/maize_5_bottom.png",
+      "dst": "crop/sunchoke_5_bottom.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/maize_5_top.png",
+      "dst": "crop/sunchoke_5_top.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/swiss_chard_0.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/swiss_chard_1.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/swiss_chard_2.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/swiss_chard_3.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/swiss_chard_4.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/swiss_chard_5.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/taro_0.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/taro_1.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/taro_2.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/taro_3.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/taro_4.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/taro_5.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/rice_6.png",
+      "dst": "crop/taro_6.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/turmeric_0.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/turmeric_1.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/turmeric_2.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/turmeric_3.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/turmeric_4.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/turmeric_5.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_0.png",
+      "dst": "crop/turnip_0.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/beet_1.png",
+      "dst": "crop/turnip_1.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/beet_2.png",
+      "dst": "crop/turnip_2.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/beet_3.png",
+      "dst": "crop/turnip_3.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/beet_4.png",
+      "dst": "crop/turnip_4.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/beet_5.png",
+      "dst": "crop/turnip_5.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/water_caltrop_0.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/water_caltrop_1.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/water_caltrop_2.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/water_caltrop_3.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/water_caltrop_4.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/water_caltrop_5.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/water_chestnut_0.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/water_chestnut_1.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/water_chestnut_2.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/water_chestnut_3.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/water_chestnut_4.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/water_chestnut_5.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/water_dropwort_0.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/water_dropwort_1.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/water_dropwort_2.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/water_dropwort_3.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/water_dropwort_4.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/water_dropwort_5.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/water_shield_0.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/water_shield_1.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/water_shield_2.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/water_shield_3.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/water_shield_4.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/water_shield_5.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/water_spinach_0.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/water_spinach_1.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/water_spinach_2.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/water_spinach_3.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/water_spinach_4.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/water_spinach_5.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_0.png",
+      "dst": "crop/wild_rice_stem_0.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/rice_1.png",
+      "dst": "crop/wild_rice_stem_1.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/rice_2.png",
+      "dst": "crop/wild_rice_stem_2.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/rice_3.png",
+      "dst": "crop/wild_rice_stem_3.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/rice_4.png",
+      "dst": "crop/wild_rice_stem_4.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/rice_5.png",
+      "dst": "crop/wild_rice_stem_5.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/melon_0.png",
+      "dst": "crop/winter_melon_0.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_1.png",
+      "dst": "crop/winter_melon_1.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_2.png",
+      "dst": "crop/winter_melon_2.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_3.png",
+      "dst": "crop/winter_melon_3.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_4.png",
+      "dst": "crop/winter_melon_4.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_5.png",
+      "dst": "crop/winter_melon_5.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_6.png",
+      "dst": "crop/winter_melon_6.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_side.png",
+      "dst": "crop/winter_melon_side.png",
+      "seed": "winter_melon_side"
+    },
+    {
+      "src": "crop/potato_0.png",
+      "dst": "crop/yacon_0.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/potato_1.png",
+      "dst": "crop/yacon_1.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/potato_2.png",
+      "dst": "crop/yacon_2.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/potato_3.png",
+      "dst": "crop/yacon_3.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/potato_4.png",
+      "dst": "crop/yacon_4.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/potato_5.png",
+      "dst": "crop/yacon_5.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/tomato_0.png",
+      "dst": "crop/yam_0.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_0_stick.png",
+      "dst": "crop/yam_0_stick.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_1.png",
+      "dst": "crop/yam_1.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_1_stick.png",
+      "dst": "crop/yam_1_stick.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_2.png",
+      "dst": "crop/yam_2.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_2_stick.png",
+      "dst": "crop/yam_2_stick.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_3.png",
+      "dst": "crop/yam_3.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_3_stick.png",
+      "dst": "crop/yam_3_stick.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_4_bottom.png",
+      "dst": "crop/yam_4_bottom.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_4_top.png",
+      "dst": "crop/yam_4_top.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_5_bottom.png",
+      "dst": "crop/yam_5_bottom.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_5_top.png",
+      "dst": "crop/yam_5_top.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_6_bottom.png",
+      "dst": "crop/yam_6_bottom.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_6_top.png",
+      "dst": "crop/yam_6_top.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_7_bottom.png",
+      "dst": "crop/yam_7_bottom.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_7_top.png",
+      "dst": "crop/yam_7_top.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/soybean_dead.png",
+      "dst": "dead_crop/adzuki.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/soybean_dead_young.png",
+      "dst": "dead_crop/adzuki_young.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/oat_dead.png",
+      "dst": "dead_crop/amaranth.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/oat_dead_young.png",
+      "dst": "dead_crop/amaranth_young.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/arrowhead.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/arrowhead_young.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/lentil_dead.png",
+      "dst": "dead_crop/artichoke.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/lentil_dead_young.png",
+      "dst": "dead_crop/artichoke_young.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/arugula.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/arugula_young.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/barley_dead.png",
+      "dst": "dead_crop/asparagus.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/barley_dead_young.png",
+      "dst": "dead_crop/asparagus_young.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/peanut_dead.png",
+      "dst": "dead_crop/bambara_nut.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/peanut_dead_young.png",
+      "dst": "dead_crop/bambara_nut_young.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/tomato_dead_bottom.png",
+      "dst": "dead_crop/bitter_melon.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/tomato_dead_young.png",
+      "dst": "dead_crop/bitter_melon_young.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/melon_dead.png",
+      "dst": "dead_crop/bottle_gourd.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/melon_dead_young.png",
+      "dst": "dead_crop/bottle_gourd_young.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/cabbage_dead.png",
+      "dst": "dead_crop/broccoli.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/cabbage_dead_young.png",
+      "dst": "dead_crop/broccoli_young.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/onion_dead.png",
+      "dst": "dead_crop/brussels_sprouts.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/onion_dead_young.png",
+      "dst": "dead_crop/brussels_sprouts_young.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/rye_dead.png",
+      "dst": "dead_crop/buckwheat.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/rye_dead_young.png",
+      "dst": "dead_crop/buckwheat_young.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/melon_dead.png",
+      "dst": "dead_crop/cantaloupe.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/melon_dead_young.png",
+      "dst": "dead_crop/cantaloupe_young.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/cabbage_dead.png",
+      "dst": "dead_crop/cauliflower.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/cabbage_dead_young.png",
+      "dst": "dead_crop/cauliflower_young.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/celeriac.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/celeriac_young.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/onion_dead.png",
+      "dst": "dead_crop/celery.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_dead_young.png",
+      "dst": "dead_crop/celery_young.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_dead.png",
+      "dst": "dead_crop/celtuce.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/onion_dead_young.png",
+      "dst": "dead_crop/celtuce_young.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/tomato_dead_bottom.png",
+      "dst": "dead_crop/chayote.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/tomato_dead_young.png",
+      "dst": "dead_crop/chayote_young.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/soybean_dead.png",
+      "dst": "dead_crop/chickpea.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/soybean_dead_young.png",
+      "dst": "dead_crop/chickpea_young.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/chicory_root.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/chicory_root_young.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/chili.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/chili_young.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rye_dead.png",
+      "dst": "dead_crop/chive.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/rye_dead_young.png",
+      "dst": "dead_crop/chive_young.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/canola_dead.png",
+      "dst": "dead_crop/cotton.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/canola_dead_young.png",
+      "dst": "dead_crop/cotton_young.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/wheat_dead.png",
+      "dst": "dead_crop/eggplant.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/wheat_dead_young.png",
+      "dst": "dead_crop/eggplant_young.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/barley_dead.png",
+      "dst": "dead_crop/einkorn.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/barley_dead_young.png",
+      "dst": "dead_crop/einkorn_young.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/wheat_dead.png",
+      "dst": "dead_crop/emmer.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/wheat_dead_young.png",
+      "dst": "dead_crop/emmer_young.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/soybean_dead.png",
+      "dst": "dead_crop/faba_bean.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/soybean_dead_young.png",
+      "dst": "dead_crop/faba_bean_young.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/lentil_dead.png",
+      "dst": "dead_crop/fenugreek.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/lentil_dead_young.png",
+      "dst": "dead_crop/fenugreek_young.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/finger_millet.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/finger_millet_young.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/canola_dead.png",
+      "dst": "dead_crop/flax.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/canola_dead_young.png",
+      "dst": "dead_crop/flax_young.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/fonio.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/fonio_young.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/wheat_dead.png",
+      "dst": "dead_crop/foxtail_millet.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/wheat_dead_young.png",
+      "dst": "dead_crop/foxtail_millet_young.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/garland_chrysanthemum.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/garland_chrysanthemum_young.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/ginger.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/ginger_young.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/gorgon_nut.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/gorgon_nut_young.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/tomato_dead_bottom.png",
+      "dst": "dead_crop/hops.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/tomato_dead_young.png",
+      "dst": "dead_crop/hops_young.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/jobs_tears.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/jobs_tears_young.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/cabbage_dead.png",
+      "dst": "dead_crop/kale.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/cabbage_dead_young.png",
+      "dst": "dead_crop/kale_young.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/onion_dead.png",
+      "dst": "dead_crop/lettuce.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/onion_dead_young.png",
+      "dst": "dead_crop/lettuce_young.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/tomato_dead_bottom.png",
+      "dst": "dead_crop/loofah.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/tomato_dead_young.png",
+      "dst": "dead_crop/loofah_young.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/lotus.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/lotus_young.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/soybean_dead.png",
+      "dst": "dead_crop/lupin.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/soybean_dead_young.png",
+      "dst": "dead_crop/lupin_young.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/tomato_dead_bottom.png",
+      "dst": "dead_crop/malabar_spinach.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/tomato_dead_young.png",
+      "dst": "dead_crop/malabar_spinach_young.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/barley_dead.png",
+      "dst": "dead_crop/millet.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/barley_dead_young.png",
+      "dst": "dead_crop/millet_young.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/mustard_greens.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/mustard_greens_young.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/cabbage_dead.png",
+      "dst": "dead_crop/napa_cabbage.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/cabbage_dead_young.png",
+      "dst": "dead_crop/napa_cabbage_young.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/oat_dead.png",
+      "dst": "dead_crop/okra.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/oat_dead_young.png",
+      "dst": "dead_crop/okra_young.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/parsnip.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/parsnip_young.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/rye_dead.png",
+      "dst": "dead_crop/pearl_millet.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/rye_dead_young.png",
+      "dst": "dead_crop/pearl_millet_young.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/perilla.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/perilla_young.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/oat_dead.png",
+      "dst": "dead_crop/quinoa.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/oat_dead_young.png",
+      "dst": "dead_crop/quinoa_young.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/canola_dead.png",
+      "dst": "dead_crop/ramie.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/canola_dead_young.png",
+      "dst": "dead_crop/ramie_young.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/soybean_dead.png",
+      "dst": "dead_crop/rhubarb.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/soybean_dead_young.png",
+      "dst": "dead_crop/rhubarb_young.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/canola_dead.png",
+      "dst": "dead_crop/safflower.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/canola_dead_young.png",
+      "dst": "dead_crop/safflower_young.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/salsify.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/salsify_young.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/canola_dead.png",
+      "dst": "dead_crop/sesame.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/canola_dead_young.png",
+      "dst": "dead_crop/sesame_young.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/onion_dead.png",
+      "dst": "dead_crop/shallot.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/onion_dead_young.png",
+      "dst": "dead_crop/shallot_young.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/tomato_dead_bottom.png",
+      "dst": "dead_crop/snake_gourd.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/tomato_dead_young.png",
+      "dst": "dead_crop/snake_gourd_young.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/wheat_dead.png",
+      "dst": "dead_crop/spelt.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/wheat_dead_young.png",
+      "dst": "dead_crop/spelt_young.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/spinach.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/spinach_young.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/potato_dead.png",
+      "dst": "dead_crop/sunchoke.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/potato_dead_young.png",
+      "dst": "dead_crop/sunchoke_young.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/swiss_chard.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/swiss_chard_young.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/taro.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/taro_young.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/turmeric.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/turmeric_young.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_dead.png",
+      "dst": "dead_crop/turnip.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/beet_dead_young.png",
+      "dst": "dead_crop/turnip_young.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/water_caltrop.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/water_caltrop_young.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/water_chestnut.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/water_chestnut_young.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/water_dropwort.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/water_dropwort_young.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/water_shield.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/water_shield_young.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/water_spinach.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/water_spinach_young.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_dead.png",
+      "dst": "dead_crop/wild_rice_stem.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/rice_dead_young.png",
+      "dst": "dead_crop/wild_rice_stem_young.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/melon_dead.png",
+      "dst": "dead_crop/winter_melon.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/melon_dead_young.png",
+      "dst": "dead_crop/winter_melon_young.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/potato_dead.png",
+      "dst": "dead_crop/yacon.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/potato_dead_young.png",
+      "dst": "dead_crop/yacon_young.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/tomato_dead_bottom.png",
+      "dst": "dead_crop/yam.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/tomato_dead_young.png",
+      "dst": "dead_crop/yam_young.png",
+      "seed": "yam"
+    },
+    {
+      "src": "crop/soybean_wild.png",
+      "dst": "wild_crop/adzuki.png",
+      "seed": "adzuki"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/agave.png",
+      "seed": "agave"
+    },
+    {
+      "src": "crop/oat_wild.png",
+      "dst": "wild_crop/amaranth.png",
+      "seed": "amaranth"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/arrowhead.png",
+      "seed": "arrowhead"
+    },
+    {
+      "src": "crop/lentil_wild.png",
+      "dst": "wild_crop/artichoke.png",
+      "seed": "artichoke"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/arugula.png",
+      "seed": "arugula"
+    },
+    {
+      "src": "crop/barley_wild.png",
+      "dst": "wild_crop/asparagus.png",
+      "seed": "asparagus"
+    },
+    {
+      "src": "crop/peanut_wild.png",
+      "dst": "wild_crop/bambara_nut.png",
+      "seed": "bambara_nut"
+    },
+    {
+      "src": "crop/tomato_wild_bottom.png",
+      "dst": "wild_crop/bitter_melon.png",
+      "seed": "bitter_melon"
+    },
+    {
+      "src": "crop/melon_wild.png",
+      "dst": "wild_crop/bottle_gourd.png",
+      "seed": "bottle_gourd"
+    },
+    {
+      "src": "crop/cabbage_wild.png",
+      "dst": "wild_crop/broccoli.png",
+      "seed": "broccoli"
+    },
+    {
+      "src": "crop/onion_wild.png",
+      "dst": "wild_crop/brussels_sprouts.png",
+      "seed": "brussels_sprouts"
+    },
+    {
+      "src": "crop/rye_wild.png",
+      "dst": "wild_crop/buckwheat.png",
+      "seed": "buckwheat"
+    },
+    {
+      "src": "crop/melon_wild.png",
+      "dst": "wild_crop/cantaloupe.png",
+      "seed": "cantaloupe"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/cardoon.png",
+      "seed": "cardoon"
+    },
+    {
+      "src": "crop/cabbage_wild.png",
+      "dst": "wild_crop/cauliflower.png",
+      "seed": "cauliflower"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/celeriac.png",
+      "seed": "celeriac"
+    },
+    {
+      "src": "crop/onion_wild.png",
+      "dst": "wild_crop/celery.png",
+      "seed": "celery"
+    },
+    {
+      "src": "crop/onion_wild.png",
+      "dst": "wild_crop/celtuce.png",
+      "seed": "celtuce"
+    },
+    {
+      "src": "crop/tomato_wild_bottom.png",
+      "dst": "wild_crop/chayote.png",
+      "seed": "chayote"
+    },
+    {
+      "src": "crop/soybean_wild.png",
+      "dst": "wild_crop/chickpea.png",
+      "seed": "chickpea"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/chicory_root.png",
+      "seed": "chicory_root"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/chili.png",
+      "seed": "chili"
+    },
+    {
+      "src": "crop/rye_wild.png",
+      "dst": "wild_crop/chive.png",
+      "seed": "chive"
+    },
+    {
+      "src": "crop/canola_wild.png",
+      "dst": "wild_crop/cotton.png",
+      "seed": "cotton"
+    },
+    {
+      "src": "crop/wheat_wild.png",
+      "dst": "wild_crop/eggplant.png",
+      "seed": "eggplant"
+    },
+    {
+      "src": "crop/barley_wild.png",
+      "dst": "wild_crop/einkorn.png",
+      "seed": "einkorn"
+    },
+    {
+      "src": "crop/wheat_wild.png",
+      "dst": "wild_crop/emmer.png",
+      "seed": "emmer"
+    },
+    {
+      "src": "crop/soybean_wild.png",
+      "dst": "wild_crop/faba_bean.png",
+      "seed": "faba_bean"
+    },
+    {
+      "src": "crop/lentil_wild.png",
+      "dst": "wild_crop/fenugreek.png",
+      "seed": "fenugreek"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/finger_millet.png",
+      "seed": "finger_millet"
+    },
+    {
+      "src": "crop/canola_wild.png",
+      "dst": "wild_crop/flax.png",
+      "seed": "flax"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/fonio.png",
+      "seed": "fonio"
+    },
+    {
+      "src": "crop/wheat_wild.png",
+      "dst": "wild_crop/foxtail_millet.png",
+      "seed": "foxtail_millet"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/garland_chrysanthemum.png",
+      "seed": "garland_chrysanthemum"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/ginger.png",
+      "seed": "ginger"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/gorgon_nut.png",
+      "seed": "gorgon_nut"
+    },
+    {
+      "src": "crop/tomato_wild_bottom.png",
+      "dst": "wild_crop/hops.png",
+      "seed": "hops"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/jobs_tears.png",
+      "seed": "jobs_tears"
+    },
+    {
+      "src": "crop/cabbage_wild.png",
+      "dst": "wild_crop/kale.png",
+      "seed": "kale"
+    },
+    {
+      "src": "crop/onion_wild.png",
+      "dst": "wild_crop/lettuce.png",
+      "seed": "lettuce"
+    },
+    {
+      "src": "crop/tomato_wild_bottom.png",
+      "dst": "wild_crop/loofah.png",
+      "seed": "loofah"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/lotus.png",
+      "seed": "lotus"
+    },
+    {
+      "src": "crop/soybean_wild.png",
+      "dst": "wild_crop/lupin.png",
+      "seed": "lupin"
+    },
+    {
+      "src": "crop/tomato_wild_bottom.png",
+      "dst": "wild_crop/malabar_spinach.png",
+      "seed": "malabar_spinach"
+    },
+    {
+      "src": "crop/barley_wild.png",
+      "dst": "wild_crop/millet.png",
+      "seed": "millet"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/mustard_greens.png",
+      "seed": "mustard_greens"
+    },
+    {
+      "src": "crop/cabbage_wild.png",
+      "dst": "wild_crop/napa_cabbage.png",
+      "seed": "napa_cabbage"
+    },
+    {
+      "src": "crop/oat_wild.png",
+      "dst": "wild_crop/okra.png",
+      "seed": "okra"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/parsnip.png",
+      "seed": "parsnip"
+    },
+    {
+      "src": "crop/rye_wild.png",
+      "dst": "wild_crop/pearl_millet.png",
+      "seed": "pearl_millet"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/perilla.png",
+      "seed": "perilla"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/purslane.png",
+      "seed": "purslane"
+    },
+    {
+      "src": "crop/oat_wild.png",
+      "dst": "wild_crop/quinoa.png",
+      "seed": "quinoa"
+    },
+    {
+      "src": "crop/canola_wild.png",
+      "dst": "wild_crop/ramie.png",
+      "seed": "ramie"
+    },
+    {
+      "src": "crop/soybean_wild.png",
+      "dst": "wild_crop/rhubarb.png",
+      "seed": "rhubarb"
+    },
+    {
+      "src": "crop/canola_wild.png",
+      "dst": "wild_crop/safflower.png",
+      "seed": "safflower"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/salsify.png",
+      "seed": "salsify"
+    },
+    {
+      "src": "crop/canola_wild.png",
+      "dst": "wild_crop/sesame.png",
+      "seed": "sesame"
+    },
+    {
+      "src": "crop/onion_wild.png",
+      "dst": "wild_crop/shallot.png",
+      "seed": "shallot"
+    },
+    {
+      "src": "crop/tomato_wild_bottom.png",
+      "dst": "wild_crop/snake_gourd.png",
+      "seed": "snake_gourd"
+    },
+    {
+      "src": "crop/wheat_wild.png",
+      "dst": "wild_crop/spelt.png",
+      "seed": "spelt"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/spinach.png",
+      "seed": "spinach"
+    },
+    {
+      "src": "crop/potato_wild.png",
+      "dst": "wild_crop/sunchoke.png",
+      "seed": "sunchoke"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/swiss_chard.png",
+      "seed": "swiss_chard"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/taro.png",
+      "seed": "taro"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/turmeric.png",
+      "seed": "turmeric"
+    },
+    {
+      "src": "crop/beet_wild.png",
+      "dst": "wild_crop/turnip.png",
+      "seed": "turnip"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/water_caltrop.png",
+      "seed": "water_caltrop"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/water_chestnut.png",
+      "seed": "water_chestnut"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/water_dropwort.png",
+      "seed": "water_dropwort"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/water_shield.png",
+      "seed": "water_shield"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/water_spinach.png",
+      "seed": "water_spinach"
+    },
+    {
+      "src": "crop/rice_wild.png",
+      "dst": "wild_crop/wild_rice_stem.png",
+      "seed": "wild_rice_stem"
+    },
+    {
+      "src": "crop/melon_wild.png",
+      "dst": "wild_crop/winter_melon.png",
+      "seed": "winter_melon"
+    },
+    {
+      "src": "crop/potato_wild.png",
+      "dst": "wild_crop/yacon.png",
+      "seed": "yacon"
+    },
+    {
+      "src": "crop/tomato_wild_bottom.png",
+      "dst": "wild_crop/yam.png",
+      "seed": "yam"
+    }
+  ]
+}
