@@ -6,10 +6,8 @@ import io.github.likexiang21.tfcplus.agriculture.common.block.LogCuttingBoardBlo
 import io.github.likexiang21.tfcplus.agriculture.common.block.MortarBlock;
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.block.CookingPanBlock;
-import io.github.likexiang21.tfcplus.agriculture.common.block.DoughFormingTableBlock;
 import io.github.likexiang21.tfcplus.agriculture.common.block.DryingRackBlock;
 import io.github.likexiang21.tfcplus.agriculture.common.block.KitchenStorageBlock;
-import io.github.likexiang21.tfcplus.agriculture.common.block.MeltingPotBlock;
 import io.github.likexiang21.tfcplus.agriculture.common.block.PlaceableFoodBlock;
 import io.github.likexiang21.tfcplus.agriculture.common.block.SilkwormRackBlock;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.CuttingBoardBlockEntity;
@@ -157,11 +155,8 @@ public final class AgricultureBlocks {
     public static final Map<String, DeferredHolder<Block, ? extends Block>> KITCHEN_FRUIT_BOWLS = new LinkedHashMap<>();
     /** K2 independent cooking device; one low-profile pan uses a TFC BE. */
     public static final DeferredHolder<Block, Block> COOKING_PAN;
-    /** K3 dough forming table and a whole pie that stores servings in its BE. */
-    public static final DeferredHolder<Block, Block> DOUGH_FORMING_TABLE;
+    /** K3 whole pie that stores servings in its BE. */
     public static final DeferredHolder<Block, Block> WHOLE_PIE;
-    public static final DeferredHolder<Block, Block> MELTING_POT;
-    public static final DeferredHolder<Block, Block> WHOLE_CAKE;
     public static final DeferredHolder<Block, Block> CREAM_CAKE;
     public static final DeferredHolder<Block, Block> CHOCOLATE_CAKE;
     public static final DeferredHolder<Block, Block> WHOLE_CHEESE;
@@ -234,28 +229,11 @@ public final class AgricultureBlocks {
         AgricultureItems.ITEMS.registerSimpleBlockItem("cooking_pan", COOKING_PAN);
         ALL.put("cooking_pan", COOKING_PAN);
 
-        DOUGH_FORMING_TABLE = BLOCKS.register("dough_forming_table",
-            () -> new DoughFormingTableBlock(woodProps().strength(2.0F)));
-        AgricultureItems.ITEMS.registerSimpleBlockItem("dough_forming_table", DOUGH_FORMING_TABLE);
-        ALL.put("dough_forming_table", DOUGH_FORMING_TABLE);
-
         WHOLE_PIE = BLOCKS.register("whole_pie",
             () -> new PlaceableFoodBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW)
                 .strength(0.5F).sound(SoundType.WOOD).noOcclusion()));
         AgricultureItems.ITEMS.registerSimpleBlockItem("whole_pie", WHOLE_PIE);
         ALL.put("whole_pie", WHOLE_PIE);
-
-        MELTING_POT = BLOCKS.register("melting_pot",
-            () -> new MeltingPotBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL)
-                .strength(2.0F, 6.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()));
-        AgricultureItems.ITEMS.registerSimpleBlockItem("melting_pot", MELTING_POT);
-        ALL.put("melting_pot", MELTING_POT);
-
-        WHOLE_CAKE = BLOCKS.register("whole_cake",
-            () -> new PlaceableFoodBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW)
-                .strength(0.5F).sound(SoundType.WOOD).noOcclusion()));
-        AgricultureItems.ITEMS.registerSimpleBlockItem("whole_cake", WHOLE_CAKE);
-        ALL.put("whole_cake", WHOLE_CAKE);
 
         CREAM_CAKE = BLOCKS.register("cream_cake",
             () -> new PlaceableFoodBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW)

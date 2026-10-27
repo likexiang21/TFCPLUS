@@ -3,8 +3,6 @@ package io.github.likexiang21.tfcplus.agriculture.compat.jei;
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.AgricultureRecipeTypes;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.CuttingBoardRecipe;
-import io.github.likexiang21.tfcplus.agriculture.common.recipe.DoughRecipe;
-import io.github.likexiang21.tfcplus.agriculture.common.recipe.MeltingRecipe;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.MortarRecipe;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.PanRecipe;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.inworld.InWorldRecipe;
@@ -61,12 +59,6 @@ public final class AgricultureJeiPlugin implements IModPlugin {
 
     public static final RecipeType<PanRecipe> PAN =
         RecipeType.create(TFCAgriculturePlus.MOD_ID, "pan", PanRecipe.class);
-
-    /** Compatibility types retained for old category classes; no recipes or catalysts are registered. */
-    public static final RecipeType<DoughRecipe> DOUGH =
-        RecipeType.create(TFCAgriculturePlus.MOD_ID, "dough", DoughRecipe.class);
-    public static final RecipeType<MeltingRecipe> MELTING =
-        RecipeType.create(TFCAgriculturePlus.MOD_ID, "melting", MeltingRecipe.class);
 
 
     @Override
@@ -129,16 +121,7 @@ public final class AgricultureJeiPlugin implements IModPlugin {
             "tfcfarmingplus:food/cupuacu",
             "tfcfarmingplus:food/cocoa",
             "tfcfarmingplus:plant/cocoa_sapling",
-            "tfcfarmingplus:plant/cocoa_leaves",
-            "tfcagricultureplus:food/cocoa_beans",
-            "tfcagricultureplus:food/roasted_cocoa_beans",
-            "tfcagricultureplus:food/cocoa_powder",
-            "tfcagricultureplus:food/cocoa_nibs",
-            "tfcagricultureplus:food/dark_chocolate",
-            "tfcagricultureplus:material/dough",
-            "tfcagricultureplus:dough_forming_table",
-            "tfcagricultureplus:melting_pot",
-            "tfcagricultureplus:food/butter_slice")) {
+            "tfcfarmingplus:plant/cocoa_leaves")) {
             final var item = net.minecraft.core.registries.BuiltInRegistries.ITEM.get(ResourceLocation.parse(id));
             if (item != net.minecraft.world.item.Items.AIR) {
                 hidden.add(new net.minecraft.world.item.ItemStack(item));

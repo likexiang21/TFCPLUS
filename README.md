@@ -132,8 +132,8 @@ python _refactor/check_java.py
 ```text
 A: artifacts/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar        2,425,696 bytes
    SHA-256 A860974F40B559A7967AC3C1469D78A34DA904D697426068FB6FA3A9AC49BA94
-B: artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar    1,549,208 bytes
-   SHA-256 8CA72596A5813D6BA72E52E4C0A735BF2A373A85B3AD188B03EA8C73A70619BB
+B: artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar    1,507,294 bytes
+   SHA-256 4B38BBE42B9F893372688D2ECC3C10CAA6272896997220EAC62B7C5C3AB92945
 ```
 
 ```text
@@ -173,6 +173,7 @@ cd ..\tfcagricultureplus
 - [279 号：协议/代码修复记录](docs/279-protocol-code-fixes-20261028.md)
 - [280 号：B 实现与技术文档差距分析](docs/280-b-implementation-gap-vs-tech-docs-20261028.md)
 - [281 号：清理 B 遗留干燥物品](docs/281-remove-legacy-dried-items-20261028.md)
+- [282 号：清理 B 旧厨房/旧可可内容](docs/282-cleanup-legacy-kitchen-content-20261028.md)
 - [第三方资源登记](docs/THIRD-PARTY-ASSETS.md)
 - [代码来源审查](docs/CODE-PROVENANCE.md)
 - [贴图全面重绘计划](docs/TEXTURE-REDRAW-PLAN.md)

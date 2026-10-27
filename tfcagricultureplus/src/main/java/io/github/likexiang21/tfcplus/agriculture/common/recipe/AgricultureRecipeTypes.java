@@ -23,12 +23,6 @@ public final class AgricultureRecipeTypes {
     public static final DeferredHolder<RecipeType<?>, RecipeType<PanRecipe>> PAN =
         register("pan");
 
-    public static final DeferredHolder<RecipeType<?>, RecipeType<DoughRecipe>> DOUGH =
-        register("dough");
-
-    public static final DeferredHolder<RecipeType<?>, RecipeType<MeltingRecipe>> MELTING =
-        register("melting");
-
     public static final DeferredHolder<RecipeType<?>, RecipeType<CuttingBoardRecipe>> CUTTING_BOARD =
         register("cutting_board");
 

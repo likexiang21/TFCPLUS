@@ -43,7 +43,8 @@ tfcagricultureplus:food/dried_cocoa_beans
 ## 5. 验证
 
 - B 已重新构建成功；
-- 新产物：`artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar`，1,549,208 bytes，SHA-256 `8CA72596A5813D6BA72E52E4C0A735BF2A373A85B3AD188B03EA8C73A70619BB`；
+- 新产物（本批为中间产物）：`artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar`，1,549,208 bytes，SHA-256 `8CA72596A5813D6BA72E52E4C0A735BF2A373A85B3AD188B03EA8C73A70619BB`；
+- 随后 282 又清理旧厨房/旧可可内容，最终产物见 282（1,507,294 bytes / `4B38BBE4...`）。
 - JAR 内不再包含任何 `dried_*` 资源；仅保留 `recipe/drying/cocoa_beans.json`（Firmalife canonical cocoa 干燥）；
 - 全树对 `dried_*` / `DRIED_*` / `allDriedFoods` 的引用为 0；
 - B `verify-container-contract`、`verify-grain-food-processing`、`verify-vegetable-beverage-processing`、`check-boundaries` 均通过；

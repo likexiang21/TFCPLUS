@@ -116,11 +116,9 @@ public final class AgricultureCreativeTab {
                 output.accept(AgricultureItems.PIE_SLICE.get());
                 output.accept(AgricultureBlocks.CREAM_CAKE.get());
                 output.accept(AgricultureBlocks.CHOCOLATE_CAKE.get());
-                output.accept(AgricultureItems.CAKE_SLICE.get());
                 output.accept(AgricultureBlocks.WHOLE_CHEESE.get());
                 output.accept(AgricultureItems.CHEESE_SLICE.get());
                 output.accept(AgricultureBlocks.BUTTER_BLOCK.get());
-                output.accept(AgricultureItems.BUTTER_SLICE.get());
                 output.accept(AgricultureBlocks.JELLY_BLOCK.get());
                 output.accept(AgricultureItems.JELLY_SLICE.get());
                 output.accept(AgricultureBlocks.SUGAR_BLOCK.get());

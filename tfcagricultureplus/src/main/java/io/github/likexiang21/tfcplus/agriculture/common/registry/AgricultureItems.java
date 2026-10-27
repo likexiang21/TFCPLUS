@@ -86,9 +86,6 @@ public final class AgricultureItems {
     public static final DeferredHolder<Item, Item> PAN_SEASONED_VEGETABLES =
         ITEMS.registerSimpleItem("food/pan_seasoned_vegetables", foodProps());
 
-    /** K3 dough and a served slice from the placeable whole pie. */
-    public static final DeferredHolder<Item, Item> DOUGH =
-        ITEMS.registerSimpleItem("material/dough", materialProps());
     /** K3 cake dough; this is the only new dough item retained by the rework. */
     public static final DeferredHolder<Item, Item> CAKE_DOUGH =
         ITEMS.registerSimpleItem("food/cake_dough", foodProps());
@@ -116,16 +113,12 @@ public final class AgricultureItems {
     public static final Map<String, DeferredHolder<Item, Item>> BUN = new LinkedHashMap<>();
     public static final DeferredHolder<Item, Item> PIE_SLICE =
         ITEMS.registerSimpleItem("food/pie_slice", foodProps());
-    public static final DeferredHolder<Item, Item> CAKE_SLICE =
-        ITEMS.registerSimpleItem("food/cake_slice", foodProps());
     public static final DeferredHolder<Item, Item> CREAM_CAKE_SLICE =
         ITEMS.registerSimpleItem("food/cream_cake_slice", foodProps());
     public static final DeferredHolder<Item, Item> CHOCOLATE_CAKE_SLICE =
         ITEMS.registerSimpleItem("food/chocolate_cake_slice", foodProps());
     public static final DeferredHolder<Item, Item> CHEESE_SLICE =
         ITEMS.registerSimpleItem("food/cheese_slice", foodProps());
-    public static final DeferredHolder<Item, Item> BUTTER_SLICE =
-        ITEMS.registerSimpleItem("food/butter_slice", foodProps());
     /** K3 placeable jam/jelly block serving. The source uses the canonical TFC jam tag. */
     public static final DeferredHolder<Item, Item> JELLY_SLICE =
         ITEMS.registerSimpleItem("food/jelly_slice", foodProps());
@@ -133,20 +126,9 @@ public final class AgricultureItems {
     public static final DeferredHolder<Item, Item> SUGAR_PIECE =
         ITEMS.registerSimpleItem("food/sugar_piece", foodProps());
 
-    /** 第 9～13 步可可闭环：树上可可荚 → 可可豆 → 密封桶发酵 → 烘焙 → 可可碎/粉/巧克力。 */
-    public static final DeferredHolder<Item, Item> COCOA_BEANS =
-        ITEMS.registerSimpleItem("food/cocoa_beans", foodProps());
     /** 密封桶发酵后的中间物；保留食品数据以便烘焙阶段复制新鲜度。 */
     public static final DeferredHolder<Item, Item> FERMENTED_COCOA_BEANS =
         ITEMS.registerSimpleItem("food/fermented_cocoa_beans", foodProps());
-    public static final DeferredHolder<Item, Item> COCOA_NIBS =
-        ITEMS.registerSimpleItem("food/cocoa_nibs", foodProps());
-    public static final DeferredHolder<Item, Item> ROASTED_COCOA_BEANS =
-        ITEMS.registerSimpleItem("food/roasted_cocoa_beans", foodProps());
-    public static final DeferredHolder<Item, Item> COCOA_POWDER =
-        ITEMS.registerSimpleItem("food/cocoa_powder", foodProps());
-    public static final DeferredHolder<Item, Item> DARK_CHOCOLATE =
-        ITEMS.registerSimpleItem("food/dark_chocolate", foodProps());
 
     /** B silkworm lifecycle items. The feed itself remains Firmalife/A-owned. */
     public static final DeferredHolder<Item, Item> SILKWORM_EGG =

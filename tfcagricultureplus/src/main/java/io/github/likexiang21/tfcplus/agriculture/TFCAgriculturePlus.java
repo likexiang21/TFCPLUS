@@ -85,12 +85,8 @@ public final class TFCAgriculturePlus {
             (be, side) -> be.getSidedInventory(side));
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.SILKWORM_RACK.get(),
             (be, side) -> be.getSidedInventory(side));
-        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.DOUGH_TABLE.get(),
-            (be, side) -> be.getSidedInventory(side));
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.PLACEABLE_FOOD.get(),
             (be, side) -> be.getInventory());
-        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.MELTING_POT.get(),
-            (be, side) -> be.getSidedInventory(side));
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

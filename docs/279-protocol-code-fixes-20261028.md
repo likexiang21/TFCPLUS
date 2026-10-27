@@ -111,7 +111,7 @@
 | 产物 | 大小 | SHA-256 |
 |---|---:|---|
 | `artifacts/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar` | 2,425,696 B | `A860974F40B559A7967AC3C1469D78A34DA904D697426068FB6FA3A9AC49BA94` |
-| `artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar` | 1,549,208 B | `8CA72596A5813D6BA72E52E4C0A735BF2A373A85B3AD188B03EA8C73A70619BB` |
+| `artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar` | 1,507,294 B | `4B38BBE42B9F893372688D2ECC3C10CAA6272896997220EAC62B7C5C3AB92945` |
 
 > 旧 276/277 中的 A `386834A1...`、B `97B961DB...` 是修复前产物；本表为新产物。
 > 后续 legacy 清理（B 5 个 `dried_*` 物品）见 [281 记录](281-remove-legacy-dried-items-20261028.md)，B 产物哈希已更新为本表数值。

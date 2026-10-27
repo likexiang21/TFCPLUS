@@ -8,7 +8,9 @@ import net.dries007.tfc.common.blockentities.InventoryBlockEntity;
 import net.dries007.tfc.common.component.food.FoodCapability;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.Containers;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -18,7 +20,6 @@ import net.neoforged.neoforge.items.ItemStackHandler;
 /** Stores remaining servings in a TFC inventory block entity. */
 public final class PlaceableFoodBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
     private static final int PIE_SERVINGS = 8;
-    private static final int CAKE_SERVINGS = 6;
     private static final int CREAM_CAKE_SERVINGS = 6;
     private static final int CHOCOLATE_CAKE_SERVINGS = 6;
     private static final int CHEESE_SERVINGS = 6;
@@ -60,15 +61,17 @@ public final class PlaceableFoodBlockEntity extends InventoryBlockEntity<ItemSta
         }
         return slice;
     }
-    private boolean isCake() { return getBlockState().is(AgricultureBlocks.WHOLE_CAKE.get()); }
     private boolean isCreamCake() { return getBlockState().is(AgricultureBlocks.CREAM_CAKE.get()); }
     private boolean isChocolateCake() { return getBlockState().is(AgricultureBlocks.CHOCOLATE_CAKE.get()); }
     private boolean isCheese() { return getBlockState().is(AgricultureBlocks.WHOLE_CHEESE.get()); }
     private boolean isButter() { return getBlockState().is(AgricultureBlocks.BUTTER_BLOCK.get()); }
     private boolean isJelly() { return getBlockState().is(AgricultureBlocks.JELLY_BLOCK.get()); }
     private boolean isSugar() { return getBlockState().is(AgricultureBlocks.SUGAR_BLOCK.get()); }
-    private int maxServings() { return isCake() ? CAKE_SERVINGS : isCreamCake() ? CREAM_CAKE_SERVINGS : isChocolateCake() ? CHOCOLATE_CAKE_SERVINGS : isCheese() ? CHEESE_SERVINGS : isButter() ? BUTTER_SERVINGS : isJelly() ? JELLY_SERVINGS : isSugar() ? SUGAR_SERVINGS : PIE_SERVINGS; }
-    private net.minecraft.world.item.Item servingItem() { return isCake() ? AgricultureItems.CAKE_SLICE.get() : isCreamCake() ? AgricultureItems.CREAM_CAKE_SLICE.get() : isChocolateCake() ? AgricultureItems.CHOCOLATE_CAKE_SLICE.get() : isCheese() ? AgricultureItems.CHEESE_SLICE.get() : isButter() ? AgricultureItems.BUTTER_SLICE.get() : isJelly() ? AgricultureItems.JELLY_SLICE.get() : isSugar() ? AgricultureItems.SUGAR_PIECE.get() : AgricultureItems.PIE_SLICE.get(); }
+    private int maxServings() { return isCreamCake() ? CREAM_CAKE_SERVINGS : isChocolateCake() ? CHOCOLATE_CAKE_SERVINGS : isCheese() ? CHEESE_SERVINGS : isButter() ? BUTTER_SERVINGS : isJelly() ? JELLY_SERVINGS : isSugar() ? SUGAR_SERVINGS : PIE_SERVINGS; }
+    private net.minecraft.world.item.Item servingItem() { return isCreamCake() ? AgricultureItems.CREAM_CAKE_SLICE.get() : isChocolateCake() ? AgricultureItems.CHOCOLATE_CAKE_SLICE.get() : isCheese() ? AgricultureItems.CHEESE_SLICE.get() : isButter() ? firmalifeButter() : isJelly() ? AgricultureItems.JELLY_SLICE.get() : isSugar() ? AgricultureItems.SUGAR_PIECE.get() : AgricultureItems.PIE_SLICE.get(); }
+    private net.minecraft.world.item.Item firmalifeButter() {
+        return BuiltInRegistries.ITEM.get(ResourceLocation.parse("firmalife:food/butter"));
+    }
     public boolean takeServing(Player player) {
         if (level == null || level.isClientSide() || servings <= 0) return false;
         if (isPie()) {

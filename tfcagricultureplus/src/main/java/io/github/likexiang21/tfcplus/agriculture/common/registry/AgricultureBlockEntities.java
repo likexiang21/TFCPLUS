@@ -3,11 +3,9 @@ package io.github.likexiang21.tfcplus.agriculture.common.registry;
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.CookingPanBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.CuttingBoardBlockEntity;
-import io.github.likexiang21.tfcplus.agriculture.common.blockentity.DoughFormingTableBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.DryingRackBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.KitchenStorageBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.KnifeRackBlockEntity;
-import io.github.likexiang21.tfcplus.agriculture.common.blockentity.MeltingPotBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.MortarBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.PlaceableFoodBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.SilkwormRackBlockEntity;
@@ -149,18 +147,10 @@ public final class AgricultureBlockEntities {
             java.util.stream.Stream.of(AgricultureBlocks.COOKING_PAN)
         );
 
-    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DoughFormingTableBlockEntity>> DOUGH_TABLE =
-        RegistrationHelpers.register(BLOCK_ENTITIES, "dough_forming_table", DoughFormingTableBlockEntity::new,
-            java.util.stream.Stream.of(AgricultureBlocks.DOUGH_FORMING_TABLE));
-
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PlaceableFoodBlockEntity>> PLACEABLE_FOOD =
         RegistrationHelpers.register(BLOCK_ENTITIES, "placeable_food", PlaceableFoodBlockEntity::new,
-            java.util.stream.Stream.of(AgricultureBlocks.WHOLE_PIE, AgricultureBlocks.WHOLE_CAKE, AgricultureBlocks.CREAM_CAKE, AgricultureBlocks.CHOCOLATE_CAKE,
+            java.util.stream.Stream.of(AgricultureBlocks.WHOLE_PIE, AgricultureBlocks.CREAM_CAKE, AgricultureBlocks.CHOCOLATE_CAKE,
                 AgricultureBlocks.WHOLE_CHEESE, AgricultureBlocks.BUTTER_BLOCK, AgricultureBlocks.JELLY_BLOCK, AgricultureBlocks.SUGAR_BLOCK));
-
-    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<MeltingPotBlockEntity>> MELTING_POT =
-        RegistrationHelpers.register(BLOCK_ENTITIES, "melting_pot", MeltingPotBlockEntity::new,
-            java.util.stream.Stream.of(AgricultureBlocks.MELTING_POT));
 
     public static void register(IEventBus bus) {
         BLOCK_ENTITIES.register(bus);
