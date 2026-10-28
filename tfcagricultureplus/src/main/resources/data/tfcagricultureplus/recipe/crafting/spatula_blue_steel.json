@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tfc:metal/ingot/bronze"
+      "item": "tfc:metal/ingot/blue_steel"
     },
     {
       "tag": "tfc:lumber"
     }
   ],
   "result": {
-    "id": "tfcagricultureplus:spatula/bronze",
+    "id": "tfcagricultureplus:spatula/blue_steel",
     "count": 1
   }
 }

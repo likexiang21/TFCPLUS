@@ -1,0 +1,15 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:clay",
+  "pattern": [
+    "#   #",
+    " ### ",
+    "     ",
+    "#   #",
+    " ### "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tfcagricultureplus:ceramic/unfired_plate"
+  }
+}

@@ -24,7 +24,7 @@
 `CookingPanBlockEntity` 已重写为 Cuisine Delight 式动态状态机：
 
 - **热源**：检查锅下方是否为 TFC `IHeatable`，温度 ≥ 200°C；无热源不能加料/翻动。
-- **油**：内置 1000 mB 油罐，油类来自 `c:plantoil` 或 `firmalife:oils`；加入 100 mB 后才允许加料。
+- **油**：内置 10 mB 油罐，油类来自 `c:plantoil` 或 `firmalife:oils`；加入 10 mB 后才允许加料。
 - **多食材**：最多 8 个食材槽，逐份加入；不再使用固定两输入配方。
 - **每食材独立状态**：记录加入时间、上次翻炒时间，按 `c:foods/*` 标签配置生/熟/过熟/焦糊时间。
 - **锅铲翻炒**：右键锅用锅铲翻动，重置所有食材的焦糊计时，消耗锅铲耐久。
@@ -39,7 +39,7 @@
 新增 6 种材料：
 
 ```text
-copper / bismuth_bronze / bronze / wrought_iron / steel / black_steel
+wood / wrought_iron / steel / black_steel / blue_steel / red_steel
 ```
 
 - 物品 ID：`tfcagricultureplus:spatula/<material>`；
@@ -89,11 +89,20 @@ tfcagricultureplus:bowl/ceramic
 - 碗：2；
 - 锅铲材料：6；
 - 炒锅食材槽：8；
-- 油需求：100 mB；
+- 油需求：10 mB；
 - 热源：TFC `IHeatable` ≥ 200°C；
 - 动态菜品类别：7。
 
-## 4. 验证
+## 4. 2026-10-28 追加修正
+
+- 用油从 100 mB 削减到 10 mB，油罐 100 mB；
+- 锅铲材料改为木 + 锻铁/钢/黑钢/蓝钢/红钢；
+- 盘子/碗食用改为原版 Player.eat 路径；
+- 陶盘改为 TFC 黏土打制 → 未烧陶盘 → 加热烧制，不再用 TFC 碗转换；
+- 新增盘子/炒锅 BER，渲染食材/锅内内容；
+- 所有 9 个物品容器 BE 增加 BContainer extends Container 适配（原版 Container 接口，兼容漏斗等）。
+
+## 5. 验证
 
 - Gradle `clean build`：**BUILD SUCCESSFUL**；
 - 静态合同脚本 `tools/verify_pan_system.py`：通过；
@@ -102,22 +111,22 @@ tfcagricultureplus:bowl/ceramic
 - 6 个锅铲模型、2 个碗模型存在；
 - 旧静态 `pan` 配方类型与配方数据已删除。
 
-## 5. 仍未完成 / 限制
+## 6. 仍未完成 / 限制
 
 - **没有 Minecraft 实机验证**：当前环境缺少 `.tooling` 运行时，无法启动验证客户端；因此不宣称实际可用。
-- 盘子食物没有独立 3D 食物层；当前只显示盘子模型（菜品数据在 tooltip/方块中）。
+- 盘子/炒锅的 BER 已渲染成分物品；但盘子本身没有独立的 3D 食物模型层，仍以盘子 + 食材模型表现。
 - 盘子/碗配方是临时配方（木盘来自 `#tfc:lumber`；陶盘/碗来自 TFC 碗转换），后续应重做。
-- 炒锅没有 GUI、没有油量/食材可视层；交互全为右键。
+- 炒锅没有 GUI；食材由 BER 渲染，油量用右键提示文本显示。
 - 没有 JEI 动态配方分类（动态成菜无法用固定配方目录展示）。
 - 没有自动化输入输出、没有锅具耐久/燃料消耗。
 - 没有使用 Cuisine Delight 源码；仅参考其行为。
 
-## 6. 产物
+## 7. 产物
 
 ```text
 artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar
-1,565,831 bytes
-SHA-256 AE2F3FECCCE390A5115BB1D937815BA084E97555C954A8556E940BDEC05124C4
+1,573,191 bytes
+SHA-256 A8E58F324C06B5FCCB12CFB70D65AC7C290C9BE16378F7C52CD207F2E12880A9
 ```
 
-B 当前资源：490 blockstate、520 block model、644 item model、780 recipe、489 loot、51 TFC food 定义、737 语言键。
+B 当前资源：490 blockstate、520 block model、645 item model、781 recipe、489 loot、51 TFC food 定义、738 语言键。

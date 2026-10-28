@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import com.eerussianguy.firmalife.common.recipes.DryingRecipe;
 import com.eerussianguy.firmalife.config.FLConfig;
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
@@ -24,7 +26,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
  * The rack owns only its calendar state and container policy; the recipe owns
  * the output item, food components and the firmalife:dried trait.
  */
-public final class DryingRackBlockEntity extends TickableInventoryBlockEntity<ItemStackHandler> {
+public final class DryingRackBlockEntity extends TickableInventoryBlockEntity<ItemStackHandler>  implements BContainer {
     public static final int MAX_BATCH = 8;
     private long startTick;
     private boolean finished;
@@ -205,4 +207,6 @@ public final class DryingRackBlockEntity extends TickableInventoryBlockEntity<It
         @Override public int getSlotLimit(int slot) { return slot == 0 ? MAX_BATCH : 0; }
         @Override public boolean isItemValid(int slot, ItemStack stack) { return canAccept(stack); }
     }
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

@@ -3,7 +3,6 @@ package io.github.likexiang21.tfcplus.agriculture.common.pan;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.ServingPlateBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.item.ServingBowlItem;
 import net.dries007.tfc.common.component.food.FoodCapability;
-import net.dries007.tfc.common.player.IPlayerInfo;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
@@ -17,7 +16,7 @@ public final class DishEating {
         final ItemStack stack = plate.plateStack();
         final PanDishData dish = PanDishData.read(stack);
         if (dish == null || FoodCapability.isRotten(stack)) return false;
-        consumeOne(player, dish);
+        consumeOne(player, stack);
         if (dish.servings() <= 1) {
             plate.clearPlate();
         } else {
@@ -33,7 +32,7 @@ public final class DishEating {
     public static ItemStack finishItemUse(Player player, ItemStack stack) {
         final PanDishData dish = PanDishData.read(stack);
         if (dish == null || FoodCapability.isRotten(stack)) return stack;
-        consumeOne(player, dish);
+        consumeOne(player, stack);
         if (dish.servings() <= 1) {
             PanDishData.clear(stack);
             stack.setCount(1);
@@ -70,9 +69,11 @@ public final class DishEating {
         return true;
     }
 
-    private static void consumeOne(Player player, PanDishData dish) {
-        if (player instanceof ServerPlayer serverPlayer && !serverPlayer.getAbilities().instabuild) {
-            IPlayerInfo.get(serverPlayer).eat(dish.food());
+    private static void consumeOne(Player player, ItemStack stack) {
+        // Use the normal Minecraft eating path. TFC's food component hooks are
+        // responsible for nutrition, comparison with IPlayerInfo.eat is intentionally avoided.
+        if (player instanceof ServerPlayer && !player.getAbilities().instabuild) {
+            player.eat(player.level(), stack.copyWithCount(1));
         }
     }
 

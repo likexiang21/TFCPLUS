@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.timber;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
 import java.util.ArrayList;
@@ -19,7 +21,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
  * Column settling adapts the MIT-licensed TFC Woodworking behavior; callbacks
  * are suspended during transfers so source and destination commit together.
  */
-public final class TimberPileBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
+public final class TimberPileBlockEntity extends InventoryBlockEntity<ItemStackHandler>  implements BContainer {
     private static final int SLOTS = 16;
     private static final int MAX_COLUMN_HEIGHT = 64;
     private final int[] stackLimitBySlot = new int[SLOTS];
@@ -230,4 +232,6 @@ public final class TimberPileBlockEntity extends InventoryBlockEntity<ItemStackH
             return super.insertItem(slot, stack, simulate);
         }
     }
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

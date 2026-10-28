@@ -2,11 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tfc:ceramic/bowl"
+      "tag": "tfc:lumber"
+    },
+    {
+      "tag": "tfc:lumber"
     }
   ],
   "result": {
-    "id": "tfcagricultureplus:plate/ceramic_white",
+    "id": "tfcagricultureplus:spatula/wood",
     "count": 1
   }
 }

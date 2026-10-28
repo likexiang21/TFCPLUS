@@ -39,7 +39,7 @@ for variant in variants:
 
 need(ASSETS / "models/item/bowl/wood.json")
 need(ASSETS / "models/item/bowl/ceramic.json")
-for material in ("copper", "bismuth_bronze", "bronze", "wrought_iron", "steel", "black_steel"):
+for material in ("wood", "wrought_iron", "steel", "black_steel", "blue_steel", "red_steel"):
     need(ASSETS / f"models/item/spatula/{material}.json")
     need(DATA / f"recipe/crafting/spatula_{material}.json")
 
@@ -58,7 +58,8 @@ for path in (DATA / "recipe").rglob("*.json"):
 
 # Every recipe JSON must parse; new plate/bowl/spatula recipes must exist.
 need(DATA / "recipe/crafting/plate_wood.json")
-need(DATA / "recipe/crafting/plate_ceramic_white.json")
+need(DATA / "recipe/knapping/ceramic/unfired_plate.json")
+need(DATA / "recipe/heating/ceramic/plate_ceramic_white.json")
 need(DATA / "recipe/crafting/bowl_wood.json")
 need(DATA / "recipe/crafting/bowl_ceramic.json")
 for path in (DATA / "recipe").rglob("*.json"):

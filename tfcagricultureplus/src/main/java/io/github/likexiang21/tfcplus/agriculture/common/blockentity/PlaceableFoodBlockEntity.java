@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlocks;
@@ -18,7 +20,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.items.ItemStackHandler;
 
 /** Stores remaining servings in a TFC inventory block entity. */
-public final class PlaceableFoodBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
+public final class PlaceableFoodBlockEntity extends InventoryBlockEntity<ItemStackHandler>  implements BContainer {
     private static final int PIE_SERVINGS = 8;
     private static final int CREAM_CAKE_SERVINGS = 6;
     private static final int CHOCOLATE_CAKE_SERVINGS = 6;
@@ -98,4 +100,6 @@ public final class PlaceableFoodBlockEntity extends InventoryBlockEntity<ItemSta
         pieFood = ItemStack.parseOptional(registries, tag.getCompound("pie_food"));
         if (!isPie() || !pieFood.is(AgricultureBlocks.WHOLE_PIE.get().asItem())) pieFood = ItemStack.EMPTY;
     }
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

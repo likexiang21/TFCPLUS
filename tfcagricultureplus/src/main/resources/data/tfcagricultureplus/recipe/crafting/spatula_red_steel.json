@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tfc:metal/ingot/copper"
+      "item": "tfc:metal/ingot/red_steel"
     },
     {
       "tag": "tfc:lumber"
     }
   ],
   "result": {
-    "id": "tfcagricultureplus:spatula/copper",
+    "id": "tfcagricultureplus:spatula/red_steel",
     "count": 1
   }
 }

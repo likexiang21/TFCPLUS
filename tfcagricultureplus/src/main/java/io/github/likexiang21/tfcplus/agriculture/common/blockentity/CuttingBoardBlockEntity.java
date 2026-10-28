@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.common.block.LogCuttingBoardBlock;
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
@@ -28,7 +30,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
  *
  * <p>🛑 <b>性能</b>（126 §3.4）：**不 tick**（不实现 {@code serverTick}）⇒ 空闲零开销。
  */
-public class CuttingBoardBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
+public class CuttingBoardBlockEntity extends InventoryBlockEntity<ItemStackHandler>  implements BContainer {
 
     /** 最大使用次数（= 耐久）。 */
     public static final int MAX_USES = 128;
@@ -192,4 +194,6 @@ public class CuttingBoardBlockEntity extends InventoryBlockEntity<ItemStackHandl
     @Override public boolean isItemValid(int slot, ItemStack stack) {
         return slot == 0 && !stack.isEmpty();
     }
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

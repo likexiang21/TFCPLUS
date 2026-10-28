@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureTags;
@@ -11,7 +13,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
 
 /** Project rack policy: first vacant slot receives one allowed item; retrieval uses the highest occupied slot.
  * NeoForge owns item-handler persistence. Source comparison and fixed contracts: docs/131. */
-public class KnifeRackBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
+public class KnifeRackBlockEntity extends InventoryBlockEntity<ItemStackHandler>  implements BContainer {
 
     /** 🆕 格数 —— **4**，与 TFC 的工具架一致（原为 9）。 */
     public static final int SLOTS = 4;
@@ -71,4 +73,6 @@ public class KnifeRackBlockEntity extends InventoryBlockEntity<ItemStackHandler>
         return true;
     }
 
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

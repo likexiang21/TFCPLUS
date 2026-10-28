@@ -145,6 +145,7 @@ public final class AgricultureCreativeTab {
                 output.accept(AgricultureItems.COOKED_SILKWORM.get());
                 output.accept(AgricultureItems.SILK_THREAD.get());
                 for (final var item : AgriculturePlates.ITEMS_BY_VARIANT.values()) output.accept(item.get());
+                output.accept(AgriculturePlates.UNFIRED_PLATE.get());
                 output.accept(AgricultureBowls.WOOD_BOWL.get());
                 output.accept(AgricultureBowls.CERAMIC_BOWL.get());
                 for (final var item : AgricultureSpatulas.ALL.values()) output.accept(item.get());

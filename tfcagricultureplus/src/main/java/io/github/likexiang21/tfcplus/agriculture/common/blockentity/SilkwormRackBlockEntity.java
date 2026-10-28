@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.block.SilkwormRackBlock;
 import io.github.likexiang21.tfcplus.agriculture.common.menu.SilkwormRackMenu;
@@ -26,7 +28,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.items.ItemStackHandler;
 
 /** An 11-slot TFC inventory with daily silkworm lifecycle processing. */
-public final class SilkwormRackBlockEntity extends TickableInventoryBlockEntity<ItemStackHandler> {
+public final class SilkwormRackBlockEntity extends TickableInventoryBlockEntity<ItemStackHandler>  implements BContainer {
     public static final int BIOLOGICAL_SLOTS = 8;
     public static final int FEED_START = 8;
     public static final int FEED_SLOTS = 2;
@@ -280,4 +282,6 @@ public final class SilkwormRackBlockEntity extends TickableInventoryBlockEntity<
         }
         legacyOverflow.add(stack.copy());
     }
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

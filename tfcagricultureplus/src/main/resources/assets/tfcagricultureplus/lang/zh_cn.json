@@ -710,12 +710,6 @@
   "item.tfcagricultureplus.plate.ceramic_black": "黑色陶盘",
   "item.tfcagricultureplus.bowl.wood": "木碗",
   "item.tfcagricultureplus.bowl.ceramic": "陶碗",
-  "item.tfcagricultureplus.spatula.copper": "铜锅铲",
-  "item.tfcagricultureplus.spatula.bismuth_bronze": "铋青铜锅铲",
-  "item.tfcagricultureplus.spatula.bronze": "青铜锅铲",
-  "item.tfcagricultureplus.spatula.wrought_iron": "锻铁锅铲",
-  "item.tfcagricultureplus.spatula.steel": "钢锅铲",
-  "item.tfcagricultureplus.spatula.black_steel": "黑钢锅铲",
   "item.tfcagricultureplus.pan_dish.meat": "炒肉",
   "item.tfcagricultureplus.pan_dish.fish": "炒鱼",
   "item.tfcagricultureplus.pan_dish.vegetable": "炒蔬菜",
@@ -735,5 +729,12 @@
   "message.tfcagricultureplus.pan.empty": "锅里没有食材",
   "message.tfcagricultureplus.pan.contents": "原料：%s，油：%s mB",
   "message.tfcagricultureplus.pan.full": "锅已装满",
-  "message.tfcagricultureplus.pan.not_ingredient": "该物品不是可用食材"
+  "message.tfcagricultureplus.pan.not_ingredient": "该物品不是可用食材",
+  "item.tfcagricultureplus.spatula.wood": "木锅铲",
+  "item.tfcagricultureplus.spatula.wrought_iron": "锻铁锅铲",
+  "item.tfcagricultureplus.spatula.steel": "钢锅铲",
+  "item.tfcagricultureplus.spatula.black_steel": "黑钢锅铲",
+  "item.tfcagricultureplus.spatula.blue_steel": "蓝钢锅铲",
+  "item.tfcagricultureplus.spatula.red_steel": "红钢锅铲",
+  "item.tfcagricultureplus.ceramic.unfired_plate": "未烧制陶盘"
 }

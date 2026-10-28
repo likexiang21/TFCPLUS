@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
 import net.dries007.tfc.common.blockentities.InventoryBlockEntity;
@@ -26,7 +28,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
  *
  * <p>🛑 <b>性能</b>：**不 tick** · 不做任何循环扫描 ⇒ 空闲零开销。
  */
-public class MortarBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
+public class MortarBlockEntity extends InventoryBlockEntity<ItemStackHandler>  implements BContainer {
 
     /** 石臼内部只放 1 格（= 一次研磨的量）。 */
     public static final int SLOTS = 1;
@@ -109,4 +111,6 @@ public class MortarBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
         return slot == 0 && !stack.isEmpty();
     }
 
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

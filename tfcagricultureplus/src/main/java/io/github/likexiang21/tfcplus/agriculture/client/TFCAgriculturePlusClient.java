@@ -4,6 +4,8 @@ import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.client.renderer.CuttingBoardBlockEntityRenderer;
 import io.github.likexiang21.tfcplus.agriculture.client.renderer.KnifeRackBlockEntityRenderer;
 import io.github.likexiang21.tfcplus.agriculture.client.renderer.TimberPileBlockEntityRenderer;
+import io.github.likexiang21.tfcplus.agriculture.client.renderer.ServingPlateBlockEntityRenderer;
+import io.github.likexiang21.tfcplus.agriculture.client.renderer.CookingPanBlockEntityRenderer;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlocks;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgriculturePlates;
@@ -94,6 +96,8 @@ public final class TFCAgriculturePlusClient {
             CuttingBoardBlockEntityRenderer::new);
         event.registerBlockEntityRenderer(AgricultureBlockEntities.TIMBER_PILE.get(), TimberPileBlockEntityRenderer::new);
         event.registerBlockEntityRenderer(AgricultureBlockEntities.BURNING_TIMBER_PILE.get(), TimberPileBlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(AgriculturePlates.PLATE_BE.get(), ServingPlateBlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(AgricultureBlockEntities.COOKING_PAN.get(), CookingPanBlockEntityRenderer::new);
     }
 
     private TFCAgriculturePlusClient() {}

@@ -27,6 +27,8 @@ public final class AgriculturePlates {
         EnumProperty.create("variant", PlateVariant.class);
 
     public static final Map<PlateVariant, DeferredHolder<Item, Item>> ITEMS_BY_VARIANT = new LinkedHashMap<>();
+    public static final DeferredHolder<Item, Item> UNFIRED_PLATE =
+        ITEMS.register("ceramic/unfired_plate", () -> new Item(new Item.Properties()));
 
     public static final DeferredHolder<Block, Block> PLATE = BLOCKS.register("serving_plate",
         () -> new ServingPlateBlock(net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()

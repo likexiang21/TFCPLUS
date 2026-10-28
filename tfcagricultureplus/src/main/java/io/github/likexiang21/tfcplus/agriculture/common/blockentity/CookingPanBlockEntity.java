@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.item.ServingPlateItem;
 import io.github.likexiang21.tfcplus.agriculture.common.item.SpatulaItem;
@@ -39,9 +41,9 @@ import net.neoforged.neoforge.items.ItemStackHandler;
  * heat from a TFC IHeatable below, oil tank, multiple timed ingredients,
  * spatula stirring, and a dynamic dish with TFC FoodData.
  */
-public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<ItemStackHandler> {
+public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<ItemStackHandler>  implements BContainer {
     public static final int INGREDIENT_SLOTS = 8;
-    public static final int OIL_REQUIRED = 100;
+    public static final int OIL_REQUIRED = 10;
     public static final float MIN_HEAT = 200.0F;
 
     private static final TagKey<net.minecraft.world.level.material.Fluid> OIL =
@@ -52,7 +54,7 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
             ResourceLocation.fromNamespaceAndPath("firmalife", "oils"));
 
     private final List<PanCookingEntry> entries = new ArrayList<>();
-    private final FluidTank oilTank = new FluidTank(1000, stack -> stack.is(OIL) || stack.is(FIRMALIFE_OIL));
+    private final FluidTank oilTank = new FluidTank(100, stack -> stack.is(OIL) || stack.is(FIRMALIFE_OIL));
     private final IItemHandler automationView;
 
     public CookingPanBlockEntity(BlockPos pos, BlockState state) {
@@ -64,6 +66,9 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
     public FluidTank oilTank() { return oilTank; }
     public int ingredientCount() { return entries.size(); }
     public boolean hasOil() { return oilTank.getFluidAmount() >= OIL_REQUIRED; }
+    public ItemStack renderStack(int slot) {
+        return slot >= 0 && slot < inventory.getSlots() ? inventory.getStackInSlot(slot) : ItemStack.EMPTY;
+    }
 
     public boolean hasHeat() {
         if (level == null) return false;
@@ -165,4 +170,6 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
             level.sendBlockUpdated(worldPosition, state, state, Block.UPDATE_CLIENTS);
         }
     }
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }

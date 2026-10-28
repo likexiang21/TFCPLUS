@@ -710,12 +710,6 @@
   "item.tfcagricultureplus.plate.ceramic_black": "Black Ceramic Plate",
   "item.tfcagricultureplus.bowl.wood": "Wooden Bowl",
   "item.tfcagricultureplus.bowl.ceramic": "Ceramic Bowl",
-  "item.tfcagricultureplus.spatula.copper": "Copper Spatula",
-  "item.tfcagricultureplus.spatula.bismuth_bronze": "Bismuth Bronze Spatula",
-  "item.tfcagricultureplus.spatula.bronze": "Bronze Spatula",
-  "item.tfcagricultureplus.spatula.wrought_iron": "Wrought Iron Spatula",
-  "item.tfcagricultureplus.spatula.steel": "Steel Spatula",
-  "item.tfcagricultureplus.spatula.black_steel": "Black Steel Spatula",
   "item.tfcagricultureplus.pan_dish.meat": "Meat Stir-fry",
   "item.tfcagricultureplus.pan_dish.fish": "Fish Stir-fry",
   "item.tfcagricultureplus.pan_dish.vegetable": "Vegetable Stir-fry",
@@ -735,5 +729,12 @@
   "message.tfcagricultureplus.pan.empty": "The pan is empty",
   "message.tfcagricultureplus.pan.contents": "Ingredients: %s, oil: %s mB",
   "message.tfcagricultureplus.pan.full": "The pan is full",
-  "message.tfcagricultureplus.pan.not_ingredient": "That item is not a food ingredient"
+  "message.tfcagricultureplus.pan.not_ingredient": "That item is not a food ingredient",
+  "item.tfcagricultureplus.spatula.wood": "Wooden Spatula",
+  "item.tfcagricultureplus.spatula.wrought_iron": "Wrought Iron Spatula",
+  "item.tfcagricultureplus.spatula.steel": "Steel Spatula",
+  "item.tfcagricultureplus.spatula.black_steel": "Black Steel Spatula",
+  "item.tfcagricultureplus.spatula.blue_steel": "Blue Steel Spatula",
+  "item.tfcagricultureplus.spatula.red_steel": "Red Steel Spatula",
+  "item.tfcagricultureplus.ceramic.unfired_plate": "Unfired Ceramic Plate"
 }

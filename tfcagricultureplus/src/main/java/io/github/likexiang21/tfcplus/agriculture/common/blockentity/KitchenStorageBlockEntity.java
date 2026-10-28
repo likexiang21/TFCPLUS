@@ -1,5 +1,7 @@
 package io.github.likexiang21.tfcplus.agriculture.common.blockentity;
 
+import io.github.likexiang21.tfcplus.agriculture.common.container.BContainer;
+
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.menu.KitchenStorageMenu;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
@@ -18,7 +20,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
  * Shared TFC inventory contract for the first kitchen furniture batch.
  * The block kind is visual/semantic metadata; inventory data never lives in blockstate.
  */
-public final class KitchenStorageBlockEntity extends InventoryBlockEntity<ItemStackHandler> {
+public final class KitchenStorageBlockEntity extends InventoryBlockEntity<ItemStackHandler>  implements BContainer {
     public static final int SLOTS = 9;
 
     public KitchenStorageBlockEntity(BlockPos pos, BlockState state) {
@@ -57,4 +59,6 @@ public final class KitchenStorageBlockEntity extends InventoryBlockEntity<ItemSt
         }
         setChanged();
     }
+
+    @Override public net.neoforged.neoforge.items.IItemHandler bItemHandler() { return inventory; }
 }
