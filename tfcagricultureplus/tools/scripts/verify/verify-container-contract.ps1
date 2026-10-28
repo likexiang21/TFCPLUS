@@ -1,4 +1,4 @@
-﻿# Verify that every B-owned item-holding block uses TFC's container base and
+# Verify that every B-owned item-holding block uses TFC's container base and
 # keeps an explicit slot policy, validation rule, and destruction path.
 $ErrorActionPreference = 'Stop'
 $project = Split-Path $env:TFC_TOOLS_ROOT -Parent
@@ -11,7 +11,7 @@ $knifeRackBlock = Join-Path $javaRoot 'io\github\likexiang21\tfcplus\agriculture
 $mortarBlock = Join-Path $javaRoot 'io\github\likexiang21\tfcplus\agriculture\common\block\MortarBlock.java'
 $dryingBlock = Join-Path $javaRoot 'io\github\likexiang21\tfcplus\agriculture\common\block\DryingRackBlock.java'
 $silkwormBlock = Join-Path $javaRoot 'io\github\likexiang21\tfcplus\agriculture\common\block\SilkwormRackBlock.java'
-$timberBlock = Join-Path $javaRoot 'io\github\likexiang21\tfcplus\agriculture\common\timber\TimberPileBlock.java'
+$timberBlock = Join-Path $javaRoot 'io\github\likexiang21\tfcplus\agriculture\common\timber\LumberPileBlock.java'
 
 $required = @(
     @{ File = 'common\blockentity\CuttingBoardBlockEntity.java'; Base = 'InventoryBlockEntity'; Registry = @('cutting_board','log_cutting_board') },
@@ -19,7 +19,7 @@ $required = @(
     @{ File = 'common\blockentity\MortarBlockEntity.java'; Base = 'InventoryBlockEntity'; Registry = @('mortar') },
     @{ File = 'common\blockentity\DryingRackBlockEntity.java'; Base = 'TickableInventoryBlockEntity'; Registry = @('drying_rack') },
     @{ File = 'common\blockentity\SilkwormRackBlockEntity.java'; Base = 'TickableInventoryBlockEntity'; Registry = @('silkworm_rack') },
-    @{ File = 'common\timber\TimberPileBlockEntity.java'; Base = 'InventoryBlockEntity'; Registry = @('log_pile') }
+    @{ File = 'common\timber\LumberPileBlockEntity.java'; Base = 'InventoryBlockEntity'; Registry = @('lumber_pile') }
 )
 $failures = [System.Collections.Generic.List[string]]::new()
 $registryText = Get-Content -LiteralPath $blockEntityRegistry -Raw

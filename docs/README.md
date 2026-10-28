@@ -17,7 +17,8 @@
 | [282-cleanup-legacy-kitchen-content-20261028.md](282-cleanup-legacy-kitchen-content-20261028.md) | 清理旧面团台/融化锅/旧黄油片/旧整蛋糕/旧可可平行物品 |
 | [283-pan-content-expansion-20261028.md](283-pan-content-expansion-20261028.md) | 炒锅从 1 条占位配方扩展为 14 条真实配方；更正“完成”表述 |
 | [284-dynamic-pan-cuisine-delight-20261028.md](284-dynamic-pan-cuisine-delight-20261028.md) | 按 Cuisine Delight 行为重写动态炒锅、盘子、碗、锅铲与 TFC 营养 |
-| [285-pan-oil-spatula-ceramic-metal-can-20261028.md](285-pan-oil-spatula-ceramic-metal-can-20261028.md) | 油路/锻造锅铲/预烧染色陶盘/金属罐；木料堆复用仍未完成 |
+| [285-pan-oil-spatula-ceramic-metal-can-20261028.md](285-pan-oil-spatula-ceramic-metal-can-20261028.md) | 油路/锻造锅铲/预烧染色陶盘/金属罐 |
+| [286-tfc-log-pile-cleanup-lumber-pile-20261028.md](286-tfc-log-pile-cleanup-lumber-pile-20261028.md) | 清理 B 自有木料堆；半/四分原木并入 TFC 原木堆；新增木板堆 |
 | [THIRD-PARTY-ASSETS.md](THIRD-PARTY-ASSETS.md) | 第三方资源逐项来源登记 |
 | [CODE-PROVENANCE.md](CODE-PROVENANCE.md) | 源码来源/相似度与独立实现说明 |
 | [TEXTURE-REDRAW-PLAN.md](TEXTURE-REDRAW-PLAN.md) | 贴图全面重绘计划与“旧完成声明作废”记录 |

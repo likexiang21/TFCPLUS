@@ -282,9 +282,7 @@
   "block.tfcagricultureplus.debarked_log.tualang": "Tualang Debarked Log",
   "block.tfcagricultureplus.debarked_half.tualang": "Tualang Split Log Half",
   "block.tfcagricultureplus.debarked_quarter.tualang": "Tualang Split Log Quarter",
-  "block.tfcagricultureplus.log_pile": "Timber Pile",
-  "block.tfcagricultureplus.burning_log_pile": "Burning Timber Pile",
-  "tooltip.tfcagricultureplus.timber.pile": "Sneak-place a pile; use to add, empty hand to retrieve. Logs, halves and quarters retain their volume.",
+  "tooltip.tfcagricultureplus.timber.pile": "Sneak-use on a TFC log pile to add this piece.",
   "item.tfcagricultureplus.food.ground_ginger": "Ground Ginger",
   "item.tfcagricultureplus.food.ground_turmeric": "Ground Turmeric",
   "item.tfcagricultureplus.food.ground_black_pepper": "Ground Black Pepper",
@@ -782,5 +780,7 @@
   "item.tfcagricultureplus.metal_can.steel": "Steel Can",
   "item.tfcagricultureplus.metal_can.black_steel": "Black Steel Can",
   "item.tfcagricultureplus.metal_can.blue_steel": "Blue Steel Can",
-  "item.tfcagricultureplus.metal_can.red_steel": "Red Steel Can"
+  "item.tfcagricultureplus.metal_can.red_steel": "Red Steel Can",
+  "block.tfcagricultureplus.lumber_pile": "Lumber Pile",
+  "item.tfcagricultureplus.lumber_pile": "Lumber Pile"
 }

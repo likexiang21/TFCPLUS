@@ -282,9 +282,7 @@
   "block.tfcagricultureplus.debarked_log.tualang": "杜兰木去皮原木",
   "block.tfcagricultureplus.debarked_half.tualang": "杜兰木半木",
   "block.tfcagricultureplus.debarked_quarter.tualang": "杜兰木四分木",
-  "block.tfcagricultureplus.log_pile": "木料堆",
-  "block.tfcagricultureplus.burning_log_pile": "闷烧木料堆",
-  "tooltip.tfcagricultureplus.timber.pile": "潜行放置成木料堆；右键添加，空手取回。整木/半木/四分木按体积计量。",
+  "tooltip.tfcagricultureplus.timber.pile": "潜行右键 TFC 原木堆，把这个木料放进去。",
   "item.tfcagricultureplus.food.ground_ginger": "姜粉",
   "item.tfcagricultureplus.food.ground_turmeric": "姜黄粉",
   "item.tfcagricultureplus.food.ground_black_pepper": "黑胡椒粉",
@@ -782,5 +780,7 @@
   "item.tfcagricultureplus.metal_can.steel": "钢罐",
   "item.tfcagricultureplus.metal_can.black_steel": "黑钢罐",
   "item.tfcagricultureplus.metal_can.blue_steel": "蓝钢罐",
-  "item.tfcagricultureplus.metal_can.red_steel": "红钢罐"
+  "item.tfcagricultureplus.metal_can.red_steel": "红钢罐",
+  "block.tfcagricultureplus.lumber_pile": "木板堆",
+  "item.tfcagricultureplus.lumber_pile": "木板堆"
 }

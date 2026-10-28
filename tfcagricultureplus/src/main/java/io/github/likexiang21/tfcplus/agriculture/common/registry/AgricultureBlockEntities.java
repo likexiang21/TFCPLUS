@@ -9,9 +9,8 @@ import io.github.likexiang21.tfcplus.agriculture.common.blockentity.KnifeRackBlo
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.MortarBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.PlaceableFoodBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.blockentity.SilkwormRackBlockEntity;
-import io.github.likexiang21.tfcplus.agriculture.common.timber.BurningTimberPileBlockEntity;
+import io.github.likexiang21.tfcplus.agriculture.common.timber.LumberPileBlockEntity;
 import io.github.likexiang21.tfcplus.agriculture.common.timber.TimberBlocks;
-import io.github.likexiang21.tfcplus.agriculture.common.timber.TimberPileBlockEntity;
 import java.util.stream.Stream;
 import net.dries007.tfc.util.registry.RegistrationHelpers;
 import net.minecraft.core.registries.Registries;
@@ -156,12 +155,9 @@ public final class AgricultureBlockEntities {
         BLOCK_ENTITIES.register(bus);
     }
 
-    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<io.github.likexiang21.tfcplus.agriculture.common.timber.TimberPileBlockEntity>> TIMBER_PILE =
-        RegistrationHelpers.register(BLOCK_ENTITIES, "log_pile", io.github.likexiang21.tfcplus.agriculture.common.timber.TimberPileBlockEntity::new,
-            Stream.of(io.github.likexiang21.tfcplus.agriculture.common.timber.TimberBlocks.PILE));
-    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<io.github.likexiang21.tfcplus.agriculture.common.timber.BurningTimberPileBlockEntity>> BURNING_TIMBER_PILE =
-        RegistrationHelpers.register(BLOCK_ENTITIES, "burning_log_pile", io.github.likexiang21.tfcplus.agriculture.common.timber.BurningTimberPileBlockEntity::new,
-            Stream.of(io.github.likexiang21.tfcplus.agriculture.common.timber.TimberBlocks.BURNING));
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LumberPileBlockEntity>> LUMBER_PILE =
+        RegistrationHelpers.register(BLOCK_ENTITIES, "lumber_pile", LumberPileBlockEntity::new,
+            Stream.of(TimberBlocks.LUMBER_PILE));
 
     private AgricultureBlockEntities() {}
 }

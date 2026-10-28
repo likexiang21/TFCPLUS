@@ -132,8 +132,8 @@ python _refactor/check_java.py
 ```text
 A: artifacts/TFCFarmingPlus-NeoForge-1.21.1-0.1.0.jar        2,425,696 bytes
    SHA-256 A860974F40B559A7967AC3C1469D78A34DA904D697426068FB6FA3A9AC49BA94
-B: artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar    1,620,130 bytes
-   SHA-256 151DEF4D55B37E4C9F6B43B396B82D6D8E40939BA5D3226D128E44742B7C3331
+B: artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar    1,602,662 bytes
+   SHA-256 D136ADB90BC68FD2A0119BC552DD57A8EB289B08C3ED311AB36C479C99C3A15B
 ```
 
 ```text
@@ -177,6 +177,7 @@ cd ..\tfcagricultureplus
 - [283 号：炒锅内容扩展与“完成”表述更正](docs/283-pan-content-expansion-20261028.md)
 - [284 号：动态炒锅、盘子与分餐系统](docs/284-dynamic-pan-cuisine-delight-20261028.md)
 - [285 号：油路、锻造锅铲、预烧染色陶盘与金属罐](docs/285-pan-oil-spatula-ceramic-metal-can-20261028.md)
+- [286 号：清理 B 木料堆、并入 TFC 原木堆、新增木板堆](docs/286-tfc-log-pile-cleanup-lumber-pile-20261028.md)
 - [第三方资源登记](docs/THIRD-PARTY-ASSETS.md)
 - [代码来源审查](docs/CODE-PROVENANCE.md)
 - [贴图全面重绘计划](docs/TEXTURE-REDRAW-PLAN.md)

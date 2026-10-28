@@ -18,8 +18,16 @@ public final class TimberBlocks {
     public static final Map<String, DeferredHolder<Block, ? extends Block>> ALL = new LinkedHashMap<>();
     /** B-owned TFC wood pieces retained under stable IDs for the independent migration. */
     public static final Set<String> LEGACY_TFC_PIECES = new LinkedHashSet<>();
-    public static final DeferredHolder<Block, TimberPileBlock> PILE = BLOCKS.register("log_pile", () -> new TimberPileBlock(AgricultureBlocks.woodProps().strength(2).dynamicShape(), false));
-    public static final DeferredHolder<Block, TimberPileBlock> BURNING = BLOCKS.register("burning_log_pile", () -> new TimberPileBlock(AgricultureBlocks.woodProps().strength(2).lightLevel(s -> 12), true));
+
+    /** One block holds one full stack (64) of TFC lumber. */
+    public static final DeferredHolder<Block, LumberPileBlock> LUMBER_PILE =
+        BLOCKS.register("lumber_pile", () -> new LumberPileBlock(
+            net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
+                .strength(0.5F).noOcclusion()));
+    public static final DeferredHolder<Item, Item> LUMBER_PILE_ITEM =
+        AgricultureItems.ITEMS.register("lumber_pile",
+            () -> new BlockItem(LUMBER_PILE.get(), new Item.Properties()));
+
     static {
         Stream.concat(AgricultureBlocks.TFC_WOODS.stream(), AgricultureBlocks.AFC_WOODS.stream()).forEach(wood -> {
             for (int kind = 0; kind < 3; kind++) {
@@ -31,35 +39,33 @@ public final class TimberBlocks {
                 AgricultureItems.ITEMS.register(name, () -> new PieceItem(block.get(), new Item.Properties()));
             }
         });
-        ALL.put("log_pile", PILE);
-        ALL.put("burning_log_pile", BURNING);
+        ALL.put("lumber_pile", LUMBER_PILE);
     }
+
     public static int weight(net.minecraft.world.item.ItemStack stack) {
         return stack.getItem() instanceof BlockItem bi && bi.getBlock() instanceof TimberPieceBlock piece ? 4 >> piece.pieceKind : 4;
     }
+
     /** Normalize TFC/AFC logs and B's split pieces to their shared tree species. */
     public static String woodIdentity(net.minecraft.world.item.ItemStack stack) {
         var id = BuiltInRegistries.ITEM.getKey(stack.getItem());
         String path = id.getPath();
         String species = path.substring(path.lastIndexOf('/') + 1);
         if (AgricultureBlocks.TFC_WOODS.contains(species) || AgricultureBlocks.AFC_WOODS.contains(species)) return species;
-        // Datapacks may extend the accepted log tag. Unknown items only match
-        // their exact registry ID, rather than being grouped by a guessed suffix.
         return id.toString();
     }
+
     public static boolean isLegacyTfcPiece(String name) { return LEGACY_TFC_PIECES.contains(name); }
+
     public static void register(IEventBus bus) { BLOCKS.register(bus); }
+
     private static final class PieceItem extends BlockItem {
         PieceItem(Block block, Item.Properties properties) { super(block, properties); }
         @Override public void appendHoverText(net.minecraft.world.item.ItemStack stack, Item.TooltipContext context, java.util.List<net.minecraft.network.chat.Component> lines, net.minecraft.world.item.TooltipFlag flag) {
             super.appendHoverText(stack, context, lines, flag);
             lines.add(net.minecraft.network.chat.Component.translatable("tooltip.tfcagricultureplus.timber.pile"));
         }
-        @Override protected net.minecraft.world.level.block.state.BlockState getPlacementState(net.minecraft.world.item.context.BlockPlaceContext context) {
-            if (!context.isSecondaryUseActive()) return super.getPlacementState(context);
-            var state = PILE.get().getStateForPlacement(context);
-            return state != null && canPlace(context, state) ? state : null;
-        }
     }
+
     private TimberBlocks() {}
 }

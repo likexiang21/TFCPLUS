@@ -90,8 +90,8 @@ public final class TFCAgriculturePlus {
             (be, side) -> be.getSidedInventory(side));
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.KNIFE_BLOCK.get(),
             (be, side) -> be.getSidedInventory(side));
-        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.TIMBER_PILE.get(),
-            (be, side) -> be.getSidedInventory(side));
+        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.LUMBER_PILE.get(),
+            (be, side) -> be.bItemHandler());
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.SILKWORM_RACK.get(),
             (be, side) -> be.getSidedInventory(side));
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AgricultureBlockEntities.PLACEABLE_FOOD.get(),
