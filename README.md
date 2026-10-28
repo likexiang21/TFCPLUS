@@ -179,6 +179,7 @@ cd ..\tfcagricultureplus
 - [285 号：油路、锻造锅铲、预烧染色陶盘与金属罐](docs/285-pan-oil-spatula-ceramic-metal-can-20261028.md)
 - [286 号：清理 B 木料堆、并入 TFC 原木堆、新增木板堆](docs/286-tfc-log-pile-cleanup-lumber-pile-20261028.md)
 - [287 号：农作物重做要求归档](docs/287-crop-redo-requirements-20261028.md)
+- [288 号：作物生产链与培育链要求](docs/288-crop-production-and-cultivation-chain-20261028.md)
 - [第三方资源登记](docs/THIRD-PARTY-ASSETS.md)
 - [代码来源审查](docs/CODE-PROVENANCE.md)
 - [贴图全面重绘计划](docs/TEXTURE-REDRAW-PLAN.md)
