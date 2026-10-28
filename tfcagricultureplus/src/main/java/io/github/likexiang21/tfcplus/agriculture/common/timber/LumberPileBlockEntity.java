@@ -25,7 +25,7 @@ public final class LumberPileBlockEntity extends InventoryBlockEntity<ItemStackH
         if (!current.isEmpty() && !ItemStack.isSameItemSameComponents(current, held)) return 0;
         final int available = 64 - current.getCount();
         if (available <= 0) return 0;
-        final int amount = Math.min(available, all ? held.getCount() : held.getCount());
+        final int amount = Math.min(1, available);
         if (amount <= 0) return 0;
         final ItemStack added = held.copyWithCount(current.isEmpty() ? amount : current.getCount() + amount);
         inventory.setStackInSlot(0, added);
@@ -58,10 +58,11 @@ public final class LumberPileBlockEntity extends InventoryBlockEntity<ItemStackH
 
     private void updateState() {
         if (level == null || level.isClientSide()) return;
-        final int count = Math.max(1, Math.min(16, (lumberCount() + 3) / 4));
+        final int count = Math.max(1, Math.min(64, lumberCount()));
         final BlockState state = getBlockState();
-        if (state.getValue(LumberPileBlock.COUNT) != count) {
-            level.setBlock(worldPosition, state.setValue(LumberPileBlock.COUNT, count), Block.UPDATE_CLIENTS);
+        final LumberWood wood = lumberCount() == 0 ? state.getValue(LumberPileBlock.WOOD) : LumberPileBlock.woodOf(inventory.getStackInSlot(0));
+        if (state.getValue(LumberPileBlock.COUNT) != count || state.getValue(LumberPileBlock.WOOD) != wood) {
+            level.setBlock(worldPosition, state.setValue(LumberPileBlock.COUNT, count).setValue(LumberPileBlock.WOOD, wood), Block.UPDATE_CLIENTS);
         }
     }
 

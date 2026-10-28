@@ -5,10 +5,19 @@ import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBloc
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureItems;
 import java.util.*;
 import java.util.stream.Stream;
+import net.dries007.tfc.util.InteractionManager;
+import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -24,9 +33,6 @@ public final class TimberBlocks {
         BLOCKS.register("lumber_pile", () -> new LumberPileBlock(
             net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
                 .strength(0.5F).noOcclusion()));
-    public static final DeferredHolder<Item, Item> LUMBER_PILE_ITEM =
-        AgricultureItems.ITEMS.register("lumber_pile",
-            () -> new BlockItem(LUMBER_PILE.get(), new Item.Properties()));
 
     static {
         Stream.concat(AgricultureBlocks.TFC_WOODS.stream(), AgricultureBlocks.AFC_WOODS.stream()).forEach(wood -> {
@@ -39,7 +45,6 @@ public final class TimberBlocks {
                 AgricultureItems.ITEMS.register(name, () -> new PieceItem(block.get(), new Item.Properties()));
             }
         });
-        ALL.put("lumber_pile", LUMBER_PILE);
     }
 
     public static int weight(net.minecraft.world.item.ItemStack stack) {
@@ -56,6 +61,45 @@ public final class TimberBlocks {
     }
 
     public static boolean isLegacyTfcPiece(String name) { return LEGACY_TFC_PIECES.contains(name); }
+
+    /** Shift-use any tfc:lumber item to place one lumber into a pile, like a TFC log pile. */
+    public static void registerPlacement() {
+        InteractionManager.registerBlock(Ingredient.of(LumberPileBlock.LUMBER), TimberBlocks::placeLumberPile);
+    }
+
+    private static InteractionResult placeLumberPile(ItemStack stack, UseOnContext context) {
+        final var player = context.getPlayer();
+        if (player == null || !player.isShiftKeyDown()) return InteractionResult.PASS;
+        final Level level = context.getLevel();
+        final BlockPos clicked = context.getClickedPos();
+
+        if (level.getBlockEntity(clicked) instanceof LumberPileBlockEntity pile) {
+            if (level.isClientSide) return InteractionResult.SUCCESS;
+            if (pile.insert(stack, false) > 0) {
+                if (!player.isCreative()) stack.shrink(1);
+                return InteractionResult.SUCCESS;
+            }
+            return InteractionResult.PASS;
+        }
+
+        final BlockPlaceContext place = new BlockPlaceContext(context);
+        if (!place.canPlace()) return InteractionResult.PASS;
+        final BlockPos pos = level.getBlockState(clicked).canBeReplaced(place)
+            ? clicked : clicked.relative(context.getClickedFace());
+        BlockState state = LUMBER_PILE.get().getStateForPlacement(place);
+        if (state == null) return InteractionResult.PASS;
+        state = state.setValue(LumberPileBlock.WOOD, LumberPileBlock.woodOf(stack));
+
+        if (level.isClientSide) return InteractionResult.SUCCESS;
+        level.setBlock(pos, state, Block.UPDATE_ALL);
+        if (level.getBlockEntity(pos) instanceof LumberPileBlockEntity pile) {
+            pile.insert(stack, false);
+        }
+        if (!player.isCreative()) stack.shrink(1);
+        level.playSound(null, pos, net.minecraft.sounds.SoundEvents.WOOD_PLACE,
+            net.minecraft.sounds.SoundSource.BLOCKS, 0.8F, 1.0F);
+        return InteractionResult.SUCCESS;
+    }
 
     public static void register(IEventBus bus) { BLOCKS.register(bus); }
 

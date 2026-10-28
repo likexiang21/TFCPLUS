@@ -130,8 +130,8 @@ tfcagricultureplus:bowl/ceramic
 
 ```text
 artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar
-1,602,662 bytes
-SHA-256 D136ADB90BC68FD2A0119BC552DD57A8EB289B08C3ED311AB36C479C99C3A15B
+2,428,191 bytes
+SHA-256 0B87548F60C14F588D57ED31D8D00A0C344CD5C309700F64310313EAC855524A
 ```
 
-B 当前资源：489 blockstate、536 block model、687 item model、857 recipe、488 loot、51 TFC food 定义、784 语言键。
+B 当前资源：489 blockstate、2696 block model、686 item model、856 recipe、487 loot、51 TFC food 定义、783 语言键。

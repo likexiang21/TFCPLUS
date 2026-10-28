@@ -110,6 +110,7 @@ public final class TFCAgriculturePlus {
     private void commonSetup(FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             // Later batches hook in here: override registry self-check / recipe type registration / in_world handler
+            io.github.likexiang21.tfcplus.agriculture.common.timber.TimberBlocks.registerPlacement();
         });
     }
 }

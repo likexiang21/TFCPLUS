@@ -31,18 +31,21 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 /**
- * A stack of one full stack (64) of TFC lumber. The block model is baked per
- * four-lumber layer, while the block entity stores the exact lumber stack.
+ * A stack of one full stack (64) of TFC lumber. There is no block item: shift-use
+ * lumber on the ground (TFC log-pile behavior) to create it. COUNT has 64 values;
+ * the block model uses the matching wood's planks texture.
  */
 public final class LumberPileBlock extends Block implements EntityBlock {
     public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.HORIZONTAL_AXIS;
-    public static final IntegerProperty COUNT = IntegerProperty.create("count", 1, 16);
+    public static final IntegerProperty COUNT = IntegerProperty.create("count", 1, 64);
     public static final TagKey<Item> LUMBER = TagKey.create(Registries.ITEM,
         ResourceLocation.fromNamespaceAndPath("tfc", "lumber"));
+    public static final EnumProperty<LumberWood> WOOD = EnumProperty.create("wood", LumberWood.class);
 
     public LumberPileBlock(Properties properties) {
         super(properties);
-        registerDefaultState(stateDefinition.any().setValue(AXIS, Direction.Axis.Z).setValue(COUNT, 1));
+        registerDefaultState(stateDefinition.any()
+            .setValue(AXIS, Direction.Axis.Z).setValue(COUNT, 1).setValue(WOOD, LumberWood.OAK));
     }
 
     @Override protected MapCodec<? extends Block> codec() {
@@ -50,11 +53,14 @@ public final class LumberPileBlock extends Block implements EntityBlock {
     }
 
     @Override protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(AXIS, COUNT);
+        builder.add(AXIS, COUNT, WOOD);
     }
 
     @Override public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return defaultBlockState().setValue(AXIS, context.getHorizontalDirection().getAxis());
+        return defaultBlockState()
+            .setValue(AXIS, context.getHorizontalDirection().getAxis())
+            .setValue(COUNT, 1)
+            .setValue(WOOD, LumberWood.OAK);
     }
 
     @Override public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
@@ -66,16 +72,15 @@ public final class LumberPileBlock extends Block implements EntityBlock {
     }
 
     @Override protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return Block.box(0, 0, 0, 16, state.getValue(COUNT), 16);
+        return Block.box(0, 0, 0, 16, state.getValue(COUNT) / 4.0D, 16);
     }
 
     @Override protected ItemInteractionResult useItemOn(ItemStack held, BlockState state, Level level, BlockPos pos,
                                                          Player player, InteractionHand hand, BlockHitResult hit) {
         if (!held.is(LUMBER)) return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
         if (!level.isClientSide && level.getBlockEntity(pos) instanceof LumberPileBlockEntity pile) {
-            final int inserted = pile.insert(held, player.isShiftKeyDown());
-            if (inserted > 0) {
-                if (!player.isCreative()) held.shrink(inserted);
+            if (pile.insert(held, false) > 0) {
+                if (!player.isCreative()) held.shrink(1);
                 level.playSound(null, pos, SoundEvents.WOOD_PLACE, SoundSource.BLOCKS, 0.8F, 1.0F);
             }
         }
@@ -84,7 +89,7 @@ public final class LumberPileBlock extends Block implements EntityBlock {
 
     @Override protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
         if (!level.isClientSide && level.getBlockEntity(pos) instanceof LumberPileBlockEntity pile) {
-            final ItemStack removed = pile.extract(player.isShiftKeyDown() ? 64 : 1);
+            final ItemStack removed = pile.extract(1);
             if (!removed.isEmpty() && !player.getInventory().add(removed)) player.drop(removed, false);
             level.playSound(null, pos, SoundEvents.WOOD_HIT, SoundSource.BLOCKS, 0.7F, 1.0F);
         }
@@ -96,5 +101,12 @@ public final class LumberPileBlock extends Block implements EntityBlock {
             pile.dropContents();
         }
         super.onRemove(state, level, pos, replacement, moving);
+    }
+
+    public static LumberWood woodOf(ItemStack stack) {
+        final ResourceLocation id = net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(stack.getItem());
+        final String path = id.getPath();
+        final String wood = path.substring(path.lastIndexOf('/') + 1);
+        return LumberWood.byId(wood);
     }
 }
