@@ -22,6 +22,7 @@
 | [287-crop-redo-requirements-20261028.md](287-crop-redo-requirements-20261028.md) | 农作物重做要求摘录（29 作物 + 11 灌木；当前实现 0） |
 | [288-crop-production-and-cultivation-chain-20261028.md](288-crop-production-and-cultivation-chain-20261028.md) | 作物生产链（86 种）与培育链（六环节/九工序）要求；指出资源覆盖无法实现培育链 |
 | [289-crop-master-plan-20261028.md](289-crop-master-plan-20261028.md) | 116 条作物逐条计划：主产品/副产品、繁殖、育苗/种子处理、初步加工、出口 |
+| [290-crop-flow-and-yield-balance-20261028.md](290-crop-flow-and-yield-balance-20261028.md) | 116 条作物流派 profile、现产率基线、目标产量与平衡规则 |
 | [THIRD-PARTY-ASSETS.md](THIRD-PARTY-ASSETS.md) | 第三方资源逐项来源登记 |
 | [CODE-PROVENANCE.md](CODE-PROVENANCE.md) | 源码来源/相似度与独立实现说明 |
 | [TEXTURE-REDRAW-PLAN.md](TEXTURE-REDRAW-PLAN.md) | 贴图全面重绘计划与“旧完成声明作废”记录 |

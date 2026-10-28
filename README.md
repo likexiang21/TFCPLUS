@@ -181,6 +181,7 @@ cd ..\tfcagricultureplus
 - [287 号：农作物重做要求归档](docs/287-crop-redo-requirements-20261028.md)
 - [288 号：作物生产链与培育链要求](docs/288-crop-production-and-cultivation-chain-20261028.md)
 - [289 号：作物主产品/副产品、育种育秧、初步加工总计划](docs/289-crop-master-plan-20261028.md)
+- [290 号：作物流程定制与产量平衡计划](docs/290-crop-flow-and-yield-balance-20261028.md)
 - [第三方资源登记](docs/THIRD-PARTY-ASSETS.md)
 - [代码来源审查](docs/CODE-PROVENANCE.md)
 - [贴图全面重绘计划](docs/TEXTURE-REDRAW-PLAN.md)
