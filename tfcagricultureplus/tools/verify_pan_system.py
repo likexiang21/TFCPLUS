@@ -13,7 +13,7 @@ DATA = RES / "data/tfcagricultureplus"
 errors: list[str] = []
 
 variants = [
-    "wood", "ceramic_white", "ceramic_orange", "ceramic_magenta", "ceramic_light_blue",
+    "wood", "ceramic", "ceramic_white", "ceramic_orange", "ceramic_magenta", "ceramic_light_blue",
     "ceramic_yellow", "ceramic_lime", "ceramic_pink", "ceramic_gray", "ceramic_light_gray",
     "ceramic_cyan", "ceramic_purple", "ceramic_blue", "ceramic_brown", "ceramic_green",
     "ceramic_red", "ceramic_black",
@@ -42,6 +42,9 @@ need(ASSETS / "models/item/bowl/ceramic.json")
 for material in ("wood", "wrought_iron", "steel", "black_steel", "blue_steel", "red_steel"):
     need(ASSETS / f"models/item/spatula/{material}.json")
     need(DATA / f"recipe/crafting/spatula_{material}.json")
+for material in ("wrought_iron", "steel", "black_steel", "blue_steel", "red_steel"):
+    need(ASSETS / f"models/item/spatula_head/{material}.json")
+    need(DATA / f"recipe/anvil/spatula_head_{material}.json")
 
 pan = B / "src/main/java/io/github/likexiang21/tfcplus/agriculture/common/blockentity/CookingPanBlockEntity.java"
 text = pan.read_text(encoding="utf-8")
@@ -59,7 +62,12 @@ for path in (DATA / "recipe").rglob("*.json"):
 # Every recipe JSON must parse; new plate/bowl/spatula recipes must exist.
 need(DATA / "recipe/crafting/plate_wood.json")
 need(DATA / "recipe/knapping/ceramic/unfired_plate.json")
-need(DATA / "recipe/heating/ceramic/plate_ceramic_white.json")
+need(DATA / "recipe/heating/ceramic/unfired_plate.json")
+need(DATA / "recipe/heating/ceramic/white_unfired_plate.json")
+need(ASSETS / "models/item/metal_can.json")
+need(DATA / "recipe/anvil/metal_can.json")
+need(DATA / "recipe/heating/metal/metal_can.json")
+need(DATA / "tags/fluid/metal_can_fluids.json")
 need(DATA / "recipe/crafting/bowl_wood.json")
 need(DATA / "recipe/crafting/bowl_ceramic.json")
 for path in (DATA / "recipe").rglob("*.json"):

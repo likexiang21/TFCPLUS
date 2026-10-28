@@ -15,7 +15,7 @@ import net.minecraft.world.item.ItemStack;
 public final class PanDishBuilder {
     private static final String[] CATEGORY_ORDER = {"meat", "fish", "vegetable", "grain", "fruit", "dairy", "mixed"};
 
-    public static PanDishData build(List<PanCookingEntry> entries, long now, int oilAmount) {
+    public static PanDishData build(List<PanCookingEntry> entries, long now, String oil) {
         if (entries.isEmpty()) return null;
         final List<ItemStack> ingredients = new ArrayList<>();
         final Set<String> categories = new LinkedHashSet<>();
@@ -43,7 +43,7 @@ public final class PanDishBuilder {
         int score = Mth.clamp(100 - penalty, 0, 100);
         // Variety is a real scoring axis: a mixed dish gets a small bonus, capped at 100.
         score = Mth.clamp(score + Math.max(0, categories.size() - 1) * 4, 0, 100);
-        if (oilAmount <= 0) score = Math.max(0, score - 40);
+        if (oil == null || oil.isBlank()) score = Math.max(0, score - 40);
         final int servings = Math.max(1, entries.size());
         final float quality = 0.45f + score / 180.0f; // 0.45 .. 1.0, never a free full-strength dish
         final int hunger = Math.max(1, Math.round(totalHunger * quality / servings));
@@ -53,7 +53,7 @@ public final class PanDishBuilder {
         for (int i = 0; i < nutrients.length; i++) nutrients[i] = nutrients[i] * quality / servings;
         final FoodData perServing = new FoodData(hunger, water, saturation, intoxication, nutrients, 0.75f);
         final String category = dominant(categoryCounts);
-        return new PanDishData(servings, score, perServing, category, PanDishData.ingredientStacks(ingredients));
+        return new PanDishData(servings, score, perServing, category, oil, PanDishData.ingredientStacks(ingredients));
     }
 
     private static String dominant(Map<String, Integer> counts) {

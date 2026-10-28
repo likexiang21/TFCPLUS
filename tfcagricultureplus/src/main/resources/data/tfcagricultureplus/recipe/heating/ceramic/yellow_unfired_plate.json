@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "tfcagricultureplus:ceramic/unfired_plate"
+    "item": "tfcagricultureplus:ceramic/yellow_unfired_plate"
   },
   "result_item": {
     "count": 1,
-    "id": "tfcagricultureplus:plate/ceramic_white"
+    "id": "tfcagricultureplus:plate/ceramic_yellow"
   },
   "temperature": 1399.0
 }

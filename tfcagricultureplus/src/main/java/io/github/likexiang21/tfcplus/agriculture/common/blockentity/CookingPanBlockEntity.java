@@ -16,6 +16,7 @@ import net.dries007.tfc.common.blockentities.TickableInventoryBlockEntity;
 import net.dries007.tfc.common.blockentities.IHeatable;
 import net.dries007.tfc.common.component.food.FoodCapability;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
@@ -43,7 +44,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
  */
 public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<ItemStackHandler>  implements BContainer {
     public static final int INGREDIENT_SLOTS = 8;
-    public static final int OIL_REQUIRED = 10;
+    public static final int OIL_REQUIRED = 5;
     public static final float MIN_HEAT = 200.0F;
 
     private static final TagKey<net.minecraft.world.level.material.Fluid> OIL =
@@ -54,7 +55,9 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
             ResourceLocation.fromNamespaceAndPath("firmalife", "oils"));
 
     private final List<PanCookingEntry> entries = new ArrayList<>();
-    private final FluidTank oilTank = new FluidTank(100, stack -> stack.is(OIL) || stack.is(FIRMALIFE_OIL));
+    private String oilType;
+    private boolean solidOil;
+    private final FluidTank oilTank = new FluidTank(5, stack -> stack.is(OIL) || stack.is(FIRMALIFE_OIL));
     private final IItemHandler automationView;
 
     public CookingPanBlockEntity(BlockPos pos, BlockState state) {
@@ -65,7 +68,23 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
 
     public FluidTank oilTank() { return oilTank; }
     public int ingredientCount() { return entries.size(); }
-    public boolean hasOil() { return oilTank.getFluidAmount() >= OIL_REQUIRED; }
+    public boolean hasOil() { return solidOil || oilTank.getFluidAmount() >= OIL_REQUIRED; }
+    public String oilType() { return oilType; }
+    public void refreshOilType() {
+        if (oilTank.getFluid().isEmpty()) { oilType = null; return; }
+        final var key = BuiltInRegistries.FLUID.getKey(oilTank.getFluid().getFluid());
+        final String path = key.getPath();
+        if (path.contains("olive")) oilType = "olive";
+        else if (path.contains("canola")) oilType = "canola";
+        else if (path.contains("soybean")) oilType = "soybean";
+        else oilType = "cooking";
+    }
+    public boolean addSolidOil(ItemStack stack) {
+        if (level == null || level.isClientSide() || hasOil() || stack.isEmpty()) return false;
+        final var key = BuiltInRegistries.ITEM.getKey(stack.getItem());
+        if (!key.getNamespace().equals("firmalife") || !key.getPath().equals("food/butter")) return false;
+        solidOil = true; oilType = "butter"; sync(); return true;
+    }
     public ItemStack renderStack(int slot) {
         return slot >= 0 && slot < inventory.getSlots() ? inventory.getStackInSlot(slot) : ItemStack.EMPTY;
     }
@@ -101,11 +120,13 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
     public ItemStack serve(ItemStack plate) {
         if (level == null || level.isClientSide() || entries.isEmpty() || !hasOil()) return ItemStack.EMPTY;
         if (!(plate.getItem() instanceof ServingPlateItem)) return ItemStack.EMPTY;
-        final PanDishData dish = PanDishBuilder.build(entries, level.getGameTime(), oilTank.getFluidAmount());
+        final PanDishData dish = PanDishBuilder.build(entries, level.getGameTime(), oilType);
         if (dish == null) return ItemStack.EMPTY;
         final ItemStack result = plate.copyWithCount(1);
         PanDishData.write(result, dish);
         oilTank.drain(OIL_REQUIRED, IFluidHandler.FluidAction.EXECUTE);
+        solidOil = false;
+        oilType = null;
         entries.clear();
         for (int i = 0; i < inventory.getSlots(); i++) inventory.setStackInSlot(i, ItemStack.EMPTY);
         sync();
@@ -137,6 +158,8 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
         }
         entries.clear();
         oilTank.setFluid(FluidStack.EMPTY);
+        solidOil = false;
+        oilType = null;
     }
 
     @Override public int getSlotStackLimit(int slot) { return 1; }
@@ -153,6 +176,8 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
         for (final PanCookingEntry entry : entries) list.add(entry.save());
         tag.put("entries", list);
         tag.put("oil", oilTank.writeToNBT(registries, new CompoundTag()));
+        tag.putBoolean("solid_oil", solidOil);
+        if (oilType != null) tag.putString("oil_type", oilType);
     }
 
     @Override public void loadAdditional(CompoundTag tag, HolderLookup.Provider registries) {
@@ -161,6 +186,8 @@ public final class CookingPanBlockEntity extends TickableInventoryBlockEntity<It
         final ListTag list = tag.getList("entries", Tag.TAG_COMPOUND);
         for (int i = 0; i < list.size(); i++) entries.add(PanCookingEntry.load(list.getCompound(i)));
         if (tag.contains("oil")) oilTank.readFromNBT(registries, tag.getCompound("oil"));
+        solidOil = tag.getBoolean("solid_oil");
+        oilType = tag.contains("oil_type") ? tag.getString("oil_type") : null;
     }
 
     private void sync() {

@@ -24,7 +24,7 @@ import net.minecraft.world.item.crafting.Ingredient;
  * the shelf life; the compound component owns composition and serving count.
  */
 public record PanDishData(int servings, int score, FoodData food,
-                          String category, List<ItemStack> ingredients) {
+                          String category, String oil, List<ItemStack> ingredients) {
 
     public PanDishData {
         servings = Math.max(1, servings);
@@ -48,6 +48,7 @@ public record PanDishData(int servings, int score, FoodData food,
         tag.putInt("servings", servings);
         tag.putInt("score", score);
         tag.putString("category", category);
+        tag.putString("oil", oil);
         tag.put("food", FoodData.CODEC.encodeStart(NbtOps.INSTANCE, food).getOrThrow());
         final ListTag list = new ListTag();
         for (final ItemStack stack : ingredients) {
@@ -65,7 +66,7 @@ public record PanDishData(int servings, int score, FoodData food,
             ItemStack.CODEC.parse(NbtOps.INSTANCE, list.getCompound(i)).result().ifPresent(ingredients::add);
         }
         return new PanDishData(tag.getInt("servings"), tag.getInt("score"), food,
-            tag.getString("category"), ingredients);
+            tag.getString("category"), tag.getString("oil"), ingredients);
     }
 
     public static PanDishData read(ItemStack stack) {
@@ -79,12 +80,23 @@ public record PanDishData(int servings, int score, FoodData food,
         final FoodDefinition def = new FoodDefinition(Ingredient.of(stack.getItem()), data.food, true);
         stack.set(TFCComponents.FOOD.holder().get(), new FoodComponent(def));
         FoodCapability.applyTrait(stack, AgricultureFoodTraits.SEASONED);
+        if (data.oil != null && !data.oil.isBlank()) FoodCapability.applyTrait(stack, oilTrait(data.oil));
     }
 
     /** Removes dish and food components, leaving the empty plate/bowl. */
     public static void clear(ItemStack stack) {
         stack.remove(AgricultureDataComponents.DISH.get());
         stack.remove(TFCComponents.FOOD.holder().get());
+    }
+
+    public static net.minecraft.core.Holder<net.dries007.tfc.common.component.food.FoodTrait> oilTrait(String oil) {
+        return switch (oil) {
+            case "olive" -> AgricultureFoodTraits.OLIVE_OIL;
+            case "canola" -> AgricultureFoodTraits.CANOLA_OIL;
+            case "soybean" -> AgricultureFoodTraits.SOYBEAN_OIL;
+            case "butter" -> AgricultureFoodTraits.BUTTER_OIL;
+            default -> AgricultureFoodTraits.COOKING_OIL;
+        };
     }
 
     public static List<ItemStack> ingredientStacks(List<ItemStack> input) {

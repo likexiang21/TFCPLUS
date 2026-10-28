@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcagricultureplus:metal_can"
+  },
+  "result_fluid": {
+    "amount": 100,
+    "id": "tfc:metal/wrought_iron"
+  },
+  "temperature": 1535.0
+}

@@ -4,6 +4,7 @@ import net.minecraft.util.StringRepresentable;
 
 public enum PlateVariant implements StringRepresentable {
     WOOD("wood"),
+    CERAMIC_CLEAR("ceramic"),
     CERAMIC_WHITE("ceramic_white"),
     CERAMIC_ORANGE("ceramic_orange"),
     CERAMIC_MAGENTA("ceramic_magenta"),

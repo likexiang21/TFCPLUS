@@ -2,6 +2,7 @@ package io.github.likexiang21.tfcplus.agriculture.common.registry;
 
 import io.github.likexiang21.tfcplus.agriculture.TFCAgriculturePlus;
 import io.github.likexiang21.tfcplus.agriculture.common.item.AdultSilkwormItem;
+import io.github.likexiang21.tfcplus.agriculture.common.item.MetalCanItem;
 import io.github.likexiang21.tfcplus.agriculture.common.item.SawdustSoupBowlItem;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -125,6 +126,10 @@ public final class AgricultureItems {
     /** 密封桶发酵后的中间物；保留食品数据以便烘焙阶段复制新鲜度。 */
     public static final DeferredHolder<Item, Item> FERMENTED_COCOA_BEANS =
         ITEMS.registerSimpleItem("food/fermented_cocoa_beans", foodProps());
+
+    /** 500 mB metal can, crafted from an anvil-formed head/sheet. */
+    public static final DeferredHolder<Item, Item> METAL_CAN =
+        ITEMS.register("metal_can", () -> new MetalCanItem(new Item.Properties().stacksTo(1)));
 
     /** B silkworm lifecycle items. The feed itself remains Firmalife/A-owned. */
     public static final DeferredHolder<Item, Item> SILKWORM_EGG =

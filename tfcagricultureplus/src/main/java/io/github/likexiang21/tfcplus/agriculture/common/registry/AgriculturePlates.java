@@ -27,8 +27,7 @@ public final class AgriculturePlates {
         EnumProperty.create("variant", PlateVariant.class);
 
     public static final Map<PlateVariant, DeferredHolder<Item, Item>> ITEMS_BY_VARIANT = new LinkedHashMap<>();
-    public static final DeferredHolder<Item, Item> UNFIRED_PLATE =
-        ITEMS.register("ceramic/unfired_plate", () -> new Item(new Item.Properties()));
+    public static final Map<PlateVariant, DeferredHolder<Item, Item>> UNFIRED_BY_VARIANT = new LinkedHashMap<>();
 
     public static final DeferredHolder<Block, Block> PLATE = BLOCKS.register("serving_plate",
         () -> new ServingPlateBlock(net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
@@ -43,6 +42,12 @@ public final class AgriculturePlates {
             final DeferredHolder<Item, Item> holder = ITEMS.register("plate/" + variant.id(),
                 () -> new ServingPlateItem(PLATE.get(), variant, new Item.Properties().stacksTo(16)));
             ITEMS_BY_VARIANT.put(variant, holder);
+            if (variant != PlateVariant.WOOD) {
+                final String color = variant == PlateVariant.CERAMIC_CLEAR
+                    ? null : variant.id().substring("ceramic_".length());
+                final String id = color == null ? "ceramic/unfired_plate" : "ceramic/" + color + "_unfired_plate";
+                UNFIRED_BY_VARIANT.put(variant, ITEMS.register(id, () -> new Item(new Item.Properties())));
+            }
         }
         BLOCKS.register(bus);
         ITEMS.register(bus);

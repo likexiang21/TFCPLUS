@@ -17,6 +17,22 @@ public final class AgricultureFoodTraits {
         TRAITS.register("seasoned", () -> new FoodTrait(() -> 1.0D,
             "tfcagricultureplus.tooltip.food_trait.seasoned"));
 
+    public static final DeferredHolder<FoodTrait, FoodTrait> OLIVE_OIL =
+        TRAITS.register("olive_oil", () -> new FoodTrait(() -> 1.0D,
+            "tfcagricultureplus.tooltip.food_trait.olive_oil"));
+    public static final DeferredHolder<FoodTrait, FoodTrait> CANOLA_OIL =
+        TRAITS.register("canola_oil", () -> new FoodTrait(() -> 1.0D,
+            "tfcagricultureplus.tooltip.food_trait.canola_oil"));
+    public static final DeferredHolder<FoodTrait, FoodTrait> SOYBEAN_OIL =
+        TRAITS.register("soybean_oil", () -> new FoodTrait(() -> 1.0D,
+            "tfcagricultureplus.tooltip.food_trait.soybean_oil"));
+    public static final DeferredHolder<FoodTrait, FoodTrait> BUTTER_OIL =
+        TRAITS.register("butter_oil", () -> new FoodTrait(() -> 1.0D,
+            "tfcagricultureplus.tooltip.food_trait.butter_oil"));
+    public static final DeferredHolder<FoodTrait, FoodTrait> COOKING_OIL =
+        TRAITS.register("cooking_oil", () -> new FoodTrait(() -> 1.0D,
+            "tfcagricultureplus.tooltip.food_trait.cooking_oil"));
+
     public static void register(IEventBus bus) {
         TRAITS.register(bus);
     }

@@ -24,7 +24,7 @@
 `CookingPanBlockEntity` 已重写为 Cuisine Delight 式动态状态机：
 
 - **热源**：检查锅下方是否为 TFC `IHeatable`，温度 ≥ 200°C；无热源不能加料/翻动。
-- **油**：内置 10 mB 油罐，油类来自 `c:plantoil` 或 `firmalife:oils`；加入 10 mB 后才允许加料。
+- **油**：内置 5 mB 油罐，油类来自 `c:plantoil` 或 `firmalife:oils`；加入 5 mB 后才允许加料。
 - **多食材**：最多 8 个食材槽，逐份加入；不再使用固定两输入配方。
 - **每食材独立状态**：记录加入时间、上次翻炒时间，按 `c:foods/*` 标签配置生/熟/过熟/焦糊时间。
 - **锅铲翻炒**：右键锅用锅铲翻动，重置所有食材的焦糊计时，消耗锅铲耐久。
@@ -53,6 +53,7 @@ wood / wrought_iron / steel / black_steel / blue_steel / red_steel
 
 ```text
 plate/wood
+plate/ceramic（无色）
 plate/ceramic_white ... plate/ceramic_black（16 色）
 ```
 
@@ -85,29 +86,33 @@ tfcagricultureplus:bowl/ceramic
 
 ## 3. 数字
 
-- 盘子变体：17（木 1 + 陶 16）；
+- 盘子变体：18（木 1 + 无色陶 1 + 彩色陶 16）；
 - 碗：2；
 - 锅铲材料：6；
 - 炒锅食材槽：8；
-- 油需求：10 mB；
+- 油需求：5 mB；
 - 热源：TFC `IHeatable` ≥ 200°C；
 - 动态菜品类别：7。
 
 ## 4. 2026-10-28 追加修正
 
-- 用油从 100 mB 削减到 10 mB，油罐 100 mB；
+- 用油从 100 mB 削减到 5 mB，油罐 5 mB；
 - 锅铲材料改为木 + 锻铁/钢/黑钢/蓝钢/红钢；
 - 盘子/碗食用改为原版 Player.eat 路径；
 - 陶盘改为 TFC 黏土打制 → 未烧陶盘 → 加热烧制，不再用 TFC 碗转换；
 - 新增盘子/炒锅 BER，渲染食材/锅内内容；
 - 所有 9 个物品容器 BE 增加 BContainer extends Container 适配（原版 Container 接口，兼容漏斗等）。
+- TFC 陶瓷罐扩展为可装油；锅铲副手取 5 mB 入锅；支持 Firmalife 黄油固态油；
+- 金属锅铲改为 5 种铁类的锻造锅铲头 + 木棍把手；
+- 陶盘改为无色+16 色，未烧前染色后烧制；
+- 新增 500 mB 金属罐（薄板砧锻、不损坏、可熔融回收）。
 
 ## 5. 验证
 
 - Gradle `clean build`：**BUILD SUCCESSFUL**；
 - 静态合同脚本 `tools/verify_pan_system.py`：通过；
 - 全资源 JSON：0 解析失败；
-- 17 个盘子的 blockstate/model/texture 均存在；
+- 18 个盘子的 blockstate/model/texture 均存在；
 - 6 个锅铲模型、2 个碗模型存在；
 - 旧静态 `pan` 配方类型与配方数据已删除。
 
@@ -125,8 +130,8 @@ tfcagricultureplus:bowl/ceramic
 
 ```text
 artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar
-1,573,191 bytes
-SHA-256 A8E58F324C06B5FCCB12CFB70D65AC7C290C9BE16378F7C52CD207F2E12880A9
+1,601,477 bytes
+SHA-256 7148E076166D398854E897EF541D377B4D10F04CFF6B1FC9619B4C50BA62BBAF
 ```
 
-B 当前资源：490 blockstate、520 block model、645 item model、781 recipe、489 loot、51 TFC food 定义、738 语言键。
+B 当前资源：490 blockstate、521 block model、668 item model、820 recipe、489 loot、51 TFC food 定义、766 语言键。

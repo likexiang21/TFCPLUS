@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "tfcagricultureplus:ceramic/unfired_plate"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tfcagricultureplus:ceramic/orange_unfired_plate"
+  }
+}

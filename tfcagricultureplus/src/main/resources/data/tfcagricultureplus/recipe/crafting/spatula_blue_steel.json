@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tfc:metal/ingot/blue_steel"
+      "item": "tfcagricultureplus:spatula_head/blue_steel"
     },
     {
-      "tag": "tfc:lumber"
+      "tag": "c:rods/wooden"
     }
   ],
   "result": {

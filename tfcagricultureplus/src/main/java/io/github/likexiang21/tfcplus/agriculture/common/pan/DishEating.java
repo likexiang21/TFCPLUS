@@ -21,7 +21,7 @@ public final class DishEating {
             plate.clearPlate();
         } else {
             final PanDishData rest = new PanDishData(dish.servings() - 1, dish.score(), dish.food(),
-                dish.category(), dish.ingredients());
+                dish.category(), dish.oil(), dish.ingredients());
             PanDishData.write(stack, rest);
             plate.setPlateStack(stack);
         }
@@ -39,7 +39,7 @@ public final class DishEating {
             return stack;
         }
         final PanDishData rest = new PanDishData(dish.servings() - 1, dish.score(), dish.food(),
-            dish.category(), dish.ingredients());
+            dish.category(), dish.oil(), dish.ingredients());
         PanDishData.write(stack, rest);
         stack.setCount(1);
         return stack;
@@ -52,7 +52,7 @@ public final class DishEating {
         final ItemStack food = plate.plateStack();
         final PanDishData dish = PanDishData.read(food);
         if (dish == null || FoodCapability.isRotten(food)) return false;
-        final PanDishData one = new PanDishData(1, dish.score(), dish.food(), dish.category(), dish.ingredients());
+        final PanDishData one = new PanDishData(1, dish.score(), dish.food(), dish.category(), dish.oil(), dish.ingredients());
         final ItemStack bowl = held.copyWithCount(1);
         PanDishData.write(bowl, one);
         if (!player.getInventory().add(bowl)) player.drop(bowl, false);
@@ -61,7 +61,7 @@ public final class DishEating {
             plate.clearPlate();
         } else {
             final PanDishData rest = new PanDishData(dish.servings() - 1, dish.score(), dish.food(),
-                dish.category(), dish.ingredients());
+                dish.category(), dish.oil(), dish.ingredients());
             final ItemStack restStack = food.copyWithCount(1);
             PanDishData.write(restStack, rest);
             plate.setPlateStack(restStack);

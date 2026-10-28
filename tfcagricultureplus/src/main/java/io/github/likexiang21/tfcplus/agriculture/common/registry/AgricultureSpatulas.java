@@ -13,10 +13,15 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public final class AgricultureSpatulas {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TFCAgriculturePlus.MOD_ID);
     public static final Map<SpatulaMaterial, DeferredHolder<Item, Item>> ALL = new LinkedHashMap<>();
+    public static final Map<SpatulaMaterial, DeferredHolder<Item, Item>> HEADS = new LinkedHashMap<>();
 
     static {
         for (final SpatulaMaterial material : SpatulaMaterial.values()) {
             ALL.put(material, ITEMS.register(material.itemId(), () -> new SpatulaItem(material)));
+            if (material != SpatulaMaterial.WOOD) {
+                HEADS.put(material, ITEMS.register("spatula_head/" + material.id(),
+                    () -> new Item(new Item.Properties())));
+            }
         }
     }
 

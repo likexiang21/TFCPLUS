@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:sheets/wrought_iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfcagricultureplus:spatula_head/wrought_iron"
+  },
+  "rules": [
+    "hit_last",
+    "punch_not_last",
+    "draw_not_last"
+  ],
+  "tier": 2
+}

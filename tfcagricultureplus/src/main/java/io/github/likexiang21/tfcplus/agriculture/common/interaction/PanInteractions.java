@@ -38,11 +38,26 @@ public final class PanInteractions {
             return;
         }
         if (held.getItem() instanceof SpatulaItem) {
+            if (scoopOil(player, pan)) {
+                pan.refreshOilType();
+                level.playSound(null, pos, SoundEvents.BREWING_STAND_BREW, SoundSource.BLOCKS, 0.5F, 1.1F);
+                return;
+            }
+            if (pan.addSolidOil(held)) {
+                if (!player.isCreative()) held.shrink(1);
+                level.playSound(null, pos, SoundEvents.WOOD_PLACE, SoundSource.BLOCKS, 0.5F, 1.1F);
+                return;
+            }
             if (pan.stir((SpatulaItem) held.getItem(), held, player)) {
                 level.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.4F, 1.4F);
             } else {
                 message(player, "no_heat");
             }
+            return;
+        }
+        if (pan.addSolidOil(held)) {
+            if (!player.isCreative()) held.shrink(1);
+            level.playSound(null, pos, SoundEvents.WOOD_PLACE, SoundSource.BLOCKS, 0.5F, 1.1F);
             return;
         }
         if (held.getItem() instanceof io.github.likexiang21.tfcplus.agriculture.common.item.ServingPlateItem) {
@@ -63,6 +78,7 @@ public final class PanInteractions {
                 return;
             }
             if (FluidUtil.interactWithFluidHandler(player, hand, pan.oilTank())) {
+                pan.refreshOilType();
                 level.playSound(null, pos, SoundEvents.BREWING_STAND_BREW, SoundSource.BLOCKS, 0.5F, 1.1F);
                 return;
             }
@@ -79,6 +95,18 @@ public final class PanInteractions {
             return;
         }
         message(player, "not_ingredient");
+    }
+
+    /** Scoops exactly one 5 mB oil dose from the off-hand container into the pan. */
+    private static boolean scoopOil(Player player, CookingPanBlockEntity pan) {
+        if (pan.hasOil()) return false;
+        final ItemStack offhand = player.getOffhandItem();
+        final var handler = FluidUtil.getFluidHandler(offhand).orElse(null);
+        if (handler == null) return false;
+        final FluidStack contained = handler.getFluidInTank(0);
+        if (contained.isEmpty() || !isOil(contained)) return false;
+        final FluidStack moved = FluidUtil.tryFluidTransfer(handler, pan.oilTank(), CookingPanBlockEntity.OIL_REQUIRED, false);
+        return !moved.isEmpty();
     }
 
     private static boolean isOil(FluidStack stack) {

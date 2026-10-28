@@ -1,5 +1,6 @@
 package io.github.likexiang21.tfcplus.agriculture;
 
+import io.github.likexiang21.tfcplus.agriculture.common.item.MetalCanItem;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.AgricultureRecipeSerializers;
 import io.github.likexiang21.tfcplus.agriculture.common.recipe.AgricultureRecipeTypes;
 import io.github.likexiang21.tfcplus.agriculture.common.registry.AgricultureBlockEntities;
@@ -97,6 +98,11 @@ public final class TFCAgriculturePlus {
             (be, side) -> be.getInventory());
         event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, AgricultureBlockEntities.COOKING_PAN.get(),
             (be, side) -> be.oilTank());
+        event.registerItem(Capabilities.FluidHandler.ITEM,
+            (stack, context) -> stack.getItem() instanceof MetalCanItem can
+                ? new net.dries007.tfc.common.component.fluid.FluidContainerHandler(stack, can.containerInfo())
+                : null,
+            AgricultureItems.METAL_CAN.get());
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
