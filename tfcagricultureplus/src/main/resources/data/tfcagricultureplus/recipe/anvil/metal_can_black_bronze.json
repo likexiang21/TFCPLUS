@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "ingredient": {
+    "tag": "c:sheets/black_bronze"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfcagricultureplus:metal_can/black_bronze"
+  },
+  "rules": [
+    "hit_last",
+    "punch_not_last",
+    "draw_not_last"
+  ],
+  "tier": 2
+}

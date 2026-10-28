@@ -76,7 +76,7 @@ tfcagricultureplus:food/dark_chocolate
 | block model | **503** |
 | item model | **620** |
 | item texture | **52** |
-| recipe | **820** |
+| recipe | **856** |
 | loot table | **489** |
 | TFC food 定义 | **52** |
 | en_us / zh_cn 语言键 | **698 / 698** |
@@ -95,8 +95,8 @@ tfcagricultureplus:food/dark_chocolate
 
 ```text
 artifacts/TFCAgriculturePlus-NeoForge-1.21.1-0.1.0.jar
-1,601,477 bytes
-SHA-256 7148E076166D398854E897EF541D377B4D10F04CFF6B1FC9619B4C50BA62BBAF
+1,620,130 bytes
+SHA-256 151DEF4D55B37E4C9F6B43B396B82D6D8E40939BA5D3226D128E44742B7C3331
 ```
 
 ## 5. 农作物重做更正

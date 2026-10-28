@@ -1,11 +1,11 @@
 {
   "type": "tfc:anvil",
   "ingredient": {
-    "tag": "c:sheets/wrought_iron"
+    "tag": "c:sheets/blue_steel"
   },
   "result": {
     "count": 1,
-    "id": "tfcagricultureplus:metal_can"
+    "id": "tfcagricultureplus:metal_can/blue_steel"
   },
   "rules": [
     "hit_last",

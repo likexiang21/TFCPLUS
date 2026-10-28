@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcagricultureplus:metal_can/nickel"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc:metal/nickel"
+  },
+  "temperature": 1535.0
+}

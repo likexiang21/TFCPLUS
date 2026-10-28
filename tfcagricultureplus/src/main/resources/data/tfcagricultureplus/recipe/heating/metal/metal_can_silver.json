@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcagricultureplus:metal_can/silver"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc:metal/silver"
+  },
+  "temperature": 1535.0
+}

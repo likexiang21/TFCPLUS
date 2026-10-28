@@ -98,11 +98,13 @@ public final class TFCAgriculturePlus {
             (be, side) -> be.getInventory());
         event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, AgricultureBlockEntities.COOKING_PAN.get(),
             (be, side) -> be.oilTank());
-        event.registerItem(Capabilities.FluidHandler.ITEM,
-            (stack, context) -> stack.getItem() instanceof MetalCanItem can
-                ? new net.dries007.tfc.common.component.fluid.FluidContainerHandler(stack, can.containerInfo())
-                : null,
-            AgricultureItems.METAL_CAN.get());
+        for (final var can : AgricultureItems.METAL_CANS.values()) {
+            event.registerItem(Capabilities.FluidHandler.ITEM,
+                (stack, context) -> stack.getItem() instanceof MetalCanItem item
+                    ? new net.dries007.tfc.common.component.fluid.FluidContainerHandler(stack, item.containerInfo())
+                    : null,
+                can.get());
+        }
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

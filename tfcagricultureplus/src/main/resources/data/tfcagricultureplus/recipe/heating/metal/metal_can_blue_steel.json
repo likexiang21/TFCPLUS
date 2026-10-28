@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcagricultureplus:metal_can/blue_steel"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc:metal/blue_steel"
+  },
+  "temperature": 1535.0
+}

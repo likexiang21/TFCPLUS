@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcagricultureplus:metal_can/bronze"
+  },
+  "result_fluid": {
+    "amount": 200,
+    "id": "tfc:metal/bronze"
+  },
+  "temperature": 1535.0
+}

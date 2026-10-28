@@ -64,9 +64,14 @@ need(DATA / "recipe/crafting/plate_wood.json")
 need(DATA / "recipe/knapping/ceramic/unfired_plate.json")
 need(DATA / "recipe/heating/ceramic/unfired_plate.json")
 need(DATA / "recipe/heating/ceramic/white_unfired_plate.json")
-need(ASSETS / "models/item/metal_can.json")
-need(DATA / "recipe/anvil/metal_can.json")
-need(DATA / "recipe/heating/metal/metal_can.json")
+metal_cans = ("bismuth", "bismuth_bronze", "black_bronze", "bronze", "brass",
+              "copper", "gold", "nickel", "rose_gold", "silver", "tin", "zinc",
+              "sterling_silver", "wrought_iron", "cast_iron", "steel", "black_steel",
+              "blue_steel", "red_steel")
+for metal in metal_cans:
+    need(ASSETS / f"models/item/metal_can/{metal}.json")
+    need(DATA / f"recipe/anvil/metal_can_{metal}.json")
+    need(DATA / f"recipe/heating/metal/metal_can_{metal}.json")
 need(DATA / "tags/fluid/metal_can_fluids.json")
 need(DATA / "recipe/crafting/bowl_wood.json")
 need(DATA / "recipe/crafting/bowl_ceramic.json")

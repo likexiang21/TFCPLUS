@@ -1,15 +1,25 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "tfc:advanced_shapeless_crafting",
   "ingredients": [
     {
       "tag": "tfc:lumber"
     },
     {
-      "tag": "tfc:lumber"
+      "tag": "c:tools/knife"
     }
   ],
+  "primary_ingredient": {
+    "tag": "c:tools/knife"
+  },
+  "remainder": {
+    "modifiers": [
+      {
+        "type": "tfc:damage_crafting_remainder"
+      }
+    ]
+  },
   "result": {
-    "id": "tfcagricultureplus:spatula/wood",
-    "count": 1
+    "count": 1,
+    "id": "tfcagricultureplus:spatula/wood"
   }
 }

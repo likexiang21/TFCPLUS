@@ -150,7 +150,7 @@ public final class AgricultureCreativeTab {
                 output.accept(AgricultureBowls.CERAMIC_BOWL.get());
                 for (final var item : AgricultureSpatulas.ALL.values()) output.accept(item.get());
                 for (final var item : AgricultureSpatulas.HEADS.values()) output.accept(item.get());
-                output.accept(AgricultureItems.METAL_CAN.get());
+                for (final var can : AgricultureItems.METAL_CANS.values()) output.accept(can.get());
             })
             .build());
 
